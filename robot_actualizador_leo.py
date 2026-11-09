@@ -177,10 +177,23 @@ FOREIGN_HOSTS_RE = re.compile(
 
 
 def normalize_stream_url(url):
-    """Convierte URLs DASH de servidores ISML/Wowza/Unified a su equivalente HLS nativo (.m3u8)."""
+    """Convierte URLs DASH y proxys inestables (jmp2.uk) a streams HLS nativos directos."""
     if not url:
-        return url
+        return ""
     u = url.strip()
+    # 1. Erradicacion total de jmp2.uk: convertir canal de Pluto a enlace de cluster directo oficial
+    m_plu = re.search(r'jmp2\.uk/plu-([a-f0-9\-]+)(?:\.m3u8)?', u, re.IGNORECASE)
+    if m_plu:
+        cid = m_plu.group(1)
+        return (
+            f"https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/{cid}/master.m3u8"
+            f"?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0"
+            f"&deviceId={cid}&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT"
+            f"&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId="
+        )
+    if 'jmp2.uk' in u.lower():
+        return ""  # Descartar proxy roto que arroja HTTP 414 Request-URI Too Large
+    # 2. Normalizar DASH (.mpd) a HLS nativo (.m3u8) si el origen lo soporta
     if '.isml/' in u.lower() and '.mpd' in u.lower():
         u = re.sub(r'\.mpd(\?.*)?$', r'.m3u8\1', u, flags=re.IGNORECASE)
     elif '/manifest.mpd' in u.lower():
@@ -305,9 +318,9 @@ def clean_channel_name(raw_name):
 
 
 def key_for_dedup(clean_name):
-    # Ya NO se quitan "latam/sur/norte": "Discovery Latam" (espanol) != "Discovery" (EE.UU./Brasil)
     base = re.sub(r'\s*\[Opcion \d+\]\s*$', '', clean_name, flags=re.IGNORECASE)
-    base = re.sub(r'\b(hd|fhd|sd|4k|uhd)\b', '', base, flags=re.IGNORECASE)
+    base = re.sub(r'\b(\d+p|hd|fhd|sd|4k|uhd)\b', '', base, flags=re.IGNORECASE)
+    base = re.sub(r'\b(latin\s*america|latino\s*america|latinoamerica|latam|central\s*america|sur|norte|andes|pacific|colombia|mexico|chile|argentina)\b', '', base, flags=re.IGNORECASE)
     base = re.sub(r'[^a-zA-Z0-9áéíóúñÁÉÍÓÚÑ+]', '', base).lower()
     return base
 
@@ -480,7 +493,7 @@ def parse_m3u_content(text, default_category):
             curr_ext = line
         elif line and not line.startswith('#') and line.startswith('http') and curr_ext:
             line = normalize_stream_url(line)
-            if '.mpd' in line.lower():
+            if not line or '.mpd' in line.lower():
                 curr_ext = None
                 continue
             name_m = re.search(r',([^,]+)$', curr_ext)
@@ -521,6 +534,8 @@ def load_existing_master(path):
             continue
         ext, curr = curr, None
         line = normalize_stream_url(line)
+        if not line:
+            continue
         tn = re.search(r'tvg-name="([^"]*)"', ext)
         gm = re.search(r'group-title="([^"]*)"', ext)
         lm = re.search(r'tvg-logo="([^"]*)"', ext)
@@ -974,7 +989,7 @@ def main():
         if not url or not url.startswith('http'):
             return
         url = normalize_stream_url(url)
-        if '.mpd' in url.lower():
+        if not url or '.mpd' in url.lower():
             return
         k = key_for_dedup(name)
         if len(k) < 2:
