@@ -71,6 +71,8 @@ OK, SOFT, DEAD = 'ok', 'soft', 'dead'
 # ============================================================================
 CORE_M3U_SOURCES = [
     # 1. Packs de Cable Premium Latino
+    ("Television Hispana", "https://raw.githubusercontent.com/altobelly/iprusia/main/lista_tv_organizada.m3u"),
+    ("Canales Premium VIP", "https://raw.githubusercontent.com/altobelly/iprusia/main/lista_especial_con_respaldos.m3u"),
     ("Canales Premium VIP", "https://raw.githubusercontent.com/lucas152125/Canales-Premium/main/canales%20premium.m3u"),
     ("Canales Premium VIP", "https://raw.githubusercontent.com/geomarin12/lista-iptv-latino-colombia---ecuador-/main/lista.m3u"),
     ("Canales Premium VIP", "https://raw.githubusercontent.com/maxbus23/Canales-latinos/main/playlist_organizado.m3u8"),
@@ -375,7 +377,12 @@ def fetch_text(url, timeout=12):
 def fetch_json(url, timeout=25):
     """Devuelve (ok_red, data). ok_red=False si hubo error de red (no confundir con 'vacio')."""
     try:
-        req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+        headers = dict(BROWSER_HEADERS)
+        if 'api.github.com' in url:
+            tok = os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
+            if tok:
+                headers['Authorization'] = f"Bearer {tok}"
+        req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
             return True, json.loads(r.read().decode('utf-8', errors='ignore'))
     except Exception:
@@ -412,64 +419,97 @@ def _open(url, timeout, rng=None):
     return urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=timeout, context=ctx)
 
 
+def mirror_priority_score(url):
+    """Puntua espejos de mayor a menor calidad/velocidad para que la Opcion 1 sea siempre la mejor."""
+    u = url.lower()
+    score = 0
+    if '138.121.15.230:9002' in u:
+        score += 100  # Satelite Astra dedicado directo
+    elif 'service-stitcher.clusters.pluto.tv' in u:
+        score += 85   # CDN oficial directo Pluto TV
+    elif any(cdn in u for cdn in ('akamaized.net', 'cloudfront.net', 'bitgravity', 'wurl.tv', 'amagi.tv')):
+        score += 75   # CDNs globales de alta disponibilidad
+    elif any(host in u for host in ('45.186.106.207', '181.78.14.26', '190.61.42.218', '181.78.23.26', '190.109.2.92')):
+        score += 65   # Servidores ISP directos de cable
+    if u.startswith('https://'):
+        score += 5
+    return -score
+
+
 def _probe(url, timeout, depth):
     if not url or '.mpd' in url.lower():
+        return DEAD
+    if 'jmp2.uk' in url.lower():
         return DEAD
     with _open(url, timeout) as r:
         if r.getcode() not in (200, 206):
             return DEAD
         final = r.geturl()
+        if 'jmp2.uk' in final.lower() or '.mpd' in final.lower():
+            return DEAD
         ctype = (r.headers.get('Content-Type') or '').lower()
         head = r.read(4096)
         if len(head) < 16:
-            return DEAD
-        final = r.geturl()
-        if '.mpd' in final.lower():
             return DEAD
         low = head.lower()
         if b'<html' in low or b'<!doctype html' in low or b'<mpd' in low or b'<?xml' in low[:200]:
             return DEAD
         stripped = low.lstrip(b'\xef\xbb\xbf \r\n\t')
 
-        # --- Manifiesto HLS: verificar que el flujo interno exista (anti-zombie) ---
+        # --- Manifiesto HLS: verificar que el flujo interno exista (anti-zombie y anti-DRM) ---
         if stripped.startswith(b'#extm3u') or b'#ext-x-' in low or b'#extinf' in low:
             body = head + r.read(200000)
             text = body.decode('utf-8', errors='ignore')
-            lines = [l.strip() for l in text.splitlines() if l.strip() and not l.strip().startswith('#')]
-            if not lines:
+
+            # 1. Deteccion de DRM propietario incompatible con Smart TV (Widevine/FairPlay/PlayReady)
+            if any(drm in text for drm in ('urn:uuid:edef8ba9', 'com.apple.streamingkeydelivery', 'com.microsoft.playready', 'SAMPLE-AES-CTR')):
+                return DEAD
+
+            has_aes = ('#EXT-X-KEY' in text.upper() and 'METHOD=AES-128' in text.upper())
+
+            lines_m = [l.strip() for l in text.splitlines() if l.strip() and not l.strip().startswith('#')]
+            if not lines_m:
                 return DEAD
             if '#EXT-X-STREAM-INF' in text.upper():
                 if depth >= 2:
-                    return SOFT
-                st = _probe_safe(urllib.parse.urljoin(final, lines[0]), timeout, depth + 1)
-                return OK if st == OK else SOFT
-            seg = urllib.parse.urljoin(final, lines[-1])
+                    return DEAD
+                st = _probe_safe(urllib.parse.urljoin(final, lines_m[0]), timeout, depth + 1)
+                return OK if st == OK else DEAD
+            seg = urllib.parse.urljoin(final, lines_m[-1])
             if '.m3u8' in seg.lower() and depth < 2:
                 st = _probe_safe(seg, timeout, depth + 1)
-                return OK if st == OK else SOFT
+                return OK if st == OK else DEAD
             try:
                 with _open(seg, timeout, 'bytes=0-2047') as sr:
                     if sr.getcode() not in (200, 206):
                         return DEAD
                     d = sr.read(2048)
-                    if len(d) < 16 or b'<html' in d.lower():
+                    if len(d) < 188 or b'<html' in d.lower() or b'<!doctype' in d.lower():
                         return DEAD
-                    return OK
+                    d_low = d.lower()
+                    if any(err in d_low for err in (b'access denied', b'forbidden', b'unauthorized', b'not found', b'error 414', b'request-uri too large', b'token expired', b'geo-blocked', b'location is not supported')):
+                        return DEAD
+                    if has_aes:
+                        return OK
+                    is_ts = (d[0] == 0x47 or (len(d) > 188 and d[188] == 0x47))
+                    is_mp4 = (len(d) >= 8 and d[4:8] in (b'ftyp', b'styp', b'moof', b'moov', b'mdat', b'free', b'skip'))
+                    is_audio = (d[:3] == b'ID3' or (len(d) >= 2 and d[0] == 0xff and (d[1] & 0xf0) == 0xf0))
+                    if is_ts or is_mp4 or is_audio:
+                        return OK
+                    return DEAD
             except Exception:
                 return DEAD
 
         # --- Flujos directos ---
         if head[0] == 0x47 or (len(head) > 188 and head[188] == 0x47):
-            return OK                                   # MPEG-TS
+            return OK
         if head[4:8] in (b'ftyp', b'moov', b'mdat', b'free', b'wide', b'skip'):
-            return OK                                   # MP4
+            return OK
         if head[:4] == b'\x1aE\xdf\xa3' or head[:4] == b'RIFF' or head[:3] in (b'FLV', b'ID3'):
-            return OK                                   # MKV/WEBM/AVI/FLV/MP3
+            return OK
         if any(t in ctype for t in ('video', 'audio', 'mpegurl', 'octet-stream', 'mp2t')):
             return OK
         return DEAD
-
-
 def _probe_safe(url, timeout, depth):
     try:
         return _probe(url, timeout, depth)
@@ -1221,6 +1261,7 @@ def main():
         f.write('# Robot Cazador Supremo v4.0 - %s\n' % time.strftime('%Y-%m-%d %H:%M'))
         f.write('# ==========================================================================\n\n')
         for ch in ordered:
+            ch['urls'].sort(key=mirror_priority_score)
             logo = ' tvg-logo="%s"' % ch['logo'] if ch['logo'] else ''
             for i, u in enumerate(ch['urls'][:MAX_URLS_PER_CHANNEL]):
                 nm = ch['name'] if i == 0 else "%s [Opcion %d]" % (ch['name'], i + 1)
@@ -1239,6 +1280,7 @@ def main():
             lf.write(header_base)
             lf.write('# LISTA EN VIVO VIP (Ultraligera, carga en 1 segundo en Smart TV o Celular)\n\n')
             for ch in ordered:
+                ch['urls'].sort(key=mirror_priority_score)
                 logo = ' tvg-logo="%s"' % ch['logo'] if ch['logo'] else ''
                 for i, u in enumerate(ch['urls'][:MAX_URLS_PER_CHANNEL]):
                     nm = ch['name'] if i == 0 else "%s [Opcion %d]" % (ch['name'], i + 1)
