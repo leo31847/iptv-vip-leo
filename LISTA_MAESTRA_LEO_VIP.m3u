@@ -79,9 +79,13 @@ https://jmp2.uk/plu-5f9992c685a2a80007fa414a.m3u8
 #EXTINF:-1 tvg-name="DW Espanol" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="Favoritos de Leo VIP",DW Espanol
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 #EXTINF:-1 tvg-name="El Gourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Favoritos de Leo VIP",El Gourmet
-http://190.61.42.218:9000/play/a0as/index.m3u8
+http://190.61.101.11:7050/play/a09s/index.m3u8?hls
 #EXTINF:-1 tvg-name="El Gourmet [Opcion 2]" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Favoritos de Leo VIP",El Gourmet [Opcion 2]
-http://45.186.106.207:8000/play/a012/index.m3u8
+http://179.51.136.19:8000/play/a14h/index.m3u8
+#EXTINF:-1 tvg-name="El Gourmet [Opcion 3 - Estable 24/7]" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Favoritos de Leo VIP",El Gourmet [Opcion 3 - Estable 24/7]
+https://jmp2.uk/plu-6894febddbd49c964f3b66c8.m3u8
+#EXTINF:-1 tvg-name="El Gourmet [Opcion 4]" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Favoritos de Leo VIP",El Gourmet [Opcion 4]
+http://190.61.42.218:9000/play/a0as/index.m3u8
 #EXTINF:-1 tvg-name="Extrema TV" tvg-logo="https://i.imgur.com/E9AuhOU.png" group-title="Favoritos de Leo VIP",Extrema TV
 http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8?null=0
 #EXTINF:-1 tvg-name="Extrema TV [Opcion 2]" tvg-logo="https://i.imgur.com/E9AuhOU.png" group-title="Favoritos de Leo VIP",Extrema TV [Opcion 2]
