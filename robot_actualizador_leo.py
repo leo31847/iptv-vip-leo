@@ -551,6 +551,10 @@ SERIES_CATALOG = [
     ("Los Picapiedra", ["temporada-3-capitulo-7_202501", "01x-12-el-boleto-de-la-loteria_202506", "02x-19-los-ahorros-de-vilma_202506", "03x-01-dino-va-a-hollyrock_202506", "04x-03-el-pequeno-bam-bam_202506", "05x-15-pedro-el-piloto_202506", "06x-10-el-asunto-piedradedo_202506"], ["los picapiedras", "the flintstones"]),
     ("Fenomenoide", ["Fenomenoide-1", "Fenomenoide-2"], ["freakazoid"]),
     ("Ren y Stimpy", ["ren-y-stimpy-%d" % i for i in range(1, 6)], ["ren and stimpy"]),
+    ("Batman la Serie Animada", ["batman-la-serie-animada-1992-latino"], ["batman", "batman la serie animada"]),
+    ("InuYasha", ["inuyasha-cap-21-y-22", "inu-yasha-cap-113", "inuyasha-cap-046"], ["inuyasha", "inu yasha"]),
+    ("Supercampeones", ["04-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p", "40-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p"], ["supercampeones", "captain tsubasa"]),
+    ("House of Mouse", ["homenlatino"], ["house of mouse", "el club del raton"]),
 ]
 
 # Series que el robot busca solo en cada ejecucion (se agregan si aparecen en espanol)
