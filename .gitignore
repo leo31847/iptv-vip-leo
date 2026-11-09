@@ -1,0 +1,7 @@
+# Ignorar ejecutables pesados y copias antiguas
+*.exe
+*.respaldo.m3u
+_RESPALDO_ANTIGUO/
+__pycache__/
+*.tmp
+*.pyc

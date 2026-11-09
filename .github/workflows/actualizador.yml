@@ -1,0 +1,35 @@
+name: Actualizador Automatico IPTV VIP
+
+on:
+  schedule:
+    # Se ejecuta automaticamente cada 6 horas todos los dias
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente con 1 clic desde GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Ejecutar Robot Cazador VIP en la Nube
+        run: |
+          python robot_actualizador_leo.py --no-gui
+
+      - name: Publicar listas actualizadas en GitHub
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Robot IPTV VIP [GitHub Action]"
+          git add LISTA_MAESTRA_LEO_VIP.m3u lista_en_vivo.m3u lista_series.m3u series_completas_cache.json robot_estado.json
+          git commit -m "Auto-actualización de canales y series VIP: $(date -u '+%Y-%m-%d %H:%M UTC')" || exit 0
+          git push
