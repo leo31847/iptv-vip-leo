@@ -286,7 +286,12 @@ CAT_ORDER = {
 
 
 def clean_channel_name(raw_name):
-    name = re.sub(r'\s*\[Opcion \d+\]\s*$', '', raw_name, flags=re.IGNORECASE)
+    name = (raw_name or "").strip()
+    name = re.sub(r'^\d+[\.\-_]\s*(?:\d+[\.\-_]\s*)*', '', name)
+    name = re.sub(r'^(?:IPTV\s*\|\s*|CANALES?\s*\|\s*)', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*\[Opcion \d+\]\s*$', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'[✅\u2705\u2714\u2713\u26a0]+', '', name)
+    name = re.sub(r'\s*-\s*Opci[oó]n\s*\d+\s*', '', name, flags=re.IGNORECASE)
     name = re.sub(r'\[.*?\]', '', name)
     name = re.sub(r'\((?:Gua\d*|Col\d*|Colx|Hon\d*|Per\d*|Ven\d*|Chi\d*|Ecua\d*|BZ\d*|X\d*|L\d*|Mx|ES|USA|LG|TCL|Samsung|Vizio|Roku|Xiaomi|Geo|\d+|\d+p)\)', '', name, flags=re.IGNORECASE)
     name = re.sub(r'\s+-TCL\b', '', name, flags=re.IGNORECASE)
