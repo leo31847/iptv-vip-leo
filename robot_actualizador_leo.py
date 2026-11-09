@@ -141,7 +141,7 @@ FOREIGN_NAME_RE = re.compile(
     r'israel|korea|korean|china|chinese|japan|japanese|afghan|bangladesh|nepal|sri lanka|'
     r'myanmar|cambodia|laos|mongolia|uzbek|tajik|kyrgyz|turkmen|belarus|moldova|latvia|'
     r'lithuania|estonia|slovenia|bosnia|macedonia|montenegro|kosovo|cyprus|malta|iceland|'
-    r'somali|swahili|tagalog|filipino|pinoy|english|'
+    r'somali|swahili|tagalog|filipino|pinoy|english|\badria\b|'
     r'cbs news|nbc news|abc news|fox news|sky news|bbc|bloomberg|cnbc|dateline|fite|newsmax|court tv|'
     r'(&\s*friends|\band friends\b)|girlfriends|rai|tf1|zdf)\b',
     re.IGNORECASE
@@ -166,7 +166,7 @@ FOREIGN_TLDS = {
     'am', 'md', 'lt', 'lv', 'ee', 'si', 'ba', 'mk',
 }
 FOREIGN_ID_CC = FOREIGN_TLDS | {'uk', 'gb', 'ca', 'au', 'nz', 'ie', 'za', 'ng', 'be', 'at', 'ch'}
-FOREIGN_HOSTS_RE = re.compile(r'(playontv|smartplaytv|voxtvhd|multistream|astrakhan)', re.IGNORECASE)
+FOREIGN_HOSTS_RE = re.compile(r'(playontv|smartplaytv|voxtvhd|multistream|astrakhan|15\.204\.246\.24)', re.IGNORECASE)
 
 
 def url_tld(url):
@@ -406,13 +406,13 @@ def _probe(url, timeout, depth):
             try:
                 with _open(seg, timeout, 'bytes=0-2047') as sr:
                     if sr.getcode() not in (200, 206):
-                        return SOFT
+                        return DEAD
                     d = sr.read(2048)
                     if len(d) < 16 or b'<html' in d.lower():
-                        return SOFT
+                        return DEAD
                     return OK
             except Exception:
-                return SOFT
+                return DEAD
 
         # --- Flujos directos ---
         if head[0] == 0x47 or (len(head) > 188 and head[188] == 0x47):
@@ -1003,23 +1003,20 @@ def main():
     need_repair = []
     removed_dead = []
     for k, ch in existing.items():
-        alive = [u for u in ch['urls'] if status.get(u) in (OK, SOFT)]
-        dead = [u for u in ch['urls'] if status.get(u) == DEAD]
+        alive = [u for u in ch['urls'] if status.get(u) in (OK, SOFT) and not is_foreign_garbage(ch['name'], "", u)]
+        dead = [u for u in ch['urls'] if u not in alive]
         for u in alive:
             strikes.pop(u, None)
-        kept_dead = []
         for u in dead:
             if not network_glitch:
                 strikes[u] = strikes.get(u, 0) + 1
-            if network_glitch or strikes.get(u, 0) < MAX_STRIKES:
-                kept_dead.append(u)
-            else:
+            if strikes.get(u, 0) >= MAX_STRIKES:
                 strikes.pop(u, None)
-        urls = alive + kept_dead
+        # REGLA DE ORO DE TOLERANCIA CERO:
+        # En la lista M3U final SOLO y EXCLUSIVAMENTE se colocan enlaces vivos confirmados.
+        # Jamas se exporta un enlace caido o con error 403/404 al reproductor del usuario.
+        urls = list(alive)
         group = "Favoritos de Leo VIP" if k in fav_keys else ch['group']
-        if not urls:
-            removed_dead.append(ch['name'])
-            continue
         final_channels[k] = {'name': ch['name'], 'logo': ch['logo'], 'group': group, 'urls': urls}
         used_urls.update(urls)
         if alive:
@@ -1027,12 +1024,12 @@ def main():
         else:
             need_repair.append(k)
 
-    # 5. Reparar SOLO canales cuyo enlace realmente cayo (con espejo hispano verificado)
+    # 5. Reparar canales cuyo enlace realmente cayo (con espejo hispano verificado)
     def find_replacement(k):
         p = pool.get(k)
         if not p:
             return k, None
-        for u in p['urls'][:6]:
+        for u in p['urls'][:8]:
             if u in used_urls or is_foreign_garbage(final_channels[k]['name'], "", u):
                 continue
             if probe(u, 5.0) == OK:
@@ -1044,11 +1041,17 @@ def main():
         with ThreadPoolExecutor(max_workers=64) as ex:
             for k, u in ex.map(find_replacement, need_repair):
                 if u and u not in used_urls:
-                    final_channels[k]['urls'].insert(0, u)
+                    final_channels[k]['urls'].append(u)
                     used_urls.add(u)
                     stats['reparados'] += 1
                 else:
-                    stats['en_observacion'] += 1
+                    stats['sin_senal_purgado'] += 1
+
+    # PURGA ESTRICTA: Retirar cualquier canal que haya quedado con 0 enlaces vivos
+    unviable = [k for k, ch in final_channels.items() if not ch['urls']]
+    for k in unviable:
+        del final_channels[k]
+        removed_dead.append(ch['name'])
 
     # 5B. Enriquecer canales existentes con opciones de respaldo vivas (sin tocar la opcion 1)
     need_backup = [
