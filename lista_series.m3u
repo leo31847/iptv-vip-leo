@@ -1,7 +1,5 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/co.xml,https://www.tdtchannels.com/epg/TV.xml.gz"
-# ==========================================================================
-# SERIES RETRO Y DE CULTO COMPLETAS - 7998 EPISODIOS
-# ==========================================================================
+# SERIES CLASICAS COMPLETAS EN AUDIO LATINO
 
 #EXTINF:-1 tvg-name="El Chavo del 8 - 1973x01 La ventana abierta-Reventando globos" tvg-logo="https://archive.org/services/img/El.Chavo.del.8.SATRip.LATiNO.XviD" group-title="Series: El Chavo del 8",El Chavo del 8 - 1973x01 La ventana abierta-Reventando globos
 https://archive.org/download/El.Chavo.del.8.SATRip.LATiNO.XviD/El.Chavo.del.8.SATRip.LATiNO.XviD/1973x01%20La%20ventana%20abierta-Reventando%20globos.mp4
