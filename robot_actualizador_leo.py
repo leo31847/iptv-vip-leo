@@ -143,7 +143,7 @@ FOREIGN_NAME_RE = re.compile(
     r'lithuania|estonia|slovenia|bosnia|macedonia|montenegro|kosovo|cyprus|malta|iceland|'
     r'somali|swahili|tagalog|filipino|pinoy|english|\badria\b|'
     r'cbs news|nbc news|abc news|fox news|sky news|bbc|bloomberg|cnbc|dateline|fite|newsmax|court tv|'
-    r'(&\s*friends|\band friends\b)|girlfriends|rai|tf1|zdf)\b',
+    r'(&\s*friends|\band friends\b)|girlfriends|rai|tf1|zdf|ert\s*sports|ert\s*kids|max sport|afarin|caribbean advantage|\b(ert|orf|htv\d*|htvc|aathavan|athvan|paschima|nidae|al-islam|afarin)\b)\b',
     re.IGNORECASE
 )
 # Portugues/Brasil: se aplica SIEMPRE, incluso si el nombre dice "latino"
@@ -166,7 +166,26 @@ FOREIGN_TLDS = {
     'am', 'md', 'lt', 'lv', 'ee', 'si', 'ba', 'mk',
 }
 FOREIGN_ID_CC = FOREIGN_TLDS | {'uk', 'gb', 'ca', 'au', 'nz', 'ie', 'za', 'ng', 'be', 'at', 'ch'}
-FOREIGN_HOSTS_RE = re.compile(r'(playontv|smartplaytv|voxtvhd|multistream|astrakhan|15\.204\.246\.24)', re.IGNORECASE)
+FOREIGN_HOSTS_RE = re.compile(
+    r'(playontv|smartplaytv|voxtvhd|multistream|astrakhan|15\.204\.246\.24|'
+    r'tvsen6\.aynaott\.com|dethich\.pw|broadpeak-aas\.com|mdn\.ors\.at|'
+    r'ekamraott\.com|vgcdn\.net|transmissaodigital\.com|solumedia\.com|'
+    r'chileservidores\.com|livecastv\.com|soportedvb\.click|vs20\.live\.opencaster\.com|'
+    r'amixtv\.com)',
+    re.IGNORECASE
+)
+
+
+def normalize_stream_url(url):
+    """Convierte URLs DASH de servidores ISML/Wowza/Unified a su equivalente HLS nativo (.m3u8)."""
+    if not url:
+        return url
+    u = url.strip()
+    if '.isml/' in u.lower() and '.mpd' in u.lower():
+        u = re.sub(r'\.mpd(\?.*)?$', r'.m3u8\1', u, flags=re.IGNORECASE)
+    elif '/manifest.mpd' in u.lower():
+        u = re.sub(r'/manifest\.mpd(\?.*)?$', r'/playlist.m3u8\1', u, flags=re.IGNORECASE)
+    return u
 
 
 def url_tld(url):
@@ -190,6 +209,8 @@ def foreign_reason(raw_name, tvg_id="", url=""):
         return 'alfabeto no latino'
     if PORTUGUESE_RE.search(raw_name) or (tvg_id and PORTUGUESE_RE.search(tvg_id.split('.')[0])):
         return 'portugues/brasil'
+    if url and '.mpd' in url.lower():
+        return 'formato DASH (.mpd) incompatible con SmartTV'
     if url and FOREIGN_HOSTS_RE.search(url):
         return 'servidor extranjero conocido'
     if url_tld(url) == 'br' or tvg_country(tvg_id) in ('br', 'pt'):
@@ -374,6 +395,8 @@ def _open(url, timeout, rng=None):
 
 
 def _probe(url, timeout, depth):
+    if not url or '.mpd' in url.lower():
+        return DEAD
     with _open(url, timeout) as r:
         if r.getcode() not in (200, 206):
             return DEAD
@@ -382,8 +405,11 @@ def _probe(url, timeout, depth):
         head = r.read(4096)
         if len(head) < 16:
             return DEAD
+        final = r.geturl()
+        if '.mpd' in final.lower():
+            return DEAD
         low = head.lower()
-        if b'<html' in low or b'<!doctype html' in low:
+        if b'<html' in low or b'<!doctype html' in low or b'<mpd' in low or b'<?xml' in low[:200]:
             return DEAD
         stripped = low.lstrip(b'\xef\xbb\xbf \r\n\t')
 
@@ -423,7 +449,7 @@ def _probe(url, timeout, depth):
             return OK                                   # MKV/WEBM/AVI/FLV/MP3
         if any(t in ctype for t in ('video', 'audio', 'mpegurl', 'octet-stream', 'mp2t')):
             return OK
-        return SOFT
+        return DEAD
 
 
 def _probe_safe(url, timeout, depth):
@@ -448,6 +474,10 @@ def parse_m3u_content(text, default_category):
         if line.startswith('#EXTINF:'):
             curr_ext = line
         elif line and not line.startswith('#') and line.startswith('http') and curr_ext:
+            line = normalize_stream_url(line)
+            if '.mpd' in line.lower():
+                curr_ext = None
+                continue
             name_m = re.search(r',([^,]+)$', curr_ext)
             raw_name = name_m.group(1).strip() if name_m else "Canal"
             id_m = re.search(r'tvg-id="([^"]*)"', curr_ext)
@@ -485,6 +515,7 @@ def load_existing_master(path):
         if not curr or not line or line.startswith('#'):
             continue
         ext, curr = curr, None
+        line = normalize_stream_url(line)
         tn = re.search(r'tvg-name="([^"]*)"', ext)
         gm = re.search(r'group-title="([^"]*)"', ext)
         lm = re.search(r'tvg-logo="([^"]*)"', ext)
@@ -937,6 +968,9 @@ def main():
     def add_pool(name, url, logo, raw_group, c_code=""):
         if not url or not url.startswith('http'):
             return
+        url = normalize_stream_url(url)
+        if '.mpd' in url.lower():
+            return
         k = key_for_dedup(name)
         if len(k) < 2:
             return
@@ -1004,7 +1038,7 @@ def main():
     need_repair = []
     removed_dead = []
     for k, ch in existing.items():
-        alive = [u for u in ch['urls'] if status.get(u) in (OK, SOFT) and not is_foreign_garbage(ch['name'], "", u)]
+        alive = [u for u in ch['urls'] if status.get(u) == OK and not is_foreign_garbage(ch['name'], "", u)]
         dead = [u for u in ch['urls'] if u not in alive]
         for u in alive:
             strikes.pop(u, None)
