@@ -929,6 +929,7 @@ def main():
     print("[+] Lista actual: %d canales conservables | %d extranjeros purgados" % (len(existing), len(purged)))
     estado = load_json(ESTADO_PATH, {})
     strikes = estado.get('strikes', {})
+    radar = estado.get('radar_resurreccion', {})
 
     # 3. Pool de candidatos desde fuentes hispanas (orden determinista)
     pool = collections.OrderedDict()
@@ -1047,11 +1048,37 @@ def main():
                 else:
                     stats['sin_senal_purgado'] += 1
 
-    # PURGA ESTRICTA: Retirar cualquier canal que haya quedado con 0 enlaces vivos
+    # PURGA ESTRICTA CON RADAR DE RESURRECCION:
+    # Si un canal no tiene enlaces vivos, NO se exporta al M3U (cero pantallas negras),
+    # pero se guarda en el radar permanente para que el robot siga buscandole senal en cada ejecucion.
     unviable = [k for k, ch in final_channels.items() if not ch['urls']]
     for k in unviable:
+        ch = final_channels[k]
+        radar[k] = {'name': ch['name'], 'logo': ch['logo'], 'group': ch['group']}
         del final_channels[k]
         removed_dead.append(ch['name'])
+
+    # RADAR DE RESURRECCION ACTIVO:
+    # Buscar si algun canal previamente caido volvio a tener senal viva en el pool
+    resurrect_keys = [k for k in radar if k in pool and k not in final_channels]
+    if resurrect_keys:
+        def try_resurrect(k):
+            info = radar[k]
+            for u in pool[k]['urls'][:8]:
+                if u in used_urls or is_foreign_garbage(info['name'], "", u):
+                    continue
+                if probe(u, 5.0) == OK:
+                    return k, u
+            return k, None
+
+        with ThreadPoolExecutor(max_workers=32) as ex:
+            for k, u in ex.map(try_resurrect, resurrect_keys):
+                if u:
+                    info = radar.pop(k)
+                    final_channels[k] = {'name': info['name'], 'logo': info['logo'], 'group': info['group'], 'urls': [u]}
+                    used_urls.add(u)
+                    stats['resucitados'] += 1
+                    print("[+] RESUCITADO: Canal %s volvio a tener senal viva y reingreso a la lista" % info['name'])
 
     # 5B. Enriquecer canales existentes con opciones de respaldo vivas (sin tocar la opcion 1)
     need_backup = [
@@ -1179,6 +1206,7 @@ def main():
         pass
 
     estado['strikes'] = strikes
+    estado['radar_resurreccion'] = radar
     estado['ultima_ejecucion'] = time.strftime('%Y-%m-%d %H:%M:%S')
     save_json_atomic(ESTADO_PATH, estado)
 
