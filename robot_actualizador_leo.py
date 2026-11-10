@@ -1293,6 +1293,34 @@ def main():
     except Exception:
         pass
 
+    # 8.1 Exportar latam_tv_catalog.json sincronizado para Omega Music Mobile
+    try:
+        cat_file = os.path.join(APP_DIR, "latam_tv_catalog.json")
+        export_cat = load_json(cat_file, {})
+        if not isinstance(export_cat, dict) or 'countries' not in export_cat:
+            export_cat = load_json(LATAM_CATALOG_PATH, {})
+        if isinstance(export_cat, dict) and 'channels' in export_cat:
+            # Mapear URLs verificadas a los canales del catalogo
+            url_map = {}
+            for ch in ordered:
+                k = key_for_dedup(clean_channel_name(ch['name']))
+                if k and ch['urls']:
+                    url_map[k] = ch['urls']
+            
+            updated_count = 0
+            for ch in export_cat.get('channels', []):
+                k = key_for_dedup(clean_channel_name(ch.get('n', '')))
+                if k in url_map:
+                    ch['u'] = url_map[k][:MAX_URLS_PER_CHANNEL]
+                    updated_count += 1
+            
+            export_cat['version'] = time.strftime('%Y-%m-%d %H:%M')
+            with open(cat_file, 'w', encoding='utf-8') as cf:
+                json.dump(export_cat, cf, ensure_ascii=False, indent=2)
+            print("[+] latam_tv_catalog.json actualizado exitosamente (%d canales refrescados)" % updated_count)
+    except Exception as e:
+        print("[!] Error exportando latam_tv_catalog.json:", e)
+
     # Copia directa al Escritorio con nombre claro para compartir por WhatsApp
     desktop_copy = r"C:\Users\leoka\OneDrive\Escritorio\LISTA_PARA_ENVIAR_POR_WHATSAPP.m3u"
     try:
