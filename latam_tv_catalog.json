@@ -1,9 +1,15 @@
 {
   "version": "9.6.0-TV-SUPREME-COLOMBIA",
-  "totalChannels": 1451,
+  "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
   "countries": [
+    {
+      "code": "in",
+      "name": "India (Prueba Oficial)",
+      "flag": "🇮🇳",
+      "count": 2
+    },
     {
       "code": "co",
       "name": "Colombia",
@@ -140,6 +146,28 @@
   ],
   "channels": [
     {
+      "id": "vip_india_ndtv_24x7",
+      "n": "🇮🇳 NDTV 24x7 India (Prueba Oficial)",
+      "c": "in",
+      "g": "Noticias",
+      "l": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png",
+      "r": "1080p",
+      "u": [
+        "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8"
+      ]
+    },
+    {
+      "id": "vip_india_ndtv_hindi",
+      "n": "🇮🇳 NDTV India (Hindi VIP)",
+      "c": "in",
+      "g": "Noticias",
+      "l": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png",
+      "r": "1080p",
+      "u": [
+        "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8"
+      ]
+    },
+    {
       "id": "vip_htv",
       "n": "HTV",
       "c": "latam",
@@ -193,6 +221,17 @@
       "u": [
         "http://138.121.15.230:9002/ESPN-4/index.m3u8",
         "http://45.186.106.207:8000/play/a08v/index.m3u8"
+      ]
+    },
+    {
+      "id": "co_telepacifico_hd",
+      "n": "Telepacífico HD (Cali / Pacífico)",
+      "c": "co",
+      "g": "Regionales",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_Telepac%C3%ADfico_2017.png/512px-Logo_Telepac%C3%ADfico_2017.png",
+      "r": "1080p",
+      "u": [
+        "http://181.78.12.119:16123/play/ch19/index.m3u8"
       ]
     },
     {
@@ -16938,5 +16977,5 @@
       ]
     }
   ],
-  "total": 1413
+  "total": 1452
 }

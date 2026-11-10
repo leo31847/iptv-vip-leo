@@ -1,6 +1,10 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/co.xml,https://www.tdtchannels.com/epg/TV.xml.gz"
 # LISTA EN VIVO VIP (Ultraligera, carga en 1 segundo en Smart TV o Celular)
 
+#EXTINF:-1 tvg-id="NDTV24x7.in" tvg-name="NDTV 24x7 India" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png" group-title="India 🇮🇳 (Prueba Oficial)",🇮🇳 NDTV 24x7 India (Prueba Oficial)
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+#EXTINF:-1 tvg-id="NDTVIndia.in" tvg-name="NDTV India (Hindi)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png" group-title="India 🇮🇳 (Prueba Oficial)",🇮🇳 NDTV India (Hindi VIP)
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
 #EXTINF:-1 tvg-name="Alsacias Televisión (ATV | Canal 28)" tvg-logo="https://i.imgur.com/SbuD1UW.png" group-title="Favoritos de Leo VIP",Alsacias Televisión (ATV | Canal 28)
 https://s.emisoras.tv:8081/atv/index.m3u8
 #EXTINF:-1 tvg-name="ANC Television" tvg-logo="https://i.imgur.com/xjTU14t.jpg" group-title="Favoritos de Leo VIP",ANC Television
