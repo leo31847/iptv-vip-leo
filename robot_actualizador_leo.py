@@ -220,10 +220,6 @@ def tvg_country(tvg_id):
 
 def foreign_reason(raw_name, tvg_id="", url=""):
     """Devuelve el motivo si el canal es de idioma/pais ajeno, o '' si es hispano."""
-    name_check = (raw_name or '').lower()
-    id_check = (tvg_id or '').lower()
-    if 'ndtv' in name_check or 'ndtv' in id_check or 'india' in name_check:
-        return ''
     if NON_LATIN_SCRIPT_RE.search(raw_name):
         return 'alfabeto no latino'
     if PORTUGUESE_RE.search(raw_name) or (tvg_id and PORTUGUESE_RE.search(tvg_id.split('.')[0])):
@@ -297,7 +293,6 @@ PREMIUM_KIDS_RE = re.compile(
 )
 
 CAT_ORDER = {
-    "India 🇮🇳 (Prueba Oficial)": -1,
     "Favoritos de Leo VIP": 0, "Colombia": 1, "Canales Premium VIP": 2, "Deportes en Vivo": 3,
     "Series y Canales 24/7": 4, "Cine y Peliculas 24/7": 5, "Series y Entretenimiento": 6,
     "Documentales y Ciencia": 7, "Infantil y Familiar": 8, "Pluto TV LATAM": 9,
@@ -335,8 +330,6 @@ def key_for_dedup(clean_name):
 def classify_and_score(clean_name, raw_group, c_code="", fav_keys=None):
     name_l = clean_name.lower()
     grp_l = (raw_group or "").lower()
-    if 'ndtv' in name_l or 'india' in name_l or 'india' in grp_l:
-        return ("India 🇮🇳 (Prueba Oficial)", -1, True)
     k = key_for_dedup(clean_name)
     if fav_keys and k in fav_keys:
         return ("Favoritos de Leo VIP", 0, True)
@@ -1024,13 +1017,6 @@ def main():
 
     # 2. Lista existente (base inmutable)
     existing, existing_series, purged = load_existing_master(OUTPUT_M3U)
-    k_india = key_for_dedup("NDTV 24x7 India")
-    existing[k_india] = {
-        'name': "NDTV 24x7 India (Prueba Oficial)",
-        'logo': "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png",
-        'group': "India 🇮🇳 (Prueba Oficial)",
-        'urls': ["https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8"]
-    }
     print("[+] Lista actual: %d canales conservables | %d extranjeros purgados" % (len(existing), len(purged)))
     estado = load_json(ESTADO_PATH, {})
     strikes = estado.get('strikes', {})

@@ -5,12 +5,6 @@
   "plutoCount": 277,
   "countries": [
     {
-      "code": "in",
-      "name": "India (Prueba Oficial)",
-      "flag": "🇮🇳",
-      "count": 2
-    },
-    {
       "code": "co",
       "name": "Colombia",
       "flag": "🇨🇴",
@@ -145,28 +139,6 @@
     }
   ],
   "channels": [
-    {
-      "id": "vip_india_ndtv_24x7",
-      "n": "🇮🇳 NDTV 24x7 India (Prueba Oficial)",
-      "c": "in",
-      "g": "Noticias",
-      "l": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png",
-      "r": "1080p",
-      "u": [
-        "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8"
-      ]
-    },
-    {
-      "id": "vip_india_ndtv_hindi",
-      "n": "🇮🇳 NDTV India (Hindi VIP)",
-      "c": "in",
-      "g": "Noticias",
-      "l": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png",
-      "r": "1080p",
-      "u": [
-        "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8"
-      ]
-    },
     {
       "id": "vip_htv",
       "n": "HTV",
