@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-10 22:43",
+  "version": "2026-11-11 03:58",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -779,6 +779,7 @@
       "r": "1080p",
       "ref": "https://player.instantvideocloud.net/",
       "u": [
+        "http://181.78.23.26:45000/play/a033",
         "http://181.78.82.130:8000/play/a0rs/index.m3u8",
         "http://190.61.47.54:8000/play/a00z/index.m3u8"
       ]
@@ -792,7 +793,6 @@
       "r": "1080p",
       "u": [
         "http://190.61.42.218:9000/play/a01t/index.m3u8",
-        "https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/040/playlist.m3u8",
         "http://190.61.47.54:8000/play/a011/index.m3u8"
       ]
     },
@@ -805,6 +805,7 @@
       "r": "1080p",
       "ref": "https://player.instantvideocloud.net/",
       "u": [
+        "http://181.78.23.26:45000/play/a03e",
         "http://181.78.82.130:8000/play/a0rt/index.m3u8",
         "http://190.61.47.54:8000/play/a010/index.m3u8"
       ]
@@ -3115,8 +3116,7 @@
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
         "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
-        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-        "http://90.163.85.113:8093/stream/26/index.m3u8"
+        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
       ]
     },
     {
@@ -4761,7 +4761,8 @@
       "r": "HD",
       "u": [
         "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0"
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0",
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0?ref=http://www.multimedios.com"
       ]
     },
     {
@@ -5521,7 +5522,8 @@
       "l": "https://i.imgur.com/tCg7owd.png",
       "r": "720p",
       "u": [
-        "https://movil.ejeserver.com/live/masmusica.m3u8"
+        "https://movil.ejeserver.com/live/masmusica.m3u8",
+        "https://video.ejeserver.com/live/masmusica.m3u8"
       ]
     },
     {
@@ -8015,7 +8017,8 @@
       "l": "https://i.imgur.com/gfX0hdB.png",
       "r": "HD",
       "u": [
-        "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8"
+        "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8",
+        "http://s5.mexside.net:1935/telemax/telemax/playlist.m3u8"
       ]
     },
     {
@@ -8026,7 +8029,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png",
       "r": "1080p",
       "u": [
-        "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8"
+        "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8",
+        "http://s5.mexside.net:1935/telemax/telemax/playlist.m3u8"
       ]
     },
     {
@@ -8800,9 +8804,9 @@
       "l": "https://cdn.energeek.cl/logos/EG-Fan-2025_pfp.png",
       "r": "720p",
       "u": [
-        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES",
         "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
-        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES"
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
+        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES"
       ]
     },
     {
@@ -10153,8 +10157,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -11117,8 +11120,7 @@
       "l": "https://i.imgur.com/ufnWpUf.png",
       "r": "720p",
       "u": [
-        "https://7.innovatestream.pe:19360/corporacionperiodistica/corporacionperiodistica.m3u8",
-        "https://live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8"
+        "https://7.innovatestream.pe:19360/corporacionperiodistica/corporacionperiodistica.m3u8"
       ]
     },
     {
@@ -14371,7 +14373,7 @@
       "l": "https://i.imgur.com/WhgySAk.png",
       "r": "480p",
       "u": [
-        "https://live2.telemicro.com.do/live/55/playlist.m3u8"
+        "https://cdn4.wind.do/streams/telemicro/telemicro_1080.m3u8"
       ],
       "ref": "https://telemicro.com.do/players/5tv/index_pc.php",
       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0"
@@ -15994,7 +15996,8 @@
       "l": "https://i.ibb.co/tLhcNTD/amigos-tv-chiquimula.png",
       "r": "480p",
       "u": [
-        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8"
+        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8",
+        "http://45.166.93.156:9999/play/a0j2/index.m3u8"
       ]
     },
     {
@@ -16750,7 +16753,7 @@
       "l": "https://i.imgur.com/V9Fpd3Y.png",
       "r": "720p",
       "u": [
-        "https://amixtv.com:8081/unetvhn/tracks-v1a1/mono.m3u8"
+        "http://45.166.93.156:9999/play/a0jo/index.m3u8"
       ]
     },
     {
