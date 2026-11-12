@@ -942,25 +942,147 @@ def harvest_complete_series():
     cache['rejected'] = sorted(rejected)
     save_json_atomic(SERIES_CACHE_PATH, cache)
 
-    # 4. Construir salida ordenada y deduplicada
-    out, seen_names, seen_urls = [], set(), set()
-    series_order = [s for s, _, _ in SERIES_CATALOG]
-    extra_series = sorted({it['series'] for it in items.values() if it['series'] not in series_order}, key=norm_txt)
+    # 4. Construir salida ordenada y deduplicada estructurada por TEMPORADAS Y CAPITULOS
+    EXCLUDED_IIDS = {
+        '5-el-increible-hulk', 'CadillacsyDinosaurios93LAT',
+        'episodios-de-la-pantera-rosa-1-episodio-de-barrio-sesamo-spanish',
+        'chvochplin-vhsrips', 'chavodel8-60fps', 'el-chavo-logoless',
+        'eJwzMTXTNdQ1000tjs9JLNFNK83Jic9I0S02AwBdHgfn.mkv',
+        'km_20260725-6_480p_25f_20260725_163427', 'km_20260801_480p_25f_20260801_104339',
+        'km_20260802-5_480p_25f_20260802_174515_202608',
+        'las-tortugas-ninjalos-ninja-tortugas-adolescentes-mutantes-decima-temporada',
+        'digimon-frontier-castellano',
+        'la-familia-monster-the-munsters-castellano-audio-rtve-el-hermano-de-eddie-hd',
+        'pink-panther-show-spanish-2005', 'GordonShumway', 'alf-latino_202511',
+        '20230628_20230628_1426', 'candycandylatamdub', 'Dragon-Ball-Z-Latino-JP',
+        'el-chavo-animado-temporada-2-completa-dvd', 'el.-chavo.-animado.-dvdr.-0647.-ftp',
+        'temporada-3-capitulo-7_202501', 'bella-genio', 'mi-bella-genio.-temp-1-cap-17',
+        'pinky-y-cerebro-1', 'pinky-y-cerebro-2', 'pinky-y-cerebro-3', 'pinky-y-cerebro-4',
+        'thundercats-063-mumm-rana', 'thundercats2011', 'thundercats_202303', 'ren-y-stimpy-2'
+    }
+    SERIES_NAME_MAP = {
+        'Don Gato': 'Don Gato y su Pandilla',
+        'Don Gato y su Pandilla': 'Don Gato y su Pandilla'
+    }
+
+    def _clean_ep_str(t):
+        t = re.sub(r'\[[^\]]*\]', '', t)
+        t = re.sub(r'\([^\)]*p\)', '', t, flags=re.I)
+        t = re.sub(r'\b(1080p|720p|480p|dvdrip|h264|xvid|x264|latino|audio latino|espanol latino|serieslan com|by carlosj|sullca|dragon ball sullca)\b', '', t, flags=re.I)
+        t = t.replace('_', ' ').replace('.', ' ')
+        return re.sub(r'\s+', ' ', t).strip(' -._')
+
+    def _parse_ep_meta(s_name, raw_name, item_id, idx):
+        s_name = SERIES_NAME_MAP.get(s_name, s_name)
+        norm = raw_name
+        if norm.lower().startswith(s_name.lower()):
+            norm = norm[len(s_name):].strip(' -._:')
+        
+        if s_name == 'Dragon Ball Z':
+            ep_num = idx
+            if ep_num <= 35: s_val, saga = 1, "Saga Saiyajin (Cap. 001 - 035)"
+            elif ep_num <= 107: s_val, saga = 2, "Saga Freezer (Cap. 036 - 107)"
+            elif ep_num <= 139: s_val, saga = 3, "Saga Garlick Jr. y Androides (Cap. 108 - 139)"
+            elif ep_num <= 199: s_val, saga = 4, "Saga Cell (Cap. 140 - 199)"
+            elif ep_num <= 219: s_val, saga = 5, "Saga Torneo del Otro Mundo (Cap. 200 - 219)"
+            else: s_val, saga = 6, "Saga Majin Boo (Cap. 220 - 291)"
+            tc = _clean_ep_str(norm)
+            tc = re.sub(r'^\d+\s*-\s*\d+\s*-\s*', '', tc)
+            tc = re.sub(r'-\s*Dragon\s*Ball\s*Sullca.*$', '', tc, flags=re.I)
+            dt = f"{s_name} - Cap. {ep_num:03d} - {tc}" if tc else f"{s_name} - Cap. {ep_num:03d}"
+            gt = f"Series: {s_name} - Temporada {s_val:02d}: {saga}"
+            return s_val, ep_num, dt, gt
+
+        if s_name == 'El Chavo del 8':
+            m_yr = re.search(r'\b(197\d)[xX\s-]+(\d{1,3})\b', norm)
+            if m_yr:
+                yr, ep = int(m_yr.group(1)), int(m_yr.group(2))
+                tc = _clean_ep_str(norm[m_yr.end():])
+                dt = f"{s_name} - T{yr} Cap. {ep:02d} - {tc}" if tc else f"{s_name} - T{yr} Cap. {ep:02d}"
+                return yr, ep, dt, f"Series: {s_name} - Temporada {yr}"
+
+        if s_name == 'Dragon Ball':
+            ep_num = idx
+            s_val = (ep_num - 1) // 50 + 1
+            tc = _clean_ep_str(re.sub(r'^\d{3}\s*-\s*', '', norm))
+            return s_val, ep_num, f"{s_name} - Cap. {ep_num:03d} - {tc}", f"Series: {s_name} - Temporada {s_val:02d}"
+
+        if s_name == 'Candy Candy':
+            ep_num = idx
+            s_val = (ep_num - 1) // 40 + 1
+            tc = _clean_ep_str(re.sub(r'^(?:capitulo|cap)\s*\d{1,3}\s*[.-]?\s*', '', norm, flags=re.I))
+            return s_val, ep_num, f"{s_name} - Cap. {ep_num:03d} - {tc}", f"Series: {s_name} - Temporada {s_val:02d}"
+
+        if s_name == 'Los Caballeros del Zodiaco':
+            ep_num = idx
+            if ep_num <= 73: s_val, saga = 1, "Saga del Santuario (Cap. 001 - 073)"
+            elif ep_num <= 99: s_val, saga = 2, "Saga de Asgard (Cap. 074 - 099)"
+            elif ep_num <= 114: s_val, saga = 3, "Saga de Poseidon (Cap. 100 - 114)"
+            else: s_val, saga = 4, "Saga de Hades (Cap. 115 - 145)"
+            tc = _clean_ep_str(re.sub(r'^\d{3}\s*-\s*', '', norm))
+            dt = f"{s_name} - Cap. {ep_num:03d} - {tc}" if tc else f"{s_name} - Cap. {ep_num:03d}"
+            return s_val, ep_num, dt, f"Series: {s_name} - Temporada {s_val:02d}: {saga}"
+
+        m = re.search(r'\b[ST]?(\d{1,2})[xX][eE]?(\d{1,3})\b', norm)
+        if m:
+            s_val, e_val = int(m.group(1)), int(m.group(2))
+            tc = _clean_ep_str(norm[:m.start()] + ' ' + norm[m.end():])
+            dt = f"{s_name} - T{s_val:02d}E{e_val:02d} - {tc}" if tc else f"{s_name} - T{s_val:02d}E{e_val:02d}"
+            return s_val, e_val, dt, f"Series: {s_name} - Temporada {s_val:02d}"
+
+        m = re.search(r'\b[ST]\s*(\d{1,2})\s*[E\s]\s*(\d{1,3})\b', norm, re.I)
+        if m:
+            s_val, e_val = int(m.group(1)), int(m.group(2))
+            tc = _clean_ep_str(norm[:m.start()] + ' ' + norm[m.end():])
+            dt = f"{s_name} - T{s_val:02d}E{e_val:02d} - {tc}" if tc else f"{s_name} - T{s_val:02d}E{e_val:02d}"
+            return s_val, e_val, dt, f"Series: {s_name} - Temporada {s_val:02d}"
+
+        m_s = re.search(r'temporada\s*(\d{1,2})', norm, re.I)
+        m_e = re.search(r'(?:capitulo|episodio|cap|ep)\s*(\d{1,3})', norm, re.I)
+        if m_s:
+            s_val = int(m_s.group(1))
+            e_val = int(m_e.group(1)) if m_e else idx
+            t = re.sub(r'temporada\s*\d{1,2}', '', norm, flags=re.I)
+            t = re.sub(r'(?:capitulo|episodio|cap|ep)\s*\d{1,3}', '', t, flags=re.I)
+            tc = _clean_ep_str(t)
+            dt = f"{s_name} - T{s_val:02d}E{e_val:02d} - {tc}" if tc else f"{s_name} - T{s_val:02d}E{e_val:02d}"
+            return s_val, e_val, dt, f"Series: {s_name} - Temporada {s_val:02d}"
+
+        m_iid_s = re.search(r'[-_]t(?:emp)?[-_]?0?(\d+)|[-_](\d+)$', item_id, re.I)
+        s_val = int(m_iid_s.group(1) or m_iid_s.group(2)) if m_iid_s else 1
+        if s_val > 30: s_val = 1
+        m_ep = re.search(r'(?:capitulo|episodio|cap|ep)\s*(\d{1,3})\b|\b(\d{1,3})\s*[-–]', norm, re.I)
+        e_val = int(m_ep.group(1) or m_ep.group(2)) if m_ep else idx
+        t = re.sub(r'(?:capitulo|episodio|cap|ep)\s*\d{1,3}', '', norm, flags=re.I)
+        tc = _clean_ep_str(t)
+        dt = f"{s_name} - T{s_val:02d}E{e_val:02d} - {tc}" if tc else f"{s_name} - T{s_val:02d}E{e_val:02d}"
+        return s_val, e_val, dt, f"Series: {s_name} - Temporada {s_val:02d}"
+
+    raw_parsed = []
+    seen_urls, seen_keys = set(), set()
     per_series = collections.Counter()
-    for series in series_order + extra_series:
-        for iid, it in items.items():
-            if it['series'] != series or it.get('status') != 'ok':
+
+    for iid, it in items.items():
+        if iid in EXCLUDED_IIDS or it.get('status') != 'ok':
+            continue
+        series = SERIES_NAME_MAP.get(it['series'], it['series'])
+        logo = "https://archive.org/services/img/%s" % iid
+        for idx, (raw_ep_name, ep_url) in enumerate(it.get('episodes', []), 1):
+            if not ep_url or ep_url in seen_urls:
                 continue
-            logo = "https://archive.org/services/img/%s" % iid
-            for name, url in sorted(it['episodes'], key=lambda e: natural_key(e[0])):
-                nk = norm_txt(name)
-                if url in seen_urls or nk in seen_names:
-                    continue
-                seen_urls.add(url)
-                seen_names.add(nk)
-                out.append(("Series: %s" % series, name, url, logo))
-                per_series[series] += 1
-    dead_ids = {iid for iid, it in items.items() if it.get('status') == 'dead'}
+            s_val, e_val, dt, gt = _parse_ep_meta(series, raw_ep_name, iid, idx)
+            dedup_k = (series, s_val, e_val)
+            if dedup_k in seen_keys:
+                continue
+            seen_urls.add(ep_url)
+            seen_keys.add(dedup_k)
+            raw_parsed.append((series, s_val, e_val, gt, dt, ep_url, logo))
+            per_series[series] += 1
+
+    # Orden riguroso natural: Serie -> Temporada -> Capitulo
+    raw_parsed.sort(key=lambda x: (x[0].lower(), x[1], x[2]))
+    out = [(gt, dt, ep_url, logo) for (_, _, _, gt, dt, ep_url, logo) in raw_parsed]
+    dead_ids = {iid for iid, it in items.items() if it.get('status') == 'dead' or iid in EXCLUDED_IIDS}
     return out, per_series, dead_ids, list(new_ids.items())
 
 
