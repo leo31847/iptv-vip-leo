@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12 12:23",
+  "version": "2026-11-12 14:05",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -170,7 +170,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Univision_2019_logo.svg/512px-Univision_2019_logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/UNIVISION/index.m3u8"
+        "http://200.115.120.1:8000/play/ca106/index.m3u8"
       ]
     },
     {
@@ -6809,7 +6809,8 @@
       "l": "https://i.imgur.com/mSn7ACs.png",
       "r": "HD",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
+        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0"
       ]
     },
     {
@@ -7779,7 +7780,8 @@
       "l": "https://i.imgur.com/lJCIqYn.png",
       "r": "720p",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8",
+        "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8"
       ]
     },
     {
@@ -9677,7 +9679,8 @@
       "l": "https://i.imgur.com/wDCqoor.png",
       "r": "720p",
       "u": [
-        "https://surtv-2.mddsoluciones.cl/play/ZZZ-WEB-001:ULpj2JxXM9/live/surtvweb/playlist.m3u8"
+        "https://surtv-2.mddsoluciones.cl/play/ZZZ-WEB-001:ULpj2JxXM9/live/surtvweb/playlist.m3u8",
+        "https://ss2.tvrdomi.com:1936/eradiofonicas/eradiofonicas/playlist.m3u8"
       ]
     },
     {
@@ -10856,6 +10859,7 @@
       "l": "https://i.imgur.com/Wkdibpv.png",
       "r": "720p",
       "u": [
+        "https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8",
         "http://vps.chasquirouter.com/salida/ozono.m3u8"
       ]
     },
@@ -11929,7 +11933,8 @@
       "l": "https://i.imgur.com/okK02EN.png",
       "r": "1080p",
       "u": [
-        "http://45.224.97.181:9999/TC/index.m3u8"
+        "http://45.224.97.181:9999/TC/index.m3u8",
+        "http://177.234.218.66:8084/play/a089/index.m3u8"
       ]
     },
     {
