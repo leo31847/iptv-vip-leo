@@ -3891,6 +3891,254 @@
     ]
   },
   {
+    "series": "Cuentos de los Hermanos Grimm",
+    "logo": "https://i.ytimg.com/vi/WDRfSwZcbIs/hqdefault.jpg",
+    "total_seasons": 2,
+    "total_episodes": 46,
+    "seasons": [
+      {
+        "season": "Temporada 01",
+        "episodes": [
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E01 - Los músicos de Bremen",
+            "url": "https://www.youtube.com/watch?v=WDRfSwZcbIs",
+            "logo": "https://i.ytimg.com/vi/WDRfSwZcbIs/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E02 - La rana y la Princesa",
+            "url": "https://www.youtube.com/watch?v=yaxsWX5yuqA",
+            "logo": "https://i.ytimg.com/vi/yaxsWX5yuqA/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E03 - La rana y la Princesa II",
+            "url": "https://www.youtube.com/watch?v=EtnWfhn6EiE",
+            "logo": "https://i.ytimg.com/vi/EtnWfhn6EiE/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E04 - Caperucita Roja",
+            "url": "https://www.youtube.com/watch?v=2w2USckSmDE",
+            "logo": "https://i.ytimg.com/vi/2w2USckSmDE/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E05 - El Ganso de Oro",
+            "url": "https://www.youtube.com/watch?v=MPv5Qr8kxMU",
+            "logo": "https://i.ytimg.com/vi/MPv5Qr8kxMU/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E06 - El Gato con Botas I",
+            "url": "https://www.youtube.com/watch?v=uUOmd1emZtI",
+            "logo": "https://i.ytimg.com/vi/uUOmd1emZtI/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E07 - El Gato con Botas II",
+            "url": "https://www.youtube.com/watch?v=zY9kp-ltTwo",
+            "logo": "https://i.ytimg.com/vi/zY9kp-ltTwo/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E08 - Nieve Blanca y Rosa Roja",
+            "url": "https://www.youtube.com/watch?v=-WLJKOZg6FQ",
+            "logo": "https://i.ytimg.com/vi/-WLJKOZg6FQ/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E09 - Blanca Nieves y los 7 Enanitos I",
+            "url": "https://www.youtube.com/watch?v=Qap6BCo_OOo",
+            "logo": "https://i.ytimg.com/vi/Qap6BCo_OOo/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E10 - Blanca Nieves y los 7 Enanitos II",
+            "url": "https://www.youtube.com/watch?v=ejfR2h-8Rh0",
+            "logo": "https://i.ytimg.com/vi/ejfR2h-8Rh0/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E11 - Blanca Nieves y los 7 Enanitos III",
+            "url": "https://www.youtube.com/watch?v=pD3gIUZsiiA",
+            "logo": "https://i.ytimg.com/vi/pD3gIUZsiiA/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E12 - Blanca Nieves y los 7 Enanitos IV",
+            "url": "https://www.youtube.com/watch?v=RQ20A-d6ZUI",
+            "logo": "https://i.ytimg.com/vi/RQ20A-d6ZUI/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E13 - Los seis que Conquistaron el Mundo",
+            "url": "https://www.youtube.com/watch?v=Ii_FjTKYYTg",
+            "logo": "https://i.ytimg.com/vi/Ii_FjTKYYTg/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E14 - El Agua de la Vida",
+            "url": "https://www.youtube.com/watch?v=SpzZ8TQ59FA",
+            "logo": "https://i.ytimg.com/vi/SpzZ8TQ59FA/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E15 - Barba Azul",
+            "url": "https://www.youtube.com/watch?v=J7B6BiFGVkk",
+            "logo": "https://i.ytimg.com/vi/J7B6BiFGVkk/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E16 - Jorinde y Joringel",
+            "url": "https://www.youtube.com/watch?v=qnDsHrWiAPw",
+            "logo": "https://i.ytimg.com/vi/qnDsHrWiAPw/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E17 - La Bella Durmiente",
+            "url": "https://www.youtube.com/watch?v=TV26uPOrv2o",
+            "logo": "https://i.ytimg.com/vi/TV26uPOrv2o/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E18 - El Viejo Sultán",
+            "url": "https://www.youtube.com/watch?v=riH99bBCbV8",
+            "logo": "https://i.ytimg.com/vi/riH99bBCbV8/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E19 - El Rey Barbilampiño",
+            "url": "https://www.youtube.com/watch?v=Wf-JO7VMs58",
+            "logo": "https://i.ytimg.com/vi/Wf-JO7VMs58/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E20 - Los Tres Acertijos del Diablo",
+            "url": "https://www.youtube.com/watch?v=626dMmW8jX8",
+            "logo": "https://i.ytimg.com/vi/626dMmW8jX8/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E21 - Las 3 Zapatillas Rotas de las Princesas",
+            "url": "https://www.youtube.com/watch?v=3OcgQX1UbBg",
+            "logo": "https://i.ytimg.com/vi/3OcgQX1UbBg/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E22 - La Cenicienta I",
+            "url": "https://www.youtube.com/watch?v=NNoZbSg4T-U",
+            "logo": "https://i.ytimg.com/vi/NNoZbSg4T-U/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T01E23 - La Cenicienta II",
+            "url": "https://www.youtube.com/watch?v=2g5IKGyVE1M",
+            "logo": "https://i.ytimg.com/vi/2g5IKGyVE1M/hqdefault.jpg"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 02",
+        "episodes": [
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E01 - La Bola de Cristal",
+            "url": "https://www.youtube.com/watch?v=Voyon2FnLDc",
+            "logo": "https://i.ytimg.com/vi/Voyon2FnLDc/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E02 - La Boda De La Señora Zorra",
+            "url": "https://www.youtube.com/watch?v=1iqPw9oXYgE",
+            "logo": "https://i.ytimg.com/vi/1iqPw9oXYgE/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E03 - La Bella y  la Bestia",
+            "url": "https://www.youtube.com/watch?v=exzMtDUlo7w",
+            "logo": "https://i.ytimg.com/vi/exzMtDUlo7w/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E04 - La Col del Asno",
+            "url": "https://www.youtube.com/watch?v=d8JMvImlj3Q",
+            "logo": "https://i.ytimg.com/vi/d8JMvImlj3Q/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E05 - Rapunzel",
+            "url": "https://www.youtube.com/watch?v=Zi8mIhFuPuo",
+            "logo": "https://i.ytimg.com/vi/Zi8mIhFuPuo/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E06 - La bruja del bosque",
+            "url": "https://www.youtube.com/watch?v=kKVfuBacPWs",
+            "logo": "https://i.ytimg.com/vi/kKVfuBacPWs/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E07 - Guardia En la Tumba",
+            "url": "https://www.youtube.com/watch?v=8F4gw4KrTIk",
+            "logo": "https://i.ytimg.com/vi/8F4gw4KrTIk/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E08 - El Lobo y el Zorro",
+            "url": "https://www.youtube.com/watch?v=WhI5FP-tmL4",
+            "logo": "https://i.ytimg.com/vi/WhI5FP-tmL4/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E09 - Madre Invierno",
+            "url": "https://www.youtube.com/watch?v=vZ5LlbV0n3M",
+            "logo": "https://i.ytimg.com/vi/vZ5LlbV0n3M/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E10 - Los 6 Cisnes",
+            "url": "https://www.youtube.com/watch?v=-mof2LHyrvo",
+            "logo": "https://i.ytimg.com/vi/-mof2LHyrvo/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E11 - El Abrigo de las Mil Pieles",
+            "url": "https://www.youtube.com/watch?v=bwc8TupbkYg",
+            "logo": "https://i.ytimg.com/vi/bwc8TupbkYg/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E12 - El cuento de los dos hermanos",
+            "url": "https://www.youtube.com/watch?v=wlPKq9aPgx0",
+            "logo": "https://i.ytimg.com/vi/wlPKq9aPgx0/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E13 - Los 4 Hermanos Habilidosos",
+            "url": "https://www.youtube.com/watch?v=yfcaQD-jKpA",
+            "logo": "https://i.ytimg.com/vi/yfcaQD-jKpA/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E14 - El Espíritu de la Botella",
+            "url": "https://www.youtube.com/watch?v=xsOQKHbWSWU",
+            "logo": "https://i.ytimg.com/vi/xsOQKHbWSWU/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E15 - La Estufa de Hierro",
+            "url": "https://www.youtube.com/watch?v=RAKFuUHAUD0",
+            "logo": "https://i.ytimg.com/vi/RAKFuUHAUD0/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E16 - La piel de oso",
+            "url": "https://www.youtube.com/watch?v=TsswBf8KkCo",
+            "logo": "https://i.ytimg.com/vi/TsswBf8KkCo/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E17 - La Liebre y El Erizo",
+            "url": "https://www.youtube.com/watch?v=-Ff3iTFqS9U",
+            "logo": "https://i.ytimg.com/vi/-Ff3iTFqS9U/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E18 - El hombre de acero",
+            "url": "https://www.youtube.com/watch?v=bfz1RoQiIDw",
+            "logo": "https://i.ytimg.com/vi/bfz1RoQiIDw/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E19 - El sastrecillo valiente",
+            "url": "https://www.youtube.com/watch?v=Qxskr93ihjU",
+            "logo": "https://i.ytimg.com/vi/Qxskr93ihjU/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E20 - El Rey del Jardín",
+            "url": "https://www.youtube.com/watch?v=Mmv2C7pnHSY",
+            "logo": "https://i.ytimg.com/vi/Mmv2C7pnHSY/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E21 - Rumpelstiltskin",
+            "url": "https://www.youtube.com/watch?v=W0yKv9a3Rh0",
+            "logo": "https://i.ytimg.com/vi/W0yKv9a3Rh0/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E22 - La ninfa del estanque",
+            "url": "https://www.youtube.com/watch?v=hvMLXgtXO0E",
+            "logo": "https://i.ytimg.com/vi/hvMLXgtXO0E/hqdefault.jpg"
+          },
+          {
+            "name": "Cuentos de los Hermanos Grimm - T02E23 - El Ahijado de La Muerte",
+            "url": "https://www.youtube.com/watch?v=taVaNRhppCo",
+            "logo": "https://i.ytimg.com/vi/taVaNRhppCo/hqdefault.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "series": "Digimon",
     "logo": "https://archive.org/services/img/digimon-adventure-espanol-latino-etc-tv-rip-2017",
     "total_seasons": 1,
@@ -11895,7 +12143,7 @@
     "series": "El Laboratorio de Dexter",
     "logo": "https://archive.org/services/img/laboratorio-de-dexter-latino",
     "total_seasons": 5,
-    "total_episodes": 80,
+    "total_episodes": 79,
     "seasons": [
       {
         "season": "Temporada 00",
@@ -11903,11 +12151,6 @@
           {
             "name": "El Laboratorio de Dexter - T00E05 - El laboratorio de Dexte - El Viaje de Dexter (Bryan-espa)",
             "url": "https://archive.org/download/laboratorio-de-dexter-latino/S00E05%20-%20El%20laboratorio%20de%20Dexte%20-%20El%20Viaje%20de%20Dexter%20%28Ego%20Trip%29%20%28Bryan-espa%29.mkv",
-            "logo": "https://archive.org/services/img/laboratorio-de-dexter-latino"
-          },
-          {
-            "name": "El Laboratorio de Dexter - T00E06 - El laboratorio de Dexter 41 - Rude Removal (Ingles) (Bryan-espa)",
-            "url": "https://archive.org/download/laboratorio-de-dexter-latino/S00E06%20-%20El%20laboratorio%20de%20Dexter%2041%20-%20Rude%20Removal%20%281080p%29%20%28Ingles%29%20%28Bryan-espa%29.mkv",
             "logo": "https://archive.org/services/img/laboratorio-de-dexter-latino"
           }
         ]
@@ -24117,754 +24360,6 @@
     ]
   },
   {
-    "series": "MacGyver",
-    "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994",
-    "total_seasons": 7,
-    "total_episodes": 141,
-    "seasons": [
-      {
-        "season": "Temporada 01",
-        "episodes": [
-          {
-            "name": "MacGyver - T01E01 - Pilot",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E01%20Pilot.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E02 - The Golden Triangle",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E02%20The%20Golden%20Triangle.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E03 - Thief of Budapest",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E03%20Thief%20of%20Budapest.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E04 - The Gauntlet",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E04%20The%20Gauntlet.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E05 - The Heist",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E05%20The%20Heist.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E06 - Trumbo's World",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E06%20Trumbo%27s%20World.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E07 - Last Stand",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E07%20Last%20Stand.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E08 - Hellfire",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E08%20Hellfire.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E09 - The Prodigal",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E09%20The%20Prodigal.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E10 - Target MacGyver",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E10%20Target%20MacGyver.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E11 - Nightmares",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E11%20Nightmares.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E12 - Deathlock",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E12%20Deathlock.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E13 - Flame's End",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E13%20Flame%27s%20End.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E14 - Countdown",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E14%20Countdown.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E15 - The Enemy Within",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E15%20The%20Enemy%20Within.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E16 - Every Time She Smiles",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E16%20Every%20Time%20She%20Smiles.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E17 - To Be a Man",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E17%20To%20Be%20a%20Man.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E18 - Ugly Duckling",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E18%20Ugly%20Duckling.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E19 - Slow Death",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E19%20Slow%20Death.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E20 - The Escape",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E20%20The%20Escape.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E21 - A Prisoner of Conscience",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E21%20A%20Prisoner%20of%20Conscience.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E22 - The Assassin",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S01E22%20The%20Assassin.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E140 - S07M01 Lost Treasure of Atlantis (1994 re- )",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07M01%20Lost%20Treasure%20of%20Atlantis%20%281994%20360p%20re-dvdrip%29.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T01E141 - S07M02 Trail to Doomsday (1994 re- )",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07M02%20Trail%20to%20Doomsday%20%281994%20360p%20re-dvdrip%29.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          }
-        ]
-      },
-      {
-        "season": "Temporada 02",
-        "episodes": [
-          {
-            "name": "MacGyver - T02E01 - The Human Factor",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E01%20The%20Human%20Factor.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E02 - The Eraser",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E02%20The%20Eraser.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E03 - Twice Stung",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E03%20Twice%20Stung.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E04 - The Wish Child",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E04%20The%20Wish%20Child.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E05 - Final Approach",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E05%20Final%20Approach.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E06 - Jack of Lies",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E06%20Jack%20of%20Lies.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E07 - The Road Not Taken",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E07%20The%20Road%20Not%20Taken.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E08 - Eagles",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E08%20Eagles.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E09 - Silent World",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E09%20Silent%20World.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E10 - Three for the Road",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E10%20Three%20for%20the%20Road.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E11 - Phoenix Under Siege",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E11%20Phoenix%20Under%20Siege.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E12 - Family Matter",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E12%20Family%20Matter.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E13 - Soft Touch",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E13%20Soft%20Touch.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E14 - Birth Day",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E14%20Birth%20Day.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E15 - Pirates",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E15%20Pirates.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E16 - Out in the Cold",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E16%20Out%20in%20the%20Cold.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E17 - Dalton, Jack of Spies",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E17%20Dalton%2C%20Jack%20of%20Spies.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E18 - Partners",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E18%20Partners.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E19 - Bushmaster",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E19%20Bushmaster.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E20 - Friends",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E20%20Friends.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E21 - D O A MacGyver",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E21%20D.O.A.%20MacGyver.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T02E22 - For Love or Money",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S02E22%20For%20Love%20or%20Money.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          }
-        ]
-      },
-      {
-        "season": "Temporada 03",
-        "episodes": [
-          {
-            "name": "MacGyver - T03E01 - Lost Love Pt 1",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E01%20Lost%20Love%20Pt%201.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E02 - Lost Love Pt 2",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E02%20Lost%20Love%20Pt%202.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E03 - Back from the Dead",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E03%20Back%20from%20the%20Dead.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E04 - Ghost Ship",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E04%20Ghost%20Ship.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E05 - Fire and Ice",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E05%20Fire%20and%20Ice.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E06 - GX-1",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E06%20GX-1.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E07 - Jack in the Box",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E07%20Jack%20in%20the%20Box.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E08 - The Widowmaker",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E08%20The%20Widowmaker.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E09 - Hell Week",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E09%20Hell%20Week.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E10 - Blow Out",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E10%20Blow%20Out.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E11 - Kill Zone",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E11%20Kill%20Zone.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E12 - Early Retirement",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E12%20Early%20Retirement.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E13 - Thin Ice",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E13%20Thin%20Ice.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E14 - The Odd Triple",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E14%20The%20Odd%20Triple.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E15 - The Negotiator",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E15%20The%20Negotiator.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E16 - The Spoilers",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E16%20The%20Spoilers.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E17 - Mask of the Wolf",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E17%20Mask%20of%20the%20Wolf.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E18 - Rock the Cradle",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E18%20Rock%20the%20Cradle.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E19 - The Endangered",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E19%20The%20Endangered.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T03E20 - Murderers' Sky",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S03E20%20Murderers%27%20Sky.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          }
-        ]
-      },
-      {
-        "season": "Temporada 04",
-        "episodes": [
-          {
-            "name": "MacGyver - T04E01 - The Secret of Parker House",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E01%20The%20Secret%20of%20Parker%20House.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E02 - Blood Brothers",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E02%20Blood%20Brothers.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E03 - The Outsiders",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E03%20The%20Outsiders.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E04 - On a Wing and a Prayer",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E04%20On%20a%20Wing%20and%20a%20Prayer.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E05 - Collision Course",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E05%20Collision%20Course.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E06 - The Survivors",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E06%20The%20Survivors.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E07 - Deadly Dreams",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E07%20Deadly%20Dreams.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E08 - Ma Dalton",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E08%20Ma%20Dalton.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E09 - Cleo Rocks",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E09%20Cleo%20Rocks.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E10 - Fraternity of Thieves",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E10%20Fraternity%20of%20Thieves.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E11 - The Battle of Tommy Giordano",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E11%20The%20Battle%20of%20Tommy%20Giordano.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E12 - The Challenge",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E12%20The%20Challenge.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E13 - Runners",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E13%20Runners.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E14 - Gold Rush",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E14%20Gold%20Rush.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E15 - The Invisible Killer",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E15%20The%20Invisible%20Killer.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E16 - Brainwashed",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E16%20Brainwashed.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E17 - Easy Target",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E17%20Easy%20Target.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E18 - Renegade",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E18%20Renegade.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T04E19 - Unfinished Business",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S04E19%20Unfinished%20Business.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          }
-        ]
-      },
-      {
-        "season": "Temporada 05",
-        "episodes": [
-          {
-            "name": "MacGyver - T05E01 - Legend of the Holy Rose Pt 1",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E01%20Legend%20of%20the%20Holy%20Rose%20Pt%201.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E02 - Legend of the Holy Rose Pt 2",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E02%20Legend%20of%20the%20Holy%20Rose%20Pt%202.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E03 - The Black Corsage",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E03%20The%20Black%20Corsage.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E04 - Cease Fire",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E04%20Cease%20Fire.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E05 - Second Chance",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E05%20Second%20Chance.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E06 - Halloween Knights",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E06%20Halloween%20Knights.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E07 - Children of Light",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E07%20Children%20of%20Light.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E08 - Black Rhino",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E08%20Black%20Rhino.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E09 - The Ten Percent Solution",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E09%20The%20Ten%20Percent%20Solution.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E10 - Two Times Trouble",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E10%20Two%20Times%20Trouble.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E11 - The Madonna",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E11%20The%20Madonna.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E12 - Serenity",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E12%20Serenity.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E13 - Live and Learn",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E13%20Live%20and%20Learn.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E14 - Log Jam",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E14%20Log%20Jam.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E15 - The Treasure of Manco",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E15%20The%20Treasure%20of%20Manco.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E16 - Jenny's Chance",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E16%20Jenny%27s%20Chance.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E17 - Deep Cover",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E17%20Deep%20Cover.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E18 - The Lost Amadeus",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E18%20The%20Lost%20Amadeus.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E19 - Hearts of Steel",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E19%20Hearts%20of%20Steel.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E20 - Rush to Judgement",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E20%20Rush%20to%20Judgement.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T05E21 - Passages",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S05E21%20Passages.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          }
-        ]
-      },
-      {
-        "season": "Temporada 06",
-        "episodes": [
-          {
-            "name": "MacGyver - T06E01 - Tough Boys",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E01%20Tough%20Boys.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E02 - Humanity",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E02%20Humanity.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E03 - The Gun",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E03%20The%20Gun.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E04 - Twenty Questions",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E04%20Twenty%20Questions.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E05 - The Wall",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E05%20The%20Wall.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E06 - Lesson in Evil",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E06%20Lesson%20in%20Evil.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E07 - Harry's Will",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E07%20Harry%27s%20Will.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E08 - MacGyver's Women",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E08%20MacGyver%27s%20Women.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E09 - Bitter Harvest",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E09%20Bitter%20Harvest.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E10 - The Visitor",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E10%20The%20Visitor.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E11 - Squeeze Play",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E11%20Squeeze%20Play.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E12 - Jerico Games",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E12%20Jerico%20Games.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E13 - The Wasteland",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E13%20The%20Wasteland.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E14 - Eye of Osiris",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E14%20Eye%20of%20Osiris.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E15 - High Control",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E15%20High%20Control.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E16 - There But For the Grace",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E16%20There%20But%20For%20the%20Grace.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E17 - Blind Faith",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E17%20Blind%20Faith.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E18 - Faith, Hope & Charity",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E18%20Faith%2C%20Hope%20%26%20Charity.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E19 - Strictly Business",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E19%20Strictly%20Business.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E20 - Trail of Tears",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E20%20Trail%20of%20Tears.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T06E21 - Hind-Sight",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S06E21%20Hind-Sight.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          }
-        ]
-      },
-      {
-        "season": "Temporada 07",
-        "episodes": [
-          {
-            "name": "MacGyver - T07E01 - Honest Abe",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E01%20Honest%20Abe.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E02 - The 'Hood",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E02%20The%20%27Hood.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E03 - Obsessed",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E03%20Obsessed.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E04 - The Prometheus Syndrome",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E04%20The%20Prometheus%20Syndrome.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E05 - The Coltons",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E05%20The%20Coltons.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E06 - Walking Dead",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E06%20Walking%20Dead.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E07 - Good Knight MacGyver Pt 1",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E07%20Good%20Knight%20MacGyver%20Pt%201.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E08 - Good Knight MacGyver Pt 2",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E08%20Good%20Knight%20MacGyver%20Pt%202.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E09 - Deadly Silents",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E09%20Deadly%20Silents.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E10 - Split Decision",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E10%20Split%20Decision.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E11 - Gunz 'N Boyz",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E11%20Gunz%20%27N%20Boyz.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E12 - Off the Wall",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E12%20Off%20the%20Wall.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E13 - The Stringer",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E13%20The%20Stringer.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          },
-          {
-            "name": "MacGyver - T07E14 - The Mountain of Youth",
-            "url": "https://archive.org/download/macgyver-collection-1985--to-1994/MacGyver%20S07E14%20The%20Mountain%20of%20Youth.mp4",
-            "logo": "https://archive.org/services/img/macgyver-collection-1985--to-1994"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "series": "Malcolm el de en medio",
     "logo": "https://archive.org/services/img/malcolm-el-de-en-medio-t-01",
     "total_seasons": 7,
@@ -26857,17 +26352,11 @@
     "series": "Oye Arnold",
     "logo": "https://archive.org/services/img/Oye-Arnold-Latino",
     "total_seasons": 6,
-    "total_episodes": 100,
+    "total_episodes": 99,
     "seasons": [
       {
         "season": "Temporada 00",
-        "episodes": [
-          {
-            "name": "Oye Arnold - T00E01 - Hey Arnold! -- (Official Pilot Episode 1994)",
-            "url": "https://archive.org/download/Oye-Arnold-Latino/S00E01%20Hey%20Arnold%21%20--%20%28Official%20Pilot%20Episode%201994%29.mp4",
-            "logo": "https://archive.org/services/img/Oye-Arnold-Latino"
-          }
-        ]
+        "episodes": []
       },
       {
         "season": "Temporada 01",

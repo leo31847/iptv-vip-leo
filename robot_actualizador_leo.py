@@ -47,6 +47,7 @@ BROWSER_HEADERS = {
 }
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
+BLACKLIST_IDENTIFIERS = {'macgyver-collection-1985--to-1994'}
 _local_cat = os.path.join(APP_DIR, "latam_tv_catalog.json")
 LATAM_CATALOG_PATH = _local_cat if os.path.exists(_local_cat) else r"C:\Users\leoka\.gemini\antigravity\scratch\omega_music_app\assets\latam_tv_catalog.json"
 FAVS_PATH = os.path.join(APP_DIR, "favoritos.json")
@@ -618,7 +619,7 @@ SERIES_CATALOG = [
                      "eJwzMTXTNdQ1000tjs9JLNFNK83Jic9I0S02AwBdHgfn.mkv",
                      "km_20260801_480p_25f_20260801_104339", "km_20260725-6_480p_25f_20260725_163427",
                      "km_20260802-5_480p_25f_20260802_174515_202608"], ["los simpsons", "the simpsons"]),
-    ("MacGyver", ["macgyver-collection-1985--to-1994"], ["macgyver", "mcgyver"]),
+    ([], ["macgyver", "mcgyver"]),
     ("Malcolm el de en medio", ["malcolm-el-de-en-medio-t-0%d" % i for i in range(1, 8)], ["malcolm"]),
     ("Dragon Ball", ["d-01_20240907"], []),
     ("Dragon Ball Z", ["Dragon-Ball-Z-Latino-JP"], []),
@@ -651,7 +652,7 @@ SERIES_CATALOG = [
 # Series que el robot busca solo en cada ejecucion (se agregan si aparecen en espanol)
 WANTED_SERIES = [
     "El Chavo del 8", "El Chavo Animado", "El Chapulin Colorado", "Chespirito", "Los Caquitos",
-    "ALF", "Los Simpson", "MacGyver", "Los Caballeros del Zodiaco", "Dragon Ball", "Dragon Ball Z",
+    "ALF", "Los Simpson", "Los Caballeros del Zodiaco", "Dragon Ball", "Dragon Ball Z",
     "Dragon Ball Super", "Los Picapiedra", "Los Supersonicos", "Don Gato", "El Inspector Gadget",
     "Los Pitufos", "Mazinger Z", "Candy Candy", "Heidi", "Supercampeones", "Remi", "Marco",
     "La Familia Ingalls", "El Zorro", "Los Locos Addams", "La Familia Monster", "Tres por Tres",
