@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12 14:17",
+  "version": "2026-11-12 21:24",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -267,9 +267,9 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Disney_Channel_logo.svg/512px-Disney_Channel_logo.svg.png",
       "r": "1080p",
       "u": [
-        "https://barinaslive1.boldmss.com/DISNEY/DISNEY.isml/DISNEY.m3u8",
         "http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8",
-        "http://45.185.163.75:8000/play/a02j/index.m3u8"
+        "http://45.185.163.75:8000/play/a02j/index.m3u8",
+        "http://87.120.179.187:8000/play/a010"
       ]
     },
     {
@@ -7584,8 +7584,7 @@
       "r": "1080p",
       "u": [
         "https://livetrx01.vodgc.net/eltrecetv/index.m3u8",
-        "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8",
-        "http://190.108.83.69:8000/play/a01d/index.m3u8"
+        "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8"
       ],
       "ref": "https://vodgc.net"
     },
@@ -7598,8 +7597,7 @@
       "r": "HD",
       "u": [
         "https://livetrx01.vodgc.net/eltrecetv/index.m3u8",
-        "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8",
-        "http://190.108.83.69:8000/play/a01d/index.m3u8"
+        "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8"
       ]
     },
     {
@@ -7769,9 +7767,7 @@
       "l": "https://i.imgur.com/EWmshtx.png",
       "r": "HD",
       "u": [
-        "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
-        "https://unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8",
-        "http://45.134.141.161:2200/ARG/Net_TV/index.m3u8"
+        "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8"
       ]
     },
     {
