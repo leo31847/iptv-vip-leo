@@ -6171,8 +6171,8 @@
   {
     "series": "Dragon Ball Z",
     "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv",
-    "total_seasons": 6,
-    "total_episodes": 291,
+    "total_seasons": 12,
+    "total_episodes": 582,
     "seasons": [
       {
         "season": "Temporada 01: Saga Saiyajin (Cap. 001 - 035)",
@@ -7296,6 +7296,1491 @@
       },
       {
         "season": "Temporada 06: Saga Majin Boo (Cap. 220 - 291)",
+        "episodes": [
+          {
+            "name": "Dragon Ball Z - Cap. 220 - El malvado mago Babidi",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B220%5D%20El%20malvado%20mago%20Babidi.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 221 - Una bestia del infierno",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B221%5D%20Una%20bestia%20del%20infierno.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 222 - El enfado de Vegeta",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B222%5D%20El%20enfado%20de%20Vegeta.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 223 - El máximo poder de Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B223%5D%20El%20m%C3%A1ximo%20poder%20de%20Goku.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 224 - Mr Satán vs tres super guerreros - Dragon Ball Sullc",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B224%5D%20Mr.%20Sat%C3%A1n%20vs%20tres%20super%20guerreros.%20-%20Dragon%20Ball%20Sullc.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 225 - Una pelea difícil contra el No 18 - Dragon Ball Sull",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B225%5D%20Una%20pelea%20dif%C3%ADcil%20contra%20el%20No.%2018.%20-%20Dragon%20Ball%20Sull.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 226 - Es tu turno Gohan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B226%5D%20Es%20tu%20turno%20Gohan.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 227 - La idea de Dabura",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B227%5D%20La%20idea%20de%20Dabura.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 228 - El rey de la destrucción, Vegeta",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B228%5D%20El%20rey%20de%20la%20destrucci%C3%B3n%2C%20Vegeta.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 229 - Goku vs Vegeta",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B229%5D%20Goku%20vs%20Vegeta.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 230 - Espera Babidi",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B230%5D%20Espera%20Babidi.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 231 - Majin Boo aparece",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B231%5D%20Majin%20Boo%20aparece.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 232 - No dejaremos que Majin Boo despierte - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B232%5D%20No%20dejaremos%20que%20Majin%20Boo%20despierte.%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 233 - El lamento de Supremo Kaio-Sama",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B233%5D%20El%20lamento%20de%20Supremo%20Kaio-Sama.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 234 - Gohan se encuentra en peligro",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B234%5D%20Gohan%20se%20encuentra%20en%20peligro.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 235 - ¡Te voy a comer!",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B235%5D%20%C2%A1Te%20voy%20a%20comer%21%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 236 - Yo acabare con Majin Boo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B236%5D%20Yo%20acabare%20con%20Majin%20Boo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 237 - Vegeta pelea por sus seres queridos - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B237%5D%20Vegeta%20pelea%20por%20sus%20seres%20queridos.%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 238 - Majin Boo sigue con vida",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B238%5D%20Majin%20Boo%20sigue%20con%20vida.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 239 - Busquen las esferas del dragón",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B239%5D%20Busquen%20las%20esferas%20del%20drag%C3%B3n.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 240 - La técnica especial para Goten y Trunks - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B240%5D%20La%20t%C3%A9cnica%20especial%20para%20Goten%20y%20Trunks.%20-%20Dragon%20Ball.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 241 - Goten y Trunks, las esperanzas de salvar al mundo - D",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B241%5D%20Goten%20y%20Trunks%2C%20las%20esperanzas%20de%20salvar%20al%20mundo.%20-%20D.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 242 - Gohan revive",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B242%5D%20Gohan%20revive.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 243 - La legendaria espada Z",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B243%5D%20La%20legendaria%20espada%20Z.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 244 - Detente Majin Boo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B244%5D%20Detente%20Majin%20Boo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 245 - El Super Saiyajin 3",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B245%5D%20El%20Super%20Saiyajin%203.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 246 - Hasta nunca Babidi",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B246%5D%20Hasta%20nunca%20Babidi.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 247 - La técnica de la fusión",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B247%5D%20La%20t%C3%A9cnica%20de%20la%20fusi%C3%B3n.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 248 - Goku regresa al otro mundo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B248%5D%20Goku%20regresa%20al%20otro%20mundo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 249 - ¿En dónde está Gohan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B249%5D%20%C2%BFEn%20d%C3%B3nde%20est%C3%A1%20Gohan%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 250 - La espada Z se ha roto",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B250%5D%20La%20espada%20Z%20se%20ha%20roto.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 251 - Un nuevo guerrero nace, su nombre es Gotenks - Dragon",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B251%5D%20Un%20nuevo%20guerrero%20nace%2C%20su%20nombre%20es%20Gotenks.%20-%20Dragon.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 252 - Mr Satán salva a la Tierra",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B252%5D%20Mr.%20Sat%C3%A1n%20salva%20a%20la%20Tierra.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 253 - Majin Boo deja de matar gente",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B253%5D%20Majin%20Boo%20deja%20de%20matar%20gente.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 254 - La furia de Majin Boo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B254%5D%20La%20furia%20de%20Majin%20Boo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 255 - ¿Quién de los dos ganará",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B255%5D%20%C2%BFQui%C3%A9n%20de%20los%20dos%20ganar%C3%A1%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 256 - El final de la raza humana",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B256%5D%20El%20final%20de%20la%20raza%20humana.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 257 - El entrenamiento fue todo un éxito - Dragon Ball Sull",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B257%5D%20El%20entrenamiento%20fue%20todo%20un%20%C3%A9xito.%20-%20Dragon%20Ball%20Sull.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 258 - El poder de Super Gotenks",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B258%5D%20El%20poder%20de%20Super%20Gotenks.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 259 - La técnica de los fantasmas",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B259%5D%20La%20t%C3%A9cnica%20de%20los%20fantasmas.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 260 - Super Gotenks 3",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B260%5D%20Super%20Gotenks%203.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 261 - El voleibol de Majin Boo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B261%5D%20El%20voleibol%20de%20Majin%20Boo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 262 - Gohan regresa a la Tierra",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B262%5D%20Gohan%20regresa%20a%20la%20Tierra.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 263 - El poder milagroso de Gohan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B263%5D%20El%20poder%20milagroso%20de%20Gohan.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 264 - La gran explosión de Majin Boo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B264%5D%20La%20gran%20explosi%C3%B3n%20de%20Majin%20Boo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 265 - Gotenks es absorbido",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B265%5D%20Gotenks%20es%20absorbido.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 266 - Goku regresa a la vida",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B266%5D%20Goku%20regresa%20a%20la%20vida.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 267 - Ocurre otro milagro",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B267%5D%20Ocurre%20otro%20milagro.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 268 - El orgullo de Vegeta y la furia de Goku - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B268%5D%20El%20orgullo%20de%20Vegeta%20y%20la%20furia%20de%20Goku.%20-%20Dragon%20Ball.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 269 - El poder del gran Vegetto",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B269%5D%20El%20poder%20del%20gran%20Vegetto.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 270 - Boo es cortado",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B270%5D%20Boo%20es%20cortado.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 271 - Conviértete en un dulce",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B271%5D%20Convi%C3%A9rtete%20en%20un%20dulce.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 272 - Vegetto es absorbido",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B272%5D%20Vegetto%20es%20absorbido.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 273 - ¿Qué habrá en el estómago de Boo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B273%5D%20%C2%BFQu%C3%A9%20habr%C3%A1%20en%20el%20est%C3%B3mago%20de%20Boo%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 274 - La pelea entre padres e hijos",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B274%5D%20La%20pelea%20entre%20padres%20e%20hijos.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 275 - El secreto de Majin Boo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B275%5D%20El%20secreto%20de%20Majin%20Boo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 276 - ¿Dónde está la salida",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B276%5D%20%C2%BFD%C3%B3nde%20est%C3%A1%20la%20salida%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 277 - La Tierra desaparece",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B277%5D%20La%20Tierra%20desaparece.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 278 - El ataque de Boo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B278%5D%20El%20ataque%20de%20Boo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 279 - Una pelea para el futuro",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B279%5D%20Una%20pelea%20para%20el%20futuro.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 280 - Gokú, tú eres el número 1",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B280%5D%20Gok%C3%BA%2C%20t%C3%BA%20eres%20el%20n%C3%BAmero%201.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 281 - Resiste Vegeta",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B281%5D%20Resiste%20Vegeta.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 282 - No molestes a Mr Satán La aparición de Boo - Dragon",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B282%5D%20No%20molestes%20a%20Mr.%20Sat%C3%A1n.%20La%20aparici%C3%B3n%20de%20Boo.%20-%20Dragon.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 283 - La estrategia de Vegeta",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B283%5D%20La%20estrategia%20de%20Vegeta.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 284 - La última esperanza",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B284%5D%20La%20%C3%BAltima%20esperanza%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 285 - Una Genkidama hecha por todos",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B285%5D%20Una%20Genkidama%20hecha%20por%20todos.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 286 - Goku es el hombre más fuerte del universo - Dragon Ba",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B286%5D%20Goku%20es%20el%20hombre%20m%C3%A1s%20fuerte%20del%20universo.%20-%20Dragon%20Ba.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 287 - ¿Majin Boo lucha a favor de la justicia - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B287%5D%20%C2%BFMajin%20Boo%20lucha%20a%20favor%20de%20la%20justicia%20-%20Dragon%20Ball%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 288 - Gokú, llegas tarde",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B288%5D%20Gok%C3%BA%2C%20llegas%20tarde.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 289 - Mi nombre es Pan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B289%5D%20Mi%20nombre%20es%20Pan.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 290 - Yo soy Oob",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B290%5D%20Yo%20soy%20Oob.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 291 - El sueño de Gokú",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20251-291/%5B291%5D%20El%20sue%C3%B1o%20de%20Gok%C3%BA.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 01",
+        "episodes": [
+          {
+            "name": "Dragon Ball Z - Cap. 001 - Aparece un mini Goku, su nombre es Gohan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B001%5D%20Aparece%20un%20mini%20Goku%2C%20su%20nombre%20es%20Gohan.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 002 - Un guerrero muy fuerte con antecedentes históricos, se",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B002%5D%20Un%20guerrero%20muy%20fuerte%20con%20antecedentes%20hist%C3%B3ricos%2C%20se.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 003 - La combinación más fuerte de este mundo - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B003%5D%20La%20combinaci%C3%B3n%20m%C3%A1s%20fuerte%20de%20este%20mundo.%20-%20Dragon%20Ball.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 004 - ¡Pikoro saca su mejor carta! Gohan es un niño llorón",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B004%5D%20%C2%A1Pikoro%20saca%20su%20mejor%20carta%21%20Gohan%20es%20un%20ni%C3%B1o%20llor%C3%B3n.%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 005 - Goku muere, sólo hay una oportunidad - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B005%5D%20Goku%20muere%2C%20s%C3%B3lo%20hay%20una%20oportunidad.%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 006 - Enma-Sama también se sorprende Habrá que luchar en el",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B006%5D%20Enma-Sama%20tambi%C3%A9n%20se%20sorprende.%20Habr%C3%A1%20que%20luchar%20en%20el.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 007 - Hay que sobrevivir a los dinosaurios El duro entrenam",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B007%5D%20Hay%20que%20sobrevivir%20a%20los%20dinosaurios.%20El%20duro%20entrenam.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 008 - Una transformación a causa del resplandor de la Luna,",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B008%5D%20Una%20transformaci%C3%B3n%20a%20causa%20del%20resplandor%20de%20la%20Luna%2C%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 009 - Perdóneme señor robot Lágrimas que desaparecen en el",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B009%5D%20Perd%C3%B3neme%20se%C3%B1or%20robot.%20L%C3%A1grimas%20que%20desaparecen%20en%20el%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 010 - No llores Gohan Es la primera batalla - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B010%5D%20No%20llores%20Gohan.%20Es%20la%20primera%20batalla.%20-%20Dragon%20Ball%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 011 - Los guerreros más fuertes del Universo, el despertar d",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B011%5D%20Los%20guerreros%20m%C3%A1s%20fuertes%20del%20Universo%2C%20el%20despertar%20d.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 012 - Una pequeña siesta, Goku cae del camino de la serpient",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B012%5D%20Una%20peque%C3%B1a%20siesta%2C%20Goku%20cae%20del%20camino%20de%20la%20serpient.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 013 - ¡No toques eso! La fruta secreta de Enma-Sama - Drago",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B013%5D%20%C2%A1No%20toques%20eso%21%20La%20fruta%20secreta%20de%20Enma-Sama.%20-%20Drago.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 014 - Una dulce tentación; la hospitalidad de la Princesa Se",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B014%5D%20Una%20dulce%20tentaci%C3%B3n%3B%20la%20hospitalidad%20de%20la%20Princesa%20Se.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 015 - ¡Escape de Pikoro! Gohan llama a una tormenta - Drago",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B015%5D%20%C2%A1Escape%20de%20Pikoro%21%20Gohan%20llama%20a%20una%20tormenta.%20-%20Drago.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 016 - ¡Corre Gohan! Milk te espera en la montaña Paoz - Dra",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B016%5D%20%C2%A1Corre%20Gohan%21%20Milk%20te%20espera%20en%20la%20monta%C3%B1a%20Paoz.%20-%20Dra.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 017 - ¡Una ciudad sin futuro! Un largo camino hacia la victo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B017%5D%20%C2%A1Una%20ciudad%20sin%20futuro%21%20Un%20largo%20camino%20hacia%20la%20victo.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 018 - El final del camino de la serpiente ¿Tú eres Kaio-Sam",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B018%5D%20El%20final%20del%20camino%20de%20la%20serpiente.%20%C2%BFT%C3%BA%20eres%20Kaio-Sam.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 019 - ¡Domina la fuerza de gravedad! Atrapa a Bubbles - Dra",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B019%5D%20%C2%A1Domina%20la%20fuerza%20de%20gravedad%21%20Atrapa%20a%20Bubbles.%20-%20Dra.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 020 - ¡La leyenda revive! Los antepasados de Goku - Dragon",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B020%5D%20%C2%A1La%20leyenda%20revive%21%20Los%20antepasados%20de%20Goku.%20-%20Dragon%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 021 - ¡Sal de ahí Shen Long! Los Saiyajins han llegado a la",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B021%5D%20%C2%A1Sal%20de%20ah%C3%AD%20Shen%20Long%21%20Los%20Saiyajins%20han%20llegado%20a%20la%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 022 - Imposible; ¿Sai-bai-man nacidos de la tierra - Dragon",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B022%5D%20Imposible%3B%20%C2%BFSai-bai-man%20nacidos%20de%20la%20tierra.%20-%20Dragon.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 023 - ¡Yamcha muere! Los temibles Sai-bai-man - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B023%5D%20%C2%A1Yamcha%20muere%21%20Los%20temibles%20Sai-bai-man.%20-%20Dragon%20Ball.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 024 - ¡Adiós Ten! La táctica de sacrificio de Chaoz - Drago",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B024%5D%20%C2%A1Adi%C3%B3s%20Ten%21%20La%20t%C3%A1ctica%20de%20sacrificio%20de%20Chaoz.%20-%20Drago.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 025 - ¡El sacrificio de Ten-shin-han! El último Ki-ko-ho-da",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B025%5D%20%C2%A1El%20sacrificio%20de%20Ten-shin-han%21%20El%20%C3%BAltimo%20Ki-ko-ho-da..mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 026 - ¡Sólo nos quedan tres horas de vida! ¡Apresúrate Goku!",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B026%5D%20%C2%A1S%C3%B3lo%20nos%20quedan%20tres%20horas%20de%20vida%21%20%C2%A1Apres%C3%BArate%20Goku%21.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 027 - La furia de Gohan estalla",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B027%5D%20La%20furia%20de%20Gohan%20estalla.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 028 - El ataque de los Saiyajins; Kami-Sama y Piccolo mueren",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B028%5D%20El%20ataque%20de%20los%20Saiyajins%3B%20Kami-Sama%20y%20Piccolo%20mueren.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 029 - ¡Papá eres increíble! Una técnica mortal llamada Kaio",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B029%5D%20%C2%A1Pap%C3%A1%20eres%20incre%C3%ADble%21%20Una%20t%C3%A9cnica%20mortal%20llamada%20Kaio-.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 030 - Una pelea fuera del límite; Goku contra Vegeta - Drag",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B030%5D%20Una%20pelea%20fuera%20del%20l%C3%ADmite%3B%20Goku%20contra%20Vegeta.%20-%20Drag.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 031 - ¡Arriesga tu vida Goku! La última opción - Dragon Bal",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B031%5D%20%C2%A1Arriesga%20tu%20vida%20Goku%21%20La%20%C3%BAltima%20opci%C3%B3n.%20-%20Dragon%20Bal.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 032 - ¡Su poder de pelea ha aumentado diez veces más! La tra",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B032%5D%20%C2%A1Su%20poder%20de%20pelea%20ha%20aumentado%20diez%20veces%20m%C3%A1s%21%20La%20tra.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 033 - ¡No te mueras papá! El poder escondido de Gohan - Dra",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B033%5D%20%C2%A1No%20te%20mueras%20pap%C3%A1%21%20El%20poder%20escondido%20de%20Gohan.%20-%20Dra.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 034 - ¡Pégale Krilin! Una Genki-dama llena de esperanza - D",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B034%5D%20%C2%A1P%C3%A9gale%20Krilin%21%20Una%20Genki-dama%20llena%20de%20esperanza.%20-%20D.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 035 - ¡Ocurre un milagro! La trasformación de Gohan - Drago",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B035%5D%20%C2%A1Ocurre%20un%20milagro%21%20La%20trasformaci%C3%B3n%20de%20Gohan.%20-%20Drago.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 02",
+        "episodes": [
+          {
+            "name": "Dragon Ball Z - Cap. 036 - ¡Vayamos al planeta de Pikoro!",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B036%5D%20%C2%A1Vayamos%20al%20planeta%20de%20Pikoro%21.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 037 - Un lugar misterioso llamado Yunzabit ¡Busquemos la na",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B037%5D%20Un%20lugar%20misterioso%20llamado%20Yunzabit.%20%C2%A1Busquemos%20la%20na.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 038 - ¡Vamos rumbo a Namekusei! Algo extraño los está espera",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B038%5D%20%C2%A1Vamos%20rumbo%20a%20Namekusei%21%20Algo%20extra%C3%B1o%20los%20est%C3%A1%20espera.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 039 - ¿Serán amigos o enemigos Los niños de aquella misterio",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B039%5D%20%C2%BFSer%C3%A1n%20amigos%20o%20enemigos%20Los%20ni%C3%B1os%20de%20aquella%20misterio.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 040 - ¿Es ese Namekusei",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B040%5D%20%C2%BFEs%20ese%20Namekusei%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 041 - Unos extraterrestres muy amables",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B041%5D%20Unos%20extraterrestres%20muy%20amables.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 042 - El Planeta Freezer No 79; Vegeta ha sido revivido",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B042%5D%20El%20Planeta%20Freezer%20No.%2079%3B%20Vegeta%20ha%20sido%20revivido.%20-%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 043 - ¡Hemos reunido las Esferas del Dragón! ¡Ahora podremos",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B043%5D%20%C2%A1Hemos%20reunido%20las%20Esferas%20del%20Drag%C3%B3n%21%20%C2%A1Ahora%20podremos.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 044 - ¡Un nuevo enemigo! El emperador del universo Freezer",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B044%5D%20%C2%A1Un%20nuevo%20enemigo%21%20El%20emperador%20del%20universo%20Freezer.%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 045 - ¡La ambición de Vegeta! ¡Yo soy el guerrero más fuerte",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B045%5D%20%C2%A1La%20ambici%C3%B3n%20de%20Vegeta%21%20%C2%A1Yo%20soy%20el%20guerrero%20m%C3%A1s%20fuerte.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 046 - El viaje de Goku a Namekusei",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B046%5D%20El%20viaje%20de%20Goku%20a%20Namekusei.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 047 - ¡Un ataque sorpresivo! El anciano destruye los rastrea",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B047%5D%20%C2%A1Un%20ataque%20sorpresivo%21%20El%20anciano%20destruye%20los%20rastrea.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 048 - ¡Gohan se arriesga! El perseguidor Dodoria - Dragon B",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B048%5D%20%C2%A1Gohan%20se%20arriesga%21%20El%20perseguidor%20Dodoria.%20-%20Dragon%20B.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 049 - La muerte de Dodoria",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B049%5D%20La%20muerte%20de%20Dodoria.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 050 - Goku utiliza un Kame-Hame-Ha para salvar su vida - Dr",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B050%5D%20Goku%20utiliza%20un%20Kame-Hame-Ha%20para%20salvar%20su%20vida.%20-%20Dr.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 051 - Los grandes peleadores se reúnen con Kaio-Sama - Drag",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B051%5D%20Los%20grandes%20peleadores%20se%20re%C3%BAnen%20con%20Kaio-Sama.%20-%20Drag.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 052 - ¡Escúchame Goku! No te acerques a Freezer - Dragon Ba",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B052%5D%20%C2%A1Esc%C3%BAchame%20Goku%21%20No%20te%20acerques%20a%20Freezer.%20-%20Dragon%20Ba.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 053 - La horrible transformación de Zaabon - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B053%5D%20La%20horrible%20transformaci%C3%B3n%20de%20Zaabon.%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 054 - Hay que proteger al planeta de la esperanza! Krilin in",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B054%5D%20Hay%20que%20proteger%20al%20planeta%20de%20la%20esperanza%21%20Krilin%20in.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 055 - Vegeta revive milagrosamente",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B055%5D%20Vegeta%20revive%20milagrosamente.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 056 - El complot de Freezer se ha desvanecido - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B056%5D%20El%20complot%20de%20Freezer%20se%20ha%20desvanecido.%20-%20Dragon%20Ball.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 057 - Goku entrena bajo la gravedad de cien - Dragon Ball S",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B057%5D%20Goku%20entrena%20bajo%20la%20gravedad%20de%20cien.%20-%20Dragon%20Ball%20S.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 058 - El grupo secreto de Freezer Las terribles fuerzas esp",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B058%5D%20El%20grupo%20secreto%20de%20Freezer.%20Las%20terribles%20fuerzas%20esp.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 059 - ¡Ten cuidado Bulma! La esfera de 4 estrellas podría ca",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B059%5D%20%C2%A1Ten%20cuidado%20Bulma%21%20La%20esfera%20de%204%20estrellas%20podr%C3%ADa%20ca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 060 - La inquebrantable voluntad de Goku - Dragon Ball Sull",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B060%5D%20La%20inquebrantable%20voluntad%20de%20Goku.%20-%20Dragon%20Ball%20Sull.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 061 - La batalla se acerca, han llegado las fuerzas especial",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B061%5D%20La%20batalla%20se%20acerca%2C%20han%20llegado%20las%20fuerzas%20especial.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 062 - ¡Goku se acerca! Los temibles hombres de Freezer - Dr",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B062%5D%20%C2%A1Goku%20se%20acerca%21%20Los%20temibles%20hombres%20de%20Freezer.%20-%20Dr.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 063 - El señor Gurdo se enfada y utiliza un truco de magia",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B063%5D%20El%20se%C3%B1or%20Gurdo%20se%20enfada%20y%20utiliza%20un%20truco%20de%20magia.%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 064 - El terrible Rikum",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B064%5D%20El%20terrible%20Rikum.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 065 - ¡No te mueras Gohan! Goku finalmente llega al campo de",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B065%5D%20%C2%A1No%20te%20mueras%20Gohan%21%20Goku%20finalmente%20llega%20al%20campo%20de.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 066 - El legendario Super Saiyajin Goku - Dragon Ball Sullc",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B066%5D%20El%20legendario%20Super%20Saiyajin%20Goku.%20-%20Dragon%20Ball%20Sullc.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 067 - ¡Yiz y Boter atacan a Goku!",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B067%5D%20%C2%A1Yiz%20y%20Boter%20atacan%20a%20Goku%21%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 068 - La aparición del capitán Gi-nyu",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B068%5D%20La%20aparici%C3%B3n%20del%20capit%C3%A1n%20Gi-nyu.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 069 - ¡Ya viste el verdadero poder de Goku! - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B069%5D%20%C2%A1Ya%20viste%20el%20verdadero%20poder%20de%20Goku%21%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 070 - Freezer llega con el patriarca",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B070%5D%20Freezer%20llega%20con%20el%20patriarca.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 071 - ¿Goku es Gin-yu y Gin-yu es Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B071%5D%20%C2%BFGoku%20es%20Gin-yu%20y%20Gin-yu%20es%20Goku%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 072 - ¡Sal de ahí Super Shen Long, y cumple mi deseo! - Drag",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B072%5D%20%C2%A1Sal%20de%20ah%C3%AD%20Super%20Shen%20Long%2C%20y%20cumple%20mi%20deseo%21%20-%20Drag.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 073 - ¡Yo no soy él! Gohan, ataca a tu padre sin temor - Dr",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B073%5D%20%C2%A1Yo%20no%20soy%20%C3%A9l%21%20Gohan%2C%20ataca%20a%20tu%20padre%20sin%20temor.%20-%20Dr.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 074 - Gi-nyu se convierte en rana",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B074%5D%20Gi-nyu%20se%20convierte%20en%20rana.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 075 - Di la clave secreta de las Esferas de Dragón - Dragon",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B075%5D%20Di%20la%20clave%20secreta%20de%20las%20Esferas%20de%20Drag%C3%B3n.%20-%20Dragon.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 076 - Pikoro y Kami-Sama reviven con la ayuda del Super Shen",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B076%5D%20Pikoro%20y%20Kami-Sama%20reviven%20con%20la%20ayuda%20del%20Super%20Shen.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 077 - ¿La aparición de un nuevo guerrero Pikoro y Neil se fu",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B077%5D%20%C2%BFLa%20aparici%C3%B3n%20de%20un%20nuevo%20guerrero%20Pikoro%20y%20Neil%20se%20fu.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 078 - ¡Una trasformación de pesadilla! Freezer tiene un pode",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B078%5D%20%C2%A1Una%20trasformaci%C3%B3n%20de%20pesadilla%21%20Freezer%20tiene%20un%20pode.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 079 - Gohan es atacado por el malvado Freezer - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B079%5D%20Gohan%20es%20atacado%20por%20el%20malvado%20Freezer.%20-%20Dragon%20Ball.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 080 - La llegada de Pikoro",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B080%5D%20La%20llegada%20de%20Pikoro.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 081 - Pikoro se encarga de derrotar a Freezer - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B081%5D%20Pikoro%20se%20encarga%20de%20derrotar%20a%20Freezer.%20-%20Dragon%20Ball.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 082 - La segunda trasformación de Freezer - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B082%5D%20La%20segunda%20trasformaci%C3%B3n%20de%20Freezer.%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 083 - Freezer tiene ganada la batalla con su tercera trasfor",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B083%5D%20Freezer%20tiene%20ganada%20la%20batalla%20con%20su%20tercera%20trasfor.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 084 - La muerte de Dende",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B084%5D%20La%20muerte%20de%20Dende.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 085 - Goku se recupera",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B085%5D%20Goku%20se%20recupera.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 086 - Muere un orgulloso saiyajin Vegeta - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B086%5D%20Muere%20un%20orgulloso%20saiyajin.%20Vegeta.%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 087 - La batalla final comienza",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B087%5D%20La%20batalla%20final%20comienza.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 088 - Un combate de cuerpo a cuerpo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B088%5D%20Un%20combate%20de%20cuerpo%20a%20cuerpo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 089 - Freezer pelea sin usar las dos manos - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B089%5D%20Freezer%20pelea%20sin%20usar%20las%20dos%20manos.%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 090 - Goku es un sujeto muy audaz",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B090%5D%20Goku%20es%20un%20sujeto%20muy%20audaz.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 091 - Goku hace el Kaio-ken aumentado a veinte veces - Drag",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B091%5D%20Goku%20hace%20el%20Kaio-ken%20aumentado%20a%20veinte%20veces.%20-%20Drag.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 092 - La gigantesca Genki-dama; esta es la última esperanza",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B092%5D%20La%20gigantesca%20Genki-dama%3B%20esta%20es%20la%20%C3%BAltima%20esperanza..mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 093 - ¡No dejes ir esta oportunidad! Pikoro ayuda a Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B093%5D%20%C2%A1No%20dejes%20ir%20esta%20oportunidad%21%20Pikoro%20ayuda%20a%20Goku.%20-%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 094 - El poder destructivo de la Genki-dama - Dragon Ball S",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B094%5D%20El%20poder%20destructivo%20de%20la%20Genki-dama.%20-%20Dragon%20Ball%20S.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 095 - Finalmente Goku se convierte en el Legendario Super Sa",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B095%5D%20Finalmente%20Goku%20se%20convierte%20en%20el%20Legendario%20Super%20Sa.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 096 - Goku vengará la muerte de todos",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B096%5D%20Goku%20vengar%C3%A1%20la%20muerte%20de%20todos.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 097 - Un gran destello atraviesa Namekusei - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B097%5D%20Un%20gran%20destello%20atraviesa%20Namekusei.%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 098 - Freezer utiliza su máximo poder",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B098%5D%20Freezer%20utiliza%20su%20m%C3%A1ximo%20poder.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 099 - Namekusei está a punto de estallar; Shen Long, cumple",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B099%5D%20Namekusei%20est%C3%A1%20a%20punto%20de%20estallar%3B%20Shen%20Long%2C%20cumple%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 100 - Yo soy el hijo de Goku; Gohan vuelve a aparecer en el",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B100%5D%20Yo%20soy%20el%20hijo%20de%20Goku%3B%20Gohan%20vuelve%20a%20aparecer%20en%20el%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 101 - El último deseo",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B101%5D%20El%20%C3%BAltimo%20deseo.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 102 - La Última Esperanza",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B102%5D%20La%20%C3%9Altima%20Esperanza.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 103 - La desesperación de Freezer",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B103%5D%20La%20desesperaci%C3%B3n%20de%20Freezer.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 104 - La autodestrucción de Freezer",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B104%5D%20La%20autodestrucci%C3%B3n%20de%20Freezer.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 105 - Freezer pierde la pelea",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B105%5D%20Freezer%20pierde%20la%20pelea.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 106 - Namekusei explota",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B106%5D%20Namekusei%20explota.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 107 - Los Guerreros Z han revivido",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B107%5D%20Los%20Guerreros%20Z%20han%20revivido.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 03",
+        "episodes": [
+          {
+            "name": "Dragon Ball Z - Cap. 108 - El Templo Sagrado está en problemas - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B108%5D%20El%20Templo%20Sagrado%20est%C3%A1%20en%20problemas.%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 109 - La neblina del mal",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B109%5D%20La%20neblina%20del%20mal.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 110 - Pikoro forma parte de la familia del mal - Dragon Bal",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B110%5D%20Pikoro%20forma%20parte%20de%20la%20familia%20del%20mal.%20-%20Dragon%20Bal.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 111 - Pikoro enfrenta a Gohan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B111%5D%20Pikoro%20enfrenta%20a%20Gohan.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 112 - El plan de Pikoro",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B112%5D%20El%20plan%20de%20Pikoro.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 113 - Kami sama y Mr Popo van al lugar sagrado - Dragon Ba",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B113%5D%20Kami%20sama%20y%20Mr.%20Popo%20van%20al%20lugar%20sagrado.%20-%20Dragon%20Ba.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 114 - La vida de kami sama está en peligro - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B114%5D%20La%20vida%20de%20kami%20sama%20est%C3%A1%20en%20peligro.%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 115 - El agua ultra sagrada salva al mundo - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B115%5D%20El%20agua%20ultra%20sagrada%20salva%20al%20mundo.%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 116 - Gohan destruye el planeta maligno - Dragon Ball Sullc",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B116%5D%20Gohan%20destruye%20el%20planeta%20maligno.%20-%20Dragon%20Ball%20Sullc.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 117 - Krilin le propone matrimonio a Maron - Dragon Ball Su",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20108-117/%5B117%5D%20Krilin%20le%20propone%20matrimonio%20a%20Maron.%20-%20Dragon%20Ball%20Su.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 118 - Ese es el planeta Tierra Papá",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B118%5D%20Ese%20es%20el%20planeta%20Tierra%20Pap%C3%A1.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 119 - Yo me encargaré de derrotar a Freezer - Dragon Ball S",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B119%5D%20Yo%20me%20encargar%C3%A9%20de%20derrotar%20a%20Freezer.%20-%20Dragon%20Ball%20S.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 120 - El Final de Freezer",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B120%5D%20El%20Final%20de%20Freezer.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 121 - Goku ha regresado",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B121%5D%20Goku%20ha%20regresado.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 122 - La identidad del joven misterioso - Dragon Ball Sullc",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B122%5D%20La%20identidad%20del%20joven%20misterioso.%20-%20Dragon%20Ball%20Sullc.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 123 - La técnica especial de Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B123%5D%20La%20t%C3%A9cnica%20especial%20de%20Goku.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 124 - Superaré a Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B124%5D%20Superar%C3%A9%20a%20Goku.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 125 - Una prueba muy difícil para Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B125%5D%20Una%20prueba%20muy%20dif%C3%ADcil%20para%20Goku.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 126 - ¿Quienes son los androides",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B126%5D%20%C2%BFQuienes%20son%20los%20androides%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 127 - Los Terribles Androides Número 19 y 20 - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B127%5D%20Los%20Terribles%20Androides%20N%C3%BAmero%2019%20y%2020.%20-%20Dragon%20Ball%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 128 - Goku tiene dos Problemas",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B128%5D%20Goku%20tiene%20dos%20Problemas.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 129 - Vegeta se Convierte en Super Saiyajin - Dragon Ball S",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B129%5D%20Vegeta%20se%20Convierte%20en%20Super%20Saiyajin.%20-%20Dragon%20Ball%20S.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 130 - El secreto del doctor Maki",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B130%5D%20El%20secreto%20del%20doctor%20Maki.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 131 - La realidad es acaso mucho peor que el futuro - Dragon",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B131%5D%20La%20realidad%20es%20acaso%20mucho%20peor%20que%20el%20futuro%20-%20Dragon.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 132 - Hay que buscar el laboratorio del doctor Maki - Dragon",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B132%5D%20Hay%20que%20buscar%20el%20laboratorio%20del%20doctor%20Maki%20-%20Dragon.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 133 - Los androides 17 y 18 despiertan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B133%5D%20Los%20androides%2017%20y%2018%20despiertan.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 134 - El ejército encargado de matar a Goku - Dragon Ball S",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B134%5D%20El%20ej%C3%A9rcito%20encargado%20de%20matar%20a%20Goku.%20-%20Dragon%20Ball%20S.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 135 - Las Habilidades del Androide No 18 - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B135%5D%20Las%20Habilidades%20del%20Androide%20No.%2018.%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 136 - ¿Este será el fin de los Guerreros Z - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B136%5D%20%C2%BFEste%20ser%C3%A1%20el%20fin%20de%20los%20Guerreros%20Z%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 137 - La decisión de Pikoro",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B137%5D%20La%20decisi%C3%B3n%20de%20Pikoro.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 138 - Los androides destructores",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B138%5D%20Los%20androides%20destructores.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 139 - Bulma se entera de un gran misterio - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B139%5D%20Bulma%20se%20entera%20de%20un%20gran%20misterio.%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 04",
+        "episodes": [
+          {
+            "name": "Dragon Ball Z - Cap. 140 - Un misterioso huevo encontrado en la máquina del tiemp",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20118-140/%5B140%5D%20Un%20misterioso%20huevo%20encontrado%20en%20la%20m%C3%A1quina%20del%20tiemp.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 141 - El nacimiento de un nuevo guerrero - Dragon Ball Sull",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B141%5D%20El%20nacimiento%20de%20un%20nuevo%20guerrero.%20-%20Dragon%20Ball%20Sull.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 142 - El monstruo que tiene el ki de Goku - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B142%5D%20El%20monstruo%20que%20tiene%20el%20ki%20de%20Goku.%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 143 - El androide Cell",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B143%5D%20El%20androide%20Cell.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 144 - Cell se escapa de las manos de Pikoro - Dragon Ball S",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B144%5D%20Cell%20se%20escapa%20de%20las%20manos%20de%20Pikoro.%20-%20Dragon%20Ball%20S.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 145 - La habitación secreta del laboratorio del doctor Gero",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B145%5D%20La%20habitaci%C3%B3n%20secreta%20del%20laboratorio%20del%20doctor%20Gero..mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 146 - Goku se recupera",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B146%5D%20Goku%20se%20recupera.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 147 - ¡Vamos a la Habitación del Tiempo! - Dragon Ball Sullc",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B147%5D%20%C2%A1Vamos%20a%20la%20Habitaci%C3%B3n%20del%20Tiempo%21%20-%20Dragon%20Ball%20Sullc.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 148 - Pikoro VS El Androide No 17",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B148%5D%20Pikoro%20VS%20El%20Androide%20No.%2017%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 149 - Cell está a punto de perfeccionar su cuerpo - Dragon",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B149%5D%20Cell%20est%C3%A1%20a%20punto%20de%20perfeccionar%20su%20cuerpo.%20-%20Dragon%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 150 - Pikoro pelea con todas sus fuerzas - Dragon Ball Sull",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B150%5D%20Pikoro%20pelea%20con%20todas%20sus%20fuerzas.%20-%20Dragon%20Ball%20Sull.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 151 - La última esperanza, el androide No 16 - Dragon Ball",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B151%5D%20La%20%C3%BAltima%20esperanza%2C%20el%20androide%20No.%2016%20-%20Dragon%20Ball%20.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 152 - Cell absorbe a No 17",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B152%5D%20Cell%20absorbe%20a%20No.%2017.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 153 - El nuevo desafío de Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B153%5D%20El%20nuevo%20desaf%C3%ADo%20de%20Goku.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 154 - Sal de ahí No 18",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B154%5D%20Sal%20de%20ah%C3%AD%20No.%2018.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 155 - El Super poder de Vegeta",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B155%5D%20El%20Super%20poder%20de%20Vegeta.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 156 - Yo soy super Vegeta",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B156%5D%20Yo%20soy%20super%20Vegeta.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 157 - Un guerrero orgulloso",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B157%5D%20Un%20guerrero%20orgulloso.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 158 - La decisión de Krilin",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B158%5D%20La%20decisi%C3%B3n%20de%20Krilin.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 159 - Cell busca perfeccionar su cuerpo - Dragon Ball Sullc",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B159%5D%20Cell%20busca%20perfeccionar%20su%20cuerpo.%20-%20Dragon%20Ball%20Sullc.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 160 - Cell, el dios de la destrucción",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B160%5D%20Cell%2C%20el%20dios%20de%20la%20destrucci%C3%B3n.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 161 - Super Vegeta corre peligro",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B161%5D%20Super%20Vegeta%20corre%20peligro.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 162 - Trunks se pone furioso",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B162%5D%20Trunks%20se%20pone%20furioso.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 163 - Salva a papá",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B163%5D%20Salva%20a%20pap%C3%A1.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 164 - La desesperación de vivir en un futuro infernal - Dra",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B164%5D%20La%20desesperaci%C3%B3n%20de%20vivir%20en%20un%20futuro%20infernal.%20-%20Dra.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 165 - El punto débil de Super Trunks",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B165%5D%20El%20punto%20d%C3%A9bil%20de%20Super%20Trunks.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 166 - El misterio del nuevo torneo de artes marciales - Dra",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B166%5D%20El%20misterio%20del%20nuevo%20torneo%20de%20artes%20marciales.%20-%20Dra.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 167 - El aviso del torneo de Cell",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B167%5D%20El%20aviso%20del%20torneo%20de%20Cell.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 168 - Los nuevos poderes de Goku y Gohan - Dragon Ball Sull",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B168%5D%20Los%20nuevos%20poderes%20de%20Goku%20y%20Gohan.%20-%20Dragon%20Ball%20Sull.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 169 - La tranquilidad de Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B169%5D%20La%20tranquilidad%20de%20Goku.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 170 - El descanso de los guerreros",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B170%5D%20El%20descanso%20de%20los%20guerreros.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 171 - Cuando Gohan era bebé",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B171%5D%20Cuando%20Gohan%20era%20beb%C3%A9.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 172 - Busquemos a un nuevo kami sama",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B172%5D%20Busquemos%20a%20un%20nuevo%20kami%20sama.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 173 - Las esferas del dragón vuelven a existir - Dragon Bal",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B173%5D%20Las%20esferas%20del%20drag%C3%B3n%20vuelven%20a%20existir.%20-%20Dragon%20Bal.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 174 - El sufrimiento de Goku",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B174%5D%20El%20sufrimiento%20de%20Goku.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 175 - El torneo de Cell comienza",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B175%5D%20El%20torneo%20de%20Cell%20comienza.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 176 - El ejército de Mr Satán",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B176%5D%20El%20ej%C3%A9rcito%20de%20Mr.%20Sat%C3%A1n.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 177 - Goku vs Cell",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B177%5D%20Goku%20vs.%20Cell.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 178 - El super kame-hame-ha de Cell",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B178%5D%20El%20super%20kame-hame-ha%20de%20Cell.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 179 - Cell cambia las reglas del torneo - Dragon Ball Sullc",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B179%5D%20Cell%20cambia%20las%20reglas%20del%20torneo.%20-%20Dragon%20Ball%20Sullc.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 180 - ¿Goku se rinde",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B180%5D%20%C2%BFGoku%20se%20rinde%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 181 - Gohan, el joven más fuerte",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B181%5D%20Gohan%2C%20el%20joven%20m%C3%A1s%20fuerte.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 182 - Gohan, ¡Expulsa todo tu poder!",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B182%5D%20Gohan%2C%20%C2%A1Expulsa%20todo%20tu%20poder%21%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 183 - El ataque de los Cell juniors",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B183%5D%20El%20ataque%20de%20los%20Cell%20juniors.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 184 - Gohan se enfada",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B184%5D%20Gohan%20se%20enfada.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 185 - Destrucción de los Cell Juniors",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B185%5D%20Destrucci%C3%B3n%20de%20los%20Cell%20Juniors.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 186 - Cell es golpeado",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B186%5D%20Cell%20es%20golpeado.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 187 - La transformación de Cell",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B187%5D%20La%20transformaci%C3%B3n%20de%20Cell.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 188 - Adiós a todos",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B188%5D%20Adi%C3%B3s%20a%20todos.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 189 - Una terrible pesadilla en pleno día - Dragon Ball Sul",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B189%5D%20Una%20terrible%20pesadilla%20en%20pleno%20d%C3%ADa.%20-%20Dragon%20Ball%20Sul.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 190 - Un mensaje para Gohan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B190%5D%20Un%20mensaje%20para%20Gohan.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 191 - La pelea ha terminado gracias, Goku - Dragon Ball S",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B191%5D%20La%20pelea%20ha%20terminado...%20gracias%2C%20Goku%20-%20Dragon%20Ball%20S.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 192 - Goku se va a entrenar al más allá - Dragon Ball Sullc",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B192%5D%20Goku%20se%20va%20a%20entrenar%20al%20m%C3%A1s%20all%C3%A1.%20-%20Dragon%20Ball%20Sullc.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 193 - ¡Papá, jamás me daré por vencido!",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B193%5D%20%C2%A1Pap%C3%A1%2C%20jam%C3%A1s%20me%20dar%C3%A9%20por%20vencido%21%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 194 - Otro final feliz",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B194%5D%20Otro%20final%20feliz.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 195 - El peleador más fuerte del otro mundo - Dragon Ball S",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B195%5D%20El%20peleador%20m%C3%A1s%20fuerte%20del%20otro%20mundo.%20-%20Dragon%20Ball%20S.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 196 - La reunión de los peleadores mas valientes - Dragon B",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B196%5D%20La%20reuni%C3%B3n%20de%20los%20peleadores%20mas%20valientes.%20-%20Dragon%20B.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 197 - El torneo se pone emocionante",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B197%5D%20El%20torneo%20se%20pone%20emocionante.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 198 - ¿Quién ganará Goku o Paikuhan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B198%5D%20%C2%BFQui%C3%A9n%20ganar%C3%A1%20Goku%20o%20Paikuhan.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 199 - Goku hace un Kame-Hame-Ha a toda velocidad - Dragon B",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B199%5D%20Goku%20hace%20un%20Kame-Hame-Ha%20a%20toda%20velocidad.%20-%20Dragon%20B.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 05",
+        "episodes": [
+          {
+            "name": "Dragon Ball Z - Cap. 200 - Gohan asiste a la preparatoria",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B200%5D%20Gohan%20asiste%20a%20la%20preparatoria.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 201 - El guerrero que lucha por la justicia, el Gran Saiyama",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B201%5D%20El%20guerrero%20que%20lucha%20por%20la%20justicia%2C%20el%20Gran%20Saiyama.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 202 - La primera cita de Gohan",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B202%5D%20La%20primera%20cita%20de%20Gohan.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 203 - Gohan salva a Videl",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B203%5D%20Gohan%20salva%20a%20Videl.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 204 - ¿El ladrón es el Gran Saiyaman",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B204%5D%20%C2%BFEl%20ladr%C3%B3n%20es%20el%20Gran%20Saiyaman%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 205 - ¿Gokú regresa",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B205%5D%20%C2%BFGok%C3%BA%20regresa%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 206 - El sorprendente poder de Goten",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B206%5D%20El%20sorprendente%20poder%20de%20Goten.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 207 - El entrenamiento para volar",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B207%5D%20El%20entrenamiento%20para%20volar.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 208 - Los guerreros Z se reúnen de nuevo - Dragon Ball Sull",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B208%5D%20Los%20guerreros%20Z%20se%20re%C3%BAnen%20de%20nuevo.%20-%20Dragon%20Ball%20Sull.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 209 - Ten cuidado gran Saiyaman",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B209%5D%20Ten%20cuidado%20gran%20Saiyaman.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 210 - El pequeño Trunks",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B210%5D%20El%20peque%C3%B1o%20Trunks.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 211 - Goten se pone nervioso",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B211%5D%20Goten%20se%20pone%20nervioso.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 212 - El campeón del torneo infantil",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B212%5D%20El%20campe%C3%B3n%20del%20torneo%20infantil.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 213 - ¿Qué vas a hacer Mr Satán",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B213%5D%20%C2%BFQu%C3%A9%20vas%20a%20hacer%20Mr%20Sat%C3%A1n%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 214 - Los combates del torneo de artes marciales - Dragon B",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B214%5D%20Los%20combates%20del%20torneo%20de%20artes%20marciales.%20-%20Dragon%20B.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 215 - ¿Qué sucede Pikoro",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B215%5D%20%C2%BFQu%C3%A9%20sucede%20Pikoro%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 216 - El misterio de Spopovich",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B216%5D%20El%20misterio%20de%20Spopovich.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 217 - Gohan se enfurece",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B217%5D%20Gohan%20se%20enfurece.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 218 - Gohan es el Gran Saiyaman",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B218%5D%20Gohan%20es%20el%20Gran%20Saiyaman.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          },
+          {
+            "name": "Dragon Ball Z - Cap. 219 - El poder de Gohan es robado",
+            "url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20200-250/%5B219%5D%20El%20poder%20de%20Gohan%20es%20robado.%20-%20Dragon%20Ball%20Sullca.mp4",
+            "logo": "https://archive.org/services/img/dragon-ball-zvideoplaytv"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 06",
         "episodes": [
           {
             "name": "Dragon Ball Z - Cap. 220 - El malvado mago Babidi",
@@ -20248,8 +21733,8 @@
   {
     "series": "Los Caballeros del Zodiaco",
     "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1",
-    "total_seasons": 4,
-    "total_episodes": 145,
+    "total_seasons": 8,
+    "total_episodes": 290,
     "seasons": [
       {
         "season": "Temporada 01: Saga del Santuario (Cap. 001 - 073)",
@@ -20838,6 +22323,751 @@
       },
       {
         "season": "Temporada 04: Saga de Hades (Cap. 115 - 145)",
+        "episodes": [
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 115 - Hades 01",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2001.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 116 - Hades 02",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2002.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 117 - Hades 03",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2003.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 118 - Hades 04",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2004.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 119 - Hades 05",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2005.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 120 - Hades 06",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2006.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 121 - Hades 07",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2007.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 122 - Hades 08",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2008.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 123 - Hades 09",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2009.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 124 - Hades 10",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2010.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 125 - Hades 11",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2011.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 126 - Hades 12",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2012.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 127 - Hades 13",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2013.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 128 - Hades 14",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2014%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 129 - Hades 15",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2015%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 130 - Hades 16",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2016%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 131 - Hades 17",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2017%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 132 - Hades 18",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2018%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 133 - Hades 19",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2019%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 134 - Hades 20",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2020%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 135 - Hades 21",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2021%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 136 - Hades 22",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2022%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 137 - Hades 23",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2023%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 138 - Hades 24",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2024%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 139 - Hades 25",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2025%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 140 - Hades 26",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2026%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 141 - Hades 27",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2027%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 142 - Hades 28",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2028%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 143 - Hades 29",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2029%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 144 - Hades 30",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2030%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 145 - Hades 31",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20Saint%20Seiya%20Hades%2031%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 01",
+        "episodes": [
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 001 - Episodio 001",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20001%20%5BD80DFE63%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 002 - Episodio 002",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20002%20%5B6118C34F%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 003 - Episodio 003",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20003%20%5BCED2C2F0%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 004 - Episodio 004",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20004%20%5B720B34FE%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 005 - Episodio 005",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20005%20%5B1B9F113F%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 006 - Episodio 006",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20006%20%5BB68A0B35%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 007 - Episodio 007",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20007%20%5B340F1B5D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 008 - Episodio 008",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20008%20%5B7A70F533%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 009 - Episodio 009",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20009%20%5B0E9C2D31%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 010 - Episodio 010",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20010%20%5B1A037BB8%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 011 - Episodio 011",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20011%20%5BFF39177B%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 012 - Episodio 012",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20012%20%5B99AA7F5D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 013 - Episodio 013",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20013%20%5B14B0C52E%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 014 - Episodio 014",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20014%20%5B172BA025%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 015 - Episodio 015",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20015%20%5B9998D8BD%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 016 - Episodio 016",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20016%20%5BA594966F%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 017 - Episodio 017",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20017%20%5B2855F83B%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 018 - Episodio 018",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20018%20%5B42455CA4%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 019 - Episodio 019",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20019%20%5BD657FBD8%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 020 - Episodio 020",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20020%20%5B47DD9761%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 021 - Episodio 021",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20021%20%5B70A58E79%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 022 - Episodio 022",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20022%20%5BDFDB844A%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 023 - Episodio 023",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20023%20%5B801F5F68%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 024 - Episodio 024",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20024%20%5BD01B41C1%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 025 - Episodio 025",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20025%20%5B2AF6EDAF%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 026 - Episodio 026",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20026%20%5B1349B2FC%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 027 - Episodio 027",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20027%20%5B486CBD67%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 028 - Episodio 028",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20028%20%5B7EC22220%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 029 - Episodio 029",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20029%20%5BACD0E379%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 030 - Episodio 030",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20030%20%5BB73259BE%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 031 - Episodio 031",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20031%20%5BBAABF1D0%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 032 - Episodio 032",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20032%20%5B983B337A%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 033 - Episodio 033",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20033%20%5B542345F7%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 034 - Episodio 034",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20034%20%5B1238BF8E%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 035 - Episodio 035",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20035%20%5B2EDFE932%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 036 - Episodio 036",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20036%20%5BF0F8F5CB%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 037 - Episodio 037",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20037%20%5B233F4E30%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 038 - Episodio 038",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20038%20%5BF527D68D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 039 - Episodio 039",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20039%20%5B107B913F%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 040 - Episodio 040",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20040%20%5B9DC48BED%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 041 - Episodio 041",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20041%20%5B45D3D4EE%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 042 - Episodio 042",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20042%20%5BFE93661C%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 043 - Episodio 043",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20043%20%5BA3960C84%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 044 - Episodio 044",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20044%20%5B42AD17D8%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 045 - Episodio 045",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20045%20%5B1EEAB39B%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 046 - Episodio 046",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20046%20%5B145545C4%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 047 - Episodio 047",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20047%20%5BCDB6E231%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 048 - Episodio 048",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20048%20%5BE9347E18%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 049 - Episodio 049",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20049%20%5B6B78ABE5%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 050 - Episodio 050",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20050%20%5B05681D76%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 051 - Episodio 051",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20051%20%5BF17C8175%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 052 - Episodio 052",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20052%20%5B0926503C%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 053 - Episodio 053",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20053%20%5B942DBDC4%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 054 - Episodio 054",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20054%20%5B28D381F1%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 055 - Episodio 055",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20055%20%5BB7109872%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 056 - Episodio 056",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20056%20%5B0A4C44ED%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 057 - Episodio 057",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20057%20%5B6030E88E%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 058 - Episodio 058",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20058%20%5B1DC303D7%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 059 - Episodio 059",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20059%20%5B7DF82E75%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 060 - Episodio 060",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20060%20%5B0F24B537%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 061 - Episodio 061",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20061%20%5BBBD0C0B0%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 062 - Episodio 062",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20062%20%5B655A0DA6%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 063 - Episodio 063",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20063%20%5BFBFCBCED%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 064 - Episodio 064",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20064%20%5BABA46502%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 065 - Episodio 065",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20065%20%5B9FFC3582%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 066 - Episodio 066",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20066%20%5B532CF044%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 067 - Episodio 067",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20067%20%5BD10057CD%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 068 - Episodio 068",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20068%20%5BB37F778C%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 069 - Episodio 069",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20069%20%5B68D6D7B1%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 070 - Episodio 070",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20070%20%5B64AA933D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 071 - Episodio 071",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20071%20%5BADF1A90A%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 072 - Episodio 072",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20072%20%5B3B604DE9%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 073 - Episodio 073",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20073%20%5B6C151BC8%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 02",
+        "episodes": [
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 074 - Episodio 074",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20074%20%5BFF10996A%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 075 - Episodio 075",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20075%20%5B6A32AC4D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 076 - Episodio 076",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20076%20%5B4D0483B1%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 077 - Episodio 077",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20077%20%5BA0E532BD%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 078 - Episodio 078",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20078%20%5BC8DE8BA5%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 079 - Episodio 079",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20079%20%5B3EB1A8C8%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 080 - Episodio 080",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20080%20%5B05EE1ADC%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 081 - Episodio 081",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20081%20%5BF2C0A692%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 082 - Episodio 082",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20082%20%5BAD592766%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 083 - Episodio 083",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20083%20%5B91FFA617%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 084 - Episodio 084",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20084%20%5B77E62C5D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 085 - Episodio 085",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20085%20%5B4E31BFA9%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 086 - Episodio 086",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20086%20%5B4E1275AB%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 087 - Episodio 087",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20087%20%5B97FFBC92%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 088 - Episodio 088",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20088%20%5BA6A3E16C%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 089 - Episodio 089",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20089%20%5B9E06F8D6%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 090 - Episodio 090",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20090%20%5B8BC5EC3B%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 091 - Episodio 091",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20091%20%5B7D6771E3%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 092 - Episodio 092",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20092%20%5B02B99D88%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 093 - Episodio 093",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20093%20%5BFEC47454%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 094 - Episodio 094",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20094%20%5B329013DD%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 095 - Episodio 095",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20095%20%5BC9B143D4%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 096 - Episodio 096",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20096%20%5B2AD28F1A%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 097 - Episodio 097",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20097%20%5BBD32299C%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 098 - Episodio 098",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20098%20%5BE4E283C9%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 099 - Episodio 099",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20099%20%5BB74F2B18%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 03",
+        "episodes": [
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 100 - Episodio 100",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20100%20%5B6A5AD705%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 101 - Episodio 101",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20101%20%5B32C24AB9%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 102 - Episodio 102",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20102%20%5B6999FBEC%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 103 - Episodio 103",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20103%20%5BC0649F75%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 104 - Episodio 104",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20104%20%5B3160255E%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 105 - Episodio 105",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20105%20%5BC3EC495D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 106 - Episodio 106",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20106%20%5BCF9C2B2D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 107 - Episodio 107",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20107%20%5B81DE6E70%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 108 - Episodio 108",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20108%20%5B0B3F11E3%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 109 - Episodio 109",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20109%20%5B84C963DE%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 110 - Episodio 110",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20110%20%5B55F2F15D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 111 - Episodio 111",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20111%20%5B37E92F32%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 112 - Episodio 112",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20112%20%5B4454AC72%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 113 - Episodio 113",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20113%20%5B703E4E3D%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          },
+          {
+            "name": "Los Caballeros del Zodiaco - Cap. 114 - Episodio 114",
+            "url": "https://archive.org/download/yk-saint-seiya-024-d-01-b-41-c-1/%5BYK%5D%20%20Saint%20Seiya%20-%20114%20%5B54E4F2A6%5D%20.mp4",
+            "logo": "https://archive.org/services/img/yk-saint-seiya-024-d-01-b-41-c-1"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 04",
         "episodes": [
           {
             "name": "Los Caballeros del Zodiaco - Cap. 115 - Hades 01",

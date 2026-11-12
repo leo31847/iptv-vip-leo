@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-11 22:17",
+  "version": "2026-11-12 03:36",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -10121,7 +10121,8 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
+        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
       ]
     },
     {
@@ -10156,8 +10157,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -12278,7 +12278,8 @@
       "l": "https://i.imgur.com/Oj3hEBh.jpg",
       "r": "1080p",
       "u": [
-        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8"
+        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8",
+        "http://45.228.234.9:8000/play/a06u/index.m3u8"
       ]
     },
     {
@@ -13653,7 +13654,8 @@
       "l": "https://www.vivalivetv.com/public/files/shows/0/1/2951-294x165-FFFFFF.jpg",
       "r": "720p",
       "u": [
-        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8"
+        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8",
+        "https://vdopanel.jlahozconsulting.com/p/3303/live/makinalive.m3u8"
       ],
       "n24": 1
     },
@@ -15994,8 +15996,7 @@
       "l": "https://i.ibb.co/tLhcNTD/amigos-tv-chiquimula.png",
       "r": "480p",
       "u": [
-        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8",
-        "http://45.166.93.156:9999/play/a0j2/index.m3u8"
+        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8"
       ]
     },
     {
@@ -17066,7 +17067,7 @@
       "l": "https://i.imgur.com/m0Zdxiz.png",
       "r": "1080p",
       "u": [
-        "https://streamingcws30.com/tn8/videotn8/playlist.m3u8"
+        "http://190.61.101.11:7050/play/a07j/index.m3u8"
       ]
     },
     {
