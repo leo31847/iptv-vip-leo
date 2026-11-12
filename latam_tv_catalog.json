@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12 03:36",
+  "version": "2026-11-12 12:23",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -6809,9 +6809,7 @@
       "l": "https://i.imgur.com/mSn7ACs.png",
       "r": "HD",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0",
-        "http://www.coninfo.net:1935/tvcinco/live2/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8"
       ]
     },
     {
@@ -7781,8 +7779,7 @@
       "l": "https://i.imgur.com/lJCIqYn.png",
       "r": "720p",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8"
       ]
     },
     {
@@ -10157,7 +10154,8 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
       ]
     },
     {
@@ -11931,8 +11929,7 @@
       "l": "https://i.imgur.com/okK02EN.png",
       "r": "1080p",
       "u": [
-        "http://45.224.97.181:9999/TC/index.m3u8",
-        "http://177.234.218.66:8084/play/a089/index.m3u8"
+        "http://45.224.97.181:9999/TC/index.m3u8"
       ]
     },
     {
@@ -15232,8 +15229,7 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
-        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
       ]
     },
     {
@@ -15996,7 +15992,8 @@
       "l": "https://i.ibb.co/tLhcNTD/amigos-tv-chiquimula.png",
       "r": "480p",
       "u": [
-        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8"
+        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8",
+        "http://45.166.93.156:9999/play/a0j2/index.m3u8"
       ]
     },
     {

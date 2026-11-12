@@ -3345,8 +3345,8 @@
   {
     "series": "Coraje el Perro Cobarde",
     "logo": "https://archive.org/services/img/Coraje-1",
-    "total_seasons": 4,
-    "total_episodes": 104,
+    "total_seasons": 5,
+    "total_episodes": 105,
     "seasons": [
       {
         "season": "Temporada 01",
@@ -3885,6 +3885,16 @@
             "name": "Coraje el Perro Cobarde - T04E26 - La niebla de Coraje (2014)",
             "url": "https://archive.org/download/Coraje-4/4x26%20-%20La%20niebla%20de%20Coraje%20%282014%29.mp4",
             "logo": "https://archive.org/services/img/Coraje-4"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 00",
+        "episodes": [
+          {
+            "name": "Coraje el Perro Cobarde - T00E01 - Chicken from outer space",
+            "url": "https://archive.org/download/Coraje-el-perro-cobarde-latino/S00E01%20Chicken%20from%20outer%20space.mkv",
+            "logo": "https://archive.org/services/img/Coraje-el-perro-cobarde-latino"
           }
         ]
       }
@@ -11906,8 +11916,8 @@
   {
     "series": "El Chavo del 8",
     "logo": "https://archive.org/services/img/El.Chavo.del.8.SATRip.LATiNO.XviD",
-    "total_seasons": 7,
-    "total_episodes": 273,
+    "total_seasons": 9,
+    "total_episodes": 282,
     "seasons": [
       {
         "season": "Temporada 1973",
@@ -13308,6 +13318,61 @@
             "logo": "https://archive.org/services/img/El.Chavo.del.8.SATRip.LATiNO.XviD"
           }
         ]
+      },
+      {
+        "season": "Temporada 01",
+        "episodes": [
+          {
+            "name": "El Chavo del 8 - T01E08 - Chavo del 8 - 001 - Las Travesuras Del Chavo",
+            "url": "https://archive.org/download/chavo-del-8-1973-001-las-travesuras-del-chavo/Chavo%20del%208%20%5B1973%5D%20-%20001%20-%20Las%20Travesuras%20Del%20Chavo.mp4",
+            "logo": "https://archive.org/services/img/chavo-del-8-1973-001-las-travesuras-del-chavo"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 14",
+        "episodes": [
+          {
+            "name": "El Chavo del 8 - T14E01 - VOL 14",
+            "url": "https://archive.org/download/el-chavo-del-8-vol.-14/EL%20CHAVO%20DEL%208%20-%20VOL.14.mp4",
+            "logo": "https://archive.org/services/img/el-chavo-del-8-vol.-14"
+          },
+          {
+            "name": "El Chavo del 8 - T14E02 - VOL 141",
+            "url": "https://archive.org/download/el-chavo-del-8-vol.-14/EL%20CHAVO%20DEL%208%20-%20VOL.141.mp4",
+            "logo": "https://archive.org/services/img/el-chavo-del-8-vol.-14"
+          },
+          {
+            "name": "El Chavo del 8 - T14E03 - VOL 142",
+            "url": "https://archive.org/download/el-chavo-del-8-vol.-14/EL%20CHAVO%20DEL%208%20-%20VOL.142.mp4",
+            "logo": "https://archive.org/services/img/el-chavo-del-8-vol.-14"
+          },
+          {
+            "name": "El Chavo del 8 - T14E04 - VOL 143",
+            "url": "https://archive.org/download/el-chavo-del-8-vol.-14/EL%20CHAVO%20DEL%208%20-%20VOL.143.mp4",
+            "logo": "https://archive.org/services/img/el-chavo-del-8-vol.-14"
+          },
+          {
+            "name": "El Chavo del 8 - T14E05 - VOL 144",
+            "url": "https://archive.org/download/el-chavo-del-8-vol.-14/EL%20CHAVO%20DEL%208%20-%20VOL.144.mp4",
+            "logo": "https://archive.org/services/img/el-chavo-del-8-vol.-14"
+          },
+          {
+            "name": "El Chavo del 8 - T14E06 - VOL 145",
+            "url": "https://archive.org/download/el-chavo-del-8-vol.-14/EL%20CHAVO%20DEL%208%20-%20VOL.145.mp4",
+            "logo": "https://archive.org/services/img/el-chavo-del-8-vol.-14"
+          },
+          {
+            "name": "El Chavo del 8 - T14E07 - VOL 146",
+            "url": "https://archive.org/download/el-chavo-del-8-vol.-14/EL%20CHAVO%20DEL%208%20-%20VOL.146.mp4",
+            "logo": "https://archive.org/services/img/el-chavo-del-8-vol.-14"
+          },
+          {
+            "name": "El Chavo del 8 - T14E08 - VOL 148",
+            "url": "https://archive.org/download/el-chavo-del-8-vol.-14/EL%20CHAVO%20DEL%208%20-%20VOL.148.mp4",
+            "logo": "https://archive.org/services/img/el-chavo-del-8-vol.-14"
+          }
+        ]
       }
     ]
   },
@@ -14543,8 +14608,8 @@
   {
     "series": "El Pajaro Loco",
     "logo": "https://archive.org/services/img/pajaro-loco-espanol-completo",
-    "total_seasons": 1,
-    "total_episodes": 75,
+    "total_seasons": 3,
+    "total_episodes": 105,
     "seasons": [
       {
         "season": "Temporada 01",
@@ -14923,6 +14988,166 @@
             "name": "El Pajaro Loco - T01E197 - 197 - Bye Bye Blackboard",
             "url": "https://archive.org/download/pajaro-loco-espanol-completo/197%20-%20Bye%20Bye%20Blackboard.ia.mp4",
             "logo": "https://archive.org/services/img/pajaro-loco-espanol-completo"
+          },
+          {
+            "name": "El Pajaro Loco - T01E01 - 2018) Problemas extraterrestres",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x01%20Problemas%20extraterrestres.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E02 - 2018) Escapando de Cupido",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x02%20Escapando%20de%20Cupido.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E03 - 2018) La Venganza de Buzz",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x03%20La%20Venganza%20de%20Buzz.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E04 - 2018) Una Cita Fría",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x04%20Una%20Cita%20Fr%C3%ADa.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E05 - 2018) El Último Regalo",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x05%20El%20%C3%9Altimo%20Regalo.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E06 - 2018) Una Navidad De Desastres",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x06%20Una%20Navidad%20De%20Desastres.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E07 - 2018) Caza De Pascua",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x07%20Caza%20De%20Pascua.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E08 - 2018) Exploradores en Problemas",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x08%20Exploradores%20en%20Problemas.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E09 - 2018) La Búsqueda del Jaguar de Jade",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x09%20La%20B%C3%BAsqueda%20del%20Jaguar%20de%20Jade.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T01E10 - 2018) Culpen A Río De Janeiro",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2001x10%20Culpen%20A%20R%C3%ADo%20De%20Janeiro.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 02",
+        "episodes": [
+          {
+            "name": "El Pajaro Loco - T02E01 - 2018) Tiempo Retorcido",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x01%20Tiempo%20Retorcido.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E02 - 2018) Travesuras Hechizadas",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x02%20Travesuras%20Hechizadas.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E03 - 2018) Aves de Bellas Plumas",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x03%20Aves%20de%20Bellas%20Plumas.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E04 - 2018) Woody está despierto",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x04%20Woody%20est%C3%A1%20despierto.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E05 - 2018) El Pájaro Y Las Abejas",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x05%20El%20P%C3%A1jaro%20Y%20Las%20Abejas.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E06 - 2018) Los Locos de la Naturaleza",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x06%20Los%20Locos%20de%20la%20Naturaleza.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E07 - 2018) Chilly A La Parrilla",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x07%20Chilly%20A%20La%20Parrilla.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E08 - 2018) La Caída",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x08%20La%20Ca%C3%ADda.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E09 - 2018) El Deseo de Winnie",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x09%20El%20Deseo%20de%20Winnie.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T02E10 - 2018) Guerra De Bosques",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2002x10%20Guerra%20De%20Bosques.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 03",
+        "episodes": [
+          {
+            "name": "El Pajaro Loco - T03E01 - 2018) La Cresta Escarlata",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x01%20La%20Cresta%20Escarlata.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E02 - 2018) Carne Y Fama",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x02%20Carne%20Y%20Fama.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E03 - 2018) Guerra De Pasteles",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x03%20Guerra%20De%20Pasteles.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E04 - 2018) Colmillo De Oro",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x04%20Colmillo%20De%20Oro.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E05 - 2018) Locos Por El Clima",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x05%20Locos%20Por%20El%20Clima.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E06 - 2018) La Madre De Todos Los Problemas",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x06%20La%20Madre%20De%20Todos%20Los%20Problemas.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E07 - 2018) De Colmillos y Vampiros",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x07%20De%20Colmillos%20y%20Vampiros.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E08 - 2018) Woody Jurásico",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x08%20Woody%20Jur%C3%A1sico.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E09 - 2018) Ciencia Loca",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x09%20Ciencia%20Loca.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
+          },
+          {
+            "name": "El Pajaro Loco - T03E10 - 2018) Problemas Espaciales",
+            "url": "https://archive.org/download/el-pajaro-loco-2018-2022/El%20P%C3%A1jaro%20Loco%20%282018%29%2003x10%20Problemas%20Espaciales.mp4",
+            "logo": "https://archive.org/services/img/el-pajaro-loco-2018-2022"
           }
         ]
       }
@@ -20324,8 +20549,8 @@
   {
     "series": "La Pantera Rosa",
     "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-temporada-1",
-    "total_seasons": 4,
-    "total_episodes": 83,
+    "total_seasons": 5,
+    "total_episodes": 93,
     "seasons": [
       {
         "season": "Temporada 01",
@@ -20759,6 +20984,61 @@
             "name": "La Pantera Rosa - T04E17 - El show de La pantera rosa - Peor el remedio que la enfermedad",
             "url": "https://archive.org/download/el-show-de-la-pantera-rosa-temporada-1/El%20show%20de%20La%20pantera%20rosa%20-%204x17%20Peor%20el%20remedio%20que%20la%20enfermedad.mp4",
             "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-temporada-1"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 05",
+        "episodes": [
+          {
+            "name": "La Pantera Rosa - T05E01 - El show de La pantera rosa Kloots kounty",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x01%20Kloots%20kounty.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E02 - El show de La pantera rosa Apatxe on the county seat",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x02%20Apatxe%20on%20the%20county%20seat.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E03 - El show de La pantera rosa The Shoe must go on",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x03%20The%20Shoe%20must%20go%20on.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E04 - El show de La pantera rosa A Self Winding Sidewinder",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x04%20A%20Self%20Winding%20Sidewinder.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E05 - El show de La pantera rosa Pay your Buffalo Bill",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x05%20Pay%20your%20Buffalo%20Bill.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E07 - El show de La pantera rosa Ten Miles To The Gallop",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x07%20Ten%20Miles%20To%20The%20Gallop.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E10 - El show de La pantera rosa Gold Struck",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x10%20Gold%20Struck.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E14 - El show de La pantera rosa Saddle Soap Opera",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x14%20Saddle%20Soap%20Opera.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E15 - El show de La pantera rosa the badge and the beatiful",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x15%20the%20badge%20and%20the%20beatiful.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
+          },
+          {
+            "name": "La Pantera Rosa - T05E18 - El show de La pantera rosa Strange On The Range",
+            "url": "https://archive.org/download/el-show-de-la-pantera-rosa-5ta-temporada-incompleta/El%20show%20de%20La%20pantera%20rosa%205x18%20Strange%20On%20The%20Range.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-la-pantera-rosa-5ta-temporada-incompleta"
           }
         ]
       }
@@ -29695,8 +29975,8 @@
   {
     "series": "Plaza Sesamo",
     "logo": "https://archive.org/services/img/plaza-sesamo-temporada-9",
-    "total_seasons": 4,
-    "total_episodes": 260,
+    "total_seasons": 8,
+    "total_episodes": 508,
     "seasons": [
       {
         "season": "Temporada 09",
@@ -31015,6 +31295,1266 @@
             "name": "Plaza Sesamo - T14E65 - 5 (COMPLETO)",
             "url": "https://archive.org/download/plaza-sesamo-temporada-14/Plaza%20S%C3%A9samo%20Episodio%201185%20%28COMPLETO%29.mp4",
             "logo": "https://archive.org/services/img/plaza-sesamo-temporada-14"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 01",
+        "episodes": [
+          {
+            "name": "Plaza Sesamo - T01E00 - Súper Archibaldo 2 0 - bellota video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/S%C3%BAper%20Archibaldo%202.0/bellota_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E01 - El Mundo de Archibaldo - acrobatas es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Archibaldo/acrobatas_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E02 - El Mundo de Archibaldo - chocolate es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Archibaldo/chocolate_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E03 - El Mundo de Archibaldo - criquete video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Archibaldo/criquete_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E04 - El Mundo de Archibaldo - fabricaciondejuguetes video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Archibaldo/fabricaciondejuguetes_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E05 - El Mundo de Archibaldo - frailecillo video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Archibaldo/frailecillo_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E06 - El Mundo de Archibaldo - guiro es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Archibaldo/guiro_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E07 - El Mundo de Archibaldo - pesca video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Archibaldo/pesca_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E08 - El Mundo de Elmo - bebes es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Elmo/bebes_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E09 - El Mundo de Elmo - bolas es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Elmo/bolas_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E10 - El Mundo de Elmo - cantando es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Elmo/cantando_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E11 - El Mundo de Elmo - familias es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Elmo/familias_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E12 - El Mundo de Elmo - perros video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Elmo/perros_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E13 - El Mundo de Elmo - saltar video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Mundo%20de%20Elmo/saltar_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E14 - El Musical de Elmo - elmusicaldekarate video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Musical%20de%20Elmo/elmusicaldekarate_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E15 - El Musical de Elmo - elmusicaldelavion video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Musical%20de%20Elmo/elmusicaldelavion_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E16 - El Musical de Elmo - elmusicaldelcirco video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Musical%20de%20Elmo/elmusicaldelcirco_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E17 - El Musical de Elmo - elmusicaldelmonstruoreparar video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Musical%20de%20Elmo/elmusicaldelmonstruoreparar_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E18 - El Musical de Elmo - elmusicaldeltomate video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Musical%20de%20Elmo/elmusicaldeltomate_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E19 - El Musical de Elmo - elmusicaldelvaquero video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Musical%20de%20Elmo/elmusicaldelvaquero_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E20 - El Musical de Elmo - elmusicaldeprincipeelmo video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/El%20Musical%20de%20Elmo/elmusicaldeprincipeelmo_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E21 - Juega Conmigo Sesamo - s1eps2 es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Juega%20Conmigo%20Sesamo/s1eps2_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E22 - Juega Conmigo Sesamo - s1eps3 es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Juega%20Conmigo%20Sesamo/s1eps3_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E23 - Juega Conmigo Sesamo - s1eps4 es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Juega%20Conmigo%20Sesamo/s1eps4_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E24 - Juega Conmigo Sesamo - s1eps6 es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Juega%20Conmigo%20Sesamo/s1eps6_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E25 - Juega Conmigo Sesamo - s1eps7 es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Juega%20Conmigo%20Sesamo/s1eps7_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E26 - Juega Conmigo Sesamo - s1eps8 es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Juega%20Conmigo%20Sesamo/s1eps8_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E27 - Las Grandes Aventuras de Beto y Enrique - agentessecretos video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/agentessecretos_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E28 - Las Grandes Aventuras de Beto y Enrique - caballeros video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/caballeros_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E29 - Las Grandes Aventuras de Beto y Enrique - cargadoresdepiano video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/cargadoresdepiano_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E30 - Las Grandes Aventuras de Beto y Enrique - carruaje video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/carruaje_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E31 - Las Grandes Aventuras de Beto y Enrique - cavernicola video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/cavernicola_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E32 - Las Grandes Aventuras de Beto y Enrique - ciudadminiatura video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/ciudadminiatura_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E33 - Las Grandes Aventuras de Beto y Enrique - cliptecs es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/cliptecs_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E34 - Las Grandes Aventuras de Beto y Enrique - debajodelmar video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/debajodelmar_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E35 - Las Grandes Aventuras de Beto y Enrique - donniequixote es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/donniequixote_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E36 - Las Grandes Aventuras de Beto y Enrique - ernlockholmes es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/ernlockholmes_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E37 - Las Grandes Aventuras de Beto y Enrique - fondodelmar video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/fondodelmar_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E38 - Las Grandes Aventuras de Beto y Enrique - guardiasdemuseos video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/guardiasdemuseos_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E39 - Las Grandes Aventuras de Beto y Enrique - heroes es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/heroes_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E40 - Las Grandes Aventuras de Beto y Enrique - inventores es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/inventores_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E41 - Las Grandes Aventuras de Beto y Enrique - invisible es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/invisible_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E42 - Las Grandes Aventuras de Beto y Enrique - obtenerelyeti video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/obtenerelyeti_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E43 - Las Grandes Aventuras de Beto y Enrique - panaderia video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/panaderia_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E44 - Las Grandes Aventuras de Beto y Enrique - piratas es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/piratas_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E45 - Las Grandes Aventuras de Beto y Enrique - playa video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/playa_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E46 - Las Grandes Aventuras de Beto y Enrique - rodeo es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/rodeo_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E47 - Las Grandes Aventuras de Beto y Enrique - salvajeoeste video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/salvajeoeste_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E48 - Las Grandes Aventuras de Beto y Enrique - selva video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/selva_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E49 - Las Grandes Aventuras de Beto y Enrique - tiendadeflores video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/tiendadeflores_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E50 - Las Grandes Aventuras de Beto y Enrique - tresdeseos video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/tresdeseos_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E51 - Las Grandes Aventuras de Beto y Enrique - wizards es video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Las%20Grandes%20Aventuras%20de%20Beto%20y%20Enrique/wizards_es_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E52 - Producciones Migajas - chocolatekid video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/chocolatekid_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E53 - Producciones Migajas - crepusculorompiendogalletas video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/crepusculorompiendogalletas_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E54 - Producciones Migajas - cuandoelcomegalletasconocioasally video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/cuandoelcomegalletasconocioasally_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E55 - Producciones Migajas - elespiaqueamabalasgalletas video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/elespiaqueamabalasgalletas_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E56 - Producciones Migajas - elsenordelasmigajas video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/elsenordelasmigajas_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E57 - Producciones Migajas - galletajurasica video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/galletajurasica_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E58 - Producciones Migajas - harrypostreyelcalizdegalletas video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/harrypostreyelcalizdegalletas_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E59 - Producciones Migajas - lagalletadelagalaxias video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/lagalletadelagalaxias_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E60 - Producciones Migajas - lagalletadeoz video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/lagalletadeoz_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E61 - Producciones Migajas - lasgalletasdelcaribe video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/lasgalletasdelcaribe_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E62 - Producciones Migajas - lavidadepaydecrema video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/lavidadepaydecrema_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E63 - Producciones Migajas - losjuegosjambrientosdespeluchados video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/losjuegosjambrientosdespeluchados_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E64 - Producciones Migajas - losmousserables video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/losmousserables_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E65 - Producciones Migajas - losvegetarianoslaedaddebonbon video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/losvegetarianoslaedaddebonbon_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E66 - Producciones Migajas - meriendadetitantes video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/Producciones%20Migajas/meriendadetitantes_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E80 - ¡Podemos Hacerlo! - comegalletasaprendeaesperar video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/comegalletasaprendeaesperar_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E81 - ¡Podemos Hacerlo! - comparteelbalonelmo video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/comparteelbalonelmo_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E82 - ¡Podemos Hacerlo! - hechoamano video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/hechoamano_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E83 - ¡Podemos Hacerlo! - horneandoyahorro video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/horneandoyahorro_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E84 - ¡Podemos Hacerlo! - lagrandecisiondelily video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/lagrandecisiondelily_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E85 - ¡Podemos Hacerlo! - lilylakaratekid video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/lilylakaratekid_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E86 - ¡Podemos Hacerlo! - lolaesunabuenaamiga video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/lolaesunabuenaamiga_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E87 - ¡Podemos Hacerlo! - loquequieroser video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/loquequieroser_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E88 - ¡Podemos Hacerlo! - parquetematico video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/parquetematico_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E89 - ¡Podemos Hacerlo! - planeandoparalaplaya video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/planeandoparalaplaya_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E90 - ¡Podemos Hacerlo! - plantandojuntos video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/plantandojuntos_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E91 - ¡Podemos Hacerlo! - volandoalto video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1Podemos%20Hacerlo%21/volandoalto_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E92 - ¡Tú decides! - atrabajar video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1T%C3%BA%20decides%21/atrabajar_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E93 - ¡Tú decides! - comerbienesbuenoparati video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1T%C3%BA%20decides%21/comerbienesbuenoparati_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E94 - ¡Tú decides! - enganchadoalospeces video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1T%C3%BA%20decides%21/enganchadoalospeces_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E95 - ¡Tú decides! - esbuenodonar video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1T%C3%BA%20decides%21/esbuenodonar_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E96 - ¡Tú decides! - felizcampesino video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1T%C3%BA%20decides%21/felizcampesino_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E97 - ¡Tú decides! - gooooool video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1T%C3%BA%20decides%21/gooooool_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E98 - ¡Tú decides! - undiaenlaplaya video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1T%C3%BA%20decides%21/undiaenlaplaya_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          },
+          {
+            "name": "Plaza Sesamo - T01E99 - ¡Tú decides! - unideabrillante video",
+            "url": "https://archive.org/download/plaza-sesamo-tv/%C2%A1T%C3%BA%20decides%21/unideabrillante_video.m4v",
+            "logo": "https://archive.org/services/img/plaza-sesamo-tv"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 06",
+        "episodes": [
+          {
+            "name": "Plaza Sesamo - T06E01 - T6 (1)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%281%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E02 - T6 (2) (INCOMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%282%29%20%28INCOMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E03 - T6 (3)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%283%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E04 - T6 (4)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%284%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E05 - T6 (5)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%285%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E06 - T6 (6)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%286%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E07 - T6 (7)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%287%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E08 - T6 (8)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%288%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E09 - T6 (9)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%289%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E10 - T6 (10)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2810%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E11 - T6 (11)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2811%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E12 - T6 (12)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2812%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E13 - T6 (13)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2813%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E14 - T6 (14)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2814%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E15 - T6 (15)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2815%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E16 - T6 (16)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2816%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E17 - T6 (17)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2817%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E18 - T6 (18)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2818%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E19 - T6 (19)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2819%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E20 - T6 (20)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2820%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E21 - T6 (21)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2821%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E22 - T6 (22)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2822%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E23 - T6 (23)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2823%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E24 - T6 (24)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2824%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E25 - T6 (25)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2825%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E26 - T6 (26)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2826%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E27 - T6 (27)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2827%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E28 - T6 (28)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2828%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E29 - T6 (29)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2829%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E30 - T6 (30)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2830%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          },
+          {
+            "name": "Plaza Sesamo - T06E31 - T6 (31)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-6/Plaza%20S%C3%A9samo%20T6%20%2831%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-6"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 10",
+        "episodes": [
+          {
+            "name": "Plaza Sesamo - T10E861 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20861%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E862 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20862%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E863 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20863%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E864 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20864%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E865 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20865%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E866 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20866%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E867 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20867%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E868 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20868%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E869 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20869%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E870 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20870%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E871 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20871%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E872 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20872%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E873 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20873%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E874 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20874%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E875 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20875%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E876 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20876%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E877 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20877%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E878 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20878%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E879 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20879%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E880 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20880%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E881 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20881%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E882 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20882%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E883 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20883%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E884 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20884%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E885 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20885%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E886 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20886%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E887 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20887%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E888 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20888%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E889 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20889%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E890 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20890%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E891 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20891%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E892 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20892%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E893 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20893%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E894 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20894%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E895 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20895%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E896 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20896%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E897 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20897%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E898 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20898%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E899 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20899%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E900 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20900%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E901 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20901%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E902 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20902%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E903 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20903%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E904 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20904%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E905 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20905%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E906 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20906%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E907 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20907%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E908 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20908%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E909 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20909%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E910 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20910%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E911 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20911%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E912 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20912%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E913 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20913%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E914 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20914%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E915 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20915%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E916 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20916%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E917 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20917%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E918 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20918%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E919 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20919%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E920 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20920%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E921 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20921%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E922 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20922%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E923 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20923%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E924 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20924%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          },
+          {
+            "name": "Plaza Sesamo - T10E925 - (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-10/Plaza%20S%C3%A9samo%20Episodio%20925%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-10"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 13",
+        "episodes": [
+          {
+            "name": "Plaza Sesamo - T13E01 - 6 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201056%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E02 - 7 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201057%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E03 - 8 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201058%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E04 - 9 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201059%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E05 - 0 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201060%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E06 - 1 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201061%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E07 - 2 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201062%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E08 - 3 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201063%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E09 - 4 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201064%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E10 - 5 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201065%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E11 - 6 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201066%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E12 - 7 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201067%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E13 - 8 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201068%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E14 - 9 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201069%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E15 - 0 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201070%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E16 - 1 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201071%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E17 - 2 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201072%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E18 - 3 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201073%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E19 - 4 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201074%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E20 - 5 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201075%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E21 - 6 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201076%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E22 - 7 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201077%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E23 - 8 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201078%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E24 - 9 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201079%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E25 - 0 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201080%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E26 - 1 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201081%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E27 - 2 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201082%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E28 - 3 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201083%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E29 - 4 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201084%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E30 - 5 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201085%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E31 - 6 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201086%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E32 - 7 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201087%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E33 - 8 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201088%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E34 - 9 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201089%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E35 - 0 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201090%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E36 - 1 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201091%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E37 - 2 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201092%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E38 - 3 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201093%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E39 - 4 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201094%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E40 - 5 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201095%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E41 - 6 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201096%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E42 - 7 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201097%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E43 - 8 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201098%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E44 - 9 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201099%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E45 - 0 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201100%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E46 - 1 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201101%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E47 - 2 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201102%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E48 - 3 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201103%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E49 - 4 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201104%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E50 - 5 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201105%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E51 - 6 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201106%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E52 - 7 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201107%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E53 - 8 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201108%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E54 - 9 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201109%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E55 - 0 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201110%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E56 - 1 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201111%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E57 - 2 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201112%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E58 - 3 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201113%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E59 - 4 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201114%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E60 - 5 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201115%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E61 - 6 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201116%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E62 - 7 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201117%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E63 - 8 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201118%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E64 - 9 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201119%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
+          },
+          {
+            "name": "Plaza Sesamo - T13E65 - 0 (COMPLETO)",
+            "url": "https://archive.org/download/plaza-sesamo-temporada-13/Plaza%20S%C3%A9samo%20Episodio%201120%20%28COMPLETO%29.mp4",
+            "logo": "https://archive.org/services/img/plaza-sesamo-temporada-13"
           }
         ]
       }
@@ -33470,8 +35010,8 @@
   {
     "series": "Supercampeones",
     "logo": "https://archive.org/services/img/09-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p",
-    "total_seasons": 1,
-    "total_episodes": 31,
+    "total_seasons": 2,
+    "total_episodes": 63,
     "seasons": [
       {
         "season": "Temporada 01",
@@ -33630,6 +35170,171 @@
             "name": "Supercampeones - T01E37 - Road to 2002 Audio Español",
             "url": "https://archive.org/download/40-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p/Captain%20Tsubasa%20Road%20to%202002%20Capitulo%2037%20Audio%20Espa%C3%B1ol%20Latino%28240P%29.mp4",
             "logo": "https://archive.org/services/img/40-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p"
+          },
+          {
+            "name": "Supercampeones - T01E21 - SUPERCAMPEONES23",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES23.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E23 - SUPERCAMPEONES25",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES25.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E28 - SUPERCAMPEONES30",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES30.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E30 - SUPERCAMPEONES32",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES32.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E31 - SUPERCAMPEONES33",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES33.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E32 - SUPERCAMPEONES34",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES34.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E38 - SUPERCAMPEONES40",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES40.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E39 - SUPERCAMPEONES41",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES41.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E40 - SUPERCAMPEONES42",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES42.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E41 - SUPERCAMPEONES43",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES43.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E42 - SUPERCAMPEONES44",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES44.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E43 - SUPERCAMPEONES45",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES45.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E44 - SUPERCAMPEONES46",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES46.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E45 - SUPERCAMPEONES47",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES47.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E46 - SUPERCAMPEONES48",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES48.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E47 - SUPERCAMPEONES49",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES49.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E48 - SUPERCAMPEONES50",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES50.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E49 - SUPERCAMPEONES51",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES51.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E50 - SUPERCAMPEONES52",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES52.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E51 - SUPERCAMPEONES53",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES53.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E52",
+            "url": "https://archive.org/download/supercampeones_202406/SUPERCAMPEONES.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202406"
+          },
+          {
+            "name": "Supercampeones - T01E53",
+            "url": "https://archive.org/download/supercampeones_202604/SUPERCAMPEONES.mp4",
+            "logo": "https://archive.org/services/img/supercampeones_202604"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 08",
+        "episodes": [
+          {
+            "name": "Supercampeones - T08E01",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20001.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E02",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20002.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E03",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20003.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E04",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20004.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E05",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20005.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E06",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20006.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E07",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20007.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E08",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20008.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E09",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20009.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
+          },
+          {
+            "name": "Supercampeones - T08E10",
+            "url": "https://archive.org/download/supercampeones-008/Supercampeones%20010.mp4",
+            "logo": "https://archive.org/services/img/supercampeones-008"
           }
         ]
       }
@@ -34969,8 +36674,8 @@
   {
     "series": "Tom y Jerry",
     "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino_202605",
-    "total_seasons": 1,
-    "total_episodes": 14,
+    "total_seasons": 2,
+    "total_episodes": 29,
     "seasons": [
       {
         "season": "Temporada 01",
@@ -35044,6 +36749,86 @@
             "name": "Tom y Jerry - T01E14 - El Show de Tom y Jerry - Viajando en el crucero Español",
             "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino_202605/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%201%20Viajando%20en%20el%20crucero%20Espa%C3%B1ol%20Latino.mp4",
             "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino_202605"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 02",
+        "episodes": [
+          {
+            "name": "Tom y Jerry - T02E01 - El Show de Tom y Jerry - Acabando con la casa",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Acabando%20con%20la%20casa.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E02 - El Show de Tom y Jerry - Asusta El Hipo Español",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Asusta%20El%20Hipo%20Espa%C3%B1ol%20Latino.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E03 - El Show de Tom y Jerry - Cambio de Actitud Español",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Cambio%20de%20Actitud%20Espa%C3%B1ol%20Latino.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E04 - El Show de Tom y Jerry - El Arte de Ganar",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20El%20Arte%20de%20Ganar.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E05 - El Show de Tom y Jerry - Feliz Cumpleaños Spike Español",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Feliz%20Cumplea%C3%B1os%20Spike%20Espa%C3%B1ol%20Latino.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E06 - EL SHOW DE TOM Y JERRY - Fiebre de Baile por la Noche Español",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/EL%20SHOW%20DE%20TOM%20Y%20JERRY%20-%20Temporada%202%20Fiebre%20de%20Baile%20por%20la%20Noche%20Espa%C3%B1ol%20Latino.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E07 - El Show de Tom y Jerry - La Frazada Celeste de Tom Español",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20La%20Frazada%20Celeste%20de%20Tom%20Espa%C3%B1ol%20Latino.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E08 - El Show de Tom y Jerry - La Niña Sin Cuerdas Español",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20La%20Ni%C3%B1a%20Sin%20Cuerdas%20Espa%C3%B1ol%20Latino.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E09 - El Show de Tom y Jerry - Limpieza a fondo",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Limpieza%20a%20fondo.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E10 - El Show de Tom y Jerry - Miembro de la hermandad gatuna Español",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Miembro%20de%20la%20hermandad%20gatuna%20Espa%C3%B1ol%20Latino.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E11 - El Show de Tom y Jerry - Pez Fuera de Agua",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Pez%20Fuera%20de%20Agua.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E12 - El Show de Tom y Jerry - Spike Perdiendo Peso",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Spike%20Perdiendo%20Peso.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E13 - El Show de Tom y Jerry - Tom tiene problemas capilares Español",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Tom%20tiene%20problemas%20capilares%20Espa%C3%B1ol%20Latino.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E14 - El Show de Tom y Jerry - Un Genio Listo",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Un%20Genio%20Listo.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
+          },
+          {
+            "name": "Tom y Jerry - T02E15 - El Show de Tom y Jerry - Una Trampa para Jerry",
+            "url": "https://archive.org/download/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino/El%20Show%20de%20Tom%20y%20Jerry%20-%20Temporada%202%20Una%20Trampa%20para%20Jerry.mp4",
+            "logo": "https://archive.org/services/img/el-show-de-tom-y-jerry-temporada-2-asusta-el-hipo-espanol-latino"
           }
         ]
       }
