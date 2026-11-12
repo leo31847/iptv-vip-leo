@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12 14:05",
+  "version": "2026-11-12 14:10",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -6810,7 +6810,8 @@
       "r": "HD",
       "u": [
         "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0"
+        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0",
+        "http://www.coninfo.net:1935/tvcinco/live2/playlist.m3u8"
       ]
     },
     {
