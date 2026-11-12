@@ -619,7 +619,6 @@ SERIES_CATALOG = [
                      "eJwzMTXTNdQ1000tjs9JLNFNK83Jic9I0S02AwBdHgfn.mkv",
                      "km_20260801_480p_25f_20260801_104339", "km_20260725-6_480p_25f_20260725_163427",
                      "km_20260802-5_480p_25f_20260802_174515_202608"], ["los simpsons", "the simpsons"]),
-    ([], ["macgyver", "mcgyver"]),
     ("Malcolm el de en medio", ["malcolm-el-de-en-medio-t-0%d" % i for i in range(1, 8)], ["malcolm"]),
     ("Dragon Ball", ["d-01_20240907"], []),
     ("Dragon Ball Z", ["Dragon-Ball-Z-Latino-JP"], []),
@@ -1413,8 +1412,91 @@ def main():
             sf.write('# SERIES CLASICAS COMPLETAS EN AUDIO LATINO\n\n')
             for grp, name, url, logo in series_out:
                 sf.write('#EXTINF:-1 tvg-name="%s" tvg-logo="%s" group-title="%s",%s\n%s\n' % (name, logo, grp, name, url))
-    except Exception:
-        pass
+    except Exception as e:
+        print("[!] Error exportando lista_series.m3u:", e)
+
+    # 8.0.1 Exportar series_catalog.json estructurado por temporadas y capítulos para Omega Mobile
+    try:
+        series_cat_file = os.path.join(APP_DIR, "series_catalog.json")
+        catalog_map = {}
+        if os.path.exists(series_cat_file):
+            try:
+                old_cat = load_json(series_cat_file, [])
+                for s in old_cat:
+                    s_name = s.get('series')
+                    if s_name and 'macgyver' not in s_name.lower():
+                        catalog_map[s_name.lower()] = s
+            except Exception:
+                pass
+
+        for grp, name, url, logo in series_out:
+            # Separar serie de temporada sin romper nombres con guion como He-Man
+            m_grp = re.match(r'Series:\s*(.+?)\s*-\s*(Temporada\s*\d+|Saga\s*.+)', grp, re.I)
+            if m_grp:
+                s_name = m_grp.group(1).strip()
+                sea_name = m_grp.group(2).strip()
+            else:
+                s_name = grp.replace("Series:", "").strip()
+                sea_name = "Temporada 01"
+
+            if 'macgyver' in s_name.lower():
+                continue
+
+            s_key = s_name.lower()
+            if s_key not in catalog_map:
+                catalog_map[s_key] = {
+                    "series": s_name,
+                    "logo": logo,
+                    "total_seasons": 0,
+                    "total_episodes": 0,
+                    "seasons": []
+                }
+            s_obj = catalog_map[s_key]
+            if not s_obj.get('logo') and logo:
+                s_obj['logo'] = logo
+
+            season_found = None
+            for sn in s_obj['seasons']:
+                if sn.get('season', '').lower() == sea_name.lower():
+                    season_found = sn
+                    break
+            if not season_found:
+                season_found = {"season": sea_name, "episodes": []}
+                s_obj['seasons'].append(season_found)
+
+            known_urls = {ep.get('url') for ep in season_found['episodes']}
+            if url not in known_urls:
+                season_found['episodes'].append({
+                    "name": name,
+                    "url": url,
+                    "logo": logo
+                })
+
+        final_series_catalog = []
+        for s_key, s_obj in catalog_map.items():
+            s_obj['seasons'] = [sn for sn in s_obj['seasons'] if sn.get('episodes')]
+            s_obj['total_seasons'] = len(s_obj['seasons'])
+            s_obj['total_episodes'] = sum(len(sn['episodes']) for sn in s_obj['seasons'])
+            if s_obj['total_episodes'] > 0:
+                final_series_catalog.append(s_obj)
+
+        final_series_catalog.sort(key=lambda s: s.get('series', '').lower())
+
+        with open(series_cat_file, 'w', encoding='utf-8') as scf:
+            json.dump(final_series_catalog, scf, ensure_ascii=False, indent=2)
+        print("[+] series_catalog.json actualizado exitosamente (%d series, %d temporadas)" % (
+            len(final_series_catalog),
+            sum(s['total_seasons'] for s in final_series_catalog)
+        ))
+
+        # Copia directa a assets de Omega Mobile para futuras compilaciones
+        omega_assets_dir = r"C:\Users\leoka\.gemini\antigravity\scratch\omega_music_app\assets"
+        if os.path.exists(omega_assets_dir):
+            omega_series_cat = os.path.join(omega_assets_dir, "series_catalog.json")
+            with open(omega_series_cat, 'w', encoding='utf-8') as oscf:
+                json.dump(final_series_catalog, oscf, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print("[!] Error exportando series_catalog.json:", e)
 
     # 8.1 Exportar latam_tv_catalog.json sincronizado para Omega Music Mobile
     try:
@@ -1441,8 +1523,41 @@ def main():
             with open(cat_file, 'w', encoding='utf-8') as cf:
                 json.dump(export_cat, cf, ensure_ascii=False, indent=2)
             print("[+] latam_tv_catalog.json actualizado exitosamente (%d canales refrescados)" % updated_count)
+
+            # Sincronizar en assets de Omega Mobile
+            omega_assets_dir = r"C:\Users\leoka\.gemini\antigravity\scratch\omega_music_app\assets"
+            if os.path.exists(omega_assets_dir):
+                with open(os.path.join(omega_assets_dir, "latam_tv_catalog.json"), 'w', encoding='utf-8') as ocf:
+                    json.dump(export_cat, ocf, ensure_ascii=False, indent=2)
     except Exception as e:
         print("[!] Error exportando latam_tv_catalog.json:", e)
+
+    # 8.2 Sincronización Automática con la Nube GitHub (leo31847/iptv-vip-leo)
+    # Permite que la app en el celular (APK) reciba las actualizaciones en vivo por internet (OTA)
+    try:
+        import subprocess
+        print("[+] Sincronizando con la nube GitHub (leo31847/iptv-vip-leo)...")
+        files_to_add = [
+            "latam_tv_catalog.json",
+            "series_catalog.json",
+            "lista_series.m3u",
+            "lista_en_vivo.m3u",
+            "LISTA_MAESTRA_LEO_VIP.m3u",
+            "series_deseadas.json",
+            "series_completas_cache.json"
+        ]
+        existing_add = [f for f in files_to_add if os.path.exists(os.path.join(APP_DIR, f))]
+        if existing_add:
+            subprocess.run(["git", "add"] + existing_add, cwd=APP_DIR, capture_output=True)
+            commit_msg = "chore(robot): auto-sync channels and series [%s]" % time.strftime('%Y-%m-%d %H:%M')
+            subprocess.run(["git", "commit", "-m", commit_msg], cwd=APP_DIR, capture_output=True)
+            push_res = subprocess.run(["git", "push", "origin", "main"], cwd=APP_DIR, capture_output=True)
+            if push_res.returncode == 0:
+                print("[+] ✅ SINCRONIZACIÓN EXITOSA CON GITHUB: El celular recibirá los cambios al instante.")
+            else:
+                print("[!] Aviso Git push:", push_res.stderr.decode('utf-8', errors='ignore'))
+    except Exception as e:
+        print("[!] Error en auto-sync Git:", e)
 
     # Copia directa al Escritorio con nombre claro para compartir por WhatsApp
     desktop_copy = r"C:\Users\leoka\OneDrive\Escritorio\LISTA_PARA_ENVIAR_POR_WHATSAPP.m3u"
