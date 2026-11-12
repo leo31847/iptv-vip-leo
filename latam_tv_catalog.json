@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-11 23:56",
+  "version": "2026-11-11 22:17",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -4932,7 +4932,8 @@
       "l": "https://lossantostv.com/logolstv.png",
       "r": "1080i",
       "u": [
-        "https://tiquiciatv.com/hls/lstv.m3u8"
+        "https://tiquiciatv.com/hls/lstv.m3u8",
+        "https://lstv.duckdns.org:449/hls/lstv.m3u8"
       ],
       "ref": "https://lossantostv.com"
     },
@@ -5000,7 +5001,8 @@
       "l": "https://i.imgur.com/obTnd32.png",
       "r": "720p",
       "u": [
-        "https://lstv.duckdns.org:449/hls/stv.m3u8"
+        "https://lstv.duckdns.org:449/hls/stv.m3u8",
+        "http://tiquiciatv.com:1935/stv/web/playlist.m3u8"
       ],
       "n24": 1
     },
@@ -7533,7 +7535,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -7545,7 +7548,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -10117,8 +10121,7 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
-        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
       ]
     },
     {
@@ -10400,7 +10403,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -12274,8 +12278,7 @@
       "l": "https://i.imgur.com/Oj3hEBh.jpg",
       "r": "1080p",
       "u": [
-        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8",
-        "http://45.228.234.9:8000/play/a06u/index.m3u8"
+        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8"
       ]
     },
     {
@@ -13650,8 +13653,7 @@
       "l": "https://www.vivalivetv.com/public/files/shows/0/1/2951-294x165-FFFFFF.jpg",
       "r": "720p",
       "u": [
-        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8",
-        "https://vdopanel.jlahozconsulting.com/p/3303/live/makinalive.m3u8"
+        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8"
       ],
       "n24": 1
     },
@@ -14957,7 +14959,8 @@
       "r": "720p",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -15551,7 +15554,8 @@
       "l": "https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg",
       "r": "720p",
       "u": [
-        "https://edge.enhdtv.com/8192/index.m3u8"
+        "https://edge.enhdtv.com/8192/index.m3u8",
+        "https://live.enhdtv.com:8081/8192/index.m3u8"
       ]
     },
     {
@@ -17197,8 +17201,7 @@
       "r": "1080p",
       "u": [
         "http://190.61.42.218:9000/play/a08d/index.m3u8",
-        "https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8",
-        "http://45.228.234.9:8000/play/a06z/index.m3u8"
+        "https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8"
       ]
     }
   ],
