@@ -550,9 +550,9 @@ function renderSidebar() {
     const tabs = document.getElementById('categoryTabs');
     tabs.innerHTML = '';
     
-    let baseTabs = [['📺 Todos', null], ['⭐ Favoritos', '_favs']];
+    let baseTabs = [['📺 Todos', null], ['⭐ Favoritos', '_favs'], ['🍿 Series Clásicas (178 Temporadas)', '_series_hub']];
     
-    [...baseTabs, ...sortedCats.slice(0, 15).map(([c]) => [((CATEGORY_ICONS[c] || (c.startsWith('Series:') ? '🍿' : '📡')) + ' ' + c.charAt(0).toUpperCase() + c.slice(1)), c])].forEach(([label, val]) => {
+    [...baseTabs, ...sortedCats.filter(([c]) => !c.startsWith('Series:')).slice(0, 12).map(([c]) => [((CATEGORY_ICONS[c] || (c.startsWith('Series:') ? '🍿' : '📡')) + ' ' + c.charAt(0).toUpperCase() + c.slice(1)), c])].forEach(([label, val]) => {
         const tab = document.createElement('button');
         tab.className = 'cat-tab' + (activeCategory === val ? ' active' : '') + (val === '_favs' && showFavsOnly ? ' active' : '');
         tab.textContent = label;
@@ -572,6 +572,7 @@ function applyFilters() {
     const search = document.getElementById('searchInput').value.toLowerCase();
     filteredChannels = allChannels.filter(ch => {
         if (showFavsOnly && !userFavs.includes(ch.name)) return false;
+        if (activeCategory === '_series_hub' && !ch.categories.some(c => c.startsWith('Series:'))) return false;
         
         // Filtro especial premium cable legal LATINO
         if (activeCategory === '_premium') {
@@ -734,7 +735,7 @@ async function loadData() {
         
         
         // Ordenar alfabéticamente
-        allChannels.sort((a, b) => a.name.localeCompare(b.name));
+        allChannels.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' }));
         filteredChannels = [...allChannels];
         
         bar.style.width = '95%';
