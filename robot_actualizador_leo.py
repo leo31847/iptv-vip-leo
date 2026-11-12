@@ -48,6 +48,450 @@ BROWSER_HEADERS = {
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 BLACKLIST_IDENTIFIERS = {'macgyver-collection-1985--to-1994'}
+PLUTO_MACGYVER_SERIES_ID = "643fea281a5081001ad8a1d8"
+SIMPSONS_FALLBACK_LOGO = "https://archive.org/services/img/tinaco_20210512"
+SUPERSONICOS_LOGO = "https://archive.org/services/img/t-2-02.-ia"
+
+def _probe_direct_media_ok(url, timeout=12):
+    import urllib.request as _ur
+    import urllib.error as _ue
+    req = _ur.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Range': 'bytes=0-1023'
+    })
+    try:
+        with _ur.urlopen(req, timeout=timeout) as r:
+            code = r.getcode()
+            ctype = (r.headers.get('Content-Type') or '').lower()
+            crange = r.headers.get('Content-Range', '')
+            clen = r.headers.get('Content-Length', '')
+            _ = r.read(256)
+            size_b = 0
+            m_tot = re.search(r'/(\d+)$', crange)
+            if m_tot:
+                size_b = int(m_tot.group(1))
+            elif clen.isdigit():
+                size_b = int(clen)
+            ok_type = ('video' in ctype or 'octet-stream' in ctype or 'matroska' in ctype)
+            return (code in (200, 206) and ok_type and size_b > 1_000_000), code
+    except _ue.HTTPError as e:
+        return False, e.code
+    except Exception:
+        return False, 0
+
+def _norm_ext_media_url(u):
+    u = (u or '').strip()
+    if u.startswith('http://pomf2.lain.la/'):
+        u = 'https://' + u[7:]
+    if 'dropbox.com/scl/' in u and 'dl=0' in u:
+        u = u.replace('dl=0', 'dl=1')
+    return u
+
+def _parse_simple_extinf(txt):
+    out = []
+    cur_t = ''
+    for raw in (txt or '').splitlines():
+        ln = raw.strip()
+        if not ln:
+            continue
+        if ln.startswith('#EXTINF:'):
+            cur_t = ln.split(',', 1)[-1].strip()
+        elif ln.startswith('http://') or ln.startswith('https://'):
+            out.append((cur_t, _norm_ext_media_url(ln)))
+            cur_t = ''
+    return out
+
+def fetch_pluto_vod_macgyver():
+    """Extrae las 7 temporadas / 139 episodios oficiales de MacGyver LT (Español Latino) desde Pluto TV LatAm VOD API."""
+    import urllib.request as _ur
+    import uuid as _uuid
+    entries = []
+    vod_map = {}
+    poster = ""
+    hdrs = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 'Accept': 'application/json'}
+    try:
+        boot_url = (
+            "https://boot.pluto.tv/v4/start?appName=web&appVersion=9.20.0&deviceVersion=122.0.0"
+            "&deviceModel=web&deviceMake=chrome&deviceType=web"
+            f"&clientID={_uuid.uuid4()}&clientModelNumber=1.0&serverSideAds=false"
+            "&constraints=&notificationVersion=1&appStoreUrl=&architecture="
+        )
+        boot = json.loads(_ur.urlopen(_ur.Request(boot_url, headers=hdrs), timeout=15).read().decode('utf-8', 'replace'))
+        jwt = boot.get('sessionToken', '')
+        if not jwt:
+            return entries, vod_map, poster
+        s_url = f"https://service-vod.clusters.pluto.tv/v4/vod/series/{PLUTO_MACGYVER_SERIES_ID}/seasons?offset=1000&page=1"
+        s_req = _ur.Request(s_url, headers={**hdrs, 'Authorization': f'Bearer {jwt}'})
+        data = json.loads(_ur.urlopen(s_req, timeout=20).read().decode('utf-8', 'replace'))
+        for cov in (data.get('covers') or []):
+            if cov.get('url'):
+                poster = cov['url']
+                if cov.get('aspectRatio') == '347:500':
+                    break
+        seasons = sorted(data.get('seasons') or [], key=lambda x: int(x.get('number') or 0))
+        first_url = ""
+        for sea in seasons:
+            snum = int(sea.get('number') or 0)
+            if snum <= 0:
+                continue
+            eps = sorted(sea.get('episodes') or [], key=lambda x: int(x.get('number') or 0))
+            for ep in eps:
+                ep_id = (ep.get('_id') or '').strip()
+                if not ep_id:
+                    continue
+                enum = int(ep.get('number') or 0)
+                etitle = re.sub(r'\s+', ' ', (ep.get('name') or f"Episodio {enum:02d}")).strip()
+                stream_url = f"https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/episode/{ep_id}/master.m3u8?jwt={jwt}"
+                if not first_url:
+                    first_url = stream_url
+                grp = f"Series: MacGyver - Temporada {snum:02d}"
+                disp = f"MacGyver - T{snum:02d}E{enum:02d} - {etitle}"
+                entries.append((grp, disp, stream_url, poster))
+                vod_map[stream_url] = f"vod:{ep_id}"
+        if first_url:
+            m3u_txt = _ur.urlopen(_ur.Request(first_url, headers={'User-Agent': hdrs['User-Agent']}), timeout=12).read().decode('utf-8', 'replace')
+            if '#EXTM3U' not in m3u_txt:
+                print("[!] Pluto VOD MacGyver: master.m3u8 invalido, abortando lote.")
+                return [], {}, poster
+        print(f"[+] Pluto VOD MacGyver LT (Español Latino): {len(entries)} episodios en {len(seasons)} temporadas verificados.")
+    except Exception as e:
+        print(f"[!] Error consultando Pluto VOD MacGyver LT: {e}")
+        return [], {}, poster
+    return entries, vod_map, poster
+
+def fetch_verified_simpsons_external():
+    """Recolecta y verifica en Español Latino episodios de Los Simpson (T1-T5 Dropbox + Cortos/T28-T37/Especiales/Pelis pomf2) con caché 24h."""
+    import urllib.request as _ur
+    import time as _time
+    cache_data = load_json(SERIES_CACHE_PATH, {})
+    ext_cache = cache_data.get('external_simpsons_probe', {})
+    now_ts = _time.time()
+    ttl_sec = 20 * 3600
+
+    raw_candidates = []
+    hdrs = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+
+    # 1. Temporadas clasicas 1989-1993 en Dropbox (H.264/AAC Latino) desde masterqueenyt11-cmd/Series
+    try:
+        mq_txt = _ur.urlopen(_ur.Request("https://raw.githubusercontent.com/masterqueenyt11-cmd/Series/main/SIMPSON", headers=hdrs), timeout=15).read().decode('utf-8', 'replace')
+        yr_season = {
+            '1989': 'Temporada 01',
+            '1990': 'Temporada 02',
+            '1991': 'Temporada 03',
+            '1992': 'Temporada 04',
+            '1993': 'Temporada 05: Selección Clásicos',
+        }
+        yr_counters = {}
+        for title, url in _parse_simple_extinf(mq_txt):
+            if 'dl.dropboxusercontent.com' not in url and 'dropbox.com' not in url:
+                continue
+            ym = re.search(r'\((\d{4})\)', title)
+            yr = ym.group(1) if ym else ''
+            if yr not in yr_season:
+                continue
+            yr_counters[yr] = yr_counters.get(yr, 0) + 1
+            ep_idx = yr_counters[yr]
+            clean_t = re.sub(r'\(\d{4}\)', '', title).strip(' -')
+            clean_t = re.sub(r'^\d+\s*[-.)]*\s*', '', clean_t).strip()
+            clean_t = re.sub(r'\b720p\s*latino\b', '', clean_t, flags=re.I).strip(' -')
+            s_code = {'1989': 1, '1990': 2, '1991': 3, '1992': 4, '1993': 5}[yr]
+            ep_name = f"Los Simpson - T{s_code:02d}E{ep_idx:02d}" + (f" - {clean_t}" if clean_t else "")
+            raw_candidates.append((f"Series: Los Simpson - {yr_season[yr]}", ep_name, url, SIMPSONS_FALLBACK_LOGO))
+    except Exception as e:
+        print(f"[!] Error leyendo masterqueenyt11/SIMPSON: {e}")
+
+    # 2. Cortos Tracey Ullman (00), Temporadas 28-37, Treehouse, Fortnite y Pelis desde tokio14-dot/simp
+    tokio_map = [
+        ('00', 'Temporada 00: Cortos Clásicos', 0),
+        ('28', 'Temporada 28', 28),
+        ('29', 'Temporada 29', 29),
+        ('30', 'Temporada 30', 30),
+        ('31', 'Temporada 31', 31),
+        ('32', 'Temporada 32', 32),
+        ('33', 'Temporada 33', 33),
+        ('34', 'Temporada 34', 34),
+        ('35', 'Temporada 35', 35),
+        ('36', 'Temporada 36', 36),
+        ('37', 'Temporada 37', 37),
+        ('Fortnite x The Simpsons', 'Especiales: Fortnite x Los Simpson', 98),
+        ('Treehouse of Horror.txt', 'Especiales: La Casita del Horror', 99),
+        ('pelis', 'Especiales: Películas y Cortos', 100),
+    ]
+    # Treehouse I-VIII ya vienen en MP4 H.264/AAC desde Archive.org (los-simpson-treehouse-of-horror_20240901)
+    archive_th_covered = {'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'}
+    archive_peli_urls = {
+        'https://archive.org/download/01_20250623_20250623/01.ia.mp4': 'https://archive.org/download/01_20250623_20250623/01.mp4',
+        'https://archive.org/download/01_20250623_20250623/02.ia.mp4': 'https://archive.org/download/01_20250623_20250623/02.mp4',
+        'https://archive.org/download/01_20250623_20250623/03.ia.mp4': 'https://archive.org/download/01_20250623_20250623/03.mp4',
+        'https://archive.org/download/01_20250623_20250623/04.ia.mp4': 'https://archive.org/download/01_20250623_20250623/04.mp4',
+    }
+    for fname, season_label, snum in tokio_map:
+        try:
+            raw_u = "https://raw.githubusercontent.com/tokio14-dot/simp/main/" + urllib.parse.quote(fname)
+            txt = _ur.urlopen(_ur.Request(raw_u, headers=hdrs), timeout=15).read().decode('utf-8', 'replace')
+            items = _parse_simple_extinf(txt)
+            if not items:
+                urls = [_norm_ext_media_url(ln) for ln in txt.splitlines() if ln.strip().startswith('http')]
+                items = [(f"Episodio {i+1:02d}", u) for i, u in enumerate(urls)]
+            for idx_ep, (title, url) in enumerate(items, 1):
+                low = url.lower()
+                if any(bad in low for bad in ('bflix.net', 'fina.dyndns.tv', '.jpg', '.png', 'raw.githubusercontent.com')):
+                    continue
+                if 'archive.org/download/' in low and '06-4_20250630' in low:
+                    continue
+                if url in archive_peli_urls:
+                    url = archive_peli_urls[url]
+                if not any(ok_host in low for ok_host in ('pomf2.lain.la', 'dropboxusercontent.com', 'dropbox.com', '01_20250623_20250623', 'maggie-simpson')):
+                    continue
+                if fname == 'Treehouse of Horror.txt' and title.strip() in archive_th_covered:
+                    continue
+                # Extract clean episode number/title
+                if snum <= 37:
+                    m_x = re.search(r'(?:^|\b)\d+x(\d+)\b', title, flags=re.I)
+                    m_lead = re.match(r'^(?:cap[ií]tulo|corto|ep\.?|episodio)?\s*(\d+)\b\s*[-.:]*\s*(.*)$', title.strip(), flags=re.I)
+                    if m_x:
+                        ep_n = int(m_x.group(1))
+                        sub = re.sub(r'^\d+x\d+\s*[-.:]*\s*', '', title.strip()).strip()
+                    elif m_lead:
+                        ep_n = int(m_lead.group(1))
+                        sub = m_lead.group(2).strip()
+                    else:
+                        ep_n = idx_ep
+                        sub = title.strip()
+                    ep_name = f"Los Simpson - T{snum:02d}E{ep_n:02d}" + (f" - {sub}" if sub else "")
+                elif fname == 'Treehouse of Horror.txt':
+                    t_clean = title.strip()
+                    prefix = "La Casita del Horror " if t_clean.split()[0].rstrip('.').isdigit() or re.match(r'^[IVXLCDM]+$', t_clean.split()[0]) else ""
+                    ep_name = f"Los Simpson - Especial #{idx_ep:02d} - {prefix}{t_clean}"
+                elif fname == 'Fortnite x The Simpsons':
+                    ep_name = f"Los Simpson - Fortnite Corto {idx_ep:02d}"
+                else:
+                    ep_name = f"Los Simpson - {title.strip()}"
+                raw_candidates.append((f"Series: Los Simpson - {season_label}", ep_name, url, SIMPSONS_FALLBACK_LOGO))
+        except Exception as e:
+            print(f"[!] Error leyendo tokio14-dot/simp/{fname}: {e}")
+
+    # Verify external URLs with polite 0.35s delay & 24h persistent probe cache
+    verified_entries = []
+    seen_u = set()
+    probed_now = 0
+    for grp, disp, url, logo in raw_candidates:
+        if url in seen_u:
+            continue
+        seen_u.add(url)
+        rec = ext_cache.get(url)
+        if rec and (now_ts - float(rec.get('ts', 0))) < ttl_sec:
+            if rec.get('ok'):
+                verified_entries.append((grp, disp, url, logo))
+            continue
+        ok, code = _probe_direct_media_ok(url)
+        if code == 429:
+            _time.sleep(6.0)
+            ok, code = _probe_direct_media_ok(url)
+        ext_cache[url] = {'ok': bool(ok), 'code': code, 'ts': now_ts}
+        probed_now += 1
+        if 'pomf2.lain.la' in url:
+            _time.sleep(0.35)
+        else:
+            _time.sleep(0.08)
+        if ok:
+            verified_entries.append((grp, disp, url, logo))
+
+    # Persist probe cache inside series_completas_cache.json
+    try:
+        cache_latest = load_json(SERIES_CACHE_PATH, {})
+        cache_latest['external_simpsons_probe'] = ext_cache
+        save_json_atomic(SERIES_CACHE_PATH, cache_latest)
+    except Exception as e:
+        print(f"[!] Advertencia guardando ext_cache: {e}")
+
+    print(f"[+] Los Simpson (Fuentes Externas Latino Verificadas): {len(verified_entries)}/{len(seen_u)} vivos (sondeados ahora: {probed_now}).")
+    return verified_entries
+
+def reconcile_series_entries(series_out, existing_series, dead_ids):
+    """Purga enlaces contaminados/negros e integra MacGyver LT (Pluto VOD) + Los Simpson (Latino) + Los Supersonicos."""
+    pluto_entries, pluto_vod_map, pluto_poster = fetch_pluto_vod_macgyver()
+    simpson_ext = fetch_verified_simpsons_external()
+
+    cleaned_out = []
+    seen_urls = set()
+
+    # Track preferred .mp4 Treehouse specials & 01_20250623 originals so we skip dummy/duplicate files
+    th_seen_titles = {}
+    for grp, name, url, logo in series_out:
+        low_u = (url or '').lower()
+        low_g = (grp or '').lower()
+        # Filter blacklist & tiny dummies & Archive .ia duplicates
+        if any(b in low_u for b in BLACKLIST_IDENTIFIERS):
+            continue
+        if 'los-simpson-treehouse-of-horror_20240901' in low_u:
+            fname_u = urllib.parse.unquote(url.rsplit('/', 1)[-1]).lower()
+            if 'los simpson treehouse of horror.mp4' in fname_u:
+                continue  # 0.5 MB dummy intro
+            base_t = re.sub(r'\.(mkv|mp4|webm|avi)$', '', fname_u)
+            if base_t not in th_seen_titles or fname_u.endswith('.mp4'):
+                th_seen_titles[base_t] = url
+
+    th_allowed = set(th_seen_titles.values())
+    movie_map_01 = {
+        '01.mp4': 'Los Simpson - Película: The Simpsons Movie (2007)',
+        '02.mp4': 'Los Simpson - Corto: El bueno, el Bart y el Loki (2021)',
+        '03.mp4': 'Los Simpson - Corto: Plusniversario (2021)',
+        '04.mp4': 'Los Simpson - Corto: Yellow Planet (2025)',
+    }
+
+    def _normalize_row(grp, name, url, logo):
+        low_u = (url or '').lower()
+        low_g = (grp or '').lower()
+        low_n = (name or '').lower()
+        # Reject blacklisted or stale MacGyver English or mislabeled t-2-02.-ia Simpson links
+        if any(b in low_u for b in BLACKLIST_IDENTIFIERS):
+            return None
+        if 'macgyver' in (low_g + low_n) and 'ipv4.pluto.tv' not in low_u:
+            return None
+        if pluto_entries and 'ipv4.pluto.tv' in low_u and 'macgyver' in (low_g + low_n):
+            return None  # Replace stale 24h JWTs with fresh batch
+        # Fix t-2-02.-ia -> Los Supersonicos (separado en Temporada 01/02/03)
+        if 'archive.org/download/t-2-02.-ia/' in low_u:
+            fname_part = urllib.parse.unquote(url.rsplit('/', 1)[-1])
+            mt = re.search(r'[Tt](\d+)[-_](\d+)', fname_part)
+            if mt:
+                sn, en = int(mt.group(1)), int(mt.group(2))
+                return (f"Series: Los Supersonicos - Temporada {sn:02d}",
+                        f"Los Supersonicos - T{sn:02d}E{en:02d}",
+                        url, SUPERSONICOS_LOGO)
+            return ("Series: Los Supersonicos - Temporada 01", name.replace("Los Simpson", "Los Supersonicos"), url, SUPERSONICOS_LOGO)
+        # Filter Treehouse Archive duplicates/dummy (keep .mp4 H.264/AAC)
+        if 'los-simpson-treehouse-of-horror_20240901' in low_u:
+            if url not in th_allowed:
+                return None
+            fname_part = urllib.parse.unquote(url.rsplit('/', 1)[-1])
+            clean_th = re.sub(r'\.(mp4|mkv)$', '', fname_part, flags=re.I).strip()
+            return ("Series: Los Simpson - Especiales: La Casita del Horror", f"Los Simpson - {clean_th}", url, SIMPSONS_FALLBACK_LOGO)
+        if 'archive.org/download/01_20250623_20250623/' in low_u:
+            fn = urllib.parse.unquote(url.rsplit('/', 1)[-1]).lower()
+            if fn not in movie_map_01:
+                return None
+            return ("Series: Los Simpson - Especiales: Películas y Cortos", movie_map_01[fn], url, SIMPSONS_FALLBACK_LOGO)
+        if 'archive.org/download/maggie-simpson-cita-a-jugar-con-el-destino-corto/' in low_u:
+            return ("Series: Los Simpson - Especiales: Películas y Cortos", "Los Simpson - Corto: Cita a jugar con el destino (2020)", url, SIMPSONS_FALLBACK_LOGO)
+        if 'archive.org/download/lo-simpson-pel-1cul-4-hd-720p-972715/' in low_u:
+            return ("Series: Los Simpson - Especiales: Películas y Cortos", "Los Simpson - Película: The Simpsons Movie (Alt HD)", url, SIMPSONS_FALLBACK_LOGO)
+        if 'archive.org/download/tinaco_20210512/' in low_u and '.ia.' in low_u:
+            return None
+        return (grp, name, url, logo)
+
+    for row in series_out:
+        fixed = _normalize_row(*row)
+        if fixed and fixed[2] not in seen_urls:
+            seen_urls.add(fixed[2])
+            cleaned_out.append(fixed)
+
+    # Preserve non-blacklisted old entries (also cleaning t-2-02.-ia / MacGyver)
+    preserved_old = 0
+    for e in existing_series:
+        m = re.search(r'archive\.org/download/([^/]+)/', e['url'])
+        iid = urllib.parse.unquote(m.group(1)) if m else ''
+        if m and (iid in dead_ids or iid in BLACKLIST_IDENTIFIERS):
+            continue
+        fixed = _normalize_row(e['group'], e['name'], e['url'], e['logo'])
+        if fixed and fixed[2] not in seen_urls:
+            seen_urls.add(fixed[2])
+            cleaned_out.append(fixed)
+            preserved_old += 1
+
+    # Add curated verified Los Simpson external entries (deduped against tinaco T06-T10 & Archive T36E15)
+    simpson_covered_keys = set()
+    for g, n, u, l in cleaned_out:
+        if 'simpson' in g.lower() and ('tinaco_20210512' in u.lower()):
+            mk = re.search(r'T(\d+)E(\d+)', n, flags=re.I)
+            if mk:
+                simpson_covered_keys.add((int(mk.group(1)), int(mk.group(2))))
+
+    for g, n, u, l in simpson_ext:
+        if u in seen_urls:
+            continue
+        mk = re.search(r'T(\d+)E(\d+)', n, flags=re.I)
+        if mk and (int(mk.group(1)), int(mk.group(2))) in simpson_covered_keys:
+            continue
+        seen_urls.add(u)
+        cleaned_out.append((g, n, u, l))
+
+    # Drop t-36x-05 if T36E15 already came from tokio14/36 MP4 (H.264/AAC)
+    has_t36e15_mp4 = any(('simpson' in g.lower() and 'T36E15' in n and 'pomf2.lain.la' in u) for g, n, u, _ in cleaned_out)
+    if has_t36e15_mp4:
+        cleaned_out = [r for r in cleaned_out if 'archive.org/download/t-36x-05/' not in r[2].lower()]
+
+    # Add fresh MacGyver LT (Pluto VOD)
+    for row in pluto_entries:
+        if row[2] not in seen_urls:
+            seen_urls.add(row[2])
+            cleaned_out.append(row)
+
+    return cleaned_out, preserved_old, pluto_vod_map, pluto_poster
+
+def postprocess_series_catalog(final_catalog, pluto_vod_map, pluto_poster=""):
+    """Asegura logos, pluto_id VOD, purga residuos de old_cat y ordena temporadas/episodios numericamente."""
+    def _season_sort_key(sea_obj):
+        st = (sea_obj.get('season') or '').strip()
+        m = re.search(r'Temporada\s*(\d+)', st, flags=re.I)
+        if m:
+            return (0, int(m.group(1)), st.lower())
+        if 'especial' in st.lower() or 'horror' in st.lower():
+            return (1, 0, st.lower())
+        return (2, 0, st.lower())
+
+    for s_obj in final_catalog:
+        sname = (s_obj.get('series') or '').lower()
+        if 'macgyver' in sname and pluto_poster:
+            s_obj['logo'] = pluto_poster
+        elif 'supersonicos' in sname:
+            s_obj['logo'] = SUPERSONICOS_LOGO
+        elif 'simpson' in sname:
+            s_obj['logo'] = SIMPSONS_FALLBACK_LOGO
+
+        cleaned_seasons = []
+        for sea in (s_obj.get('seasons') or []):
+            seen_ep_u = set()
+            valid_eps = []
+            for ep in (sea.get('episodes') or []):
+                u = (ep.get('url') or '').strip()
+                low_u = u.lower()
+                if not u or u in seen_ep_u:
+                    continue
+                if any(b in low_u for b in BLACKLIST_IDENTIFIERS):
+                    continue
+                if 'simpson' in sname:
+                    if 'archive.org/download/t-2-02.-ia/' in low_u:
+                        continue
+                    if '.ia.mp4' in low_u and ('tinaco_20210512' in low_u or '01_20250623_20250623' in low_u):
+                        continue
+                    if 'los%20simpson%20treehouse%20of%20horror.mp4' in low_u or 'los simpson treehouse of horror.mp4' in low_u:
+                        continue
+                if 'macgyver' in sname:
+                    if pluto_vod_map:
+                        if u not in pluto_vod_map:
+                            continue
+                    elif 'ipv4.pluto.tv' not in low_u:
+                        continue
+                seen_ep_u.add(u)
+                if u in pluto_vod_map:
+                    ep['pluto_id'] = pluto_vod_map[u]
+                    if pluto_poster:
+                        ep['logo'] = pluto_poster
+                elif 'supersonicos' in sname:
+                    ep['logo'] = SUPERSONICOS_LOGO
+                elif 'simpson' in sname:
+                    ep['logo'] = SIMPSONS_FALLBACK_LOGO
+                valid_eps.append(ep)
+            if valid_eps:
+                sea['episodes'] = sorted(valid_eps, key=lambda ep: natural_key(ep.get('name', '')))
+                cleaned_seasons.append(sea)
+
+        s_obj['seasons'] = sorted(cleaned_seasons, key=_season_sort_key)
+        s_obj['total_seasons'] = len(s_obj['seasons'])
+        s_obj['total_episodes'] = sum(len(se.get('episodes') or []) for se in s_obj['seasons'])
+
 _local_cat = os.path.join(APP_DIR, "latam_tv_catalog.json")
 LATAM_CATALOG_PATH = _local_cat if os.path.exists(_local_cat) else r"C:\Users\leoka\.gemini\antigravity\scratch\omega_music_app\assets\latam_tv_catalog.json"
 FAVS_PATH = os.path.join(APP_DIR, "favoritos.json")
@@ -615,10 +1059,10 @@ SERIES_CATALOG = [
     ("El Chapulin Colorado", ["el-chapulin-colorado-coleccion-1080p"], ["el chapulin colorado"]),
     ("ALF", ["alf-latino_202511"], ["alf"]),
     ("Los Caballeros del Zodiaco", ["yk-saint-seiya-024-d-01-b-41-c-1"], ["saint seiya", "yk saint seiya"]),
-    ("Los Simpson", ["t-2-02.-ia", "los-simpson-treehouse-of-horror_20240901",
-                     "eJwzMTXTNdQ1000tjs9JLNFNK83Jic9I0S02AwBdHgfn.mkv",
-                     "km_20260801_480p_25f_20260801_104339", "km_20260725-6_480p_25f_20260725_163427",
-                     "km_20260802-5_480p_25f_20260802_174515_202608"], ["los simpsons", "the simpsons"]),
+    ("Los Simpson", ["tinaco_20210512", "t-36x-05", "los-simpson-treehouse-of-horror_20240901",
+                     "maggie-simpson-cita-a-jugar-con-el-destino-corto",
+                     "lo-simpson-pel-1cul-4-hd-720p-972715", "01_20250623_20250623"], ["los simpsons", "the simpsons"]),
+    ("Los Supersonicos", ["t-2-02.-ia"], ["los supersonicos", "the jetsons", "los-s.son"]),
     ("Malcolm el de en medio", ["malcolm-el-de-en-medio-t-0%d" % i for i in range(1, 8)], ["malcolm"]),
     ("Dragon Ball", ["d-01_20240907"], []),
     ("Dragon Ball Z", ["Dragon-Ball-Z-Latino-JP"], []),
@@ -1357,14 +1801,14 @@ def main():
 
     # 7. Series completas
     series_out, per_series, dead_ids, discovered = harvest_complete_series()
+    series_out, preserved_old, _pluto_vod_map, _pluto_poster = reconcile_series_entries(series_out, existing_series, dead_ids)
+    per_series = {}
+    for _g, _n, _u, _l in series_out:
+        _sn = re.sub(r'^Series:\s*', '', _g, flags=re.I)
+        _sn = re.split(r'\s*-\s*(?:Temporada|Saga|Especiales)\b', _sn, flags=re.I)[0].strip()
+        if _sn:
+            per_series[_sn] = per_series.get(_sn, 0) + 1
     series_urls = {e[2] for e in series_out}
-    preserved_old = 0
-    for e in existing_series:   # jamas perder episodios previos si Archive.org no respondio
-        m = re.search(r'archive\.org/download/([^/]+)/', e['url'])
-        if e['url'] not in series_urls and not (m and urllib.parse.unquote(m.group(1)) in dead_ids):
-            series_out.append((e['group'], e['name'], e['url'], e['logo']))
-            series_urls.add(e['url'])
-            preserved_old += 1
 
     # 8. Escritura atomica + respaldo
     if os.path.exists(OUTPUT_M3U):
@@ -1418,20 +1862,12 @@ def main():
     # 8.0.1 Exportar series_catalog.json estructurado por temporadas y capítulos para Omega Mobile
     try:
         series_cat_file = os.path.join(APP_DIR, "series_catalog.json")
+        # Reconstruccion biyectiva 1:1 desde series_out (sin duplicados heredados de temporadas previas)
         catalog_map = {}
-        if os.path.exists(series_cat_file):
-            try:
-                old_cat = load_json(series_cat_file, [])
-                for s in old_cat:
-                    s_name = s.get('series')
-                    if s_name and 'macgyver' not in s_name.lower():
-                        catalog_map[s_name.lower()] = s
-            except Exception:
-                pass
 
         for grp, name, url, logo in series_out:
             # Separar serie de temporada sin romper nombres con guion como He-Man
-            m_grp = re.match(r'Series:\s*(.+?)\s*-\s*(Temporada\s*\d+|Saga\s*.+)', grp, re.I)
+            m_grp = re.match(r'Series:\s*(.+?)\s*-\s*((?:Temporada|Saga|Especiales)\b.*)', grp, re.I)
             if m_grp:
                 s_name = m_grp.group(1).strip()
                 sea_name = m_grp.group(2).strip()
@@ -1439,7 +1875,7 @@ def main():
                 s_name = grp.replace("Series:", "").strip()
                 sea_name = "Temporada 01"
 
-            if 'macgyver' in s_name.lower():
+            if not s_name:
                 continue
 
             s_key = s_name.lower()
@@ -1480,6 +1916,7 @@ def main():
             if s_obj['total_episodes'] > 0:
                 final_series_catalog.append(s_obj)
 
+        postprocess_series_catalog(final_series_catalog, _pluto_vod_map, _pluto_poster)
         final_series_catalog.sort(key=lambda s: s.get('series', '').lower())
 
         with open(series_cat_file, 'w', encoding='utf-8') as scf:
