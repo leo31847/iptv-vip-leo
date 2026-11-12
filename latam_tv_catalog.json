@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12 14:10",
+  "version": "2026-11-12 14:17",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -5327,7 +5327,8 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8",
+        "https://movil.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
