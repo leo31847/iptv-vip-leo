@@ -665,7 +665,7 @@ WANTED_SERIES = [
     "El Laboratorio de Dexter", "Johnny Bravo", "Coraje el Perro Cobarde", "Las Chicas Superpoderosas",
     "Ed Edd y Eddy", "Rugrats", "Las Tortugas Ninja", "Robotech", "Transformers", "Los Cazafantasmas",
     "Sailor Moon", "Ranma", "Pokemon", "Digimon", "Scooby Doo", "Tom y Jerry", "La Pantera Rosa",
-    "El Pajaro Loco", "Popeye", "Plaza Sesamo", "Odisea Burbujas", "Carrusel", "Chiquilladas",
+    "El Pajaro Loco", "Popeye", "Plaza Sesamo", "Odisea Burbujas", "Carrusel", "Chiquilladas", "Cuentos de los Hermanos Grimm",
     "El Mundo de Beakman", "Los Thunderbirds", "Bonanza", "Kung Fu", "Los Duques de Hazzard", "CHiPs",
 ]
 

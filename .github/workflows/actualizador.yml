@@ -2,8 +2,8 @@ name: Actualizador Automatico IPTV VIP
 
 on:
   schedule:
-    # Se ejecuta automaticamente cada 6 horas todos los dias
-    - cron: '0 */6 * * *'
+    # Se ejecuta automaticamente cada 2 horas todos los dias (12 veces al dia)
+    - cron: '0 */2 * * *'
   workflow_dispatch: # Permite ejecutarlo manualmente con 1 clic desde GitHub
 
 permissions:
