@@ -31,6 +31,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Robot IPTV VIP [GitHub Action]"
-          git add LISTA_MAESTRA_LEO_VIP.m3u lista_en_vivo.m3u lista_series.m3u series_completas_cache.json robot_estado.json latam_tv_catalog.json
+          git add LISTA_MAESTRA_LEO_VIP.m3u lista_en_vivo.m3u lista_series.m3u series_completas_cache.json robot_estado.json latam_tv_catalog.json series_catalog.json
           git commit -m "Auto-actualización de canales y series VIP: $(date -u '+%Y-%m-%d %H:%M UTC')" || exit 0
           git push
