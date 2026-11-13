@@ -550,7 +550,7 @@ function renderSidebar() {
     const tabs = document.getElementById('categoryTabs');
     tabs.innerHTML = '';
     
-    let baseTabs = [['📺 Todos', null], ['⭐ Favoritos', '_favs'], ['🍿 Series Clásicas (178 Temporadas)', '_series_hub']];
+    let baseTabs = [['📺 Todos', null], ['⭐ Favoritos', '_favs'], ['🍿 Series Clásicas VOD', '_series_hub']];
     
     [...baseTabs, ...sortedCats.filter(([c]) => !c.startsWith('Series:')).slice(0, 12).map(([c]) => [((CATEGORY_ICONS[c] || (c.startsWith('Series:') ? '🍿' : '📡')) + ' ' + c.charAt(0).toUpperCase() + c.slice(1)), c])].forEach(([label, val]) => {
         const tab = document.createElement('button');

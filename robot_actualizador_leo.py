@@ -47,7 +47,43 @@ BROWSER_HEADERS = {
 }
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-BLACKLIST_IDENTIFIERS = {'macgyver-collection-1985--to-1994'}
+BLACKLIST_IDENTIFIERS = {
+    'macgyver-collection-1985--to-1994',
+    'pocoyo-perdidos-en-el-espacio-dvd-iso',
+    'cesser-16-liga-de-la-justicia-720p',
+    'ededdeeddys0106specialefilmmuxbythegatto',
+    'ededeeddys0106specialefilmmuxbythegatto',
+    'gatocosmico',
+    'popeye33',
+    'escalofrios95',
+    'pucca06lat',
+    'la-ninera-2004-480p',
+    't-2x-14',
+    'kenan-y-kel-s-02',
+    'bob-esponja-2-temporada-episodios-09-supervivencia-de-los-idiotas-.-expulsado',
+    'los-pitufos-azteca-7-mexico-volumenes-47-48-49-incluye-15-metariales-extras-dvd-9',
+    'la-familia-ingalls-temporada-1',
+    'la-familia-ingalls-temporada-1_202010',
+    'batman-la-serie-animada-1992-latino',
+    'coraje-1', 'coraje-2', 'coraje-3', 'coraje-4',
+    'coraje-el-perro-cobarde-latino',
+    'malcolm-el-de-en-medio-t-01', 'malcolm-el-de-en-medio-t-02',
+    'malcolm-el-de-en-medio-t-03', 'malcolm-el-de-en-medio-t-04',
+    'malcolm-el-de-en-medio-t-05', 'malcolm-el-de-en-medio-t-06',
+    'malcolm-el-de-en-medio-t-07', 'malcolm-el-de-en-medio-temp01',
+    'alf-latino_202511', 'gordonshumway',
+    'thundercats-063-mumm-rana', 'thundercats2011', 'thundercats_202303',
+    'dragon-ball-z-latino-jp', 'don-gato-y-su-pandilla_202601', '14_20210419',
+}
+
+def _is_blacklisted_url(u):
+    raw_l = (u or '').lower()
+    unq_l = urllib.parse.unquote(u or '').lower()
+    for s in (raw_l, unq_l):
+        if any((f'/{b}/' in s or s.endswith(f'/{b}')) for b in BLACKLIST_IDENTIFIERS):
+            return True
+    return False
+
 PLUTO_MACGYVER_SERIES_ID = "643fea281a5081001ad8a1d8"
 SIMPSONS_FALLBACK_LOGO = "https://archive.org/services/img/tinaco_20210512"
 SUPERSONICOS_LOGO = "https://archive.org/services/img/t-2-02.-ia"
@@ -81,7 +117,8 @@ def _probe_direct_media_ok(url, timeout=12):
 
 def _norm_ext_media_url(u):
     u = (u or '').strip()
-    if u.startswith('http://pomf2.lain.la/'):
+    u = re.sub(r'^https?://ia\d+\.us\.archive\.org/\d+/items/', 'https://archive.org/download/', u, flags=re.I)
+    if u.startswith('http://pomf2.lain.la/') or u.startswith('http://archive.org/'):
         u = 'https://' + u[7:]
     if 'dropbox.com/scl/' in u and 'dl=0' in u:
         u = u.replace('dl=0', 'dl=1')
@@ -101,14 +138,90 @@ def _parse_simple_extinf(txt):
             cur_t = ''
     return out
 
-def fetch_pluto_vod_macgyver():
-    """Extrae las 7 temporadas / 139 episodios oficiales de MacGyver LT (Español Latino) desde Pluto TV LatAm VOD API."""
+# Catálogo maestro curado de Pluto TV CO VOD (100% es:Spanish [Original] verificado por API/Audio)
+# Formato: (tier, nombre_serie, pluto_series_id) — Tier 0 nunca se recorta por presupuesto de bytes.
+PLUTO_CO_SERIES_CATALOG = [
+    (0, "MacGyver", "643fea281a5081001ad8a1d8"),
+    (1, "Los Pitufos", "691b2e4669032f4edfd915be"),
+    (1, "Tortugas Ninja", "63ff6e23689edb0013bce4e7"),
+    (1, "Kenan y Kel", "5eff42e91bfe8e001a9a5460"),
+    (1, "Popeye el Marino", "602c566bf5408c001a4fc3e0"),
+    (1, "All-New Popeye", "5e6bdbbce2fa10001bed0543"),
+    (1, "Rugrats Crecidos", "5e31a4c2423d816d8854350b"),
+    (1, "Avatar: La Leyenda de Aang", "65c4db93a40ff70013e98095"),
+    (1, "Danny Phantom", "5f909977397eee001aba59e9"),
+    (1, "Los Pinguinos de Madagascar", "649c4af7500e680013c667e5"),
+    (1, "Kung Fu Panda: La Leyenda de Po", "649c499b3e9a7b001393b41e"),
+    (1, "Mr. Bean Animado", "5e0fc8ebd78344b4ec61adf1"),
+    (1, "South Park", "60c8f213e301960013db44f8"),
+    (1, "Daria", "5e20986b370805f4c87911aa"),
+    (1, "La Vida Moderna de Rocko", "5e32082ab5f08674273e624c"),
+    (1, "CatDog", "5e33683826aa35a05e2e06e5"),
+    (1, "Los Castores Cascarrabias", "5e4445ca9cd486cdb87c1d4f"),
+    (1, "Aaahh!!! Monstruos de Verdad", "5e305b3b00b8fd45e1433e0e"),
+    (1, "Los Thornberrys", "5e29cad3d5346a9b8e714610"),
+    (1, "Rocket Power", "61a6276d178ebd00137ad118"),
+    (1, "Invasor Zim", "615c4e0b5daa86001a53c993"),
+    (1, "El Tigre: Las Aventuras de Manny Rivera", "615753f356bf09001321f93c"),
+    (1, "Los Padrinos Magicos", "631a0d4bc38c5300133782a2"),
+    (1, "Le Temes a la Oscuridad", "6350049bd6ee50001378f1c8"),
+    (1, "Clarissa lo Explica Todo", "5fe10c930ba4f0001a401c5d"),
+    (1, "Death Note", "5e73a62fb16882001b38dec6"),
+    (1, "Naruto", "5e73b850e40c9f001a0a9fb4"),
+    (1, "Naruto Shippuden", "5ed68438af4720001a024113"),
+    (1, "Yu-Gi-Oh!", "5f19972aefe562001369966c"),
+    (1, "Hunter x Hunter", "64c3c440fdd8620013a4224f"),
+    (1, "Shaman King", "6042944f558c290014fa6a01"),
+    (1, "Star Trek: Espacio Profundo 9", "68adbc784f8d4a9917b534e8"),
+    (1, "Star Trek: Voyager", "68ed0a1871d0752d879dad80"),
+    (1, "Hechiceras", "6812382600cabfe6fe7f9093"),
+    (1, "CSI: Miami", "63bc1f45a6bb3b001475e802"),
+    (1, "Los 4400", "693c4e4ad405d15a95bdf742"),
+    (1, "Twin Peaks", "6a9ec4c8e92f4736336c8558"),
+    (2, "Zoey 101", "627281309f694b001374046c"),
+    (2, "Victorious", "6890d79863893d441e1f7996"),
+    (2, "Big Time Rush", "6335c10005b8af001385cd88"),
+    (2, "Sam y Cat", "6335bfaa7a31e800133e7ad5"),
+    (2, "Yu-Gi-Oh! GX", "687e46784f8d4a99177053ce"),
+    (2, "JoJo's Bizarre Adventure", "65bd42b9b65b870013b0bd02"),
+    (2, "Boruto: Naruto Next Generations", "65240b9f4827fc001a05ae1d"),
+    (2, "Frasier", "6a32f9f0114ca7fcbe2e1a4a"),
+    (2, "The King of Queens", "690ccca5d2a007fabab028c2"),
+    (2, "Medium", "6a85c84ada71d9a75f00e748"),
+    (2, "Numb3rs", "681239919f0436e1abdd3361"),
+    (2, "NCIS", "64413b886113a5001afb0856"),
+    (2, "Blue Bloods", "6a3d3a00812ca100160a25a2"),
+    (2, "Camino al Cielo", "64a2d190fdd8620013ec4b5e"),
+    (2, "Alerta Cobra", "654a7418619680001aa33093"),
+    (2, "Andromeda", "6113ff42975c210013c15376"),
+    (2, "Relic Hunter", "608ab1ec565bff0013119818"),
+    (2, "Z Nation", "66a269ea8dfe2a00133cff60"),
+    (2, "Hell on Wheels", "64b6d9ee2273310013523281"),
+    (2, "La Familia del Barrio", "5f1756eb6ebd4d0013287f74"),
+    (2, "El Capo", "6a96db59da71d9a75f4fc561"),
+    (2, "Rafael Orozco, el Idolo", "64ff0f506b9e3e00137c0861"),
+    (2, "La Ronca de Oro", "65085ab0f64f180013e74d31"),
+    (2, "La Seleccion", "5eaadd47a3eeeb001aa62a63"),
+    (2, "La Seleccion 2", "5ec56f8ace3117001a20b490"),
+    (3, "Los Asesinatos de Midsomer", "63b6e56cd5762100130180e9"),
+    (3, "Archivos Forenses", "5e1e5fc52fe6c1fc70e12be6"),
+]
+
+PLUTO_SERIES_TIER = {name.lower(): tier for tier, name, _ in PLUTO_CO_SERIES_CATALOG}
+
+def fetch_pluto_vod_series_batch():
+    """Extrae lote curado de series oficiales en Español desde Pluto TV CO VOD API verificando región CO y #EXTM3U."""
     import urllib.request as _ur
     import uuid as _uuid
+    import base64 as _b64
+    from concurrent.futures import ThreadPoolExecutor
+
     entries = []
     vod_map = {}
-    poster = ""
+    posters_by_series = {}
+    fetched_keys = set()
     hdrs = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 'Accept': 'application/json'}
+
     try:
         boot_url = (
             "https://boot.pluto.tv/v4/start?appName=web&appVersion=9.20.0&deviceVersion=122.0.0"
@@ -119,45 +232,351 @@ def fetch_pluto_vod_macgyver():
         boot = json.loads(_ur.urlopen(_ur.Request(boot_url, headers=hdrs), timeout=15).read().decode('utf-8', 'replace'))
         jwt = boot.get('sessionToken', '')
         if not jwt:
-            return entries, vod_map, poster
-        s_url = f"https://service-vod.clusters.pluto.tv/v4/vod/series/{PLUTO_MACGYVER_SERIES_ID}/seasons?offset=1000&page=1"
-        s_req = _ur.Request(s_url, headers={**hdrs, 'Authorization': f'Bearer {jwt}'})
-        data = json.loads(_ur.urlopen(s_req, timeout=20).read().decode('utf-8', 'replace'))
-        for cov in (data.get('covers') or []):
-            if cov.get('url'):
-                poster = cov['url']
-                if cov.get('aspectRatio') == '347:500':
-                    break
-        seasons = sorted(data.get('seasons') or [], key=lambda x: int(x.get('number') or 0))
-        first_url = ""
-        for sea in seasons:
-            snum = int(sea.get('number') or 0)
-            if snum <= 0:
-                continue
-            eps = sorted(sea.get('episodes') or [], key=lambda x: int(x.get('number') or 0))
-            for ep in eps:
-                ep_id = (ep.get('_id') or '').strip()
-                if not ep_id:
+            return entries, vod_map, posters_by_series, fetched_keys
+
+        # Validar país CO en el payload JWT para no sobrescribir enlaces CO si corre desde runner US (GitHub Actions)
+        country = ''
+        try:
+            parts = jwt.split('.')
+            if len(parts) >= 2:
+                pad = parts[1] + '=' * (-len(parts[1]) % 4)
+                payload = json.loads(_b64.urlsafe_b64decode(pad))
+                country = (payload.get('country') or payload.get('countryCode') or '').upper()
+        except Exception:
+            country = ''
+        if country and country != 'CO':
+            print(f"[!] Pluto VOD detectó región '{country}' != CO: omitiendo lote fresco para preservar enlaces CO existentes.")
+            return entries, vod_map, posters_by_series, fetched_keys
+
+        def _fetch_one(item):
+            tier, s_name, sid = item
+            s_url = f"https://service-vod.clusters.pluto.tv/v4/vod/series/{sid}/seasons?offset=1000&page=1"
+            s_req = _ur.Request(s_url, headers={**hdrs, 'Authorization': f'Bearer {jwt}'})
+            try:
+                data = json.loads(_ur.urlopen(s_req, timeout=20).read().decode('utf-8', 'replace'))
+            except Exception:
+                return tier, s_name, "", []
+
+            poster = ""
+            for cov in (data.get('covers') or []):
+                if cov.get('url'):
+                    poster = cov['url']
+                    if cov.get('aspectRatio') == '347:500':
+                        break
+
+            seasons = sorted(data.get('seasons') or [], key=lambda x: int(x.get('number') or 0))
+            s_rows = []
+            for sea in seasons:
+                snum = int(sea.get('number') or 0)
+                if snum <= 0:
                     continue
-                enum = int(ep.get('number') or 0)
-                etitle = re.sub(r'\s+', ' ', (ep.get('name') or f"Episodio {enum:02d}")).strip()
-                stream_url = f"https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/episode/{ep_id}/master.m3u8?jwt={jwt}"
-                if not first_url:
-                    first_url = stream_url
-                grp = f"Series: MacGyver - Temporada {snum:02d}"
-                disp = f"MacGyver - T{snum:02d}E{enum:02d} - {etitle}"
-                entries.append((grp, disp, stream_url, poster))
-                vod_map[stream_url] = f"vod:{ep_id}"
+                eps = sorted(sea.get('episodes') or [], key=lambda x: int(x.get('number') or 0))
+                for ep in eps:
+                    ep_id = (ep.get('_id') or '').strip()
+                    if not ep_id:
+                        continue
+                    enum = int(ep.get('number') or 0)
+                    etitle = re.sub(r'\s+', ' ', (ep.get('name') or f"Episodio {enum:02d}")).strip()
+                    stream_url = f"https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/episode/{ep_id}/master.m3u8?jwt={jwt}"
+                    grp = f"Series: {s_name} - Temporada {snum:02d}"
+                    disp = f"{s_name} - T{snum:02d}E{enum:02d} - {etitle}"
+                    s_rows.append((grp, disp, stream_url, poster, f"vod:{ep_id}"))
+            return tier, s_name, poster, s_rows
+
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            results = list(ex.map(_fetch_one, PLUTO_CO_SERIES_CATALOG))
+
+        first_url = ""
+        for _, _, _, s_rows in results:
+            if s_rows:
+                first_url = s_rows[0][2]
+                break
+
         if first_url:
             m3u_txt = _ur.urlopen(_ur.Request(first_url, headers={'User-Agent': hdrs['User-Agent']}), timeout=12).read().decode('utf-8', 'replace')
             if '#EXTM3U' not in m3u_txt:
-                print("[!] Pluto VOD MacGyver: master.m3u8 invalido, abortando lote.")
-                return [], {}, poster
-        print(f"[+] Pluto VOD MacGyver LT (Español Latino): {len(entries)} episodios en {len(seasons)} temporadas verificados.")
+                print("[!] Pluto VOD CO: master.m3u8 inválido, abortando lote.")
+                return [], {}, {}, set()
+
+        ok_series = 0
+        for tier, s_name, poster, s_rows in results:
+            if not s_rows:
+                continue
+            ok_series += 1
+            s_key = s_name.lower()
+            fetched_keys.add(s_key)
+            if poster:
+                posters_by_series[s_key] = poster
+            for grp, disp, stream_url, p, vid in s_rows:
+                entries.append((grp, disp, stream_url, p))
+                vod_map[stream_url] = vid
+
+        print(f"[+] Pluto VOD CO ({country or 'CO'}): {ok_series}/{len(PLUTO_CO_SERIES_CATALOG)} series | {len(entries)} episodios verificados.")
     except Exception as e:
-        print(f"[!] Error consultando Pluto VOD MacGyver LT: {e}")
-        return [], {}, poster
-    return entries, vod_map, poster
+        print(f"[!] Error consultando Pluto VOD CO Batch: {e}")
+        return [], {}, {}, set()
+    return entries, vod_map, posters_by_series, fetched_keys
+
+# Fuentes M3U externas curadas (100% Español Latino verificado por Whisper + HTTP 206 MP4)
+VERIFIED_EXTERNAL_M3U_POOLS = [
+    ("Batman la Serie Animada", "https://archive.org/download/ns_20210520/BAT%20SER.m3u", None),
+    ("Bob Esponja", "https://archive.org/download/ns_20210520/bob%20espoja.m3u", None),
+    ("Breaking Bad", "https://archive.org/download/ns_20210520/BB.m3u", None),
+    ("Prison Break", "https://archive.org/download/ns_20210520/PRISONBRAK.m3u", None),
+    ("Star Wars: La Guerra de los Clones", "https://archive.org/download/ns_20210520/CLONE.m3u", None),
+    ("Grimm", "https://archive.org/download/ns_20210520/GRIMM.m3u", None),
+    ("Digimon Adventure 02", "https://archive.org/download/ns_20210520/digi2.m3u", None),
+    ("Detective Conan", "https://archive.org/download/ns_20210520/CONAN.m3u", None),
+    ("El Increible Mundo de Gumball", "https://archive.org/download/ns_20210520/GUMBALL2.m3u", None),
+    ("Club de Cuervos", "https://archive.org/download/ns_20210520/CLUBCUERVOS.m3u", None),
+    ("Miraculous Ladybug", "https://archive.org/download/ns_20210520/LADYBUG.m3u", None),
+    ("Sakura Card Captor", "https://archive.org/download/ns_20210520/sakura%20carp%20captor.m3u", None),
+    ("Pokemon", "https://archive.org/download/ns_20210520/pokemon.m3u", None),
+    ("Dragon Ball Super", "https://archive.org/download/ns_20210520/DBSL.m3u", None),
+    ("Los Expedientes Secretos X", "https://archive.org/download/ns_20210520/expedientes%20x.m3u", None),
+    ("Coraje el Perro Cobarde", "https://archive.org/download/ns_20210520/CORAJE.m3u", None),
+    ("Drake & Josh", "https://archive.org/download/ns_20210520/DRAJOS.m3u", None),
+    ("Manual de Supervivencia Escolar de Ned", "https://archive.org/download/ns_20210520/NED.m3u", None),
+    ("Gravity Falls", "https://raw.githubusercontent.com/tokio14-dot/daima/main/Gravity%20Falls", None),
+    ("Slam Dunk", "https://raw.githubusercontent.com/tokio14-dot/daima/main/slamduk", None),
+    ("Medabots", "https://raw.githubusercontent.com/tokio14-dot/daima/main/medabots.txt", None),
+    ("Pecezuelos", "https://raw.githubusercontent.com/tokio14-dot/pecezuelo/main/01", None),
+    ("Pecezuelos", "https://raw.githubusercontent.com/tokio14-dot/pecezuelo/main/02", None),
+    ("Pecezuelos", "https://raw.githubusercontent.com/tokio14-dot/pecezuelo/main/03", None),
+    ("Bleach", "https://raw.githubusercontent.com/tokio14-dot/bleach/main/01", None),
+    ("Onegai My Melody", "https://raw.githubusercontent.com/mametchikitty/Listas-IPTV/main/dibujos-animados.m3u", "Onegai My Melody"),
+]
+
+def _decode_m3u_bytes(raw_bytes):
+    try:
+        return raw_bytes.decode('utf-8')
+    except UnicodeDecodeError:
+        return raw_bytes.decode('cp1252', 'replace')
+
+def _parse_ext_items_with_logo(raw_bytes, filter_substr=None):
+    txt = _decode_m3u_bytes(raw_bytes)
+    items = []
+    cur_t = ''
+    cur_logo = ''
+    skip = False
+    for raw in txt.splitlines():
+        ln = raw.strip()
+        if not ln:
+            continue
+        if ln.startswith('#EXTINF:'):
+            if filter_substr and filter_substr.lower() not in ln.lower():
+                skip = True
+                cur_t = ''
+                cur_logo = ''
+                continue
+            skip = False
+            ml = re.search(r'tvg-logo="([^"]+)"', ln, flags=re.I)
+            cur_logo = ml.group(1).strip() if ml else ''
+            cur_t = ln.split(',', 1)[-1].replace('\xa0', ' ').strip()
+        elif ln.startswith('http://') or ln.startswith('https://'):
+            if skip:
+                skip = False
+                continue
+            u = _norm_ext_media_url(ln)
+            eff_t = cur_t or re.sub(r'\.[a-z0-9]{2,5}$', '', urllib.parse.unquote(u.rsplit('/', 1)[-1])).strip()
+            items.append((eff_t, u, cur_logo))
+            cur_t = ''
+            cur_logo = ''
+    return items
+
+def _format_ext_season_ep(series_name, raw_title, seq_idx, murl=""):
+    t = re.sub(r'\s+', ' ', (raw_title or '').replace('\xa0', ' ')).strip()
+    t = re.sub(r'^' + re.escape(series_name) + r'\s*[-:]?\s*', '', t, flags=re.I).strip()
+
+    snum, enum, sub = None, None, t
+    # Caso especial: Gravity Falls trae T01 en 1..20 y T02 en 21..40 con numeración reiniciada
+    if series_name.lower() == 'gravity falls':
+        m_gf_se = re.search(r'\bS(\d{1,2})E(\d{1,3})\b', t, flags=re.I)
+        if m_gf_se and seq_idx <= 20:
+            snum, enum = int(m_gf_se.group(1)), int(m_gf_se.group(2))
+            sub = re.sub(r'^.*?\bS\d{1,2}E\d{1,3}\b\s*[-.:]*\s*', '', t, flags=re.I).strip()
+        else:
+            snum = 1 if seq_idx <= 20 else 2
+            m_ld = re.match(r'^\s*(\d{1,3})\s*[-.:]*\s*(.*)$', t)
+            if m_ld:
+                enum = int(m_ld.group(1))
+                sub = m_ld.group(2).strip().strip('"')
+            else:
+                enum = seq_idx if seq_idx <= 20 else (seq_idx - 20)
+                sub = t.strip('"')
+        return (f"Series: {series_name} - Temporada {snum:02d}",
+                f"{series_name} - T{snum:02d}E{enum:02d}" + (f" - {sub}" if sub else ""))
+
+    m_tri = re.search(r'\b\d+\s*[xX]\s*(\d{1,2})\s*[xX]\s*(\d{1,3})\b(.*)$', t)
+    m_tc = re.search(r'TEMPORADA\s*(\d{1,2})\s*CAP[IÍ]TULO\s*(\d{1,3})(.*)$', t, flags=re.I)
+    m_te = re.search(r'\b[TS](\d{1,2})\s*[-.]?\s*E(\d{1,3})\b\s*[-.:]*\s*(.*)$', t, flags=re.I)
+    m_sx = re.search(r'\b(\d{1,2})\s*[xX]\s*(\d{1,3})\s*[-.:]*\s*(.*)$', t)
+
+    if m_tri:
+        snum, enum, sub = int(m_tri.group(1)), int(m_tri.group(2)), m_tri.group(3).strip(' -.:')
+    elif m_tc:
+        snum, enum, sub = int(m_tc.group(1)), int(m_tc.group(2)), m_tc.group(3).strip(' -.:')
+    elif m_te:
+        snum, enum, sub = int(m_te.group(1)), int(m_te.group(2)), m_te.group(3).strip(' -.:')
+    elif m_sx:
+        snum, enum, sub = int(m_sx.group(1)), int(m_sx.group(2)), m_sx.group(3).strip(' -.:')
+    else:
+        snum = 1
+        if 'pecezuelo' in murl.lower():
+            ms_f = re.search(r'/0?([1-9])\s*$', murl)
+            if ms_f:
+                snum = int(ms_f.group(1))
+        m_lead = re.match(r'^\s*(\d{1,3})\s*(?:[-.:]+|\s+)(.*)$', t)
+        m_stuck = re.match(r'^\s*(\d{1,3})([A-Za-zÁÉÍÓÚÑ¡¿].*)$', t)
+        if m_lead:
+            enum = int(m_lead.group(1))
+            sub = m_lead.group(2).strip(' -.:?')
+        elif m_stuck:
+            enum = int(m_stuck.group(1))
+            sub = m_stuck.group(2).strip(' -.:?')
+        else:
+            enum = seq_idx
+            sub = '' if (t.isdigit() or t == '??') else t
+
+    sub = re.sub(r'\s+', ' ', sub or '').strip(' -.:')
+    if sub in ('??', '?', '-'):
+        sub = ''
+    disp = f"{series_name} - T{snum:02d}E{enum:02d}" + (f" - {sub}" if sub else "")
+    return f"Series: {series_name} - Temporada {snum:02d}", disp
+
+def fetch_verified_external_series_pools():
+    """Recolecta y sondea (caché 7 días) los pools M3U externos auditados en Español Latino MP4."""
+    import urllib.request as _ur
+    import time as _time
+    from concurrent.futures import ThreadPoolExecutor
+
+    cache_data = load_json(SERIES_CACHE_PATH, {})
+    ext_cache = cache_data.get('external_series_probe', {})
+    now_ts = _time.time()
+    ttl_sec = 7 * 86400
+    hdrs = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+
+    raw_candidates = []
+    fetched_keys = set()
+    ext_posters = {}
+
+    def _fetch_m3u(spec):
+        s_name, murl, filt = spec
+        try:
+            raw = _ur.urlopen(_ur.Request(murl, headers=hdrs), timeout=20).read()
+            return s_name, murl, _parse_ext_items_with_logo(raw, filt)
+        except Exception as e:
+            print(f"[!] Error leyendo M3U externo {s_name} ({murl}): {e}")
+            return s_name, murl, []
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        fetched_lists = list(ex.map(_fetch_m3u, VERIFIED_EXTERNAL_M3U_POOLS))
+
+    per_series_idx = {}
+    seen_u = set()
+    for s_name, murl, items in fetched_lists:
+        if not items:
+            continue
+        s_key = s_name.lower()
+        for title, url, logo in items:
+            low_u = (url or '').lower()
+            if not low_u or url in seen_u:
+                continue
+            if _is_blacklisted_url(url):
+                continue
+            ext = os.path.splitext(urllib.parse.urlparse(low_u).path)[1]
+            if ext in ('.mkv', '.avi', '.ogv', '.mpg', '.mpeg', '.jpg', '.png'):
+                continue
+            if not logo and 'archive.org/download/' in low_u:
+                m_iid = re.search(r'archive\.org/download/([^/]+)/', url)
+                if m_iid:
+                    logo = f"https://archive.org/services/img/{m_iid.group(1)}"
+            if logo and s_key not in ext_posters:
+                ext_posters[s_key] = logo
+            idx = per_series_idx.get(s_key, 0) + 1
+            per_series_idx[s_key] = idx
+            grp, disp = _format_ext_season_ep(s_name, title, idx, murl=murl)
+            seen_u.add(url)
+            raw_candidates.append((s_key, grp, disp, url, logo or ext_posters.get(s_key, '')))
+
+    to_probe = []
+    for _, _, _, url, _ in raw_candidates:
+        rec = ext_cache.get(url)
+        if not rec or (now_ts - float(rec.get('ts', 0))) >= ttl_sec:
+            to_probe.append(url)
+
+    probed_now = 0
+    if to_probe:
+        from concurrent.futures import as_completed
+        try:
+            import requests as _req
+            from requests.adapters import HTTPAdapter as _HA
+            _sess = _req.Session()
+            _ad = _HA(pool_connections=24, pool_maxsize=24)
+            _sess.mount("https://", _ad)
+            _sess.mount("http://", _ad)
+            _sess.headers.update({'User-Agent': hdrs['User-Agent']})
+        except Exception:
+            _sess = None
+
+        def _probe_one(u):
+            if _sess is not None:
+                for attempt in range(2):
+                    try:
+                        with _sess.get(u, headers={'Range': 'bytes=0-511'}, stream=True, timeout=6) as r:
+                            code = r.status_code
+                            if code == 429 and attempt == 0:
+                                _time.sleep(1.0)
+                                continue
+                            ctype = (r.headers.get('Content-Type') or '').lower()
+                            crange = r.headers.get('Content-Range', '')
+                            clen = r.headers.get('Content-Length', '')
+                            size_b = 0
+                            m_tot = re.search(r'/(\d+)$', crange)
+                            if m_tot:
+                                size_b = int(m_tot.group(1))
+                            elif clen.isdigit():
+                                size_b = int(clen)
+                            ok_type = ('video' in ctype or 'octet-stream' in ctype or 'matroska' in ctype)
+                            return u, (code in (200, 206) and ok_type and size_b > 1_000_000), code
+                    except Exception:
+                        return u, False, 0
+            ok, code = _probe_direct_media_ok(u, timeout=6)
+            return u, ok, code
+
+        print(f"[+] Sondeando {len(to_probe)} URLs externas nuevas (con pooling HTTP)...", flush=True)
+        with ThreadPoolExecutor(max_workers=16) as ex:
+            futs = [ex.submit(_probe_one, u) for u in to_probe]
+            for fut in as_completed(futs):
+                u, ok, code = fut.result()
+                ext_cache[u] = {'ok': bool(ok), 'code': code, 'ts': now_ts}
+                probed_now += 1
+                if probed_now % 350 == 0:
+                    print(f"[+] Sondeo externos: {probed_now}/{len(to_probe)}...", flush=True)
+                    try:
+                        cache_latest = load_json(SERIES_CACHE_PATH, {})
+                        cache_latest['external_series_probe'] = ext_cache
+                        save_json_atomic(SERIES_CACHE_PATH, cache_latest)
+                    except Exception:
+                        pass
+
+        try:
+            cache_latest = load_json(SERIES_CACHE_PATH, {})
+            cache_latest['external_series_probe'] = ext_cache
+            save_json_atomic(SERIES_CACHE_PATH, cache_latest)
+        except Exception as e:
+            print(f"[!] Advertencia guardando external_series_probe: {e}")
+
+    verified_entries = []
+    for s_key, grp, disp, url, logo in raw_candidates:
+        rec = ext_cache.get(url)
+        if rec and rec.get('ok'):
+            final_logo = logo or ext_posters.get(s_key, '')
+            verified_entries.append((grp, disp, url, final_logo))
+            fetched_keys.add(s_key)
+
+    print(f"[+] Pools Externos Verificados (Español MP4): {len(verified_entries)}/{len(raw_candidates)} vivos en {len(fetched_keys)} series (sondeados ahora: {probed_now}).")
+    return verified_entries, fetched_keys, ext_posters
 
 def fetch_verified_simpsons_external():
     """Recolecta y verifica en Español Latino episodios de Los Simpson (T1-T5 Dropbox + Cortos/T28-T37/Especiales/Pelis pomf2) con caché 24h."""
@@ -308,10 +727,28 @@ def fetch_verified_simpsons_external():
     print(f"[+] Los Simpson (Fuentes Externas Latino Verificadas): {len(verified_entries)}/{len(seen_u)} vivos (sondeados ahora: {probed_now}).")
     return verified_entries
 
+def _series_key_from_group(grp):
+    g = (grp or '').strip()
+    m_grp = re.match(r'Series:\s*(.+?)\s*-\s*(?:Temporada|Saga|Especiales)\b', g, re.I)
+    if m_grp:
+        return m_grp.group(1).strip().lower()
+    return re.sub(r'^Series:\s*', '', g, flags=re.I).strip().lower()
+
 def reconcile_series_entries(series_out, existing_series, dead_ids):
-    """Purga enlaces contaminados/negros e integra MacGyver LT (Pluto VOD) + Los Simpson (Latino) + Los Supersonicos."""
-    pluto_entries, pluto_vod_map, pluto_poster = fetch_pluto_vod_macgyver()
+    """Purga enlaces contaminados/mkv/negros e integra Pluto CO VOD + Pools Externos MP4 + Los Simpson + Supersonicos."""
+    pluto_entries, pluto_vod_map, pluto_posters, pluto_fetched_keys = fetch_pluto_vod_series_batch()
     simpson_ext = fetch_verified_simpsons_external()
+    ext_entries, ext_fetched_keys, ext_posters = fetch_verified_external_series_pools()
+    all_posters_map = {**ext_posters, **pluto_posters}
+    owned_by_curated = pluto_fetched_keys | ext_fetched_keys
+    dead_ids_low = {str(d).lower() for d in (dead_ids or set())}
+    legacy_exts = ('.mkv', '.avi', '.ogv', '.mpg', '.mpeg')
+
+    fresh_archive_iids = set()
+    for _, _, url, _ in series_out:
+        m_iid = re.search(r'archive\.org/download/([^/]+)/', url or '')
+        if m_iid:
+            fresh_archive_iids.add(urllib.parse.unquote(m_iid.group(1)).lower())
 
     cleaned_out = []
     seen_urls = set()
@@ -320,9 +757,8 @@ def reconcile_series_entries(series_out, existing_series, dead_ids):
     th_seen_titles = {}
     for grp, name, url, logo in series_out:
         low_u = (url or '').lower()
-        low_g = (grp or '').lower()
         # Filter blacklist & tiny dummies & Archive .ia duplicates
-        if any(b in low_u for b in BLACKLIST_IDENTIFIERS):
+        if _is_blacklisted_url(url):
             continue
         if 'los-simpson-treehouse-of-horror_20240901' in low_u:
             fname_u = urllib.parse.unquote(url.rsplit('/', 1)[-1]).lower()
@@ -344,13 +780,19 @@ def reconcile_series_entries(series_out, existing_series, dead_ids):
         low_u = (url or '').lower()
         low_g = (grp or '').lower()
         low_n = (name or '').lower()
-        # Reject blacklisted or stale MacGyver English or mislabeled t-2-02.-ia Simpson links
-        if any(b in low_u for b in BLACKLIST_IDENTIFIERS):
+        u_path = urllib.parse.urlparse(low_u).path
+        # Reject blacklisted, legacy mkv/avi (except vetted Simpson pomf2), or superseded Archive clips
+        if _is_blacklisted_url(url):
             return None
+        if any(u_path.endswith(ext) for ext in legacy_exts):
+            if not ('simpson' in low_g and 'pomf2.lain.la' in low_u):
+                return None
         if 'macgyver' in (low_g + low_n) and 'ipv4.pluto.tv' not in low_u:
             return None
-        if pluto_entries and 'ipv4.pluto.tv' in low_u and 'macgyver' in (low_g + low_n):
-            return None  # Replace stale 24h JWTs with fresh batch
+        if 'ipv4.pluto.tv' in low_u and _series_key_from_group(grp) in pluto_fetched_keys:
+            return None  # Replace stale 24h JWTs when fresh Pluto CO batch succeeded
+        if _series_key_from_group(grp) in owned_by_curated and 'archive.org/download/' in low_u:
+            return None  # Evita colision de clips parciales Archive con lotes verificados Pluto/Externos
         # Fix t-2-02.-ia -> Los Supersonicos (separado en Temporada 01/02/03)
         if 'archive.org/download/t-2-02.-ia/' in low_u:
             fname_part = urllib.parse.unquote(url.rsplit('/', 1)[-1])
@@ -387,14 +829,20 @@ def reconcile_series_entries(series_out, existing_series, dead_ids):
             seen_urls.add(fixed[2])
             cleaned_out.append(fixed)
 
-    # Preserve non-blacklisted old entries (also cleaning t-2-02.-ia / MacGyver)
+    # Preserve valid old entries (never re-inject refreshed Archive IIDs, stale Pluto JWTs, or legacy .mkv)
     preserved_old = 0
     for e in existing_series:
-        m = re.search(r'archive\.org/download/([^/]+)/', e['url'])
-        iid = urllib.parse.unquote(m.group(1)) if m else ''
-        if m and (iid in dead_ids or iid in BLACKLIST_IDENTIFIERS):
+        u_old = e.get('url', '')
+        if _is_blacklisted_url(u_old):
             continue
-        fixed = _normalize_row(e['group'], e['name'], e['url'], e['logo'])
+        m = re.search(r'archive\.org/download/([^/]+)/', u_old)
+        iid = urllib.parse.unquote(m.group(1)).lower() if m else ''
+        if m and (iid in dead_ids_low or iid in BLACKLIST_IDENTIFIERS or iid in fresh_archive_iids):
+            continue
+        s_key_old = _series_key_from_group(e.get('group', ''))
+        if s_key_old in ext_fetched_keys:
+            continue
+        fixed = _normalize_row(e['group'], e['name'], u_old, e['logo'])
         if fixed and fixed[2] not in seen_urls:
             seen_urls.add(fixed[2])
             cleaned_out.append(fixed)
@@ -422,16 +870,29 @@ def reconcile_series_entries(series_out, existing_series, dead_ids):
     if has_t36e15_mp4:
         cleaned_out = [r for r in cleaned_out if 'archive.org/download/t-36x-05/' not in r[2].lower()]
 
-    # Add fresh MacGyver LT (Pluto VOD)
+    # Add verified external M3U pools (Español MP4) and fresh Pluto CO VOD batch
+    for row in ext_entries:
+        if row[2] not in seen_urls:
+            seen_urls.add(row[2])
+            cleaned_out.append(row)
+
     for row in pluto_entries:
         if row[2] not in seen_urls:
             seen_urls.add(row[2])
             cleaned_out.append(row)
 
-    return cleaned_out, preserved_old, pluto_vod_map, pluto_poster
+    return cleaned_out, preserved_old, pluto_vod_map, all_posters_map
 
-def postprocess_series_catalog(final_catalog, pluto_vod_map, pluto_poster=""):
-    """Asegura logos, pluto_id VOD, purga residuos de old_cat y ordena temporadas/episodios numericamente."""
+def postprocess_series_catalog(final_catalog, pluto_vod_map, posters_by_series=""):
+    """Asegura logos, pluto_id VOD, URL limpia sin JWT en JSON, purga residuos y ordena temporadas/episodios."""
+    if isinstance(posters_by_series, dict):
+        posters_map = posters_by_series
+    elif posters_by_series:
+        posters_map = {'macgyver': posters_by_series}
+    else:
+        posters_map = {}
+    legacy_exts = ('.mkv', '.avi', '.ogv', '.mpg', '.mpeg')
+
     def _season_sort_key(sea_obj):
         st = (sea_obj.get('season') or '').strip()
         m = re.search(r'Temporada\s*(\d+)', st, flags=re.I)
@@ -443,8 +904,8 @@ def postprocess_series_catalog(final_catalog, pluto_vod_map, pluto_poster=""):
 
     for s_obj in final_catalog:
         sname = (s_obj.get('series') or '').lower()
-        if 'macgyver' in sname and pluto_poster:
-            s_obj['logo'] = pluto_poster
+        if sname in posters_map and posters_map[sname]:
+            s_obj['logo'] = posters_map[sname]
         elif 'supersonicos' in sname:
             s_obj['logo'] = SUPERSONICOS_LOGO
         elif 'simpson' in sname:
@@ -457,10 +918,12 @@ def postprocess_series_catalog(final_catalog, pluto_vod_map, pluto_poster=""):
             for ep in (sea.get('episodes') or []):
                 u = (ep.get('url') or '').strip()
                 low_u = u.lower()
-                if not u or u in seen_ep_u:
+                if not u or _is_blacklisted_url(u):
                     continue
-                if any(b in low_u for b in BLACKLIST_IDENTIFIERS):
-                    continue
+                u_path = urllib.parse.urlparse(low_u).path
+                if any(u_path.endswith(ext) for ext in legacy_exts):
+                    if not ('simpson' in sname and 'pomf2.lain.la' in low_u):
+                        continue
                 if 'simpson' in sname:
                     if 'archive.org/download/t-2-02.-ia/' in low_u:
                         continue
@@ -474,16 +937,34 @@ def postprocess_series_catalog(final_catalog, pluto_vod_map, pluto_poster=""):
                             continue
                     elif 'ipv4.pluto.tv' not in low_u:
                         continue
-                seen_ep_u.add(u)
-                if u in pluto_vod_map:
-                    ep['pluto_id'] = pluto_vod_map[u]
-                    if pluto_poster:
-                        ep['logo'] = pluto_poster
+
+                ep_out = dict(ep)
+                is_pluto = ('ipv4.pluto.tv' in low_u) or (u in pluto_vod_map)
+                if is_pluto:
+                    vod_id = pluto_vod_map.get(u, '')
+                    if not vod_id:
+                        m_ep = re.search(r'/episode/([a-f0-9]{16,})/master\.m3u8', low_u)
+                        if m_ep:
+                            vod_id = f"vod:{m_ep.group(1)}"
+                    if vod_id:
+                        ep_out['pluto_id'] = vod_id
+                    # Quitar ?jwt=... solo dentro de series_catalog.json (~2KB -> ~210B/ep); Android minte JWT fresco con pluto_id
+                    u_store = u.split('?', 1)[0]
+                else:
+                    u_store = u
+
+                if u_store in seen_ep_u:
+                    continue
+                seen_ep_u.add(u_store)
+                ep_out['url'] = u_store
+
+                if posters_map.get(sname):
+                    ep_out['logo'] = posters_map[sname]
                 elif 'supersonicos' in sname:
-                    ep['logo'] = SUPERSONICOS_LOGO
+                    ep_out['logo'] = SUPERSONICOS_LOGO
                 elif 'simpson' in sname:
-                    ep['logo'] = SIMPSONS_FALLBACK_LOGO
-                valid_eps.append(ep)
+                    ep_out['logo'] = SIMPSONS_FALLBACK_LOGO
+                valid_eps.append(ep_out)
             if valid_eps:
                 sea['episodes'] = sorted(valid_eps, key=lambda ep: natural_key(ep.get('name', '')))
                 cleaned_seasons.append(sea)
@@ -1056,20 +1537,25 @@ SERIES_CATALOG = [
     ("El Chavo del 8", ["El.Chavo.del.8.SATRip.LATiNO.XviD",
                         "el-chavo-del-8-1976-temporada-1976-31-la-fiesta-de-la-buena-vecindad_202402",
                         "el-chavo-del-8-1979-temporada-1979-17-la-feria_202402"], ["el chavo del ocho", "el chavo"]),
-    ("El Chapulin Colorado", ["el-chapulin-colorado-coleccion-1080p"], ["el chapulin colorado"]),
-    ("ALF", ["alf-latino_202511"], ["alf"]),
+    ("El Chapulin Colorado", ["el-chapulin-colorado-coleccion-1080p",
+                              "el-chapulin-colorado-1976",
+                              "el-chapulin-colorado-1974"], ["el chapulin colorado"]),
+    ("ALF", ["alf_latino"], ["alf"]),
     ("Los Caballeros del Zodiaco", ["yk-saint-seiya-024-d-01-b-41-c-1"], ["saint seiya", "yk saint seiya"]),
     ("Los Simpson", ["tinaco_20210512", "t-36x-05", "los-simpson-treehouse-of-horror_20240901",
                      "maggie-simpson-cita-a-jugar-con-el-destino-corto",
                      "lo-simpson-pel-1cul-4-hd-720p-972715", "01_20250623_20250623"], ["los simpsons", "the simpsons"]),
     ("Los Supersonicos", ["t-2-02.-ia"], ["los supersonicos", "the jetsons", "los-s.son"]),
-    ("Malcolm el de en medio", ["malcolm-el-de-en-medio-t-0%d" % i for i in range(1, 8)], ["malcolm"]),
+    ("Malcolm el de en medio", ["malcolm-el-de-en-medio-s-01_202412", "malcolm-el-de-en-medio-s-02",
+                                "malcolm-el-de-en-medio-s-03_202412", "malcolm-el-de-en-medio-s-04",
+                                "malcolm-el-de-en-medio-s-05", "malcolm-el-de-en-medio-s-06",
+                                "malcolm-el-de-en-medio-s-07"], ["malcolm"]),
     ("Dragon Ball", ["d-01_20240907"], []),
-    ("Dragon Ball Z", ["Dragon-Ball-Z-Latino-JP"], []),
-    ("Dragon Ball GT", ["Dragon-Ball-GT-Latino-JP"], []),
+    ("Dragon Ball Z", ["dragon-ball-zvideoplaytv"], []),
+    ("Dragon Ball GT", ["Dragon-Ball-GT-Latino-JP", "etc-dbgt-2015-07"], []),
     ("Los Magnificos", ["magnificos"], []),
     ("El Auto Fantastico", ["1228-el-auto-fantastico-2000-1991-dvdrip-d-s-spa-eng-v"], []),
-    ("He-Man y los Amos del Universo", ["He-Man-Y-Los-Amos-Del-Universo"], []),
+    ("He-Man y los Amos del Universo", ["HeManLAT", "He-Man-Y-Los-Amos-Del-Universo"], ["he-man"]),
     ("Thundercats", ["thundercats-1985-latinoingles-1080p"], []),
     ("Los Halcones Galacticos", ["los-halcones-galacticos-audio-latino"], ["silverhawks"]),
     ("Superagente 86", ["SA6-V1"], []),
@@ -1080,16 +1566,47 @@ SERIES_CATALOG = [
     ("El Mundo de Beakman", ["Beakman92"], []),
     ("Garfield y sus Amigos", ["Garfield98"], []),
     ("Pinky y Cerebro", ["pinkycerebro"], []),
-    ("Don Gato y su Pandilla", ["14_20210419"], []),
+    ("Don Gato y su Pandilla", ["Don-Gato-Y-Su-Pandilla-Latino"], ["don gato"]),
     ("Salvado por la Campana", ["salvado-por-la-campana-espanol-latino"], []),
     ("Ranma 1/2", ["ranma-nibunnoichi-espanol-latino-y-japones"], ["ranma", "ranma 1/2"]),
-    ("Los Picapiedra", ["temporada-3-capitulo-7_202501", "01x-12-el-boleto-de-la-loteria_202506", "02x-19-los-ahorros-de-vilma_202506", "03x-01-dino-va-a-hollyrock_202506", "04x-03-el-pequeno-bam-bam_202506", "05x-15-pedro-el-piloto_202506", "06x-10-el-asunto-piedradedo_202506"], ["los picapiedras", "the flintstones"]),
+    ("Los Picapiedra", ["01x-12-el-boleto-de-la-loteria_202506", "02x-19-los-ahorros-de-vilma_202506",
+                        "03x-01-dino-va-a-hollyrock_202506", "04x-03-el-pequeno-bam-bam_202506",
+                        "05x-15-pedro-el-piloto_202506", "06x-10-el-asunto-piedradedo_202506"], ["los picapiedras", "the flintstones"]),
     ("Fenomenoide", ["Fenomenoide-1", "Fenomenoide-2"], ["freakazoid"]),
-    ("Ren y Stimpy", ["ren-y-stimpy-%d" % i for i in range(1, 6)], ["ren and stimpy"]),
-    ("Batman la Serie Animada", ["batman-la-serie-animada-1992-latino"], ["batman", "batman la serie animada"]),
+    ("Ren y Stimpy", ["ren-y-stimpy-1", "ren-y-stimpy-3", "ren-y-stimpy-4", "ren-y-stimpy-5"], ["ren and stimpy"]),
     ("InuYasha", ["inuyasha-cap-21-y-22", "inu-yasha-cap-113", "inuyasha-cap-046"], ["inuyasha", "inu yasha"]),
-    ("Supercampeones", ["04-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p", "40-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p"], ["supercampeones", "captain tsubasa"]),
+    ("Supercampeones", ["supercampeones_202604", "supercampeones_202406",
+                        "04-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p",
+                        "40-supercampeones-road-to-2002-super-campeones-camino-hacia-el-mundial-2002-audio-latino-240-p"], ["supercampeones", "captain tsubasa"]),
     ("House of Mouse", ["homenlatino"], ["house of mouse", "el club del raton"]),
+    # Series verificadas en Espanol (.mp4 / .ia.mp4 100% compatible Android WebView)
+    ("Yo Soy Betty, la Fea", ["yo-soy-betty-la-fea_202502"], ["betty la fea"]),
+    ("Dr. House", ["dr-house-latino"], ["house", "house md"]),
+    ("Sabrina, la Bruja Adolescente", ["sabrina_202109"], ["sabrina"]),
+    ("Marco", ["marco-serie-completa_202508"], []),
+    ("Heidi", ["heidi-1974-audio-latino-1080p"], []),
+    ("El Laboratorio de Dexter", ["laboratorio-de-dexter-latino"], ["dexter"]),
+    ("Martin Mystery", ["Martin-Mistery-Latino"], ["martin mistery"]),
+    ("Mucha Lucha", ["mucha-lucha_202505"], []),
+    ("Megas XLR", ["megas-xlr-latino"], []),
+    ("El Autobus Magico", ["AutoMagico94"], ["autobus magico", "auto magico"]),
+    ("Beetlejuice", ["BeetlejuiceTV89"], []),
+    ("Los Cazafantasmas", ["Cazafantasmas86"], ["los verdaderos cazafantasmas", "cazafantasmas"]),
+    ("Static Shock", ["StaticShock2000"], []),
+    ("Los Gatos Samurai", ["GatosSamurai90"], ["gatos samurai"]),
+    ("Sonic el Erizo", ["SonicElErizo92"], ["sonic"]),
+    ("Charlie Brown y Snoopy", ["SnoopyLatino"], ["snoopy"]),
+    ("La Familia P. Luche", ["la-familia-p.-luche-2002-s-01", "la-familia-p.-luche-2002-s-02", "la-familia-p.-luche-2002-s-03"], ["familia peluche"]),
+    ("31 Minutos", ["31minutosdvd"], []),
+    ("Los 4 Fantasticos", ["los-4-fantasticos_202606"], ["cuatro fantasticos"]),
+    ("X-Men: Evolution", ["x-men-evolution_S01-202606", "x-men-evolution-s02", "x-men-evolution-s03", "x-men-evolution-s04"], ["x-men evolution"]),
+    ("Los Backyardigans", ["backyardigans-latino-t1", "backyardigans-latino-t2", "backyardigans-latino-t3", "backyardigans-latino-tIV"], ["backyardigans"]),
+    ("Los Locos Addams", ["locos-addams-64"], ["locos addams"]),
+    ("Cuentos de la Cripta", ["Cripta93"], []),
+    ("Felix el Gato", ["FelixMichi58"], []),
+    ("La Familia Ingalls", ["casadelapraderatemp01", "Httpsarchive.orgdetailslacasadelapraderat1", "lacasadelapraderaT3",
+                            "lacasadelapradera", "lacasadelapraderatemp6", "lacasadelapraderatemp7",
+                            "casapraderatemp8", "lacasadelapraderatemp9", "lacasadelapraderat10"], ["la casa de la pradera"]),
 ]
 
 # Series que el robot busca solo en cada ejecucion (se agregan si aparecen en espanol)
@@ -1099,7 +1616,7 @@ WANTED_SERIES = [
     "Dragon Ball Super", "Los Picapiedra", "Los Supersonicos", "Don Gato", "El Inspector Gadget",
     "Los Pitufos", "Mazinger Z", "Candy Candy", "Heidi", "Supercampeones", "Remi", "Marco",
     "La Familia Ingalls", "El Zorro", "Los Locos Addams", "La Familia Monster", "Tres por Tres",
-    "Los Anos Maravillosos", "Viaje a las Estrellas", "Perdidos en el Espacio",
+    "Los Anos Maravillosos", "Viaje a las Estrellas",
     "El Increible Hulk", "La Mujer Maravilla", "El Auto Fantastico", "Los Magnificos", "Superagente 86",
     "Hechizada", "Mi Bella Genio", "Dinosaurios", "La Tremenda Corte", "Garfield", "Pinky y Cerebro",
     "Animaniacs", "Tiny Toons", "Thundercats", "He-Man", "She-Ra", "Los Halcones Galacticos",
@@ -1107,10 +1624,13 @@ WANTED_SERIES = [
     "Kenan y Kel", "Sabrina la Bruja Adolescente", "Seinfeld", "Friends", "Dos Hombres y Medio",
     "Futurama", "Padre de Familia", "Bob Esponja", "Los Padrinos Magicos", "Oye Arnold", "Doug",
     "El Laboratorio de Dexter", "Johnny Bravo", "Coraje el Perro Cobarde", "Las Chicas Superpoderosas",
-    "Ed Edd y Eddy", "Rugrats", "Las Tortugas Ninja", "Robotech", "Transformers", "Los Cazafantasmas",
+    "Rugrats", "Las Tortugas Ninja", "Robotech", "Transformers", "Los Cazafantasmas",
     "Sailor Moon", "Ranma", "Pokemon", "Digimon", "Scooby Doo", "Tom y Jerry", "La Pantera Rosa",
-    "El Pajaro Loco", "Popeye", "Plaza Sesamo", "Odisea Burbujas", "Carrusel", "Chiquilladas", "Cuentos de los Hermanos Grimm",
-    "El Mundo de Beakman", "Los Thunderbirds", "Bonanza", "Kung Fu", "Los Duques de Hazzard", "CHiPs",
+    "El Pajaro Loco", "Popeye", "Plaza Sesamo", "Odisea Burbujas", "Carrusel", "Chiquilladas",
+    "Cuentos de los Hermanos Grimm", "El Mundo de Beakman", "Los Thunderbirds", "Bonanza",
+    "Kung Fu", "Los Duques de Hazzard", "CHiPs", "Dr. House", "Yo Soy Betty, la Fea",
+    "La Familia P. Luche", "Mucha Lucha", "Martin Mystery", "Megas XLR", "Static Shock",
+    "Beetlejuice", "31 Minutos", "Los Backyardigans", "X-Men: Evolution",
 ]
 
 VIDEO_EXT = ('.mp4', '.mkv', '.avi', '.m4v', '.webm', '.ogv', '.mpg', '.mpeg')
@@ -1184,7 +1704,7 @@ def pretty_episode(series, aliases, item_id, item_title, path, idx):
 
 
 def extract_episodes(series, aliases, item_id, meta):
-    """Elige 1 archivo de video por episodio: original mp4/mkv > derivado mp4 > original avi."""
+    """Elige 1 archivo de video por episodio: original mp4 > derivado .ia.mp4 > webm > mkv > avi (100% Android/WebView compatible)."""
     md = meta.get('metadata', {}) or {}
     title = md.get('title') or item_id
     if isinstance(title, list):
@@ -1207,12 +1727,18 @@ def extract_episodes(series, aliases, item_id, meta):
         stem = re.sub(r'\.ia$', '', stem, flags=re.IGNORECASE).strip()
         ext = os.path.splitext(nl)[1]
         orig = f.get('source') == 'original'
-        if orig and ext in ('.mp4', '.mkv', '.m4v', '.webm'):
+        if orig and ext in ('.mp4', '.m4v'):
             rank = 0
-        elif ext == '.mp4':
+        elif ext in ('.mp4', '.m4v'):
             rank = 1
-        else:
+        elif orig and ext == '.webm':
             rank = 2
+        elif orig and ext == '.mkv':
+            rank = 3
+        elif ext in ('.mkv', '.webm'):
+            rank = 4
+        else:
+            rank = 5
         cur = groups.get(stem)
         if cur is None or rank < cur[0]:
             groups[stem] = (rank, name)
@@ -1265,6 +1791,11 @@ def discovery_accepts(doc, series_name):
         return False
     if JUNK_TITLE_RE.search(title) or is_foreign_garbage(title):
         return False
+    iid_low = (doc.get('identifier') or '').lower()
+    if any((f'/{b}/' in f'/{iid_low}/' or b == iid_low) for b in BLACKLIST_IDENTIFIERS):
+        return False
+    if 'pocoyo' in tnorm and 'pocoyo' not in norm_txt(series_name):
+        return False
     spa_marker = re.search(r'(latino|espanol|castellano|temporada|capitulo|episodio|doblaje|serie completa)', tnorm + ' ' + desc)
     if lang:
         if not re.search(r'(spa|spanish|espanol|castellano|latino)', lang):
@@ -1297,6 +1828,18 @@ def harvest_complete_series():
     items, rejected = cache['items'], set(cache['rejected'])
     now = time.time()
     aliases_by_series = {s: al for s, _, al in SERIES_CATALOG}
+
+    # 0. Purgar blacklist y forzar refresco (.mp4/.ia.mp4) de colecciones heredadas con .mkv/.avi
+    LEGACY_BAD_EXT = ('.mkv', '.avi', '.ogv', '.mpg', '.mpeg')
+    for biid in list(items.keys()):
+        if biid.lower() in BLACKLIST_IDENTIFIERS:
+            del items[biid]
+            rejected.add(biid)
+            continue
+        it_old = items[biid]
+        eps_old = it_old.get('episodes') or []
+        if any(str(u).split('?')[0].lower().endswith(LEGACY_BAD_EXT) for _, u in eps_old):
+            it_old['fetched'] = 0
 
     # 1. Catalogo verificado
     for series, ids, _al in SERIES_CATALOG:
@@ -1402,11 +1945,27 @@ def harvest_complete_series():
         'el-chavo-animado-temporada-2-completa-dvd', 'el.-chavo.-animado.-dvdr.-0647.-ftp',
         'temporada-3-capitulo-7_202501', 'bella-genio', 'mi-bella-genio.-temp-1-cap-17',
         'pinky-y-cerebro-1', 'pinky-y-cerebro-2', 'pinky-y-cerebro-3', 'pinky-y-cerebro-4',
+        'batman-la-serie-animada-1992-latino', 'pocoyo-perdidos-en-el-espacio-dvd-iso',
+        'cesser-16-liga-de-la-justicia-720p', 'EdEddEEddyS0106SpecialEFilmMuxByThegatto',
+        'GatoCosmico', 'Popeye33', 'escalofrios95', 'Pucca06LAT', 'la-ninera-2004-480p',
+        't-2x-14', 'kenan-y-kel-s-02', 'don-gato-y-su-pandilla_202601',
+        'bob-esponja-2-temporada-episodios-09-supervivencia-de-los-idiotas-.-expulsado',
+        'los-pitufos-azteca-7-mexico-volumenes-47-48-49-incluye-15-metariales-extras-dvd-9',
+        'la-familia-ingalls-temporada-1', 'la-familia-ingalls-temporada-1_202010',
+        'Coraje-1', 'Coraje-2', 'Coraje-3', 'Coraje-4', 'Coraje-el-perro-cobarde-latino',
+        'Malcolm-el-de-en-medio-temp01',
+        'malcolm-el-de-en-medio-t-01', 'malcolm-el-de-en-medio-t-02',
+        'malcolm-el-de-en-medio-t-03', 'malcolm-el-de-en-medio-t-04',
+        'malcolm-el-de-en-medio-t-05', 'malcolm-el-de-en-medio-t-06',
+        'malcolm-el-de-en-medio-t-07',
         'thundercats-063-mumm-rana', 'thundercats2011', 'thundercats_202303', 'ren-y-stimpy-2'
     }
+    EXCLUDED_IIDS_LOW = {x.lower() for x in EXCLUDED_IIDS} | BLACKLIST_IDENTIFIERS
     SERIES_NAME_MAP = {
         'Don Gato': 'Don Gato y su Pandilla',
-        'Don Gato y su Pandilla': 'Don Gato y su Pandilla'
+        'Don Gato y su Pandilla': 'Don Gato y su Pandilla',
+        'He-Man': 'He-Man y los Amos del Universo',
+        'Malcolm': 'Malcolm el de en medio',
     }
 
     def _clean_ep_str(t):
@@ -1492,8 +2051,8 @@ def harvest_complete_series():
             dt = f"{s_name} - T{s_val:02d}E{e_val:02d} - {tc}" if tc else f"{s_name} - T{s_val:02d}E{e_val:02d}"
             return s_val, e_val, dt, f"Series: {s_name} - Temporada {s_val:02d}"
 
-        m_iid_s = re.search(r'[-_]t(?:emp)?[-_]?0?(\d+)|[-_](\d+)$', item_id, re.I)
-        s_val = int(m_iid_s.group(1) or m_iid_s.group(2)) if m_iid_s else 1
+        m_iid_s = re.search(r'(?:[-_]|(?<=[a-z]))t(?:emp)?[-_]?0?(\d{1,2})\b|[-_]s[-_]?0?(\d{1,2})(?:[-_]|$)|[-_](\d{1,2})$', item_id, re.I)
+        s_val = int(m_iid_s.group(1) or m_iid_s.group(2) or m_iid_s.group(3)) if m_iid_s else 1
         if s_val > 30: s_val = 1
         m_ep = re.search(r'(?:capitulo|episodio|cap|ep)\s*(\d{1,3})\b|\b(\d{1,3})\s*[-–]', norm, re.I)
         e_val = int(m_ep.group(1) or m_ep.group(2)) if m_ep else idx
@@ -1507,7 +2066,7 @@ def harvest_complete_series():
     per_series = collections.Counter()
 
     for iid, it in items.items():
-        if iid in EXCLUDED_IIDS or it.get('status') != 'ok':
+        if iid.lower() in EXCLUDED_IIDS_LOW or it.get('status') != 'ok':
             continue
         series = SERIES_NAME_MAP.get(it['series'], it['series'])
         logo = "https://archive.org/services/img/%s" % iid
@@ -1526,7 +2085,9 @@ def harvest_complete_series():
     # Orden riguroso natural: Serie -> Temporada -> Capitulo
     raw_parsed.sort(key=lambda x: (x[0].lower(), x[1], x[2]))
     out = [(gt, dt, ep_url, logo) for (_, _, _, gt, dt, ep_url, logo) in raw_parsed]
-    dead_ids = {iid for iid, it in items.items() if it.get('status') == 'dead' or iid in EXCLUDED_IIDS}
+    dead_ids = {iid for iid, it in items.items() if it.get('status') == 'dead' or iid.lower() in EXCLUDED_IIDS_LOW}
+    dead_ids.update(EXCLUDED_IIDS)
+    dead_ids.update(EXCLUDED_IIDS_LOW)
     return out, per_series, dead_ids, list(new_ids.items())
 
 
@@ -1917,21 +2478,43 @@ def main():
                 final_series_catalog.append(s_obj)
 
         postprocess_series_catalog(final_series_catalog, _pluto_vod_map, _pluto_poster)
+        final_series_catalog = [s for s in final_series_catalog if s.get('total_episodes', 0) > 0]
         final_series_catalog.sort(key=lambda s: s.get('series', '').lower())
 
-        with open(series_cat_file, 'w', encoding='utf-8') as scf:
-            json.dump(final_series_catalog, scf, ensure_ascii=False, indent=2)
-        print("[+] series_catalog.json actualizado exitosamente (%d series, %d temporadas)" % (
+        # Compactar JSON y respetar techo estricto <= 4,350,000 bytes (seguridad localStorage WebView 5MB)
+        max_cat_bytes = 4_350_000
+        payload_bytes = json.dumps(final_series_catalog, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
+        if len(payload_bytes) > max_cat_bytes:
+            trim_order = [n.lower() for t, n, _ in reversed(PLUTO_CO_SERIES_CATALOG) if t >= 2] + \
+                         [n.lower() for t, n, _ in reversed(PLUTO_CO_SERIES_CATALOG) if t == 1]
+            for drop_key in trim_order:
+                if len(payload_bytes) <= max_cat_bytes:
+                    break
+                before_n = len(final_series_catalog)
+                final_series_catalog = [s for s in final_series_catalog if (s.get('series') or '').lower() != drop_key]
+                if len(final_series_catalog) < before_n:
+                    payload_bytes = json.dumps(final_series_catalog, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
+                    print(f"[!] Presupuesto JSON: omitida '{drop_key}' de series_catalog.json -> {len(payload_bytes):,} B")
+
+        tmp_cat = series_cat_file + '.tmp'
+        with open(tmp_cat, 'wb') as scf:
+            scf.write(payload_bytes)
+        os.replace(tmp_cat, series_cat_file)
+        print("[+] series_catalog.json actualizado exitosamente (%d series, %d temporadas, %d eps, %s B)" % (
             len(final_series_catalog),
-            sum(s['total_seasons'] for s in final_series_catalog)
+            sum(s['total_seasons'] for s in final_series_catalog),
+            sum(s['total_episodes'] for s in final_series_catalog),
+            f"{len(payload_bytes):,}"
         ))
 
         # Copia directa a assets de Omega Mobile para futuras compilaciones
         omega_assets_dir = r"C:\Users\leoka\.gemini\antigravity\scratch\omega_music_app\assets"
         if os.path.exists(omega_assets_dir):
             omega_series_cat = os.path.join(omega_assets_dir, "series_catalog.json")
-            with open(omega_series_cat, 'w', encoding='utf-8') as oscf:
-                json.dump(final_series_catalog, oscf, ensure_ascii=False, indent=2)
+            tmp_ocat = omega_series_cat + '.tmp'
+            with open(tmp_ocat, 'wb') as oscf:
+                oscf.write(payload_bytes)
+            os.replace(tmp_ocat, omega_series_cat)
     except Exception as e:
         print("[!] Error exportando series_catalog.json:", e)
 
