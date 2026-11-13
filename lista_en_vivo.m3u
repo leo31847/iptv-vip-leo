@@ -82,7 +82,7 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 #EXTINF:-1 tvg-name="El Gourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Favoritos de Leo VIP",El Gourmet
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6894febddbd49c964f3b66c8/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=6894febddbd49c964f3b66c8&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1 tvg-name="El Gourmet [Opcion 2]" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Favoritos de Leo VIP",El Gourmet [Opcion 2]
-http://190.61.101.11:7050/play/a09s/index.m3u8?hls
+http://45.186.106.207:8000/play/a012/index.m3u8
 #EXTINF:-1 tvg-name="El Gourmet [Opcion 3]" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Favoritos de Leo VIP",El Gourmet [Opcion 3]
 http://179.51.136.19:8000/play/a14h/index.m3u8
 #EXTINF:-1 tvg-name="Extrema TV" tvg-logo="https://i.imgur.com/E9AuhOU.png" group-title="Favoritos de Leo VIP",Extrema TV
@@ -187,10 +187,6 @@ http://138.121.15.230:9002/BETHEL/index.m3u8
 https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8
 #EXTINF:-1 tvg-name="Buenisima Radio TV" tvg-logo="https://i.imgur.com/URKDlOZ.png" group-title="Colombia",Buenisima Radio TV
 https://canal.mediaserver.com.co/live/buenisimatv.m3u8
-#EXTINF:-1 tvg-name="Bum Televisión" tvg-logo="https://i.imgur.com/TerY4iM.png" group-title="Colombia",Bum Televisión
-https://video.ejeserver.com/live/visiondorada.m3u8
-#EXTINF:-1 tvg-name="Bum Televisión [Opcion 2]" tvg-logo="https://i.imgur.com/TerY4iM.png" group-title="Colombia",Bum Televisión [Opcion 2]
-https://movil.ejeserver.com/live/visiondorada.m3u8
 #EXTINF:-1 tvg-name="Cablenoticias" tvg-logo="https://i.imgur.com/FfhOGR9.png" group-title="Colombia",Cablenoticias
 https://5ea86ddd14ce7.streamlock.net/live/cable09061970/playlist.m3u8
 #EXTINF:-1 tvg-name="Cablenoticias 24/7 HD" group-title="Colombia",Cablenoticias 24/7 HD
@@ -233,6 +229,8 @@ https://video.ejeserver.com/live/canal8tv.m3u8
 https://movil.ejeserver.com/live/canal8tv.m3u8
 #EXTINF:-1 tvg-name="Canal 9 Cosespu" tvg-logo="https://i.imgur.com/w5e1d8k.png" group-title="Colombia",Canal 9 Cosespu
 https://video2.lhdserver.es/canal9cosespu/live.m3u8
+#EXTINF:-1 tvg-name="Canal C (Santiago de Cali | Valle del Cauca)" tvg-logo="https://cdn.colombia.com/canales/canal-c-2584.jpg" group-title="Colombia",Canal C (Santiago de Cali | Valle del Cauca)
+https://cloud2.streaminglivehd.com:1936/8104/8104/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal Capital Bogotá HD" group-title="Colombia",Canal Capital Bogotá HD
 http://190.61.47.54:8000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-name="Canal Capital Bogotá HD [Opcion 2]" group-title="Colombia",Canal Capital Bogotá HD [Opcion 2]
@@ -341,6 +339,8 @@ https://video.ejeserver.com/live/cncsantander.m3u8
 https://movil.ejeserver.com/live/cncsantander.m3u8
 #EXTINF:-1 tvg-name="CNC Tulua" tvg-logo="https://i.imgur.com/NCzpcqm.png" group-title="Colombia",CNC Tulua
 https://live.amelbatv.co:81/cnctulualive/index.fmp4.m3u8
+#EXTINF:-1 tvg-name="Cosmovision" tvg-logo="https://i.imgur.com/QlvYfEJ.png" group-title="Colombia",Cosmovision
+https://videohls2.cosmovision.tv/hls/sd.m3u8
 #EXTINF:-1 tvg-name="Cristovision" tvg-logo="https://i.imgur.com/XIhCUY9.png" group-title="Colombia",Cristovision
 http://181.78.23.26:45000/play/a040
 #EXTINF:-1 tvg-name="Cristovision [Opcion 2]" tvg-logo="https://i.imgur.com/XIhCUY9.png" group-title="Colombia",Cristovision [Opcion 2]
@@ -363,8 +363,6 @@ https://eu1.servers10.com:8081/8178/index.m3u8
 http://181.78.23.26:45000/play/a050
 #EXTINF:-1 tvg-name="Hogar TV [Opcion 2]" tvg-logo="https://i.imgur.com/zqovMhf.png" group-title="Colombia",Hogar TV [Opcion 2]
 http://190.61.47.54:8000/play/a01n/index.m3u8
-#EXTINF:-1 tvg-name="Kalu TV" tvg-logo="https://i.imgur.com/MO4w3OT.jpeg" group-title="Colombia",Kalu TV
-https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4.m3u8
 #EXTINF:-1 tvg-name="La Kalle" tvg-logo="https://www.tdtparatodos.tv/sites/default/files/la_kalle.png" group-title="Colombia",La Kalle
 http://190.61.42.218:9000/play/a04j/index.m3u8
 #EXTINF:-1 tvg-name="La Kalle [Opcion 2]" tvg-logo="https://www.tdtparatodos.tv/sites/default/files/la_kalle.png" group-title="Colombia",La Kalle [Opcion 2]
@@ -508,6 +506,8 @@ http://190.61.47.54:8000/play/a012/index.m3u8
 #EXTINF:-1 tvg-name="Telecaribe HD" tvg-logo="https://i.imgur.com/E35cXHt.png" group-title="Colombia",Telecaribe HD
 http://181.78.23.26:45000/play/a03e
 #EXTINF:-1 tvg-name="Telecaribe HD [Opcion 2]" tvg-logo="https://i.imgur.com/E35cXHt.png" group-title="Colombia",Telecaribe HD [Opcion 2]
+http://190.61.42.218:9000/play/a01y/index.m3u8
+#EXTINF:-1 tvg-name="Telecaribe HD [Opcion 3]" tvg-logo="https://i.imgur.com/E35cXHt.png" group-title="Colombia",Telecaribe HD [Opcion 3]
 http://181.78.82.130:8000/play/a0rt/index.m3u8
 #EXTINF:-1 tvg-name="TeleCesar" tvg-logo="https://i.imgur.com/bmXdDfp.jpeg" group-title="Colombia",TeleCesar
 https://eu1.servers10.com:8081/8020/index.m3u8
@@ -565,8 +565,6 @@ http://181.78.12.119:16123/play/ch19/index.m3u8
 http://138.121.15.230:9002/ZOOM/index.m3u8
 #EXTINF:-1 tvg-name="Zoom [Opcion 2]" tvg-logo="https://i.imgur.com/euy5zp6.png" group-title="Colombia",Zoom [Opcion 2]
 http://181.78.23.26:45000/play/a02s
-#EXTINF:-1 tvg-name="Zoom [Opcion 3]" tvg-logo="https://i.imgur.com/euy5zp6.png" group-title="Colombia",Zoom [Opcion 3]
-http://181.78.79.131:8000/play/a0sg
 #EXTINF:-1 tvg-name="A&E" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Canales Premium VIP",A&E
 http://190.61.42.218:9000/play/a058/index.m3u8
 #EXTINF:-1 tvg-name="A&E [Opcion 2]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Canales Premium VIP",A&E [Opcion 2]
@@ -601,8 +599,6 @@ http://88.212.15.50/live/test_white/playlist.m3u8
 https://streaming.onnethn.com/Bandamax/index.m3u8
 #EXTINF:-1 tvg-name="BANDAMAX [Opcion 2]" tvg-logo="https://i.imgur.com/4DfnOTA.png" group-title="Canales Premium VIP",BANDAMAX [Opcion 2]
 http://181.78.106.127:5000/play/ca064/index.m3u8
-#EXTINF:-1 tvg-name="Canal 5 TV Max" tvg-logo="https://i.imgur.com/6oihaDM.png" group-title="Canales Premium VIP",Canal 5 TV Max
-https://tvmaxsa.com.py/hls/FB-430927919930380-0-AbzjnbAzAIR0NaFg.m3u8
 #EXTINF:-1 tvg-name="Canela TV" tvg-logo="https://imgur.com/TRCvLdz.png" group-title="Canales Premium VIP",Canela TV
 https://d3cx6yargdnl7q.cloudfront.net/canelatv.m3u8
 #EXTINF:-1 tvg-name="Cine Adrenalina" tvg-logo="https://i.imgur.com/njCKaMv.png" group-title="Canales Premium VIP",Cine Adrenalina
@@ -971,8 +967,6 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/64d626ac9b414d0008
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
 #EXTINF:-1 tvg-name="Deportes TVC" tvg-logo="https://i.imgur.com/Y1t8xkL.png" group-title="Deportes en Vivo",Deportes TVC
 https://streaming.onnethn.com/DEPORTES_TVC/playlist.m3u8
-#EXTINF:-1 tvg-name="Deportes TVC [Opcion 2]" tvg-logo="https://i.imgur.com/Y1t8xkL.png" group-title="Deportes en Vivo",Deportes TVC [Opcion 2]
-http://190.61.101.11:7050/play/a06t/index.m3u8
 #EXTINF:-1 tvg-name="DeporTV" tvg-logo="https://i.imgur.com/THk9ARS.png" group-title="Deportes en Vivo",DeporTV
 http://158.172.155.130:8000/play/a09y/index.m3u8
 #EXTINF:-1 tvg-name="DraftKings Network" tvg-logo="https://i.imgur.com/SFYhgrt.png" group-title="Deportes en Vivo",DraftKings Network
@@ -1237,6 +1231,8 @@ http://88.212.15.50/live/test_sport1_25p/playlist.m3u8
 http://88.212.15.50/live/test_sport_2/playlist.m3u8
 #EXTINF:-1 tvg-name="Sportitalia IT" tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Deportes en Vivo",Sportitalia IT
 https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8
+#EXTINF:-1 tvg-name="Sportitalia IT [Opcion 2]" tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Deportes en Vivo",Sportitalia IT [Opcion 2]
+https://origin-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8
 #EXTINF:-1 tvg-name="SportsMax News" tvg-logo="https://i.imgur.com/IjN1Nhm.png" group-title="Deportes en Vivo",SportsMax News
 http://181.79.86.130:8000/play/a081/index.m3u8
 #EXTINF:-1 tvg-name="Sqala TV" tvg-logo="https://i.imgur.com/DJ05m8s.png" group-title="Deportes en Vivo",Sqala TV
@@ -1260,8 +1256,10 @@ http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8
 #EXTINF:-1 tvg-name="TNT Sports Premium ArgentinaHD" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/TNT_Sports_Premium_%28Argentina%29.png/960px-TNT_Sports_Premium_%28Argentina%29.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="Deportes en Vivo",TNT Sports Premium ArgentinaHD
 http://181.78.79.131:8000/play/a0q9
 #EXTINF:-1 tvg-name="TNT Sports Premium HD" group-title="Deportes en Vivo",TNT Sports Premium HD
-http://209.14.98.47:8000/play/a0x5/index.m3u8?hls
+https://play-fulltv.com.ar/playtvpre/tntsportschile.m3u8
 #EXTINF:-1 tvg-name="TNT Sports Premium HD [Opcion 2]" group-title="Deportes en Vivo",TNT Sports Premium HD [Opcion 2]
+http://209.14.98.47:8000/play/a0x5/index.m3u8?hls
+#EXTINF:-1 tvg-name="TNT Sports Premium HD [Opcion 3]" group-title="Deportes en Vivo",TNT Sports Premium HD [Opcion 3]
 http://205.235.6.29:8000/play/a104/index.m3u8
 #EXTINF:-1 tvg-name="Trace Sport Stars" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Deportes en Vivo",Trace Sport Stars
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
@@ -1293,8 +1291,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a52cd4ec91870008
 https://unlimited1-cl-isp.dps.live/sportinghd/sportinghd.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="viju+ Sport" tvg-logo="https://i.imgur.com/fXESG0l.png" group-title="Deportes en Vivo",viju+ Sport
 http://46.53.200.153:7777/play/a01l/index.m3u8
-#EXTINF:-1 tvg-name="viju+ Sport [Opcion 2]" tvg-logo="https://i.imgur.com/fXESG0l.png" group-title="Deportes en Vivo",viju+ Sport [Opcion 2]
-http://31.148.5.241/Viasat_Sport/index.m3u8
+#EXTINF:-1 tvg-name="WAPA-TV 4.2" tvg-logo="https://i.imgur.com/5WNBFmp.png" group-title="Deportes en Vivo",WAPA-TV 4.2
+https://wapa.hostless.app/WAPA-TV-4-2.m3u8
 #EXTINF:-1 tvg-name="Win Sports" tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="Deportes en Vivo",Win Sports
 http://138.121.15.230:9002/WIN-SPORT/index.m3u8
 #EXTINF:-1 tvg-name="Win Sports [Opcion 2]" tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="Deportes en Vivo",Win Sports [Opcion 2]
@@ -1817,6 +1815,8 @@ https://2-fss-1.streamhoster.com/pl_154/amlst:205432-2055980/playlist.m3u8
 https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-name="AfroLandTV" tvg-logo="https://i.imgur.com/jvnkrEF.png" group-title="Series y Entretenimiento",AfroLandTV
 https://alt-al.otteravision.com/alt/al/al.m3u8
+#EXTINF:-1 tvg-name="Aguacate TV" tvg-logo="https://intervenhosting.net/imagenes/aguacatetv.jpg" group-title="Series y Entretenimiento",Aguacate TV
+https://stream.aguacatetv.com:3949/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="Al Ritmo del Jaripeo" tvg-logo="https://images.pluto.tv/channels/68ba0910e1d03fec7d5c084f/colorLogoPNG_1760471497704.png" group-title="Series y Entretenimiento",Al Ritmo del Jaripeo
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/68ba0910e1d03fec7d5c084f/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=68ba0910e1d03fec7d5c084f&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1 tvg-name="Alegre TV RD" tvg-logo="https://i.imgur.com/O6USO8r.png" group-title="Series y Entretenimiento",Alegre TV RD
@@ -1945,6 +1945,8 @@ https://lfmhd.vedge.infomaniak.com/livecast/lfmhd/playlist.m3u8
 https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8
 #EXTINF:-1 tvg-name="Carac 5" tvg-logo="https://i.imgur.com/giDfku4.png" group-title="Series y Entretenimiento",Carac 5
 https://lfmmd.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
+#EXTINF:-1 tvg-name="Caras TV" tvg-logo="https://i.imgur.com/7dl4yQY.jpeg" group-title="Series y Entretenimiento",Caras TV
+https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="CBS en espanol" tvg-logo="https://images.pluto.tv/channels/668c5cb4f01dbe0008dd4082/colorLogoPNG.png" group-title="Series y Entretenimiento",CBS en espanol
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/668c5cb4f01dbe0008dd4082/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=668c5cb4f01dbe0008dd4082&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://i.imgur.com/iFlkIuw.png" group-title="Series y Entretenimiento",CCTV-3
@@ -2065,8 +2067,6 @@ http://88.212.7.14/live/test_fem3_atktv/playlist.m3u8
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6272511cb389bb0007b30b09/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=6272511cb389bb0007b30b09&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1 tvg-name="Forsidefruer" tvg-logo="https://images.pluto.tv/channels/61c19dcefbb4b50007d242e1/colorLogoPNG.png" group-title="Series y Entretenimiento",Forsidefruer
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/61c19dcefbb4b50007d242e1/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=61c19dcefbb4b50007d242e1&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
-#EXTINF:-1 tvg-name="Friday!" tvg-logo="https://i.imgur.com/UfmlXxe.png" group-title="Series y Entretenimiento",Friday!
-http://31.148.5.241/kanal_16/index.m3u8
 #EXTINF:-1 tvg-name="Frusna Vagar" tvg-logo="https://images.pluto.tv/channels/61c19099bf8c520007a93cff/colorLogoPNG.png" group-title="Series y Entretenimiento",Frusna Vagar
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/61c19099bf8c520007a93cff/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=61c19099bf8c520007a93cff&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1 tvg-name="Fuse" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Fuse_Black_Logo_2017.png" group-title="Series y Entretenimiento",Fuse
@@ -2357,6 +2357,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67f960680072d6b187
 https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8
 #EXTINF:-1 tvg-name="Olelo 55" tvg-logo="https://i.imgur.com/0qe2R8b.png" group-title="Series y Entretenimiento",Olelo 55
 https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_013/playlist.m3u8
+#EXTINF:-1 tvg-name="Omega TV" tvg-logo="https://i.ibb.co/nfJhQMx/Bj7qf5-Tb-Z9.jpg" group-title="Series y Entretenimiento",Omega TV
+https://5caf24a595d94.streamlock.net:1937/8142/8142/playlist.m3u8
 #EXTINF:-1 tvg-name="ON E Channel" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/VTVCab5%20-%20ON%20E%20Channel.png" group-title="Series y Entretenimiento",ON E Channel
 https://onechannel.siliconweb.com/one/stream/chunks_dvr.m3u8
 #EXTINF:-1 tvg-name="ON E Channel [Opcion 2]" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/VTVCab5%20-%20ON%20E%20Channel.png" group-title="Series y Entretenimiento",ON E Channel [Opcion 2]
@@ -2429,14 +2431,14 @@ https://linear-142.frequency.stream/dist/24i/142/hls/master/playlist.m3u8
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/64ff270f30ab3300084e259c/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=64ff270f30ab3300084e259c&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1 tvg-name="RSV Honduras" tvg-logo="https://i.imgur.com/yr7Ellh.jpg" group-title="Series y Entretenimiento",RSV Honduras
 https://stmv2.srvif.com/rsvhonduras/rsvhonduras/playlist.m3u8
-#EXTINF:-1 tvg-name="SAS TV" tvg-logo="https://i.imgur.com/VShjB3o.png" group-title="Series y Entretenimiento",SAS TV
-https://cdn.streamhispanatv.net:3390/live/sastvgtlive.m3u8
 #EXTINF:-1 tvg-name="Sin tetas no hay paraiso" tvg-logo="https://i.imgur.com/fpwU2IQ.png" group-title="Series y Entretenimiento",Sin tetas no hay paraiso
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604bdf4e6d0abc0007ba77ad/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=604bdf4e6d0abc0007ba77ad&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1 tvg-name="Sol TV" tvg-logo="https://i.imgur.com/TJHk6Va.png" group-title="Series y Entretenimiento",Sol TV
 https://cdn.streamhispanatv.net:3409/live/soltvlive.m3u8
 #EXTINF:-1 tvg-name="Sol TV [Opcion 2]" tvg-logo="https://i.imgur.com/TJHk6Va.png" group-title="Series y Entretenimiento",Sol TV [Opcion 2]
 https://5790d294af2dc.streamlock.net/streamtv/streamtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Sol TV [Opcion 3]" tvg-logo="https://i.imgur.com/TJHk6Va.png" group-title="Series y Entretenimiento",Sol TV [Opcion 3]
+https://stream.solmediaeg.com/soltv/soltv.m3u8
 #EXTINF:-1 tvg-name="Super Cable" tvg-logo="https://i.imgur.com/KYtJp8F.png" group-title="Series y Entretenimiento",Super Cable
 http://191.102.39.254:5000/live/5up3r5/playlist.m3u8
 #EXTINF:-1 tvg-name="Super7FM" tvg-logo="https://i.imgur.com/TJEqwZo.png" group-title="Series y Entretenimiento",Super7FM
@@ -2463,10 +2465,10 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/66f55c3955567d0008
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 #EXTINF:-1 tvg-name="Turismo HD" tvg-logo="https://gia.tv/streams/pptv/208343.jpg" group-title="Series y Entretenimiento",Turismo HD
 https://183.giatvcdn.com/giatvplayout7/giatv-208343/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Centro 27.2 HD" tvg-logo="https://i.imgur.com/Wo2scQf.jpg" group-title="Series y Entretenimiento",TV Centro 27.2 HD
+https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8
 #EXTINF:-1 tvg-name="TV3" tvg-logo="https://i.imgur.com/JLAvq8O.png" group-title="Series y Entretenimiento",TV3
 https://directes-tv-int-dev.3catdirectes.cat/live-content/tv3-uhd-cmaf/master.m3u8
-#EXTINF:-1 tvg-name="TV3 [Opcion 2]" tvg-logo="https://i.imgur.com/JLAvq8O.png" group-title="Series y Entretenimiento",TV3 [Opcion 2]
-http://31.148.5.241/kanal_15/index.m3u8
 #EXTINF:-1 tvg-name="TVCARiB Latino" tvg-logo="https://i.imgur.com/fvGlwKo.png" group-title="Series y Entretenimiento",TVCARiB Latino
 https://cdn.mycloudstream.io/hls/live/broadcast/xn44vdc5/index.m3u8
 #EXTINF:-1 tvg-name="TVE Star" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Series y Entretenimiento",TVE Star
@@ -2567,6 +2569,8 @@ https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3
 https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 #EXTINF:-1 tvg-name="Cosmos Tv [Opcion 2]" tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png" group-title="Documentales y Ciencia",Cosmos Tv [Opcion 2]
 https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8
+#EXTINF:-1 tvg-name="Cosmos Tv [Opcion 3]" tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png" group-title="Documentales y Ciencia",Cosmos Tv [Opcion 3]
+https://canaletaplus.com:3922/live/cosmoslive.m3u8
 #EXTINF:-1 tvg-name="Costa Rica Channel" tvg-logo="https://i.imgur.com/N4pFVVF.png" group-title="Documentales y Ciencia",Costa Rica Channel
 https://video0.rogohosting.com:19360/8006/8006.m3u8
 #EXTINF:-1 tvg-name="Crime 360" tvg-logo="https://i.imgur.com/IjtaG1m.png" group-title="Documentales y Ciencia",Crime 360
@@ -2575,6 +2579,10 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/657880c46e4f6a0008
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/64ddcbb14c5ed80008fad416/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=64ddcbb14c5ed80008fad416&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1 tvg-name="CT2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%C4%8CT2_logo_2012.svg/960px-%C4%8CT2_logo_2012.svg.png" group-title="Documentales y Ciencia",CT2
 http://88.212.15.50/live/test_ct2_25p/playlist.m3u8
+#EXTINF:-1 tvg-name="Cultura 24" tvg-logo="https://i.imgur.com/h0LxXsx.png" group-title="Documentales y Ciencia",Cultura 24
+https://www.opencaster.com/resources/hls_stream/cultura24.m3u8
+#EXTINF:-1 tvg-name="Cultura 24 TV | PE" tvg-logo="https://cdn.m3u.cl/logo/696_Cultura_24_TV.png" group-title="Documentales y Ciencia",Cultura 24 TV | PE
+https://www.opencaster.com/resources/hls_stream/cultura24.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Deadly Women" tvg-logo="https://i.imgur.com/dDVZ5Vd.png" group-title="Documentales y Ciencia",Deadly Women
 https://d1mgh147xpmgs8.cloudfront.net/DeadlyWomen_GB.m3u8
 #EXTINF:-1 tvg-name="Detetives Medicos" tvg-logo="https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png" group-title="Documentales y Ciencia",Detetives Medicos
@@ -2703,12 +2711,16 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/655f2d713944b60008
 https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Investigation Discovery Latin America South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentales y Ciencia",Investigation Discovery Latin America South
 http://38.65.175.84:8000/play/a0ch/index.m3u8
+#EXTINF:-1 tvg-name="Investigation Discovery Latin America South [Opcion 2]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentales y Ciencia",Investigation Discovery Latin America South [Opcion 2]
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/41.m3u8
 #EXTINF:-1 tvg-name="INWILD" tvg-logo="https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png" group-title="Documentales y Ciencia",INWILD
 https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-name="Italiana" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/98/Italiana_%282026%29.svg/revision/latest?cb=20260824144626" group-title="Documentales y Ciencia",Italiana
 https://d3k8wzt41aflvx.cloudfront.net/RAIScuola/Live.m3u8
 #EXTINF:-1 tvg-name="Jalisco TV" tvg-logo="https://i.imgur.com/N4meE8I.png" group-title="Documentales y Ciencia",Jalisco TV
 https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
+#EXTINF:-1 tvg-name="La 2 Canarias" tvg-logo="https://i.imgur.com/iwDi3ND.png" group-title="Documentales y Ciencia",La 2 Canarias
+https://ztnr.rtve.es/ztnr/5468585.m3u8
 #EXTINF:-1 tvg-name="Law & Crime" tvg-logo="https://yt3.googleusercontent.com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s512-c-k-c0x00ffffff-no-rj" group-title="Documentales y Ciencia",Law & Crime
 https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8
 #EXTINF:-1 tvg-name="Love Nature" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="Documentales y Ciencia",Love Nature
@@ -2803,8 +2815,6 @@ https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
 https://edge.enhdtv.com/8192/index.m3u8
 #EXTINF:-1 tvg-name="Unifranz [Opcion 2]" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="Documentales y Ciencia",Unifranz [Opcion 2]
 https://live.enhdtv.com:8081/8192/index.m3u8
-#EXTINF:-1 tvg-name="Unison TV" tvg-logo="https://i.imgur.com/7ixWRId.png" group-title="Documentales y Ciencia",Unison TV
-https://stream.unison.mx/hls/unisontvatem.m3u8
 #EXTINF:-1 tvg-name="USMPTV" tvg-logo="https://i.imgur.com/9cmIv3q.png" group-title="Documentales y Ciencia",USMPTV
 http://187.102.210.46/USMP/index.m3u8
 #EXTINF:-1 tvg-name="UTalca TV" tvg-logo="https://i.imgur.com/2AK61FQ.png" group-title="Documentales y Ciencia",UTalca TV
@@ -3943,8 +3953,6 @@ https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
 https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8
 #EXTINF:-1 tvg-name="Activa TV" tvg-logo="https://i.imgur.com/VCUZKiw.png" group-title="Musica y Conciertos",Activa TV
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
-#EXTINF:-1 tvg-name="AE Radio TV" tvg-logo="https://i.imgur.com/425dj2i.jpeg" group-title="Musica y Conciertos",AE Radio TV
-https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Aghani Aghani TV" tvg-logo="https://i.imgur.com/o6HSfNg.png" group-title="Musica y Conciertos",Aghani Aghani TV
 https://cdn.streamlane.tv/hls/aghanitv/index.m3u8
 #EXTINF:-1 tvg-name="Alcance FM PLAY TV" tvg-logo="https://i.imgur.com/ymcWecA.png" group-title="Musica y Conciertos",Alcance FM PLAY TV
@@ -3993,6 +4001,8 @@ https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8
 http://178.134.1.158:8081/BRIDGE/index.m3u8
 #EXTINF:-1 tvg-name="BRIDGE Rock" tvg-logo="https://i.imgur.com/MHuwct2.png" group-title="Musica y Conciertos",BRIDGE Rock
 http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
+#EXTINF:-1 tvg-name="BTA TV" tvg-logo="https://i.imgur.com/vygOosC.png" group-title="Musica y Conciertos",BTA TV
+https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 #EXTINF:-1 tvg-name="Cadena Elite" tvg-logo="https://i.imgur.com/3yeGDTP.png" group-title="Musica y Conciertos",Cadena Elite
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-name="California Music Channel" tvg-logo="https://i.imgur.com/FyNot5W.png" group-title="Musica y Conciertos",California Music Channel
@@ -4108,6 +4118,8 @@ https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Fame95 FM" tvg-logo="https://i.imgur.com/n3PUxes.png" group-title="Musica y Conciertos",Fame95 FM
 https://rjrfame-ioriver-cdn.encoders.immergo.tv/master.m3u8
 #EXTINF:-1 tvg-name="Farra Play" tvg-logo="https://i.imgur.com/bXWzstH.png" group-title="Musica y Conciertos",Farra Play
+https://stream.farra.com.py/live/farra_low.m3u8
+#EXTINF:-1 tvg-name="Farra Play [Opcion 2]" tvg-logo="https://i.imgur.com/bXWzstH.png" group-title="Musica y Conciertos",Farra Play [Opcion 2]
 http://159.203.148.226/live/farra.m3u8
 #EXTINF:-1 tvg-name="FM Mundo" tvg-logo="https://i.imgur.com/1nNnYQO.png" group-title="Musica y Conciertos",FM Mundo
 https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
@@ -4175,8 +4187,6 @@ https://video1.getstreamhosting.com:1936/8244/8244/playlist.m3u8
 https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Song/playlist.m3u8
 #EXTINF:-1 tvg-name="K100" tvg-logo="https://i.imgur.com/tv60ogG.png" group-title="Musica y Conciertos",K100
 https://k100streymi.mbl.is/beint/k100/index.m3u8
-#EXTINF:-1 tvg-name="KandelaTV" tvg-logo="https://i.imgur.com/cCFxyIp.jpg" group-title="Musica y Conciertos",KandelaTV
-https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8
 #EXTINF:-1 tvg-name="Karibena" tvg-logo="https://i.imgur.com/cgHjg1e.png" group-title="Musica y Conciertos",Karibena
 https://iptv-pe-x-7-g3s-video.egostreaming.pe/karibenatv_685a-pe-a5676-584412/index.fmp4.m3u8
 #EXTINF:-1 tvg-name="Karibena [Opcion 2]" tvg-logo="https://i.imgur.com/cgHjg1e.png" group-title="Musica y Conciertos",Karibena [Opcion 2]
@@ -4209,6 +4219,8 @@ https://eu1.servers10.com:8081/8004/index.m3u8
 https://server40.servistreaming.com:3477/stream/play.m3u8
 #EXTINF:-1 tvg-name="La Mega Mundial USA" tvg-logo="https://graph.facebook.com/lamegaworldwide/picture?width=200&height=200" group-title="Musica y Conciertos",La Mega Mundial USA
 https://server80.servistreaming.com:3477/stream/play.m3u8
+#EXTINF:-1 tvg-name="La Top 102.9" tvg-logo="https://i.imgur.com/ZqwLPag.jpg" group-title="Musica y Conciertos",La Top 102.9
+https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
 #EXTINF:-1 tvg-name="La Top 107.7" tvg-logo="https://i.imgur.com/vgHhh1W.jpg" group-title="Musica y Conciertos",La Top 107.7
 https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
 #EXTINF:-1 tvg-name="La-X" tvg-logo="https://i.imgur.com/i2GnQTq.png" group-title="Musica y Conciertos",La-X
@@ -4341,10 +4353,6 @@ http://media.boni-records.com/index.m3u8
 https://mic.siar.us/mic/live/mic.m3u8
 #EXTINF:-1 tvg-name="Music TV Granada" tvg-logo="https://i.ibb.co/Swd9NP7n/music-tv-granada.png" group-title="Musica y Conciertos",Music TV Granada
 https://cloudvideo.servers10.com:8081/8032/index.m3u8
-#EXTINF:-1 tvg-name="MusicTop" tvg-logo="https://cdn.mitvstatic.com/channels/ar_musictop_m.png" group-title="Musica y Conciertos",MusicTop
-http://190.128.214.97:64333/play/a06o/index.m3u8
-#EXTINF:-1 tvg-name="Muz-TV" tvg-logo="https://i.imgur.com/BtqrHmz.png" group-title="Musica y Conciertos",Muz-TV
-http://31.148.5.241/kanal_20/index.m3u8
 #EXTINF:-1 tvg-name="Muzangala TV" tvg-logo="https://i.imgur.com/fBeaJoS.png" group-title="Musica y Conciertos",Muzangala TV
 https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8
 #EXTINF:-1 tvg-name="Muzsika TV" tvg-logo="https://i.imgur.com/kmQ5vYC.png" group-title="Musica y Conciertos",Muzsika TV
@@ -4507,6 +4515,8 @@ https://5ff3d9babae13.streamlock.net/chrgkqgkyb/chrgkqgkyb/playlist.m3u8
 https://mdstrm.com/audio/5fada54116646e098d97e6a5/icecast.audio
 #EXTINF:-1 tvg-name="Radio Master" tvg-logo="https://i.imgur.com/AUoxyzP.png" group-title="Musica y Conciertos",Radio Master
 https://videoserver.tmcreativos.com:19360/radiomaster/radiomaster.m3u8
+#EXTINF:-1 tvg-name="Radio Mega TV Amazonia" tvg-logo="https://i.imgur.com/yzSNWZ3.png" group-title="Musica y Conciertos",Radio Mega TV Amazonia
+https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Monumental TV" tvg-logo="https://i.imgur.com/a97MaV2.png" group-title="Musica y Conciertos",Radio Monumental TV
 https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8
 #EXTINF:-1 tvg-name="Radio Nacional" tvg-logo="https://graph.facebook.com/radionacionalrne/picture?width=200&height=200" group-title="Musica y Conciertos",Radio Nacional
@@ -4675,8 +4685,6 @@ http://186.148.196.100:8000/play/a02z
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-name="Venus Media" tvg-logo="https://i.imgur.com/XwmUbfp.png" group-title="Musica y Conciertos",Venus Media
 https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
-#EXTINF:-1 tvg-name="Venus Media [Opcion 2]" tvg-logo="https://i.imgur.com/XwmUbfp.png" group-title="Musica y Conciertos",Venus Media [Opcion 2]
-https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8
 #EXTINF:-1 tvg-name="Venus Media Paraguay" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_nZWMwLdm_Ag4eNCbhhowHXvSupNE-bCpsLWmZte1tLLq8=s200" group-title="Musica y Conciertos",Venus Media Paraguay
 https://copaco.desdeparaguay.net/venusmedia/venusmedia_alt/playlist.m3u8
 #EXTINF:-1 tvg-name="Verbena TV España" tvg-logo="https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg" group-title="Musica y Conciertos",Verbena TV España
@@ -4703,8 +4711,6 @@ https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 http://45.163.139.42:8000/play/a03d/index.m3u8
 #EXTINF:-1 tvg-name="VoiceOver Radio TV" tvg-logo="https://i.imgur.com/HzGs1Eh.png" group-title="Musica y Conciertos",VoiceOver Radio TV
 https://cloudvideo.servers10.com:8081/8198/index.m3u8
-#EXTINF:-1 tvg-name="Vos y TV" tvg-logo="https://i.imgur.com/294FDCB.png" group-title="Musica y Conciertos",Vos y TV
-https://cloud37.ecuatel.com/vostv/live/manifest.m3u8
 #EXTINF:-1 tvg-name="WWXY-DT3 (Maranatha Radio Ministries)" group-title="Musica y Conciertos",WWXY-DT3 (Maranatha Radio Ministries)
 https://vip.livecastnet.com:3930/live/maranatharadiolive.m3u8
 #EXTINF:-1 tvg-name="X Level Media" tvg-logo="https://i.imgur.com/BGwQdQW.jpeg" group-title="Musica y Conciertos",X Level Media
@@ -4791,8 +4797,6 @@ http://www.coninfo.net:1935/tvcinco/live2/playlist.m3u8
 http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-name="6 Wise Tv" group-title="Television Hispana",6 Wise Tv
 https://edge.enhdtv.com/8150/index.m3u8
-#EXTINF:-1 tvg-name="7 TeleValencia" tvg-logo="https://i.imgur.com/ILfXDRs.png" group-title="Television Hispana",7 TeleValencia
-https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8
 #EXTINF:-1 tvg-name="7TV" tvg-logo="https://i.imgur.com/rnzMR9R.png" group-title="Television Hispana",7TV
 https://especial7tv.gestec-video.com/hls/7TVSEVILLA.m3u8
 #EXTINF:-1 tvg-name="7TV Aljarafe" tvg-logo="https://graph.facebook.com/7TelevisionAndalucia/picture?width=200&height=200" group-title="Television Hispana",7TV Aljarafe
@@ -4841,6 +4845,8 @@ http://138.59.227.20:8000/play/a05u/index.m3u8
 https://tv.mitvparaguay.com/hls?type=hls&id=a24
 #EXTINF:-1 tvg-name="A7 TV" tvg-logo="https://a7tvjarabacoa.netlify.app/IMG_1968.PNG" group-title="Television Hispana",A7 TV
 https://183.giatvcdn.com/ssh101/ssh101/a7tvjarabacoa/playlist.m3u8
+#EXTINF:-1 tvg-name="ABC Teleshow" tvg-logo="https://i.imgur.com/cF7gJ2Q.jpeg" group-title="Television Hispana",ABC Teleshow
+https://live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8
 #EXTINF:-1 tvg-name="ABC-TV Paraguay" tvg-logo="https://i.imgur.com/OqfBMGy.png" group-title="Television Hispana",ABC-TV Paraguay
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8
 #EXTINF:-1 tvg-name="ABN" group-title="Television Hispana",ABN
@@ -4853,10 +4859,10 @@ https://videostream.shockmedia.com.ar/hls/abtvbariloche/abtvbariloche.m3u8
 https://acentotv01.streamprolive.com/hls/live.m3u8
 #EXTINF:-1 tvg-name="Action" tvg-logo="https://i.imgur.com/ActionHD.png" group-title="Television Hispana",Action
 http://87.120.179.187:8000/play/a00v
-#EXTINF:-1 tvg-name="Acustik TV" tvg-logo="https://i.imgur.com/dhiNIng.png" group-title="Television Hispana",Acustik TV
-https://s5.mexside.net:1936/clientetv/clientetv/playlist.m3u8
 #EXTINF:-1 tvg-name="ADA TV" tvg-logo="https://cdn.m3u.cl/logo/1638_ADA_TV.png" group-title="Television Hispana",ADA TV
 https://v4.tustreaming.cl/adatvchile/index.m3u8
+#EXTINF:-1 tvg-name="ADA TV [Opcion 2]" tvg-logo="https://cdn.m3u.cl/logo/1638_ADA_TV.png" group-title="Television Hispana",ADA TV [Opcion 2]
+https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8
 #EXTINF:-1 tvg-name="ADN 40 | MX" group-title="Television Hispana",ADN 40 | MX
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="ADN TV" tvg-logo="https://i.imgur.com/AVfTwNw.png" group-title="Television Hispana",ADN TV
@@ -4945,6 +4951,8 @@ https://play.agenciastreaming.com:8081/tvalturalimalive/video.m3u8
 https://streaming.bitsur.cl:3534/live/vdo1102live.m3u8
 #EXTINF:-1 tvg-name="Amazonica TV" tvg-logo="https://i.imgur.com/22ebHAX.jpeg" group-title="Television Hispana",Amazonica TV
 https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8
+#EXTINF:-1 tvg-name="Amazonica TV [Opcion 2]" tvg-logo="https://i.imgur.com/22ebHAX.jpeg" group-title="Television Hispana",Amazonica TV [Opcion 2]
+https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8
 #EXTINF:-1 tvg-name="Ame 47" tvg-logo="https://i.imgur.com/MUEbjeP.png" group-title="Television Hispana",Ame 47
 https://ss2.tvrdomi.com:1936/ame47/ame47/playlist.m3u8
 #EXTINF:-1 tvg-name="America Estereo Guayaquil" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="Television Hispana",America Estereo Guayaquil
@@ -5007,12 +5015,12 @@ https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
 https://unlimited1-cl-isp.dps.live/atv/atv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="ANTV" group-title="Television Hispana",ANTV
 http://181.78.8.199:8000/play/a0fo/index.m3u8
-#EXTINF:-1 tvg-name="Anzoategui TV" tvg-logo="https://i.imgur.com/SLqrEOz.png" group-title="Television Hispana",Anzoategui TV
-https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8
 #EXTINF:-1 tvg-name="Aquí y Ahora" group-title="Television Hispana",Aquí y Ahora
 https://linear-306.frequency.stream/mt/studio/306/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-name="AR: Ch4teen 1 HD" group-title="Television Hispana",AR: Ch4teen 1 HD
 http://ch14.tv/live/ch4teen1/playlist.m3u8
+#EXTINF:-1 tvg-name="AR: Ch4teen Doc HD" group-title="Television Hispana",AR: Ch4teen Doc HD
+http://ch14.tv/live/ch4teendoc/playlist.m3u8
 #EXTINF:-1 tvg-name="AR: ch4teen live 2 FHD" group-title="Television Hispana",AR: ch4teen live 2 FHD
 http://ch14.tv/live/ch4teenlive2/playlist.m3u8
 #EXTINF:-1 tvg-name="AR: Ch4teen Live 3 HD" group-title="Television Hispana",AR: Ch4teen Live 3 HD
@@ -5049,8 +5057,6 @@ https://master.tucableip.com/ascontenido/index.m3u8
 https://asomatv.cloud-ip.cc/livestream/stream.m3u8
 #EXTINF:-1 tvg-name="Atacama Noticias" tvg-logo="https://i.imgur.com/Avx4Ecf.png" group-title="Television Hispana",Atacama Noticias
 https://v2.tustreaming.cl/atacamanoticias/index.m3u8
-#EXTINF:-1 tvg-name="ATB La Paz" tvg-logo="https://i.imgur.com/E243X2x.png" group-title="Television Hispana",ATB La Paz
-https://stream.atb.com.bo/live/daniel/index.m3u8
 #EXTINF:-1 tvg-name="ATL 26" tvg-logo="https://i.imgur.com/s4fqNMt.png" group-title="Television Hispana",ATL 26
 https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8
 #EXTINF:-1 tvg-name="Atlántico Televisión" tvg-logo="https://pbs.twimg.com/profile_images/1779498186727456768/bIHqyk7p_200x200.jpg" group-title="Television Hispana",Atlántico Televisión
@@ -5135,8 +5141,6 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="BLUETV" group-title="Television Hispana",BLUETV
 https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
-#EXTINF:-1 tvg-name="BNB Digital" tvg-logo="https://i.imgur.com/MgEN1F8.png" group-title="Television Hispana",BNB Digital
-https://live-evg8.tv360.bitel.com.pe/bitel/bnbSRT/playlist.m3u8
 #EXTINF:-1 tvg-name="BNT 1 HD" group-title="Television Hispana",BNT 1 HD
 http://87.120.179.187:8000/play/a007
 #EXTINF:-1 tvg-name="Boca Chica TV" tvg-logo="https://i.imgur.com/npiRBPC.png" group-title="Television Hispana",Boca Chica TV
@@ -5181,6 +5185,8 @@ https://live-evg8.tv360.bitel.com.pe/bitel/cajamarcatvSRT/playlist.m3u8
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/calabasas/G0009_003/playlist.m3u8
 #EXTINF:-1 tvg-name="Caldera Vision" tvg-logo="https://i.imgur.com/A3Jiffe.png" group-title="Television Hispana",Caldera Vision
 https://tv.arkeo.cl:1936/kymczwbrge/kymczwbrge/playlist.m3u8
+#EXTINF:-1 tvg-name="California Medios TV" tvg-logo="https://i.imgur.com/IDvpRNI.png" group-title="Television Hispana",California Medios TV
+https://s5.mexside.net:1936/medios/medios/playlist.m3u8
 #EXTINF:-1 tvg-name="Campo Abierto TV" tvg-logo="https://i.imgur.com/KL6pgaL.png" group-title="Television Hispana",Campo Abierto TV
 https://v2.tustreaming.cl/catvlive/index.m3u8
 #EXTINF:-1 tvg-name="Cana TV Digital" tvg-logo="https://i.imgur.com/k8jxt12.png" group-title="Television Hispana",Cana TV Digital
@@ -5193,6 +5199,8 @@ https://ddycmnicl95kp.cloudfront.net/live/ja5k3h31wv9r/master.m3u8
 https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 10 Chiapa| MX" group-title="Television Hispana",Canal 10 Chiapa| MX
 https://5ca9af4645e15.streamlock.net:443/chiapas/videochiapas/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-name="Canal 10 Durango" tvg-logo="https://i.imgur.com/H34quHQ.png" group-title="Television Hispana",Canal 10 Durango
+https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 10 Empordà" tvg-logo="https://graph.facebook.com/canal10emporda/picture?width=200&height=200" group-title="Television Hispana",Canal 10 Empordà
 https://ventdelnord.tv:8080/escala/directe.m3u8
 #EXTINF:-1 tvg-name="Canal 10 Goya" tvg-logo="https://i.ibb.co/cySdXxP/unnamed-5.png" group-title="Television Hispana",Canal 10 Goya
@@ -5207,6 +5215,8 @@ https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223
 https://stream.giostreaming.app/canal11/canal11.m3u8
 #EXTINF:-1 tvg-name="Canal 12" tvg-logo="https://i.imgur.com/UGDbp3O.png" group-title="Television Hispana",Canal 12
 http://45.228.234.9:8000/play/a06s/index.m3u8
+#EXTINF:-1 tvg-name="Canal 12 Venado Tuerto" tvg-logo="https://i.imgur.com/b93YC0V.jpeg" group-title="Television Hispana",Canal 12 Venado Tuerto
+https://nd106.republicaservers.com:4433/hls/diegologonitv/index.m3u8
 #EXTINF:-1 tvg-name="Canal 12 Web" tvg-logo="https://i.imgur.com/VYcTRbd.png" group-title="Television Hispana",Canal 12 Web
 https://nd106.republicaservers.com:4433/c7827.mp4
 #EXTINF:-1 tvg-name="Canal 14 San Carlos" tvg-logo="https://i.imgur.com/1aNEo6U.png" group-title="Television Hispana",Canal 14 San Carlos
@@ -5254,8 +5264,6 @@ https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 25 Ayacucho" tvg-logo="https://i.imgur.com/lU02cWc.png" group-title="Television Hispana",Canal 25 Ayacucho
 https://live-evg10.tv360.bitel.com.pe/bitel/canal25ayacucho/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 26" tvg-logo="https://i.imgur.com/5pAaVih.png" group-title="Television Hispana",Canal 26
-https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
-#EXTINF:-1 tvg-name="Canal 26 [Opcion 2]" tvg-logo="https://i.imgur.com/5pAaVih.png" group-title="Television Hispana",Canal 26 [Opcion 2]
 https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 26 Aguascalientes" tvg-logo="https://i.imgur.com/PAvnVN9.png" group-title="Television Hispana",Canal 26 Aguascalientes
 https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8
@@ -5275,6 +5283,12 @@ https://avantstreaming.es/hls/canal3.m3u8
 https://avantstreaming.es/hls/canal3hd.m3u8
 #EXTINF:-1 tvg-name="Canal 3 Impresionante" tvg-logo="https://i.imgur.com/mdfiWG9.png" group-title="Television Hispana",Canal 3 Impresionante
 https://cloud2.streaminglivehd.com:2020/hls/8036/8036.m3u8
+#EXTINF:-1 tvg-name="Canal 3 La Pampa" tvg-logo="https://i.imgur.com/SsNFudZ.png" group-title="Television Hispana",Canal 3 La Pampa
+https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
+#EXTINF:-1 tvg-name="Canal 3 LaHera" group-title="Television Hispana",Canal 3 LaHera
+https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8
+#EXTINF:-1 tvg-name="Canal 3 LaHera| AR" group-title="Television Hispana",Canal 3 LaHera| AR
+https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Canal 3 Pinamar" tvg-logo="https://i.imgur.com/IABFaH1.png" group-title="Television Hispana",Canal 3 Pinamar
 http://intelincloud01.com.ar/hls/cn3/index.m3u8
 #EXTINF:-1 tvg-name="Canal 3 Tacural" tvg-logo="https://i.imgur.com/RKvSa52.jpeg" group-title="Television Hispana",Canal 3 Tacural
@@ -5345,8 +5359,6 @@ https://stream.arcast.com.ar/canal5picotruncado/canal5picotruncado/playlist.m3u8
 https://5ff3d9babae13.streamlock.net/aufymdjpjf/aufymdjpjf/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 5 Santa Fe" tvg-logo="https://i.imgur.com/WX0esjQ.png" group-title="Television Hispana",Canal 5 Santa Fe
 https://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8
-#EXTINF:-1 tvg-name="Canal 5 TV Chepes" tvg-logo="https://i.imgur.com/AzEqroq.png" group-title="Television Hispana",Canal 5 TV Chepes
-https://videostream.shockmedia.com.ar:19360/canal5alfatvchepes/canal5alfatvchepes.m3u8
 #EXTINF:-1 tvg-name="Canal 5 TV Cozumel" tvg-logo="https://i.imgur.com/0nzNMuP.jpeg" group-title="Television Hispana",Canal 5 TV Cozumel
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 #EXTINF:-1 tvg-name="Canal 51 TV" group-title="Television Hispana",Canal 51 TV
@@ -5375,6 +5387,8 @@ https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8
 https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 7 Santiago del Estero" tvg-logo="https://i.imgur.com/iJMH0UK.png" group-title="Television Hispana",Canal 7 Santiago del Estero
 https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
+#EXTINF:-1 tvg-name="Canal 7 TeleValencia" tvg-logo="https://i.imgur.com/ILfXDRs.png" group-title="Television Hispana",Canal 7 TeleValencia
+https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal 74 San Antonio" tvg-logo="https://i.imgur.com/WRYsbjX.png" group-title="Television Hispana",Canal 74 San Antonio
 https://eu1.servers10.com:8081/8050/index.m3u8
 #EXTINF:-1 tvg-name="Canal 79 La Costa" tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="Television Hispana",Canal 79 La Costa
@@ -5411,6 +5425,8 @@ https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 https://unlimited1-cl-isp.dps.live/c9/c9.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Canal Antigua - GUA" group-title="Television Hispana",Canal Antigua - GUA
 http://179.51.136.19:8000/play/a0w4/index.m3u8
+#EXTINF:-1 tvg-name="Canal C del Zulia" tvg-logo="https://i.imgur.com/ew44KOZ.png" group-title="Television Hispana",Canal C del Zulia
+https://calm-forest-3478.cristianbracho904.workers.dev/live/index.m3u8
 #EXTINF:-1 tvg-name="Canal Catorce" tvg-logo="https://i.imgur.com/iKLGBbA.png" group-title="Television Hispana",Canal Catorce
 https://stream.haislin.com/14tv/index.m3u8
 #EXTINF:-1 tvg-name="Canal Catorce [Opcion 2]" tvg-logo="https://i.imgur.com/iKLGBbA.png" group-title="Television Hispana",Canal Catorce [Opcion 2]
@@ -5505,8 +5521,8 @@ https://ingest1-video.streaming-pro.com/canaltaronja/osona/playlist.m3u8
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 #EXTINF:-1 tvg-name="Canal Terrassa" tvg-logo="https://graph.facebook.com/canalterrassa/picture?width=200&height=200" group-title="Television Hispana",Canal Terrassa
 https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Canal Visión Dorada | CO" group-title="Television Hispana",Canal Visión Dorada | CO
-https://movil.ejeserver.com/live/visiondorada.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-name="Canal TRV" tvg-logo="https://i.imgur.com/g5QKQ2E.png" group-title="Television Hispana",Canal TRV
+https://stream.ontvmx.com/ontv/CNMLXR0Z6FPtGdjcI4/playlist.m3u8
 #EXTINF:-1 tvg-name="Canal VM Latino | CR" group-title="Television Hispana",Canal VM Latino | CR
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Canal VTV HND" group-title="Television Hispana",Canal VTV HND
@@ -5517,16 +5533,14 @@ http://179.51.136.19:8000/play/a0xb/index.m3u8
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="CanalCosta" tvg-logo="https://graph.facebook.com/canalcosta/picture?width=200&height=200" group-title="Television Hispana",CanalCosta
 https://5f71743aa95e4.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8
-#EXTINF:-1 tvg-name="Canalda 26 HD" tvg-logo="https://canaldahd.com/wp-content/uploads/2023/03/cropped-canaldahdlogo-1.png" group-title="Television Hispana",Canalda 26 HD
-https://canalda.rgradio.net:3084/live/canaldalive.m3u8
 #EXTINF:-1 tvg-name="Cananga TV" tvg-logo="https://i.imgur.com/isXlMAh.png" group-title="Television Hispana",Cananga TV
 https://cdn.streamingcpanel.com:3545/live/canangatlive.m3u8
 #EXTINF:-1 tvg-name="Candelita TV" tvg-logo="https://i.imgur.com/34BvVDl.png" group-title="Television Hispana",Candelita TV
 https://6110f70ea8d0e.streamlock.net/1689/1689/playlist.m3u8
 #EXTINF:-1 tvg-name="Capital" group-title="Television Hispana",Capital
 http://181.78.23.26:45000/play/a02w
-#EXTINF:-1 tvg-name="Caribbean AdvantagTV" group-title="Television Hispana",Caribbean AdvantagTV
-https://video2.getstreamhosting.com:19360/8216/8216.m3u8
+#EXTINF:-1 tvg-name="CaraTV | AR" group-title="Television Hispana",CaraTV | AR
+https://unlimited2-cl-isp.dps.live/carastv/carastv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Caritas TV" tvg-logo="https://i.ibb.co/rwkpQx6/unnamed-2.png" group-title="Television Hispana",Caritas TV
 https://rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8
 #EXTINF:-1 tvg-name="Carivision" tvg-logo="https://i.imgur.com/XjGb2UM.png" group-title="Television Hispana",Carivision
@@ -5539,8 +5553,6 @@ https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/playlist.m3u8
 https://live-evg7.tv360.bitel.com.pe/bitel/casmatvSRT-TRA/playlist.m3u8
 #EXTINF:-1 tvg-name="Catatumbo TV" tvg-logo="https://i.imgur.com/LBI2la0.png" group-title="Television Hispana",Catatumbo TV
 https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
-#EXTINF:-1 tvg-name="CAtv" tvg-logo="https://caribbeanadvantage.com/images/CAtv-logo-512.png" group-title="Television Hispana",CAtv
-https://video2.getstreamhosting.com:19360/8216/8216.m3u8
 #EXTINF:-1 tvg-name="CB TV Michoacan" tvg-logo="https://i.imgur.com/oFeCIeD.png" group-title="Television Hispana",CB TV Michoacan
 https://5ca3e84a76d30.streamlock.net/cbtv/videoc3b3t3v3/playlist.m3u8
 #EXTINF:-1 tvg-name="CBN Espanol" tvg-logo="https://i.imgur.com/G7B4wSM.png" group-title="Television Hispana",CBN Espanol
@@ -5579,6 +5591,8 @@ https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8?ads_amagi_cha
 https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8
 #EXTINF:-1 tvg-name="Channel NewsAsia Singapur EN" tvg-logo="https://graph.facebook.com/ChannelNewsAsia/picture?width=200&height=200" group-title="Television Hispana",Channel NewsAsia Singapur EN
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 tvg-name="Charapa TV" tvg-logo="https://i.imgur.com/tFRmMkf.png" group-title="Television Hispana",Charapa TV
+https://live-evg10.tv360.bitel.com.pe/bitel/charapatvSRT/playlist.m3u8
 #EXTINF:-1 tvg-name="Cheddar USA EN" tvg-logo="https://graph.facebook.com/cheddar/picture?width=200&height=200" group-title="Television Hispana",Cheddar USA EN
 https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
 #EXTINF:-1 tvg-name="ChilChannel | CL" group-title="Television Hispana",ChilChannel | CL
@@ -5701,6 +5715,8 @@ https://617c5175c970b.streamlock.net:4444/13max2/live13maxtv2026/playlist.m3u8
 http://www.coninfo.net:1935/tvcinco/live1/chunklist_w1546509083.m3u8?null=0
 #EXTINF:-1 tvg-name="Cosmos TV Perú" tvg-logo="https://pbs.twimg.com/profile_images/1904206504753811457/66CbqvH1_200x200.jpg" group-title="Television Hispana",Cosmos TV Perú
 https://videoserver.tmcreativos.com:19360/tvcosmos/tvcosmos.m3u8
+#EXTINF:-1 tvg-name="Cosmovisión | CO" group-title="Television Hispana",Cosmovisión | CO
+https://videohls2.cosmovision.tv/hls/sd.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Costa Noroeste TV" tvg-logo="https://graph.facebook.com/Costanoroestetv/picture?width=200&height=200" group-title="Television Hispana",Costa Noroeste TV
 https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8
 #EXTINF:-1 tvg-name="Coto Brus TV" tvg-logo="https://i.ibb.co/vJZqrFY/a4ed367c69c23110d458a332af95be0be64566f288ccb5f261689344e6ba5e0d.png" group-title="Television Hispana",Coto Brus TV
@@ -5823,6 +5839,10 @@ https://stream.ecoperu.tv/ECOTV/tracks-v1a1/mono.m3u8
 https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
 #EXTINF:-1 tvg-name="Ecos Canal 57" tvg-logo="https://imgur.com/ccFwraQ.png" group-title="Television Hispana",Ecos Canal 57
 https://2-fss-2.streamhoster.com/pl_138/206532-6829872-1/playlist.m3u8
+#EXTINF:-1 tvg-name="Ecotel TV" tvg-logo="https://i.imgur.com/pVlZUSV.png" group-title="Television Hispana",Ecotel TV
+https://ecoteltv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
+#EXTINF:-1 tvg-name="Ecotel TV | EC" group-title="Television Hispana",Ecotel TV | EC
+https://ecoteltv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Ecuador TV" tvg-logo="https://i.imgur.com/hj6EYwe.png" group-title="Television Hispana",Ecuador TV
 http://45.224.97.181:9999/EcuadorTV/index.m3u8
 #EXTINF:-1 tvg-name="Ecuador TV [Opcion 2]" tvg-logo="https://i.imgur.com/hj6EYwe.png" group-title="Television Hispana",Ecuador TV [Opcion 2]
@@ -5831,6 +5851,8 @@ http://209.14.98.47:8000/play/a0uj/index.m3u8?hls
 https://jireh-4-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Ecuavisa [Opcion 2]" tvg-logo="https://i.imgur.com/Hl5wowk.png" group-title="Television Hispana",Ecuavisa [Opcion 2]
 http://45.224.97.181:9999/Ecuavisa/index.m3u8
+#EXTINF:-1 tvg-name="Ecuavisa [Opcion 3]" tvg-logo="https://i.imgur.com/Hl5wowk.png" group-title="Television Hispana",Ecuavisa [Opcion 3]
+http://209.14.98.47:8000/play/a0w6/index.m3u8?hls
 #EXTINF:-1 tvg-name="Ecuavisa Guayaquil" tvg-logo="https://i.imgur.com/Hl5wowk.png" group-title="Television Hispana",Ecuavisa Guayaquil
 https://dai.google.com/linear/hls/event/GyPkTVDZSXGhpOvxPK7m2g/master.m3u8
 #EXTINF:-1 tvg-name="Ecuavisa Quito" group-title="Television Hispana",Ecuavisa Quito
@@ -6057,6 +6079,8 @@ https://stream1.sersat.com/hls/garagetv.m3u8?PlaylistM3UCL
 https://amg01076-lightning-amg01076c9-tcl-us-2480.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-tclus/playlist.m3u8
 #EXTINF:-1 tvg-name="GB News Reino Unido EN" tvg-logo="https://graph.facebook.com/GBNewsOnline/picture?width=200&height=200" group-title="Television Hispana",GB News Reino Unido EN
 https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg01076-lightningintern-gbnews-samsunguk/playlist.m3u8
+#EXTINF:-1 tvg-name="Genios TV" tvg-logo="https://i.imgur.com/iH2Lx6E.png" group-title="Television Hispana",Genios TV
+https://sc3.wasidata.com/Genios2_1902/video.m3u8
 #EXTINF:-1 tvg-name="GH Television" tvg-logo="https://i.imgur.com/xhkiiO3.png" group-title="Television Hispana",GH Television
 https://fox.hostlagarto.com:8081/ghtelevision/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Gigavision" tvg-logo="https://i.imgur.com/fE3BkcT.png" group-title="Television Hispana",Gigavision
@@ -6097,8 +6121,6 @@ http://179.51.136.19:8000/play/a0ty/index.m3u8
 https://5cf4a2c2512a2.streamlock.net/8176/8176/playlist.m3u8
 #EXTINF:-1 tvg-name="GUKA TB" tvg-logo="https://graph.facebook.com/guka.eus/picture?width=200&height=200" group-title="Television Hispana",GUKA TB
 https://streaming.ukt.eus/hls/test.m3u8
-#EXTINF:-1 tvg-name="Haina Vision" tvg-logo="https://i.imgur.com/eoodUNJ.png" group-title="Television Hispana",Haina Vision
-https://cdn.streamingcpanel.com:3447/live/hainavisionlive.m3u8
 #EXTINF:-1 tvg-name="Hamaika Telebista" tvg-logo="https://i.imgur.com/HR3G3Ie.png" group-title="Television Hispana",Hamaika Telebista
 https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Hardcore Pawn" group-title="Television Hispana",Hardcore Pawn
@@ -6215,8 +6237,6 @@ https://videoserver.tmcreativos.com:19360/abbftuhxxs/abbftuhxxs.m3u8
 https://imagenuniversaltv.net:3026/live/juanpabloduartetvlive.m3u8
 #EXTINF:-1 tvg-name="Jubilo TV" tvg-logo="https://i.ibb.co/R4QSfYd/Ba073d3280959c5ba7d25d40052a7349.png" group-title="Television Hispana",Jubilo TV
 http://173.249.60.54/hls/jubilotv.m3u8
-#EXTINF:-1 tvg-name="Junta General del Principado de Asturias" tvg-logo="https://pbs.twimg.com/profile_images/2030898420681232384/TBZNbHLJ_200x200.jpg" group-title="Television Hispana",Junta General del Principado de Asturias
-https://wmserver.jgpa.es/live/_definst_/livestream2/playlist.m3u8
 #EXTINF:-1 tvg-name="Juntos TV" group-title="Television Hispana",Juntos TV
 http://45.70.201.81:8000/play/a019/index.m3u8
 #EXTINF:-1 tvg-name="Justicia TV" tvg-logo="https://i.imgur.com/zyAS1hk.png" group-title="Television Hispana",Justicia TV
@@ -6227,6 +6247,8 @@ http://190.93.224.42/JUSTICIA-TV/index.m3u8
 https://s.emisoras.tv:8081/kerussotv/index.m3u8
 #EXTINF:-1 tvg-name="KisKisTV" group-title="Television Hispana",KisKisTV
 https://58f12ffd2447a.streamlock.net/KKTV01/livestream/playlist.m3u8
+#EXTINF:-1 tvg-name="Kora TV" tvg-logo="https://i.imgur.com/ahBYv4x.png" group-title="Television Hispana",Kora TV
+https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8
 #EXTINF:-1 tvg-name="KSCE 38.1" tvg-logo="https://i.imgur.com/FioxUa3.png" group-title="Television Hispana",KSCE 38.1
 https://2-fss-2.streamhoster.com/pl_138/200226-1359204-1/playlist.m3u8
 #EXTINF:-1 tvg-name="KSCE 38.3" tvg-logo="https://i.imgur.com/P0vZXU0.png" group-title="Television Hispana",KSCE 38.3
@@ -6237,6 +6259,12 @@ https://2-fss-2.streamhoster.com/pl_120/200226-1449024-1/playlist.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15619&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]
 #EXTINF:-1 tvg-name="La 2" tvg-logo="https://graph.facebook.com/la2detve/picture?width=200&height=200" group-title="Television Hispana",La 2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15618
+#EXTINF:-1 tvg-name="La 2 [Opcion 2]" tvg-logo="https://graph.facebook.com/la2detve/picture?width=200&height=200" group-title="Television Hispana",La 2 [Opcion 2]
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
+#EXTINF:-1 tvg-name="La 2 Cat" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz-PTZCuOfGtshG9A9z2phYEL97ppHhD0cug&s" group-title="Television Hispana",La 2 Cat
+https://rtvelivestream.rtve.es/rtvesec/cat/la2_cat_main_dvr.m3u8
+#EXTINF:-1 tvg-name="La 2 Catalunya" tvg-logo="https://i.ibb.co/Lztt9rgr/La-2-Catalunya.png" group-title="Television Hispana",La 2 Catalunya
+https://ztnr.rtve.es/ztnr/3987218.m3u8
 #EXTINF:-1 tvg-name="La 8 Mediterraneo" tvg-logo="https://tbsfibra.es/wp-content/uploads/2022/07/17-8-MEDITERRANEO.png" group-title="Television Hispana",La 8 Mediterraneo
 https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
 #EXTINF:-1 tvg-name="La Chilena TV" tvg-logo="https://i.imgur.com/GHJkxaB.png" group-title="Television Hispana",La Chilena TV
@@ -6341,8 +6369,6 @@ https://amg01515-blueskyeus-amg01515c1-tclideo-northamerica-496.playouts.now.ama
 https://tv.wracanal10.com:3671/live/lunatvcanal53live.m3u8
 #EXTINF:-1 tvg-name="Luz Divina TV" tvg-logo="https://imgur.com/BHZw3PK.jpeg" group-title="Television Hispana",Luz Divina TV
 https://tv.wracanal10.com:3776/live/luzdivinatvlive.m3u8
-#EXTINF:-1 tvg-name="Luz Naciente TV" tvg-logo="https://i.imgur.com/GC2lubh.png" group-title="Television Hispana",Luz Naciente TV
-https://streeming.protoscr.com:3858/live/streeminglive.m3u8
 #EXTINF:-1 tvg-name="M95 Marbella" tvg-logo="https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200" group-title="Television Hispana",M95 Marbella
 https://limited2.todostreaming.es/live/m95-livestream.m3u8
 #EXTINF:-1 tvg-name="MagicTV" group-title="Television Hispana",MagicTV
@@ -6387,6 +6413,8 @@ http://200.115.120.1:8000/play/ca021/index.m3u8
 http://179.51.136.19:8000/play/a0yy/index.m3u8
 #EXTINF:-1 tvg-name="Master TV" tvg-logo="https://i.imgur.com/K2ZimRv.png" group-title="Television Hispana",Master TV
 https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8
+#EXTINF:-1 tvg-name="Master TV [Opcion 2]" tvg-logo="https://i.imgur.com/K2ZimRv.png" group-title="Television Hispana",Master TV [Opcion 2]
+https://live.obslivestream.com/mastertv/index.m3u8
 #EXTINF:-1 tvg-name="MBC 5" group-title="Television Hispana",MBC 5
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8
 #EXTINF:-1 tvg-name="MC" tvg-logo="https://i.imgur.com/TAjbaml.png" group-title="Television Hispana",MC
@@ -6404,6 +6432,8 @@ https://live-evg5.tv360.bitel.com.pe/bitel/mediatv/playlist.m3u8
 #EXTINF:-1 tvg-name="MedioProvincia | AR" group-title="Television Hispana",MedioProvincia | AR
 https://stream.arcast.net:4443/mp/mp/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Mega" tvg-logo="https://i.imgur.com/CYdWSDb.png" group-title="Television Hispana",Mega
+https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Mega [Opcion 2]" tvg-logo="https://i.imgur.com/CYdWSDb.png" group-title="Television Hispana",Mega [Opcion 2]
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1 tvg-name="Mega TV" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="Television Hispana",Mega TV
 https://www.desde-paraguay.com/mega.m3u8
@@ -6431,6 +6461,8 @@ https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/play
 https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
 #EXTINF:-1 tvg-name="MexiquensTV | MX" group-title="Television Hispana",MexiquensTV | MX
 https://5ca3e84a76d30.streamlock.net:443/mexiquense/videomexiquense/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-name="MI Turno TV" tvg-logo="https://imgur.com/uODDaEY.png" group-title="Television Hispana",MI Turno TV
+https://video.udwn.net:19360/miturnotv/miturnotv.m3u8
 #EXTINF:-1 tvg-name="Mi TV | PY" group-title="Television Hispana",Mi TV | PY
 https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Miami TV Fashion" tvg-logo="https://pbs.twimg.com/profile_images/851530148998520833/lnGsJSwt_200x200.jpg" group-title="Television Hispana",Miami TV Fashion
@@ -6535,8 +6567,6 @@ https://nanduti.b-cdn.net/Source.m3u8
 https://nanduti.b-cdn.net/720p.m3u8
 #EXTINF:-1 tvg-name="Nanduti [Opcion 3]" tvg-logo="https://i.imgur.com/AsuVsLa.png" group-title="Television Hispana",Nanduti [Opcion 3]
 http://190.128.214.97:64333/play/a02d/index.m3u8
-#EXTINF:-1 tvg-name="Naranja TV" tvg-logo="https://i.imgur.com/g7iFN3s.png" group-title="Television Hispana",Naranja TV
-https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8
 #EXTINF:-1 tvg-name="Nativa" tvg-logo="https://i.imgur.com/Y9k9XSO.png" group-title="Television Hispana",Nativa
 https://oneplay.iptvperu.tv:1936/static/nativa1.stream/chunks.m3u8
 #EXTINF:-1 tvg-name="Nativa [Opcion 2]" tvg-logo="https://i.imgur.com/Y9k9XSO.png" group-title="Television Hispana",Nativa [Opcion 2]
@@ -6549,6 +6579,8 @@ https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8
 https://oneplay.iptvperu.tv:1936/static/nativa1.stream/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="NaturTime" group-title="Television Hispana",NaturTime
 https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-bamus-naturetimeemeaspa/CDN/master.m3u8?ads_amagi_channel=809&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=4330&ads_rtv_content_language=spa&ads_rtvid=271859&ads_streaming_id=0ab5e532-6cad-48c9-ae18-4f13fedd9fff&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
+#EXTINF:-1 tvg-name="Navarrete Television" tvg-logo="https://dominicanchannels.com/wp-content/uploads/navarrete.png" group-title="Television Hispana",Navarrete Television
+https://cnn.hostlagarto.com/ntvnavarrete/index.m3u8
 #EXTINF:-1 tvg-name="NCTV" tvg-logo="https://i.imgur.com/oo5vDBv.png" group-title="Television Hispana",NCTV
 https://pantera1-100gb-cl-movistar.dps.live/nctv/nctv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="NCTV | CL" group-title="Television Hispana",NCTV | CL
@@ -6701,8 +6733,6 @@ http://vps.chasquirouter.com/salida/ozono.m3u8
 https://livestream.telvue.com/pacificaca1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="Pacific Coast TV MWSD Channel 26" tvg-logo="https://i.imgur.com/xJSya25.png" group-title="Television Hispana",Pacific Coast TV MWSD Channel 26
 https://livestream.telvue.com/pacificaca2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="Palenque TV" tvg-logo="https://i.imgur.com/wAIBvaO.png" group-title="Television Hispana",Palenque TV
-https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8
 #EXTINF:-1 tvg-name="Palmar TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3328-294x165-FFFFFF.jpg" group-title="Television Hispana",Palmar TV
 https://streamunoapp.com:3255/live/palmartvlive.m3u8
 #EXTINF:-1 tvg-name="Palmeras TV | PE" tvg-logo="https://cdn.m3u.cl/logo/1290_Palmeras_TV.png" group-title="Television Hispana",Palmeras TV | PE
@@ -6743,6 +6773,8 @@ http://190.93.224.42/PBO/index.m3u8
 https://telecine-pelimex-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Peniel TV Biblia Abierta" tvg-logo="https://i.ibb.co/j3gGwYk/D64575438be2a3a54fdf64d4035ade48.png" group-title="Television Hispana",Peniel TV Biblia Abierta
 https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
+#EXTINF:-1 tvg-name="Peravia Vision" tvg-logo="https://i.imgur.com/k1Wj5ka.png" group-title="Television Hispana",Peravia Vision
+https://ss2.tvrdomi.com:1936/peraviavision/peraviavision/playlist.m3u8
 #EXTINF:-1 tvg-name="PHXTV" tvg-logo="https://i.imgur.com/RkTKR6x.png" group-title="Television Hispana",PHXTV
 https://cdn3.wowza.com/5/bGZUOHp2TnhudnM2/phoenix/G1498_006/playlist.m3u8
 #EXTINF:-1 tvg-name="Pichilemu TV" tvg-logo="https://i.imgur.com/eaJVCwM.png" group-title="Television Hispana",Pichilemu TV
@@ -6781,8 +6813,6 @@ https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
 https://cloud.fastchannel.es/mic/manifiest/populartvrm.m3u8
 #EXTINF:-1 tvg-name="Popular TV Murcia [Opcion 2]" tvg-logo="https://i.imgur.com/jFg9dGO.png" group-title="Television Hispana",Popular TV Murcia [Opcion 2]
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12690&live=1
-#EXTINF:-1 tvg-name="Portuguesa Television" tvg-logo="https://i.imgur.com/jHUSfGz.png" group-title="Television Hispana",Portuguesa Television
-https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
 #EXTINF:-1 tvg-name="PowerHD" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="Television Hispana",PowerHD
 https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
 #EXTINF:-1 tvg-name="PR: PUNTO 2" group-title="Television Hispana",PR: PUNTO 2
@@ -6845,8 +6875,6 @@ https://stream.ontvmx.com/ontv/ghxTYEQmKkB2UJyVuW/playlist.m3u8
 https://wowza.ucr.ac.cr/quinceucr/_definst_/quinceucr.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Qwest Jazz" group-title="Television Hispana",Qwest Jazz
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00447-qwesttv-qwest-jazz-tcl-tcl/playlist.m3u8
-#EXTINF:-1 tvg-name="R Television" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3039-294x165-FFFFFF.jpg" group-title="Television Hispana",R Television
-https://vdopanel.jlahozconsulting.com/p/3142/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="Rapsodia TV" group-title="Television Hispana",Rapsodia TV
 http://92.86.248.141:8080/ram/playlist.m3u8
 #EXTINF:-1 tvg-name="RASD TV" tvg-logo="https://i.imgur.com/9Pb8806.png" group-title="Television Hispana",RASD TV
@@ -6863,6 +6891,8 @@ https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8?PlaylistM3UCL
 https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
 #EXTINF:-1 tvg-name="RCTV3" tvg-logo="https://i.imgur.com/TvFKG35.png" group-title="Television Hispana",RCTV3
 https://vod.cityofrc.us/live-6/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-name="RCV TV" tvg-logo="https://i.imgur.com/0TEeEFG.jpg" group-title="Television Hispana",RCV TV
+https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8
 #EXTINF:-1 tvg-name="RDN" tvg-logo="https://i.imgur.com/x02CGSW.png" group-title="Television Hispana",RDN
 https://edge.essastream.com/rdntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Ready TV Canal 6" tvg-logo="https://i.imgur.com/ZONPQhR.png" group-title="Television Hispana",Ready TV Canal 6
@@ -6873,12 +6903,12 @@ https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8?Playlist
 https://d2jiqiw4g5lj5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AmericasVoiceChannel-prod/AVSamsung/AVSamsung.m3u8
 #EXTINF:-1 tvg-name="Real Crime" group-title="Television Hispana",Real Crime
 https://lds-realcrimebeta-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lds-realcrime2-rakuten/CDN/master.m3u8
+#EXTINF:-1 tvg-name="Real Crime [Opcion 2]" group-title="Television Hispana",Real Crime [Opcion 2]
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realcrime-tcl/playlist.m3u8
 #EXTINF:-1 tvg-name="Real Television" tvg-logo="https://i.imgur.com/7KECyh5.jpeg" group-title="Television Hispana",Real Television
 https://live-evg10.tv360.bitel.com.pe/bitel/realtv/playlist.m3u8
 #EXTINF:-1 tvg-name="Real Wild" group-title="Television Hispana",Real Wild
 https://lds-realwild-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-realwild-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-name="Red America TV" tvg-logo="https://i.imgur.com/qYNmeDe.png" group-title="Television Hispana",Red America TV
-https://edge.enhdtv.com/redamerica/index.m3u8
 #EXTINF:-1 tvg-name="Red de Comunicación Regional (RCR)" tvg-logo="https://i.imgur.com/A8TRPrF.png" group-title="Television Hispana",Red de Comunicación Regional (RCR)
 https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8
 #EXTINF:-1 tvg-name="Red Digital" tvg-logo="https://i.imgur.com/3jj0MQP.jpg" group-title="Television Hispana",Red Digital
@@ -6977,6 +7007,10 @@ https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
 http://190.181.61.93:8000/play/a00n/index.m3u8
 #EXTINF:-1 tvg-name="RTP (Peru)" tvg-logo="https://i.imgur.com/nHMqAHn.jpeg" group-title="Television Hispana",RTP (Peru)
 https://live-evg7.tv360.bitel.com.pe/bitel/rtp/playlist.m3u8
+#EXTINF:-1 tvg-name="RTQ Queretaro" tvg-logo="https://i.imgur.com/RRckCvf.png" group-title="Television Hispana",RTQ Queretaro
+https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
+#EXTINF:-1 tvg-name="RTQ Queretaro | MX" group-title="Television Hispana",RTQ Queretaro | MX
+https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="RTRTV" tvg-logo="https://i.imgur.com/dvP2yqB.png" group-title="Television Hispana",RTRTV
 https://tv3ecuador.site/hls/stream/index.m3u8
 #EXTINF:-1 tvg-name="RTS HD" tvg-logo="http://flx.lat:8080/images/4d358721c803edde72b9e29ef08ab996.png" group-title="Television Hispana",RTS HD
@@ -7041,8 +7075,6 @@ https://rtmp.info/sanjosetv/envivo/playlist.m3u8
 https://stream.radiosmundiales.com/hls/sanluismas/sanluismas.m3u8
 #EXTINF:-1 tvg-name="San Nicolas TV" tvg-logo="https://i.imgur.com/z94YCpH.png" group-title="Television Hispana",San Nicolas TV
 https://v4.tustreaming.cl/sannicolastv/index.m3u8
-#EXTINF:-1 tvg-name="San Pedro TV" tvg-logo="https://i.imgur.com/UkpXogr.png" group-title="Television Hispana",San Pedro TV
-https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
 #EXTINF:-1 tvg-name="San Vito Television" tvg-logo="https://i.imgur.com/Yd7JOxr.png" group-title="Television Hispana",San Vito Television
 https://stream.lamegatv.com/hls/sanvitotelevision/index.m3u8
 #EXTINF:-1 tvg-name="Sangre Fría" group-title="Television Hispana",Sangre Fría
@@ -7079,6 +7111,8 @@ http://179.51.136.19:8000/play/a0uc/index.m3u8
 http://168.196.127.137:6001/play/a04y/index.m3u8
 #EXTINF:-1 tvg-name="Semos asina (Canal Extremadura)" tvg-logo="https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200" group-title="Television Hispana",Semos asina (Canal Extremadura)
 https://cdn-canalextremadura.watchity.net/fast3/master.m3u8
+#EXTINF:-1 tvg-name="Senal Peru TV" tvg-logo="https://i.imgur.com/1q0R6R9.png" group-title="Television Hispana",Senal Peru TV
+https://livestream.perucast.com/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Senales TV" tvg-logo="https://i.imgur.com/7Zr79F2.png" group-title="Television Hispana",Senales TV
 https://live.dionelysterrero.com/senalestv/stream.m3u8
 #EXTINF:-1 tvg-name="Senillosa TV" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTrvk7gv0uCQ8QdGREqv6Rtzm4F6UMetdxKub6D=s400-c-k-c0x00ffffff-no-rj" group-title="Television Hispana",Senillosa TV
@@ -7129,10 +7163,6 @@ https://sproxy.solotv.cl/hls/live/fhd.m3u8
 https://videostream.shockmedia.com.ar/hls/canalsoltv/canalsoltv.m3u8
 #EXTINF:-1 tvg-name="Somos La Pampa" tvg-logo="https://i.imgur.com/BUNvyTY.png" group-title="Television Hispana",Somos La Pampa
 https://stream.arcast.com.ar/somosnoticias/somosnoticias/playlist.m3u8
-#EXTINF:-1 tvg-name="Somos TV" tvg-logo="https://i.imgur.com/jOroeJZ.png" group-title="Television Hispana",Somos TV
-https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8
-#EXTINF:-1 tvg-name="Somos TV | VE" group-title="Television Hispana",Somos TV | VE
-https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="SON: TELEMAX" group-title="Television Hispana",SON: TELEMAX
 https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8
 #EXTINF:-1 tvg-name="Sono Onda TV" tvg-logo="https://i.imgur.com/HWHeqWY.png" group-title="Television Hispana",Sono Onda TV
@@ -7141,6 +7171,8 @@ https://live.obslivestream.com/sonoondatv/index.m3u8
 https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Soy Plancha TV | CR" group-title="Television Hispana",Soy Plancha TV | CR
 https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-name="SPC Canal 15" tvg-logo="https://i.imgur.com/8GzjELt.jpeg" group-title="Television Hispana",SPC Canal 15
+https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8
 #EXTINF:-1 tvg-name="SR Saarland Alemania DE" tvg-logo="https://graph.facebook.com/SRinfo.sr/picture?width=200&height=200" group-title="Television Hispana",SR Saarland Alemania DE
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 #EXTINF:-1 tvg-name="Stadium USA EN" tvg-logo="https://pbs.twimg.com/profile_images/1912970794524610560/M1vEMVlm_200x200.jpg" group-title="Television Hispana",Stadium USA EN
@@ -7193,8 +7225,6 @@ https://ss2.tvrdomi.com:1936/supertv55/supertv55/playlist.m3u8
 https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="SUR TV" tvg-logo="https://i.imgur.com/wDCqoor.png" group-title="Television Hispana",SUR TV
 https://surtv-2.mddsoluciones.cl/play/ZZZ-WEB-001:ULpj2JxXM9/live/surtvweb/playlist.m3u8
-#EXTINF:-1 tvg-name="SUR TV [Opcion 2]" tvg-logo="https://i.imgur.com/wDCqoor.png" group-title="Television Hispana",SUR TV [Opcion 2]
-https://ss2.tvrdomi.com:1936/eradiofonicas/eradiofonicas/playlist.m3u8
 #EXTINF:-1 tvg-name="SUR TV Itapua" tvg-logo="https://i.imgur.com/ltJQvZd.png" group-title="Television Hispana",SUR TV Itapua
 http://45.170.130.224:8000/play/a036/index.m3u8?hls
 #EXTINF:-1 tvg-name="Survivor México" tvg-logo="https://images.pluto.tv/channels/69fca9dd14a5dfae8875a3be/colorLogoPNG_1778516804340.png" group-title="Television Hispana",Survivor México
@@ -7265,8 +7295,12 @@ https://tvdirecto.teleelx.es/stream/teleelx.m3u8
 https://teleola.ddns.net/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Tele Poder TV" tvg-logo="https://www.telepoder.online/wp-content/uploads/2024/02/cropped-cropped-Logo-PoderTV2.png" group-title="Television Hispana",Tele Poder TV
 https://cdn.telepoder.online:3229/dash/stream.m3u8
+#EXTINF:-1 tvg-name="Tele Posadas" group-title="Television Hispana",Tele Posadas
+https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8
 #EXTINF:-1 tvg-name="Tele Proyecto TV" tvg-logo="https://imgur.com/LmBxN5x.png" group-title="Television Hispana",Tele Proyecto TV
 https://5790d294af2dc.streamlock.net/Teleproyecto/Teleproyecto/playlist.m3u8
+#EXTINF:-1 tvg-name="Tele Safor" tvg-logo="https://i.imgur.com/EowJfr0.png" group-title="Television Hispana",Tele Safor
+https://video.telesafor.com/hls/video.m3u8
 #EXTINF:-1 tvg-name="Tele Selva | PE" tvg-logo="https://cdn.m3u.cl/logo/1546_Tele_Selva.png" group-title="Television Hispana",Tele Selva | PE
 https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="Tele Uno" tvg-logo="https://i.imgur.com/eRwYxc2.png" group-title="Television Hispana",Tele Uno
@@ -7348,10 +7382,8 @@ https://live.telemadrid.cross-media.es/6389770581112/eu-central-1/6416060453001/
 #EXTINF:-1 tvg-name="Telemar" tvg-logo="https://i.imgur.com/0vX9oJF.png" group-title="Television Hispana",Telemar
 https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8
 #EXTINF:-1 tvg-name="Telemax" tvg-logo="https://i.imgur.com/gfX0hdB.png" group-title="Television Hispana",Telemax
-https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
-#EXTINF:-1 tvg-name="Telemax [Opcion 2]" tvg-logo="https://i.imgur.com/gfX0hdB.png" group-title="Television Hispana",Telemax [Opcion 2]
 http://s5.mexside.net:1935/telemax/telemax/playlist.m3u8
-#EXTINF:-1 tvg-name="Telemax [Opcion 3]" tvg-logo="https://i.imgur.com/gfX0hdB.png" group-title="Television Hispana",Telemax [Opcion 3]
+#EXTINF:-1 tvg-name="Telemax [Opcion 2]" tvg-logo="https://i.imgur.com/gfX0hdB.png" group-title="Television Hispana",Telemax [Opcion 2]
 http://s5.mexside.net:1935/telemax/telemax/.m3u8?null=0
 #EXTINF:-1 tvg-name="Telemedios Canal 8" tvg-logo="https://i.imgur.com/xhEAw7z.png" group-title="Television Hispana",Telemedios Canal 8
 https://hls.tvabierta.net/hls/008.m3u8
@@ -7363,6 +7395,8 @@ https://streamunoapp.com:3366/live/telemetrolive.m3u8
 https://cdn4.wind.do/streams/telemicro/telemicro_1080.m3u8
 #EXTINF:-1 tvg-name="Telemiño" tvg-logo="https://graph.facebook.com/teleminho/picture?width=200&height=200" group-title="Television Hispana",Telemiño
 https://laregionlive.flumotion.cloud/laregionlive/smil:channel1.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Telemotril" tvg-logo="https://i.imgur.com/4nspLHb.png" group-title="Television Hispana",Telemotril
+https://video.telemotril.com/telemotril-channel-1/index.m3u8
 #EXTINF:-1 tvg-name="Telemundo" group-title="Television Hispana",Telemundo
 http://181.78.23.26:45000/play/a01t
 #EXTINF:-1 tvg-name="Telemundo [Opcion 2]" group-title="Television Hispana",Telemundo [Opcion 2]
@@ -7393,6 +7427,8 @@ https://live.11-cdn.com/TeleOnce/3fc63fe00050c646635f16b071cd33e2.sdp/playlist.m
 https://5f71743aa95e4.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-name="Telepacífico | CO" group-title="Television Hispana",Telepacífico | CO
 https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-name="Telerama" tvg-logo="https://i.imgur.com/whIRrjo.png" group-title="Television Hispana",Telerama
+https://play.once.net.ec/telerama/live.tv/538.m3u8
 #EXTINF:-1 tvg-name="Telered Television" tvg-logo="https://i.imgur.com/cIvfnsa.jpg" group-title="Television Hispana",Telered Television
 https://k20.usastreams.com:8081/telered/index.m3u8
 #EXTINF:-1 tvg-name="Teleselva" tvg-logo="https://i.imgur.com/cu7hTn8.png" group-title="Television Hispana",Teleselva
@@ -7410,7 +7446,7 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 #EXTINF:-1 tvg-name="Telesystem TV" tvg-logo="https://i.imgur.com/CI4CNgL.jpeg" group-title="Television Hispana",Telesystem TV
 https://live-evg5.tv360.bitel.com.pe/bitel/telesystemSRT/playlist.m3u8
 #EXTINF:-1 tvg-name="Teletica 7" tvg-logo="https://i.imgur.com/ctnvE3c.png" group-title="Television Hispana",Teletica 7
-http://190.61.101.11:7050/play/a07t/index.m3u8
+http://181.119.177.253:8000/play/a0da
 #EXTINF:-1 tvg-name="Teletrak | CL" group-title="Television Hispana",Teletrak | CL
 https://teletraktv.janus.cl/playlist/stream.m3u8?t=0&s=&p=&id=lufuufsd&d=w&PlaylistM3UCL
 #EXTINF:-1 tvg-name="Teletur" tvg-logo="https://i.imgur.com/Ig4gR93.png" group-title="Television Hispana",Teletur
@@ -7439,6 +7475,8 @@ https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8
 https://viewhn.com/canal30/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Television Tarapoto" tvg-logo="https://i.imgur.com/Dzen7sh.png" group-title="Television Hispana",Television Tarapoto
 http://45.5.57.58:8000/play/a038/index.m3u8
+#EXTINF:-1 tvg-name="Televisora de Oriente" tvg-logo="https://i.imgur.com/wFC6Xxq.png" group-title="Television Hispana",Televisora de Oriente
+https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8
 #EXTINF:-1 tvg-name="TelIsla| CO" group-title="Television Hispana",TelIsla| CO
 https://5ab772334c39c.streamlock.net/live-teleislas/_definst_/teleislas/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="TendenciaPrim| CL" group-title="Television Hispana",TendenciaPrim| CL
@@ -7494,7 +7532,7 @@ http://hls.tmacaraibes.com/live/index.m3u8
 #EXTINF:-1 tvg-name="TN" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="Television Hispana",TN
 http://158.172.155.130:8000/play/a0dp/index.m3u8
 #EXTINF:-1 tvg-name="TN8" tvg-logo="https://i.imgur.com/m0Zdxiz.png" group-title="Television Hispana",TN8
-http://190.61.101.11:7050/play/a07j/index.m3u8
+https://streamingcws30.com/tn8/videotn8/playlist.m3u8
 #EXTINF:-1 tvg-name="TNE" tvg-logo="https://i.imgur.com/8QbvXva.png" group-title="Television Hispana",TNE
 https://v2.tustreaming.cl/tnetv/index.m3u8
 #EXTINF:-1 tvg-name="TNE | CL" group-title="Television Hispana",TNE | CL
@@ -7505,8 +7543,6 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff608e60e29960007
 https://tvdatta.com:3084/live/toptvaguaytialive.m3u8
 #EXTINF:-1 tvg-name="Top Latino TV" tvg-logo="https://i.imgur.com/VRl8nPZ.png" group-title="Television Hispana",Top Latino TV
 http://38.87.224.20:2220/play/a02b/index.m3u8
-#EXTINF:-1 tvg-name="Tora Canal 69" tvg-logo="https://latoratv69.com.do/wp-content/themes/bootscore/assets/img/logo-tora-tv.png" group-title="Television Hispana",Tora Canal 69
-https://tv.wracanal10.com:3012/live/latoratvlive.m3u8
 #EXTINF:-1 tvg-name="Toros (Canal Extremadura)" tvg-logo="https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200" group-title="Television Hispana",Toros (Canal Extremadura)
 https://cdn-canalextremadura.watchity.net/fast1/master.m3u8
 #EXTINF:-1 tvg-name="Torremolinos TV" tvg-logo="https://graph.facebook.com/torremolinostv/picture?width=200&height=200" group-title="Television Hispana",Torremolinos TV
@@ -7565,14 +7601,12 @@ https://cdn1.cef-technology.com/stream_web/turistik/playlist.m3u8
 https://redirector.dps.live/hls/turno/playlist.m3u8
 #EXTINF:-1 tvg-name="Tuya La Janda TV" tvg-logo="https://graph.facebook.com/tuyalajandatv/picture?width=200&height=200" group-title="Television Hispana",Tuya La Janda TV
 https://nimble.tuyapro.es/app/tv/playlist.m3u8
+#EXTINF:-1 tvg-name="TV 10 San Juan" tvg-logo="https://i.imgur.com/e2BXUdH.png" group-title="Television Hispana",TV 10 San Juan
+https://59d39900ebfb8.streamlock.net/tv10sanjuan/tv10sanjuan/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 45" tvg-logo="https://i.imgur.com/sI0msrn.png" group-title="Television Hispana",TV 45
 https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
 #EXTINF:-1 tvg-name="TV 5 Linare| CL" group-title="Television Hispana",TV 5 Linare| CL
 https://v1.tustreaming.cl/tv5linares/index.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-name="TV Aire" tvg-logo="https://i.imgur.com/7gHFKPZ.png" group-title="Television Hispana",TV Aire
-http://190.128.214.97:64333/play/a05y/index.m3u8
-#EXTINF:-1 tvg-name="Tv AirParaguay | PY" group-title="Television Hispana",Tv AirParaguay | PY
-https://video.hostingcaaguazu.com:19360/tvairepy/tvairepy.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="TV Almassora" tvg-logo="https://i.imgur.com/syeJXGh.png" group-title="Television Hispana",TV Almassora
 https://play.turesportmedia.com/hls/abr_tvalmassora/index.m3u8
 #EXTINF:-1 tvg-name="TV Aranda" tvg-logo="https://graph.facebook.com/575943555801687/picture?width=200&height=200" group-title="Television Hispana",TV Aranda
@@ -7593,6 +7627,8 @@ https://d2q93scm3qt8zp.cloudfront.net/index-events.m3u8
 https://video.hostingcaaguazu.com:19360/tvcanindeyu/tvcanindeyu.m3u8
 #EXTINF:-1 tvg-name="TV Centro HD" tvg-logo="https://i.imgur.com/bcfmqHb.png" group-title="Television Hispana",TV Centro HD
 https://cloud2.streaminglivehd.com:1936/8032/8032/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Color Canal 36" tvg-logo="https://i.imgur.com/QJW6khK.jpg" group-title="Television Hispana",TV Color Canal 36
+https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
 #EXTINF:-1 tvg-name="TV Copan" tvg-logo="https://i.imgur.com/JiPmRFr.png" group-title="Television Hispana",TV Copan
 https://s.emisoras.tv:8081/tvcopan/index.m3u8
 #EXTINF:-1 tvg-name="TV Cotui Canal 31" tvg-logo="https://i.imgur.com/sMF7JDm.png" group-title="Television Hispana",TV Cotui Canal 31
@@ -7633,6 +7669,8 @@ https://host.streamingnation.live/p/3780/live/tvluzlive.m3u8
 https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Mana | AR" group-title="Television Hispana",TV Mana | AR
 https://w2.manasat.com:443/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-name="TV MAR" tvg-logo="https://i.imgur.com/VXvbNjT.png" group-title="Television Hispana",TV MAR
+https://live-evg11.tv360.bitel.com.pe/bitel/tvmarSRT/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Mar La Paz" tvg-logo="https://i.imgur.com/z9iVlMn.png" group-title="Television Hispana",TV Mar La Paz
 https://5fc584f3f19c9.streamlock.net/tvmarlapaz/smil:tvmarlapaz.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Mar Los Cabos" tvg-logo="https://i.imgur.com/z9iVlMn.png" group-title="Television Hispana",TV Mar Los Cabos
@@ -7643,8 +7681,6 @@ https://5ca9af4645e15.streamlock.net/tvmarvallarta/videotvmarvallarta/playlist.m
 https://ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-name="TV MAS" group-title="Television Hispana",TV MAS
 https://5ca9af4645e15.streamlock.net/rtv/videortv/chunklist_w1862368642.m3u8
-#EXTINF:-1 tvg-name="TV MAX" tvg-logo="https://i.imgur.com/JFBpDJ1.jpeg" group-title="Television Hispana",TV MAX
-https://live-evg8.tv360.bitel.com.pe/bitel/nexSRT_TRA/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Migrante" tvg-logo="https://i.imgur.com/tVgkiJF.png" group-title="Television Hispana",TV Migrante
 https://s5.mexside.net:1936/tvmigrante/tvmigrante/playlist.m3u8
 #EXTINF:-1 tvg-name="TV MÁS HD" tvg-logo="https://i.imgur.com/tjnTbRR.jpg" group-title="Television Hispana",TV MÁS HD
@@ -7697,6 +7733,8 @@ http://45.224.97.181:9999/TVC/index.m3u8
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8
 #EXTINF:-1 tvg-name="TVenLinea" tvg-logo="https://i.imgur.com/txV8lw0.png" group-title="Television Hispana",TVenLinea
 https://srt.tvdatta.com/tvenlinea/index.m3u8
+#EXTINF:-1 tvg-name="TVes" group-title="Television Hispana",TVes
+http://45.226.205.96:48000/play/a0dn/index.m3u8
 #EXTINF:-1 tvg-name="TVG" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="Television Hispana",TVG
 https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8
 #EXTINF:-1 tvg-name="TVG Cativ@s" tvg-logo="https://graph.facebook.com/oxabarinclub/picture?width=200&height=200" group-title="Television Hispana",TVG Cativ@s
@@ -7795,8 +7833,6 @@ http://tv.ulagos.cl/web/live.m3u8?PlaylistM3UCL
 http://tv.ulagos.cl/web/live.m3u8
 #EXTINF:-1 tvg-name="UATV" tvg-logo="https://i.imgur.com/BdZGS66.png" group-title="Television Hispana",UATV
 https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Ucayalina de Television" tvg-logo="https://i.imgur.com/jBhfcqy.png" group-title="Television Hispana",Ucayalina de Television
-https://live-evg11.tv360.bitel.com.pe/bitel/utv/playlist.m3u8
 #EXTINF:-1 tvg-name="UCV" group-title="Television Hispana",UCV
 http://unlimited6-cl.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="UCV 2 | CL" group-title="Television Hispana",UCV 2 | CL
@@ -7839,10 +7875,6 @@ https://audiov-srv2.rec.unrc.edu.ar/hls/stream.m3u8?PlaylistM3UCL
 https://play.agenciastreaming.com:8081/uniteltv/index.m3u8
 #EXTINF:-1 tvg-name="Unitel (Bolivia)" tvg-logo="https://i.imgur.com/B9wg1zj.png" group-title="Television Hispana",Unitel (Bolivia)
 http://190.181.61.93:8000/play/1909/index.m3u8
-#EXTINF:-1 tvg-name="Unitel Cochabamba" group-title="Television Hispana",Unitel Cochabamba
-https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8
-#EXTINF:-1 tvg-name="Unitel La Paz" group-title="Television Hispana",Unitel La Paz
-https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8
 #EXTINF:-1 tvg-name="Unitel Santa Cruz" group-title="Television Hispana",Unitel Santa Cruz
 https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
 #EXTINF:-1 tvg-name="UniTV" tvg-logo="https://i.imgur.com/KLGeznX.png" group-title="Television Hispana",UniTV

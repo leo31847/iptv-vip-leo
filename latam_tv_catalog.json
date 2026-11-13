@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-13 12:00",
+  "version": "2026-11-13 19:37",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -793,6 +793,7 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a03e",
+        "http://190.61.42.218:9000/play/a01y/index.m3u8",
         "http://181.78.82.130:8000/play/a0rt/index.m3u8"
       ]
     },
@@ -5814,7 +5815,6 @@
       "l": "https://i.imgur.com/PAvnVN9.png",
       "r": "1080p",
       "u": [
-        "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
         "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8"
       ]
     },
@@ -7041,7 +7041,6 @@
       "l": "https://i.imgur.com/5pAaVih.png",
       "r": "HD",
       "u": [
-        "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
         "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8"
       ]
     },
@@ -7053,7 +7052,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png",
       "r": "1080p",
       "u": [
-        "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
         "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8"
       ]
     },
@@ -7520,7 +7518,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -7532,7 +7531,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -8000,7 +8000,6 @@
       "l": "https://i.imgur.com/gfX0hdB.png",
       "r": "HD",
       "u": [
-        "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8",
         "http://s5.mexside.net:1935/telemax/telemax/playlist.m3u8",
         "http://s5.mexside.net:1935/telemax/telemax/.m3u8?null=0"
       ]
@@ -8013,7 +8012,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png",
       "r": "1080p",
       "u": [
-        "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8",
         "http://s5.mexside.net:1935/telemax/telemax/playlist.m3u8",
         "http://s5.mexside.net:1935/telemax/telemax/.m3u8?null=0"
       ]
@@ -8296,7 +8294,8 @@
       "l": "https://cdn.m3u.cl/logo/1638_ADA_TV.png",
       "r": "720p",
       "u": [
-        "https://v4.tustreaming.cl/adatvchile/index.m3u8"
+        "https://v4.tustreaming.cl/adatvchile/index.m3u8",
+        "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8"
       ]
     },
     {
@@ -9079,6 +9078,7 @@
       "l": "https://i.imgur.com/CYdWSDb.png",
       "r": "HD",
       "u": [
+        "https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8",
         "http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       ]
     },
@@ -9090,6 +9090,7 @@
       "l": "https://i.imgur.com/RlZfR84.png",
       "r": "1080p",
       "u": [
+        "https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8",
         "http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       ]
     },
@@ -9656,8 +9657,7 @@
       "l": "https://i.imgur.com/wDCqoor.png",
       "r": "720p",
       "u": [
-        "https://surtv-2.mddsoluciones.cl/play/ZZZ-WEB-001:ULpj2JxXM9/live/surtvweb/playlist.m3u8",
-        "https://ss2.tvrdomi.com:1936/eradiofonicas/eradiofonicas/playlist.m3u8"
+        "https://surtv-2.mddsoluciones.cl/play/ZZZ-WEB-001:ULpj2JxXM9/live/surtvweb/playlist.m3u8"
       ]
     },
     {
@@ -10098,7 +10098,8 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
+        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
       ]
     },
     {
@@ -10380,7 +10381,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -10685,7 +10687,8 @@
       "l": "https://i.imgur.com/K2ZimRv.png",
       "r": "720p",
       "u": [
-        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8"
+        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8",
+        "https://live.obslivestream.com/mastertv/index.m3u8"
       ]
     },
     {
@@ -14937,7 +14940,8 @@
       "r": "720p",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -15207,8 +15211,7 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
-        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
       ]
     },
     {
@@ -17043,7 +17046,7 @@
       "l": "https://i.imgur.com/m0Zdxiz.png",
       "r": "1080p",
       "u": [
-        "http://190.61.101.11:7050/play/a07j/index.m3u8"
+        "https://streamingcws30.com/tn8/videotn8/playlist.m3u8"
       ]
     },
     {
