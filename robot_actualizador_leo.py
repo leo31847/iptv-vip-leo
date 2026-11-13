@@ -23,6 +23,7 @@ import sys
 import json
 import time
 import ssl
+import shutil
 import socket
 import unicodedata
 import urllib.request
@@ -2695,6 +2696,13 @@ def main():
             with open(tmp_ocat, 'wb') as oscf:
                 oscf.write(payload_bytes)
             os.replace(tmp_ocat, omega_series_cat)
+            for asset_name in ("lista_series.m3u", "lista_en_vivo.m3u"):
+                src_m3u = os.path.join(APP_DIR, asset_name)
+                if os.path.exists(src_m3u):
+                    dst_m3u = os.path.join(omega_assets_dir, asset_name)
+                    tmp_m3u = dst_m3u + '.tmp'
+                    shutil.copyfile(src_m3u, tmp_m3u)
+                    os.replace(tmp_m3u, dst_m3u)
     except Exception as e:
         print("[!] Error exportando series_catalog.json:", e)
 
