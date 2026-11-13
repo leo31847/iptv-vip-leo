@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-13 01:00",
+  "version": "2026-11-13 12:00",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -589,8 +589,7 @@
       "r": "1080p",
       "u": [
         "http://190.109.2.92:8000/play/a010/index.m3u8",
-        "https://vid.canal1cr.com:3424/multi_live/play_720.m3u8",
-        "http://190.61.47.54:8000/play/a00u/index.m3u8"
+        "https://vid.canal1cr.com:3424/multi_live/play_720.m3u8"
       ]
     },
     {
@@ -768,8 +767,8 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a033",
-        "http://181.78.82.130:8000/play/a0rs/index.m3u8",
-        "http://190.61.47.54:8000/play/a00z/index.m3u8"
+        "http://190.61.42.218:9000/play/a06g/index.m3u8",
+        "http://181.78.82.130:8000/play/a0rs/index.m3u8"
       ]
     },
     {
@@ -794,8 +793,7 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a03e",
-        "http://181.78.82.130:8000/play/a0rt/index.m3u8",
-        "http://190.61.47.54:8000/play/a010/index.m3u8"
+        "http://181.78.82.130:8000/play/a0rt/index.m3u8"
       ]
     },
     {
@@ -4713,8 +4711,7 @@
       "r": "HD",
       "u": [
         "http://190.109.2.92:8000/play/a010/index.m3u8",
-        "https://vid.canal1cr.com:3424/multi_live/play_720.m3u8",
-        "http://190.61.47.54:8000/play/a00u/index.m3u8"
+        "https://vid.canal1cr.com:3424/multi_live/play_720.m3u8"
       ]
     },
     {
@@ -7523,7 +7520,6 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
@@ -7536,7 +7532,6 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
@@ -8806,7 +8801,6 @@
       "l": "https://cdn.energeek.cl/logos/EG-Radio-2025_pfp.png",
       "r": "720p",
       "u": [
-        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26",
         "https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES",
         "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES"
       ]
@@ -9085,8 +9079,6 @@
       "l": "https://i.imgur.com/CYdWSDb.png",
       "r": "HD",
       "u": [
-        "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8",
-        "https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8",
         "http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       ]
     },
@@ -9098,8 +9090,6 @@
       "l": "https://i.imgur.com/RlZfR84.png",
       "r": "1080p",
       "u": [
-        "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8",
-        "https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8",
         "http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       ]
     },
@@ -10108,8 +10098,7 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
-        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
       ]
     },
     {
@@ -10144,7 +10133,8 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
       ]
     },
     {
@@ -10390,7 +10380,6 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
@@ -10447,7 +10436,8 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
     {
@@ -10695,8 +10685,7 @@
       "l": "https://i.imgur.com/K2ZimRv.png",
       "r": "720p",
       "u": [
-        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8",
-        "https://live.obslivestream.com/mastertv/index.m3u8"
+        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8"
       ]
     },
     {
@@ -14948,7 +14937,6 @@
       "r": "720p",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
@@ -15286,7 +15274,8 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
     {
