@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12 22:57",
+  "version": "2026-11-13 01:00",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -7757,7 +7757,8 @@
       "r": "HD",
       "u": [
         "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
-        "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8"
+        "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8",
+        "http://45.134.141.161:2200/ARG/Net_TV/index.m3u8"
       ]
     },
     {
@@ -10843,6 +10844,7 @@
       "l": "https://i.imgur.com/Wkdibpv.png",
       "r": "720p",
       "u": [
+        "https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8",
         "http://vps.chasquirouter.com/salida/ozono.m3u8"
       ]
     },
