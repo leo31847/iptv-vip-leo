@@ -78,8 +78,15 @@ BLACKLIST_IDENTIFIERS = {
     'season_1_1', 'darkwing-duck_20240119', 'ducktales-1987_202601', 'duck-tales-dublado',
     'voyagers-complete-series-1982', 'captain-planet-and-the-planeteers-1990',
     'captain-planet-and-the-planeteers-480p', 'growing-pains-complete-series',
-    '52_20200504_20200504', 'ninos-en-crecimiento-bravo-pedro-pudiste-hacerlo',
+    '52_20200504_20200504',
     'cantishow-megab',
+    # Superseded partial/duplicate Superlibro packs (covered by SERIE-SUPERLIBRO-3D-T1..T5)
+    'cap-12_202609', 'superbox', 'cap-3_202609', 'tempo-4', 'cap-4_202609',
+    'losdiezmandamientossuperlibro', 'unaaventura_201706', 'eltejedordesuenos',
+    'elharesucitado', 'laprimeranavidad', 'dejairamipueblosuperlibro720',
+    'milagrosdejesus', 'superlibro-episodio-batalla-final-720-p-hd',
+    'laultimacena_201909', '344935202mp4h264aachd', 'elcaminodedamasco',
+    'jonas_201910', 'lahistoriadedanielsuperlibro720', 'jacobyesausuperlibro720',
 }
 
 def _is_blacklisted_url(u):
@@ -914,7 +921,47 @@ def reconcile_series_entries(series_out, existing_series, dead_ids):
             seen_urls.add(row[2])
             cleaned_out.append(row)
 
+    merge_curated_youtube_series(cleaned_out, seen_urls)
+
     return cleaned_out, preserved_old, pluto_vod_map, all_posters_map
+
+
+def merge_curated_youtube_series(cleaned_out, seen_urls):
+    """Merge verified Español Latino YouTube episodes without overriding Archive.org MP4s."""
+    curated_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'curated_youtube_series.json')
+    if not os.path.exists(curated_path):
+        return 0
+    try:
+        with open(curated_path, 'r', encoding='utf-8') as f:
+            curated = json.load(f)
+    except Exception:
+        return 0
+
+    seen_se = set()
+    se_rx = re.compile(r'^(.+?)\s+-\s+T(\d+)E(\d+)\b', re.I)
+    for row in cleaned_out:
+        dt = row[1] if len(row) > 1 else ''
+        m = se_rx.match(dt)
+        if m:
+            seen_se.add((m.group(1).strip().lower(), int(m.group(2)), int(m.group(3))))
+
+    added = 0
+    for it in curated:
+        url = it.get('url', '')
+        gt = it.get('group', '')
+        dt = it.get('title', '')
+        logo = it.get('logo', '')
+        if not url or not gt or not dt or url in seen_urls:
+            continue
+        se_key = (str(it.get('series', '')).strip().lower(), int(it.get('season', 0)), int(it.get('ep', 0)))
+        if se_key in seen_se:
+            continue
+        seen_urls.add(url)
+        seen_se.add(se_key)
+        cleaned_out.append((gt, dt, url, logo))
+        added += 1
+    print(f"  + Curated YT Latino fusionados: {added} episodios")
+    return added
 
 def postprocess_series_catalog(final_catalog, pluto_vod_map, posters_by_series=""):
     """Asegura logos, pluto_id VOD, URL limpia sin JWT en JSON, purga residuos y ordena temporadas/episodios."""
@@ -1635,24 +1682,30 @@ SERIES_CATALOG = [
                             "lacasadelapradera", "lacasadelapraderatemp6", "lacasadelapraderatemp7",
                             "casapraderatemp8", "lacasadelapraderatemp9", "lacasadelapraderat10"], ["la casa de la pradera"]),
     ("Superlibro", [
-        "cap-12_202609", "SUperbox", "cap-3_202609", "tempo-4", "cap-4_202609",
-        "LosDiezMandamientosSuperLibro", "cap-11-superlibro-superlibro-clasico-sanson-y-dalila",
-        "unaaventura_201706", "eltejedordesuenos", "elharesucitado", "laprimeranavidad",
-        "cap-18-superlibro-superlibro-clasico-david-goliat", "DejaIrAMiPuebloSuperLibro720",
-        "milagrosdejesus", "cap-4-superlibro-superlibro-clasico-la-prueba-de-abraham",
-        "superlibro-episodio-batalla-final-720-p-hd"
+        "SERIE-SUPERLIBRO-3D-T1", "SERIE-SUPERLIBRO-3D-T2", "SERIE-SUPERLIBRO-3D-T3",
+        "SERIE-SUPERLIBRO-3D-T4", "SERIE-SUPERLIBRO-3D-T5",
+        "cap-2-superlibro-superlibro-clasico-cain-y-abel",
+        "cap-3-superlibro-superlibro-clasico-el-diluvio",
+        "cap-4-superlibro-superlibro-clasico-la-prueba-de-abraham",
+        "cap-5-superlibro-superlibro-clasico-eliezer-y-rebeca",
+        "cap-6-superlibro-superlibro-clasico-jacob-y-esau",
+        "cap-11-superlibro-superlibro-clasico-sanson-y-dalila",
+        "cap-13-superlibro-superlibro-clasico-la-ultima-cena",
+        "cap-15-superlibro-superlibro-clasico-job",
+        "cap-18-superlibro-superlibro-clasico-david-goliat"
     ], ["superlibro clasico", "superbook"]),
     ("Superraton", ["66-los-monstruos-de-la-luna", "sraton_202606"], ["mighty mouse"]),
     ("Astro Boy", ["astro-boy-1963-capitulo-008-el-cometa-plateado-latino", "astro-boy-"], ["astroboy"]),
     ("X-Men (1992)", ["x-men-1992"], ["x-men la serie animada"]),
-    ("Motorratones de Marte", ["los-motorratones-de-marte", "biker-mice-from-mars-latino-la-visita"], ["motorratones", "biker mice from mars"]),
+    ("Motorratones de Marte", ["s-01-e-03-motoratones-de-marte-03-el-repelente-limburger-y-su-reino-apestoso-2a-parte-v-1.5", "los-motorratones-de-marte", "biker-mice-from-mars-latino-la-visita"], ["motorratones", "biker mice from mars"]),
     ("Volver al Futuro", ["volveralfuturo"], ["regreso al futuro", "back to the future"]),
-    ("Cantinflas: Peliculas Clasicas", ["0956-cantinflas-ama-a-tu-projimo-1958-720p-dvdrip-lat-upsc-v"], ["cantinflas peliculas"]),
+    ("Cantinflas: Peliculas Clasicas", ["0956-cantinflas-ama-a-tu-projimo-1958-720p-dvdrip-lat-upsc-v", "3721069398668"], ["cantinflas peliculas"]),
     ("Cantinflas Show", ["cantinflasshow", "amigoandfriends"], ["cantinflas y sus amigos"]),
     ("Mr. Bean", ["mr-bean-1990-dual", "bean-el-nombre-del-desastre-1997", "las-vacaciones-de-mr.-bean-2007_202607"], ["mr bean live action", "bean el nombre del desastre"]),
     ("Manimal", ["manimal1_201909", "manimal8_201909"], []),
     ("La Mujer Maravilla", ["la-mujer-maravilla-serie-espanol-capitulo-1-temporada-1-video-dailymotion_202009", "la-mujer-maravilla-3x-22-el-hombre-inmortal-series-retro"], ["wonder woman"]),
-    ("Ninos en crecimiento", ["ninos-en-crecimiento-01-mucho-gusto-canal-10-tves", "ninos-en-crecimiento-demasiados-compromisos-recuerdos-de-television-boliviana-canal-7"], ["ninos en crecimiento"]),
+    ("Ninos en crecimiento", ["ninos-en-crecimiento-01-mucho-gusto-canal-10-tves", "ninos-en-crecimiento-bravo-pedro-pudiste-hacerlo", "ninos-en-crecimiento-demasiados-compromisos-recuerdos-de-television-boliviana-canal-7"], ["ninos en crecimiento"]),
+    ("Mision Imposible", ["mission-impossible-vs-the-mob-espanol"], ["mision imposible"]),
 ]
 
 # Series que el robot busca solo en cada ejecucion (se agregan si aparecen en espanol)
@@ -1680,7 +1733,8 @@ WANTED_SERIES = [
     "Ninos en crecimiento", "Superlibro", "Superraton", "Astro Boy",
     "X-Men (1992)", "Motorratones de Marte", "Volver al Futuro",
     "Cantinflas: Peliculas Clasicas", "Cantinflas Show", "Mr. Bean",
-    "Manimal",
+    "Manimal", "La Casa Voladora", "El Capitan Planeta", "El Pato Darkwing",
+    "Historias Asombrosas", "Tio Rico", "Mision Imposible", "Voyagers!",
 ]
 
 VIDEO_EXT = ('.mp4', '.mkv', '.avi', '.m4v', '.webm', '.ogv', '.mpg', '.mpeg')
@@ -1760,6 +1814,8 @@ def _should_skip_archive_file(item_id, name_low):
         return 'temporada 0/' in name_low or 's00e' in name_low
     if iid_l == 'biker-mice-from-mars-latino-la-visita':
         return 'biker mice from mars latino la visita' in name_low
+    if iid_l == 's-01-e-03-motoratones-de-marte-03-el-repelente-limburger-y-su-reino-apestoso-2a-parte-v-1.5':
+        return 's01e01 motoratones' in name_low
     if iid_l == 'la-mujer-maravilla-3x-22-el-hombre-inmortal-series-retro':
         return 'series retro' not in name_low
     if iid_l == '0956-cantinflas-ama-a-tu-projimo-1958-720p-dvdrip-lat-upsc-v':
@@ -1794,7 +1850,7 @@ def extract_episodes(series, aliases, item_id, meta):
             size = int(f.get('size') or 0)
         except ValueError:
             size = 0
-        if size and (size < 3_000_000 or size > 4_500_000_000):
+        if size and (size < 3_000_000 or size > 4_900_000_000):
             continue
         stem = name
         for _ in range(2):
@@ -2106,29 +2162,104 @@ def harvest_complete_series():
         iid_low = (item_id or '').lower()
 
         if s_name == 'Superlibro':
-            sb_season = {
-                'cap-12_202609': 1, 'superbox': 2, 'cap-3_202609': 3, 'tempo-4': 4, 'cap-4_202609': 5,
+            sb3d_slugs = {
+                # T1 (13 eps)
+                'en_el_principio': (1, 1, 'En el principio'),
+                'la_gran_prueba': (1, 2, 'La gran prueba'),
+                'jacob_y_esau': (1, 3, 'Jacob y Esau'),
+                'deja_ir_a_mi_pueblo': (1, 4, 'Deja ir a mi pueblo'),
+                'los_diez_mandamientos': (1, 5, 'Los Diez Mandamientos'),
+                'una_aventura_gigante': (1, 6, 'Una aventura gigante'),
+                'el_rey_y_el_dragon': (1, 7, 'El rey y el dragon'),
+                'la_ultima_cena': (1, 8, 'La ultima cena'),
+                'el_ha_resucitado': (1, 9, 'El ha resucitado'),
+                'el_camino_de_damasco': (1, 10, 'El camino de Damasco'),
+                'la_primera_navidad': (1, 11, 'La primera Navidad'),
+                'la_historia_de_daniel': (1, 12, 'La historia de Daniel'),
+                'los_milagros_de_jesus': (1, 13, 'Los milagros de Jesus'),
+                # T2 (13 eps)
+                'jonas': (2, 1, 'Jonas'),
+                'el_tejedor_de_suenos': (2, 2, 'El tejedor de suenos'),
+                'prueba_de_fuego': (2, 3, 'Prueba de fuego'),
+                'rahab_y_los_espias': (2, 4, 'Rahab y los espias'),
+                'ester_la_reina_libertadora': (2, 5, 'Ester, la reina libertadora'),
+                'el_mensajero_de_dios': (2, 6, 'El mensajero de Dios'),
+                'milagro_en_alta_mar': (2, 7, 'Milagro en alta mar'),
+                'la_odisea_de_job': (2, 8, 'La odisea de Job'),
+                'noe_y_el_arca': (2, 9, 'Noe y el arca'),
+                'gedeon_el_guerrero_inesperado': (2, 10, 'Gedeon, el guerrero inesperado'),
+                'el_perdon_del_maestro': (2, 11, 'El perdon del maestro'),
+                'el_regreso_del_hijo_perdido': (2, 12, 'El regreso del hijo perdido'),
+                'el_dios_de_elias': (2, 13, 'El Dios de Elias'),
+                # T3 (13 eps)
+                'rut': (3, 1, 'Rut'),
+                'la_torre_de_babel': (3, 2, 'La torre de Babel'),
+                'juan_el_nino_apartado_de_dios': (3, 3, 'Juan, el nino apartado de Dios'),
+                'isaac_y_rebeca_un_amor_nace': (3, 4, 'Isaac y Rebeca: Un amor nace'),
+                'naaman_y_la_doncella_israelita': (3, 5, 'Naaman y la doncella israelita'),
+                'samuel_el_joven_llamado_por_dios': (3, 6, 'Samuel, el joven llamado por Dios'),
+                'saul_y_david_venganza_vs_misericordia': (3, 7, 'Saul y David: Venganza vs. misericordia'),
+                'nehemias_el_obrero_de_dios': (3, 8, 'Nehemias, el obrero de Dios'),
+                'eliseo_y_los_sirios': (3, 9, 'Eliseo y los sirios'),
+                'lazaro_vuelve_a_vivir': (3, 10, 'Lazaro vuelve a vivir'),
+                'la_sabiduria_de_salomon': (3, 11, 'La sabiduria de Salomon'),
+                'el_sueno_de_nabucodonosor': (3, 12, 'El sueno de Nabucodonosor'),
+                'el_buen_samaritano': (3, 13, 'El buen samaritano'),
+                # T4 (13 eps)
+                'jesus_y_el_milagro_de_provision': (4, 1, 'Milagros y senales (Jesus y el milagro de provision)'),
+                'pedro_y_cornelio': (4, 2, 'Pedro y Cornelio'),
+                'pablo_y_silas_en_la_carcel': (4, 3, 'Pablo y Silas en la carcel'),
+                'el_templo_de_salomon': (4, 4, 'El templo de Salomon'),
+                'el_escape_de_pedro': (4, 5, 'El escape de Pedro'),
+                'jesus_sana_al_los_ciegos': (4, 6, 'Jesus sana a los ciegos'),
+                'elias_y_la_viuda_de_serepa': (4, 7, 'Elias y la viuda de Sarepta'),
+                'josue_y_caleb': (4, 8, 'Josue y Caleb'),
+                'ensenanos_a_orar': (4, 9, 'Ensenanos a orar'),
+                'jeremias_el_profeta_de_dios': (4, 10, 'Jeremias, el profeta de Dios'),
+                'jesus_y_la_prueba_en_el_desierto': (4, 11, 'Jesus y la prueba en el desierto'),
+                'pablo_y_bernabe': (4, 12, 'Pablo y Bernabe'),
+                'felipe_y_el_poder_del_espiritu_santo': (4, 13, 'Felipe y el poder del Espiritu Santo'),
+                # T5 (16 archivos = 15 eps + Heroes de la Biblia)
+                'moises-el-plan-de-dios': (5, 1, 'Moises: El plan de Dios'),
+                'nicodemo-un-encuentro-inolvidable': (5, 2, 'Nicodemo: Un encuentro inolvidable'),
+                'jesus-visita-a-zaqueo': (5, 3, 'Jesus visita a Zaqueo'),
+                'el-sermon-del-monte': (5, 4, 'El sermon del monte'),
+                'isaias-el-profeta-enviado-por-dios': (5, 5, 'Isaias, el profeta enviado por Dios'),
+                'jesus-llama-a-los-discipulos': (5, 6, 'Jesus llama a los discipulos'),
+                'la-viuda-que-dio-todo': (5, 7, 'La viuda que dio todo'),
+                'la-promesa-de-un-salvador': (5, 8, 'La promesa de un Salvador'),
+                'tomas-el-hombre-que-duda': (5, 9, 'Tomas, el hombre que duda'),
+                'jesus-amor-y perdon': (5, 10, 'Jesus: Amor y perdon'),
+                'pablo-fe-inquebrantable': (5, 11, 'Pablo: Fe inquebrantable'),
+                'jesus-el-amigo-perfecto': (5, 12, 'Jesus, el amigo perfecto'),
+                'pablo-y-el-dios-verdadero-parte-1': (5, 13, 'Pablo y el Dios verdadero (Parte 1)'),
+                'pablo-y-el-dios-verdadero-parte-2': (5, 14, 'Pablo y el Dios verdadero (Parte 2)'),
+                'un-rescate-milagroso': (5, 15, 'Un rescate milagroso'),
+                'heroes-de-la-biblia': (5, 16, 'Heroes de la Biblia'),
             }
-            if iid_low in sb_season:
-                s_val = sb_season[iid_low]
-                m_c = re.search(r'(?:cap|episodio)\s*(\d{1,3})', norm, re.I)
-                e_val = int(m_c.group(1)) if m_c else idx
-                return s_val, e_val, f"{s_name} - T{s_val:02d}E{e_val:02d}", f"Series: {s_name} - Temporada {s_val:02d}"
-            clasico_map = {
-                'losdiezmandamientossuperlibro': (1, "Los Diez Mandamientos"),
-                'cap-11-superlibro-superlibro-clasico-sanson-y-dalila': (2, "Sanson y Dalila"),
-                'unaaventura_201706': (3, "Una Aventura en el Tiempo"),
-                'eltejedordesuenos': (4, "El Tejedor de Suenos (Jose)"),
-                'elharesucitado': (5, "El Ha Resucitado"),
-                'laprimeranavidad': (6, "La Primera Navidad"),
-                'cap-18-superlibro-superlibro-clasico-david-goliat': (7, "David y Goliat"),
-                'dejairamipueblosuperlibro720': (8, "Deja Ir a Mi Pueblo"),
-                'milagrosdejesus': (9, "Milagros de Jesus"),
-                'cap-4-superlibro-superlibro-clasico-la-prueba-de-abraham': (10, "La Prueba de Abraham"),
-                'superlibro-episodio-batalla-final-720-p-hd': (11, "La Batalla Final"),
+            slug_key = norm.strip().lower().replace(' ', '_') if iid_low.startswith('serie-superlibro-3d-t1') or iid_low.startswith('serie-superlibro-3d-t2') or iid_low.startswith('serie-superlibro-3d-t3') or iid_low.startswith('serie-superlibro-3d-t4') else norm.strip().lower()
+            if slug_key in sb3d_slugs:
+                s_val, e_val, label = sb3d_slugs[slug_key]
+                return s_val, e_val, f"{s_name} - T{s_val:02d}E{e_val:02d} - {label}", f"Series: {s_name} - Temporada {s_val:02d}"
+            if norm.strip().lower() in sb3d_slugs:
+                s_val, e_val, label = sb3d_slugs[norm.strip().lower()]
+                return s_val, e_val, f"{s_name} - T{s_val:02d}E{e_val:02d} - {label}", f"Series: {s_name} - Temporada {s_val:02d}"
+            clasico_s6_map = {
+                'cap-2-superlibro-superlibro-clasico-cain-y-abel': (2, 'La historia de Cain y Abel'),
+                'cap-3-superlibro-superlibro-clasico-el-diluvio': (3, 'El diluvio'),
+                'cap-4-superlibro-superlibro-clasico-la-prueba-de-abraham': (4, 'La prueba de Abraham'),
+                'cap-5-superlibro-superlibro-clasico-eliezer-y-rebeca': (5, 'Alli viene la novia (Eliezer y Rebeca)'),
+                'cap-6-superlibro-superlibro-clasico-jacob-y-esau': (6, 'Doble problema (Jacob y Esau)'),
+                'cap-11-superlibro-superlibro-clasico-sanson-y-dalila': (11, 'Sanson y Dalila'),
+                'cap-13-superlibro-superlibro-clasico-la-ultima-cena': (14, 'La buena nueva (La Ultima Cena)'),
+                'cap-15-superlibro-superlibro-clasico-job': (16, 'La paciencia de Job'),
+                'cap-18-superlibro-superlibro-clasico-david-goliat': (19, 'David y Goliat'),
             }
-            e_val, label = clasico_map.get(iid_low, (100 + idx, _clean_ep_str(norm)))
-            return 0, e_val, f"{s_name} - Clasico {e_val:02d} - {label}", f"Series: {s_name} - Temporada 00: Serie Clasica (1981)"
+            if iid_low in clasico_s6_map:
+                e_val, label = clasico_s6_map[iid_low]
+                return 6, e_val, f"{s_name} - T06E{e_val:02d} - {label}", f"Series: {s_name} - Temporada 06: Serie Clasica I (1981)"
+            e_val = 100 + idx
+            return 6, e_val, f"{s_name} - T06E{e_val:02d} - {_clean_ep_str(norm)}", f"Series: {s_name} - Temporada 06: Serie Clasica I (1981)"
 
         if s_name == 'Superraton':
             if iid_low == 'sraton_202606':
@@ -2174,6 +2305,8 @@ def harvest_complete_series():
             return 1, 1, "Volver al Futuro - 01 - Volver al Futuro (1985)", "Series: Volver al Futuro - Temporada 01: Trilogia 1080p"
 
         if s_name == 'Cantinflas: Peliculas Clasicas':
+            if iid_low == '3721069398668':
+                return 1, 90, "Cantinflas (1961) - Pepe", "Series: Cantinflas: Peliculas Clasicas - Temporada 01: Peliculas (1936-1982)"
             m_yr = re.search(r'\b(19[3-8]\d)\b', norm)
             yr_str = m_yr.group(1) if m_yr else '1950'
             is_short = ('1939)' in norm or '1940)' in norm or any(k in norm.lower() for k in ('boxeador', 'jengibre', 'ruletero', 'su prima')))
@@ -2203,10 +2336,17 @@ def harvest_complete_series():
                 return 3, 22, "La Mujer Maravilla - T03E22 - El Hombre Inmortal", "Series: La Mujer Maravilla - Temporada 03"
             return 1, 1, "La Mujer Maravilla - T01E01 - Episodio Piloto", "Series: La Mujer Maravilla - Temporada 01"
 
+        if s_name == 'Mision Imposible':
+            return 0, 1, "Mision Imposible - Pelicula (1969) vs. La Mafia [Latino]", "Series: Mision Imposible - Temporada 00: Peliculas"
+
         if s_name == 'Ninos en crecimiento':
+            if 'bravo' in iid_low or 'bravo' in norm.lower():
+                return 1, 8, "Ninos en crecimiento - T01E08 - Bravo Pedro, Pudiste Hacerlo", "Series: Ninos en crecimiento - Temporada 01"
+            if 'demasiados' in iid_low or 'compromisos' in norm.lower():
+                return 1, 9, "Ninos en crecimiento - T01E09 - Demasiados Compromisos", "Series: Ninos en crecimiento - Temporada 01"
             if '01' in iid_low or 'mucho gusto' in norm.lower():
                 return 1, 1, "Ninos en crecimiento - T01E01 - Mucho Gusto", "Series: Ninos en crecimiento - Temporada 01"
-            return 1, 2, "Ninos en crecimiento - T01E02 - Demasiados Compromisos", "Series: Ninos en crecimiento - Temporada 01"
+            return 1, idx, f"Ninos en crecimiento - T01E{idx:02d} - {_clean_ep_str(norm)}", "Series: Ninos en crecimiento - Temporada 01"
 
         m = re.search(r'\b[ST]?(\d{1,2})[xX][eE]?(\d{1,3})\b', norm)
         if m:
