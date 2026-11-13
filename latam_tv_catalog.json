@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12 21:13",
+  "version": "2026-11-13 02:31",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -299,6 +299,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Discovery_Kids_logo_2016.svg/512px-Discovery_Kids_logo_2016.svg.png",
       "r": "1080p",
       "u": [
+        "http://181.78.23.26:45000/play/a00h",
         "http://200.115.96.61:9090/play/a07n/index.m3u8"
       ]
     },
@@ -454,7 +455,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Space_2020_logo.svg/512px-Space_2020_logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://45.171.64.30:6060/play/a04n/index.m3u8"
+        "http://45.171.64.30:6060/play/a04n/index.m3u8",
+        "http://179.51.136.19:8000/play/a0y0/index.m3u8"
       ]
     },
     {
@@ -488,6 +490,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cinecanal_logo_2017.svg/512px-Cinecanal_logo_2017.svg.png",
       "r": "1080p",
       "u": [
+        "http://181.78.23.26:45000/play/a006",
         "http://200.115.120.1:8000/play/ca032/index.m3u8"
       ]
     },
@@ -8279,7 +8282,6 @@
       "l": "https://cdn.m3u.cl/logo/1638_ADA_TV.png",
       "r": "720p",
       "u": [
-        "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8",
         "https://v4.tustreaming.cl/adatvchile/index.m3u8"
       ]
     },
@@ -8786,7 +8788,6 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26",
-        "https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES",
         "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES"
       ]
     },
@@ -8809,7 +8810,8 @@
       "l": "https://cdn.m3u.cl/logo/1649_EPA__TV.png",
       "r": "720p",
       "u": [
-        "https://live-evg10.tv360.bitel.com.pe/bitel/epatv/playlist.m3u8"
+        "https://live-evg10.tv360.bitel.com.pe/bitel/epatv/playlist.m3u8",
+        "https://v4.tustreaming.cl/edusauriotv/index.m3u8"
       ]
     },
     {
@@ -10582,6 +10584,7 @@
       "l": "https://i.imgur.com/2fziU2B.png",
       "r": "1080p",
       "u": [
+        "https://cablered.iptvperu.tv:1936/cablered/liga1max.stream/playlist.m3u8",
         "http://190.93.224.42/LIGA-1-MAX/index.m3u8"
       ]
     },
@@ -15961,7 +15964,8 @@
       "l": "https://i.ibb.co/tLhcNTD/amigos-tv-chiquimula.png",
       "r": "480p",
       "u": [
-        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8"
+        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8",
+        "http://45.166.93.156:9999/play/a0j2/index.m3u8"
       ]
     },
     {
