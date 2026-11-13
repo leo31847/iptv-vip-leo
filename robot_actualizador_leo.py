@@ -74,6 +74,11 @@ BLACKLIST_IDENTIFIERS = {
     'alf-latino_202511', 'gordonshumway',
     'thundercats-063-mumm-rana', 'thundercats2011', 'thundercats_202303',
     'dragon-ball-z-latino-jp', 'don-gato-y-su-pandilla_202601', '14_20210419',
+    'season_1_1', 'darkwing-duck_20240119', 'ducktales-1987_202601', 'duck-tales-dublado',
+    'voyagers-complete-series-1982', 'captain-planet-and-the-planeteers-1990',
+    'captain-planet-and-the-planeteers-480p', 'growing-pains-complete-series',
+    '52_20200504_20200504', 'ninos-en-crecimiento-bravo-pedro-pudiste-hacerlo',
+    'cantishow-megab',
 }
 
 def _is_blacklisted_url(u):
@@ -345,6 +350,8 @@ VERIFIED_EXTERNAL_M3U_POOLS = [
     ("Pecezuelos", "https://raw.githubusercontent.com/tokio14-dot/pecezuelo/main/03", None),
     ("Bleach", "https://raw.githubusercontent.com/tokio14-dot/bleach/main/01", None),
     ("Onegai My Melody", "https://raw.githubusercontent.com/mametchikitty/Listas-IPTV/main/dibujos-animados.m3u", "Onegai My Melody"),
+    ("Historias Asombrosas", "https://raw.githubusercontent.com/tokio14-dot/cuentos/main/cuentosasom", None),
+    ("X-Men '97", "https://raw.githubusercontent.com/Dante5910/Esto-solamente-es-una-prueba/main/X%20men%2097", None),
 ]
 
 def _decode_m3u_bytes(raw_bytes):
@@ -358,10 +365,16 @@ def _parse_ext_items_with_logo(raw_bytes, filter_substr=None):
     items = []
     cur_t = ''
     cur_logo = ''
+    cur_grp_season = None
     skip = False
     for raw in txt.splitlines():
         ln = raw.strip()
         if not ln:
+            continue
+        if ln.startswith('#EXTGRP:'):
+            mg = re.search(r'(?:temporada|season)\s*(\d{1,2})', ln, flags=re.I)
+            if mg:
+                cur_grp_season = int(mg.group(1))
             continue
         if ln.startswith('#EXTINF:'):
             if filter_substr and filter_substr.lower() not in ln.lower():
@@ -372,13 +385,23 @@ def _parse_ext_items_with_logo(raw_bytes, filter_substr=None):
             skip = False
             ml = re.search(r'tvg-logo="([^"]+)"', ln, flags=re.I)
             cur_logo = ml.group(1).strip() if ml else ''
+            if 'pelisimg.online' in cur_logo.lower():
+                cur_logo = ''
             cur_t = ln.split(',', 1)[-1].replace('\xa0', ' ').strip()
-        elif ln.startswith('http://') or ln.startswith('https://'):
+        else:
+            ln_u = re.sub(r'^[\d\s]+(?=https?://)', '', ln)
+            if not (ln_u.startswith('http://') or ln_u.startswith('https://')):
+                continue
             if skip:
                 skip = False
                 continue
-            u = _norm_ext_media_url(ln)
+            u = _norm_ext_media_url(ln_u)
             eff_t = cur_t or re.sub(r'\.[a-z0-9]{2,5}$', '', urllib.parse.unquote(u.rsplit('/', 1)[-1])).strip()
+            m_ux = re.search(r'/(\d{1,2})[xX](\d{1,3})(?:[-.\w]*)\.[a-z0-9]{2,5}(?:\?|$)', u)
+            if m_ux and re.fullmatch(r'\d{1,3}', eff_t.strip()):
+                eff_t = f"{int(m_ux.group(1))}x{int(m_ux.group(2)):02d}"
+            elif cur_grp_season and re.fullmatch(r'\d{1,3}', eff_t.strip()):
+                eff_t = f"{cur_grp_season}x{int(eff_t):02d}"
             items.append((eff_t, u, cur_logo))
             cur_t = ''
             cur_logo = ''
@@ -411,6 +434,7 @@ def _format_ext_season_ep(series_name, raw_title, seq_idx, murl=""):
     m_tc = re.search(r'TEMPORADA\s*(\d{1,2})\s*CAP[IÍ]TULO\s*(\d{1,3})(.*)$', t, flags=re.I)
     m_te = re.search(r'\b[TS](\d{1,2})\s*[-.]?\s*E(\d{1,3})\b\s*[-.:]*\s*(.*)$', t, flags=re.I)
     m_sx = re.search(r'\b(\d{1,2})\s*[xX]\s*(\d{1,3})\s*[-.:]*\s*(.*)$', t)
+    m_cap = re.search(r'^(?:\(\s*"?\d{3,4}\s*\)\s*)?\bcap(?:[ií]tulo)?\.?\s*(\d{1,3})\b(?:\s*\d{3,4}p)?(?:\s*latino)?(.*)$', t, flags=re.I)
 
     if m_tri:
         snum, enum, sub = int(m_tri.group(1)), int(m_tri.group(2)), m_tri.group(3).strip(' -.:')
@@ -420,6 +444,8 @@ def _format_ext_season_ep(series_name, raw_title, seq_idx, murl=""):
         snum, enum, sub = int(m_te.group(1)), int(m_te.group(2)), m_te.group(3).strip(' -.:')
     elif m_sx:
         snum, enum, sub = int(m_sx.group(1)), int(m_sx.group(2)), m_sx.group(3).strip(' -.:')
+    elif m_cap:
+        snum, enum, sub = 1, int(m_cap.group(1)), re.sub(r'\b(720p|1080p|latino)\b', '', m_cap.group(2) or '', flags=re.I).strip(' -.:')
     else:
         snum = 1
         if 'pecezuelo' in murl.lower():
@@ -474,6 +500,10 @@ def fetch_verified_external_series_pools():
 
     per_series_idx = {}
     seen_u = set()
+    ext_poster_overrides = {
+        "x-men '97": "https://static.tvmaze.com/uploads/images/medium_portrait/630/1576859.jpg",
+        "historias asombrosas": "https://image.tmdb.org/t/p/original/dsuDPLo136j0in5MS7lB3gVPaEL.jpg",
+    }
     for s_name, murl, items in fetched_lists:
         if not items:
             continue
@@ -487,7 +517,9 @@ def fetch_verified_external_series_pools():
             ext = os.path.splitext(urllib.parse.urlparse(low_u).path)[1]
             if ext in ('.mkv', '.avi', '.ogv', '.mpg', '.mpeg', '.jpg', '.png'):
                 continue
-            if not logo and 'archive.org/download/' in low_u:
+            if s_key in ext_poster_overrides:
+                logo = ext_poster_overrides[s_key]
+            elif not logo and 'archive.org/download/' in low_u:
                 m_iid = re.search(r'archive\.org/download/([^/]+)/', url)
                 if m_iid:
                     logo = f"https://archive.org/services/img/{m_iid.group(1)}"
@@ -957,13 +989,7 @@ def postprocess_series_catalog(final_catalog, pluto_vod_map, posters_by_series="
                     continue
                 seen_ep_u.add(u_store)
                 ep_out['url'] = u_store
-
-                if posters_map.get(sname):
-                    ep_out['logo'] = posters_map[sname]
-                elif 'supersonicos' in sname:
-                    ep_out['logo'] = SUPERSONICOS_LOGO
-                elif 'simpson' in sname:
-                    ep_out['logo'] = SIMPSONS_FALLBACK_LOGO
+                ep_out.pop('logo', None)
                 valid_eps.append(ep_out)
             if valid_eps:
                 sea['episodes'] = sorted(valid_eps, key=lambda ep: natural_key(ep.get('name', '')))
@@ -1607,6 +1633,25 @@ SERIES_CATALOG = [
     ("La Familia Ingalls", ["casadelapraderatemp01", "Httpsarchive.orgdetailslacasadelapraderat1", "lacasadelapraderaT3",
                             "lacasadelapradera", "lacasadelapraderatemp6", "lacasadelapraderatemp7",
                             "casapraderatemp8", "lacasadelapraderatemp9", "lacasadelapraderat10"], ["la casa de la pradera"]),
+    ("Superlibro", [
+        "cap-12_202609", "SUperbox", "cap-3_202609", "tempo-4", "cap-4_202609",
+        "LosDiezMandamientosSuperLibro", "cap-11-superlibro-superlibro-clasico-sanson-y-dalila",
+        "unaaventura_201706", "eltejedordesuenos", "elharesucitado", "laprimeranavidad",
+        "cap-18-superlibro-superlibro-clasico-david-goliat", "DejaIrAMiPuebloSuperLibro720",
+        "milagrosdejesus", "cap-4-superlibro-superlibro-clasico-la-prueba-de-abraham",
+        "superlibro-episodio-batalla-final-720-p-hd"
+    ], ["superlibro clasico", "superbook"]),
+    ("Superraton", ["66-los-monstruos-de-la-luna", "sraton_202606"], ["mighty mouse"]),
+    ("Astro Boy", ["astro-boy-1963-capitulo-008-el-cometa-plateado-latino", "astro-boy-"], ["astroboy"]),
+    ("X-Men (1992)", ["x-men-1992"], ["x-men la serie animada"]),
+    ("Motorratones de Marte", ["los-motorratones-de-marte", "biker-mice-from-mars-latino-la-visita"], ["motorratones", "biker mice from mars"]),
+    ("Volver al Futuro", ["volveralfuturo"], ["regreso al futuro", "back to the future"]),
+    ("Cantinflas: Peliculas Clasicas", ["0956-cantinflas-ama-a-tu-projimo-1958-720p-dvdrip-lat-upsc-v"], ["cantinflas peliculas"]),
+    ("Cantinflas Show", ["cantinflasshow", "amigoandfriends"], ["cantinflas y sus amigos"]),
+    ("Mr. Bean", ["mr-bean-1990-dual", "bean-el-nombre-del-desastre-1997", "las-vacaciones-de-mr.-bean-2007_202607"], ["mr bean live action", "bean el nombre del desastre"]),
+    ("Manimal", ["manimal1_201909", "manimal8_201909"], []),
+    ("La Mujer Maravilla", ["la-mujer-maravilla-serie-espanol-capitulo-1-temporada-1-video-dailymotion_202009", "la-mujer-maravilla-3x-22-el-hombre-inmortal-series-retro"], ["wonder woman"]),
+    ("Ninos en crecimiento", ["ninos-en-crecimiento-01-mucho-gusto-canal-10-tves", "ninos-en-crecimiento-demasiados-compromisos-recuerdos-de-television-boliviana-canal-7"], ["ninos en crecimiento"]),
 ]
 
 # Series que el robot busca solo en cada ejecucion (se agregan si aparecen en espanol)
@@ -1631,6 +1676,10 @@ WANTED_SERIES = [
     "Kung Fu", "Los Duques de Hazzard", "CHiPs", "Dr. House", "Yo Soy Betty, la Fea",
     "La Familia P. Luche", "Mucha Lucha", "Martin Mystery", "Megas XLR", "Static Shock",
     "Beetlejuice", "31 Minutos", "Los Backyardigans", "X-Men: Evolution",
+    "Ninos en crecimiento", "Superlibro", "Superraton", "Astro Boy",
+    "X-Men (1992)", "Motorratones de Marte", "Volver al Futuro",
+    "Cantinflas: Peliculas Clasicas", "Cantinflas Show", "Mr. Bean",
+    "Manimal",
 ]
 
 VIDEO_EXT = ('.mp4', '.mkv', '.avi', '.m4v', '.webm', '.ogv', '.mpg', '.mpeg')
@@ -1703,6 +1752,29 @@ def pretty_episode(series, aliases, item_id, item_title, path, idx):
     return "%s - %s" % (series, t)
 
 
+def _should_skip_archive_file(item_id, name_low):
+    """Filtra copias en Castellano, extras DVD en inglés o duplicados inferiores en items curados."""
+    iid_l = (item_id or '').lower()
+    if iid_l == 'mr-bean-1990-dual':
+        return 'temporada 0/' in name_low or 's00e' in name_low
+    if iid_l == 'biker-mice-from-mars-latino-la-visita':
+        return 'biker mice from mars latino la visita' in name_low
+    if iid_l == 'la-mujer-maravilla-3x-22-el-hombre-inmortal-series-retro':
+        return 'series retro' not in name_low
+    if iid_l == '0956-cantinflas-ama-a-tu-projimo-1958-720p-dvdrip-lat-upsc-v':
+        if 'castellano' in name_low:
+            return True
+        skip_exact = (
+            'cantinflas ama a tu projimo (1958) 720p.mp4',
+            '1976 el ministro y yo fhd(1975) 1080p web-dl lat v.mp4',
+            'cantinflas ruletero (1940) 60fps.mp4',
+            'cantinflas boxeador (1940) 60fps.mp4',
+            'cantinflas jengibre contra dinamita (1939) 60fps.mp4',
+        )
+        return name_low in skip_exact
+    return False
+
+
 def extract_episodes(series, aliases, item_id, meta):
     """Elige 1 archivo de video por episodio: original mp4 > derivado .ia.mp4 > webm > mkv > avi (100% Android/WebView compatible)."""
     md = meta.get('metadata', {}) or {}
@@ -1714,6 +1786,8 @@ def extract_episodes(series, aliases, item_id, meta):
         name = f.get('name', '')
         nl = name.lower()
         if not nl.endswith(VIDEO_EXT) or f.get('private') in ('true', True) or 'sample' in nl:
+            continue
+        if _should_skip_archive_file(item_id, nl):
             continue
         try:
             size = int(f.get('size') or 0)
@@ -1793,6 +1867,8 @@ def discovery_accepts(doc, series_name):
         return False
     iid_low = (doc.get('identifier') or '').lower()
     if any((f'/{b}/' in f'/{iid_low}/' or b == iid_low) for b in BLACKLIST_IDENTIFIERS):
+        return False
+    if re.fullmatch(r'astro-boy-\d+', iid_low):
         return False
     if 'pocoyo' in tnorm and 'pocoyo' not in norm_txt(series_name):
         return False
@@ -2025,6 +2101,111 @@ def harvest_complete_series():
             tc = _clean_ep_str(re.sub(r'^\d{3}\s*-\s*', '', norm))
             dt = f"{s_name} - Cap. {ep_num:03d} - {tc}" if tc else f"{s_name} - Cap. {ep_num:03d}"
             return s_val, ep_num, dt, f"Series: {s_name} - Temporada {s_val:02d}: {saga}"
+
+        iid_low = (item_id or '').lower()
+
+        if s_name == 'Superlibro':
+            sb_season = {
+                'cap-12_202609': 1, 'superbox': 2, 'cap-3_202609': 3, 'tempo-4': 4, 'cap-4_202609': 5,
+            }
+            if iid_low in sb_season:
+                s_val = sb_season[iid_low]
+                m_c = re.search(r'(?:cap|episodio)\s*(\d{1,3})', norm, re.I)
+                e_val = int(m_c.group(1)) if m_c else idx
+                return s_val, e_val, f"{s_name} - T{s_val:02d}E{e_val:02d}", f"Series: {s_name} - Temporada {s_val:02d}"
+            clasico_map = {
+                'losdiezmandamientossuperlibro': (1, "Los Diez Mandamientos"),
+                'cap-11-superlibro-superlibro-clasico-sanson-y-dalila': (2, "Sanson y Dalila"),
+                'unaaventura_201706': (3, "Una Aventura en el Tiempo"),
+                'eltejedordesuenos': (4, "El Tejedor de Suenos (Jose)"),
+                'elharesucitado': (5, "El Ha Resucitado"),
+                'laprimeranavidad': (6, "La Primera Navidad"),
+                'cap-18-superlibro-superlibro-clasico-david-goliat': (7, "David y Goliat"),
+                'dejairamipueblosuperlibro720': (8, "Deja Ir a Mi Pueblo"),
+                'milagrosdejesus': (9, "Milagros de Jesus"),
+                'cap-4-superlibro-superlibro-clasico-la-prueba-de-abraham': (10, "La Prueba de Abraham"),
+                'superlibro-episodio-batalla-final-720-p-hd': (11, "La Batalla Final"),
+            }
+            e_val, label = clasico_map.get(iid_low, (100 + idx, _clean_ep_str(norm)))
+            return 0, e_val, f"{s_name} - Clasico {e_val:02d} - {label}", f"Series: {s_name} - Temporada 00: Serie Clasica (1981)"
+
+        if s_name == 'Superraton':
+            if iid_low == 'sraton_202606':
+                return 2, 1, f"{s_name} - Pelicula Recopilatoria", f"Series: {s_name} - Temporada 02: Especial"
+            m_n = re.match(r'^(\d{1,3})\s*[-–]\s*(.*)$', norm.strip())
+            e_val = int(m_n.group(1)) if m_n else idx
+            tc = _clean_ep_str(m_n.group(2) if m_n else norm)
+            return 1, e_val, f"{s_name} - T01E{e_val:02d} - {tc}", f"Series: {s_name} - Temporada 01"
+
+        if s_name == 'Astro Boy':
+            if '1963' in iid_low:
+                return 1, 8, f"{s_name} - T01E08 (1963) - El Cometa Plateado", f"Series: {s_name} - Temporada 01: Serie 1963"
+            return 2, 1, f"{s_name} - La Pelicula (2009)", f"Series: {s_name} - Temporada 02: Pelicula"
+
+        if s_name == 'X-Men (1992)':
+            norm_xm = re.sub(r'^(?:temporada\s*\d+\s*[-:.]*\s*)', '', norm, flags=re.I)
+            m_xm = re.search(r'\bS(\d{1,2})E(\d{1,3})\b\s*[-:.]*\s*(.*)$', norm_xm, flags=re.I)
+            if m_xm:
+                s_val, e_val = int(m_xm.group(1)), int(m_xm.group(2))
+                tc = _clean_ep_str(m_xm.group(3))
+                dt = f"{s_name} - T{s_val:02d}E{e_val:02d} - {tc}" if tc else f"{s_name} - T{s_val:02d}E{e_val:02d}"
+                return s_val, e_val, dt, f"Series: {s_name} - Temporada {s_val:02d}"
+
+        if s_name == 'Motorratones de Marte':
+            if iid_low == 'biker-mice-from-mars-latino-la-visita':
+                if 'capitulo 1' in norm.lower():
+                    return 1, 1, f"{s_name} - T01E01 - El Queso Llego del Espacio (Cap. 01)", f"Series: {s_name} - Temporada 01"
+                return 1, 2, f"{s_name} - T01E02 - Capitulo Clasico", f"Series: {s_name} - Temporada 01"
+            m_bm = re.search(r'\bS(\d{1,2})E0*(\d{1,3})(?:A\d+)?\b(.*)$', norm, flags=re.I)
+            if m_bm:
+                s_val, e_val = int(m_bm.group(1)), int(m_bm.group(2))
+                tc = re.sub(r'^\s*Motor[a-z]+\s+de\s+Marte\s*\d*\s*[-:]*\s*', '', m_bm.group(3), flags=re.I)
+                tc = _clean_ep_str(tc)
+                dt = f"{s_name} - T{s_val:02d}E{e_val:02d} - {tc}" if tc else f"{s_name} - T{s_val:02d}E{e_val:02d}"
+                return s_val, e_val, dt, f"Series: {s_name} - Temporada {s_val:02d}"
+
+        if s_name == 'Volver al Futuro':
+            nl_vf = norm.lower()
+            if 'iii' in nl_vf:
+                return 1, 3, "Volver al Futuro - 03 - Volver al Futuro III (1990)", "Series: Volver al Futuro - Temporada 01: Trilogia 1080p"
+            if 'ii' in nl_vf:
+                return 1, 2, "Volver al Futuro - 02 - Volver al Futuro II (1989)", "Series: Volver al Futuro - Temporada 01: Trilogia 1080p"
+            return 1, 1, "Volver al Futuro - 01 - Volver al Futuro (1985)", "Series: Volver al Futuro - Temporada 01: Trilogia 1080p"
+
+        if s_name == 'Cantinflas: Peliculas Clasicas':
+            m_yr = re.search(r'\b(19[3-8]\d)\b', norm)
+            yr_str = m_yr.group(1) if m_yr else '1950'
+            is_short = ('1939)' in norm or '1940)' in norm or any(k in norm.lower() for k in ('boxeador', 'jengibre', 'ruletero', 'su prima')))
+            tc = re.sub(r'\b0956\b|\bCantinflas\b|\b19[3-8]\d\b|\b(?:hd)?(?:1080|720|480)p\b|\b(?:fhd|hd|hq|h265|ub|lat|identi|upsc|web[-\s]*dl|dvdrip|v)\b|\(\d+\)', ' ', norm, flags=re.I)
+            tc = re.sub(r'\(\s*\)', ' ', tc)
+            tc = _clean_ep_str(tc.strip(' []'))
+            if tc.endswith('(') or (tc.count('(') > tc.count(')')):
+                tc = tc.rstrip('( ')
+            if is_short:
+                return 2, idx, f"Cantinflas ({yr_str}) - Corto: {tc}", "Series: Cantinflas: Peliculas Clasicas - Temporada 02: Cortometrajes (1939-1940)"
+            return 1, idx, f"Cantinflas ({yr_str}) - {tc}", "Series: Cantinflas: Peliculas Clasicas - Temporada 01: Peliculas (1936-1982)"
+
+        if s_name == 'Mr. Bean':
+            if 'desastre' in iid_low or '1997' in norm:
+                return 2, 1, "Mr. Bean - Pelicula 01 (1997) - Bean: El Nombre del Desastre", "Series: Mr. Bean - Temporada 02: Peliculas"
+            if 'vacaciones' in iid_low or '2007' in norm:
+                return 2, 2, "Mr. Bean - Pelicula 02 (2007) - Las Vacaciones de Mr. Bean", "Series: Mr. Bean - Temporada 02: Peliculas"
+            norm = re.sub(r'^(?:temporada\s*\d+\s*[-:.]*\s*)', '', norm, flags=re.I)
+
+        if s_name == 'Manimal':
+            m_mm = re.search(r'(\d+)\s*$', norm.strip())
+            e_val = int(m_mm.group(1)) if m_mm else idx
+            return 1, e_val, f"Manimal - T01E{e_val:02d} - Capitulo {e_val:02d}", "Series: Manimal - Temporada 01"
+
+        if s_name == 'La Mujer Maravilla':
+            if '3x' in iid_low or '3x22' in norm.lower() or 'inmortal' in norm.lower():
+                return 3, 22, "La Mujer Maravilla - T03E22 - El Hombre Inmortal", "Series: La Mujer Maravilla - Temporada 03"
+            return 1, 1, "La Mujer Maravilla - T01E01 - Episodio Piloto", "Series: La Mujer Maravilla - Temporada 01"
+
+        if s_name == 'Ninos en crecimiento':
+            if '01' in iid_low or 'mucho gusto' in norm.lower():
+                return 1, 1, "Ninos en crecimiento - T01E01 - Mucho Gusto", "Series: Ninos en crecimiento - Temporada 01"
+            return 1, 2, "Ninos en crecimiento - T01E02 - Demasiados Compromisos", "Series: Ninos en crecimiento - Temporada 01"
 
         m = re.search(r'\b[ST]?(\d{1,2})[xX][eE]?(\d{1,3})\b', norm)
         if m:
@@ -2465,8 +2646,7 @@ def main():
             if url not in known_urls:
                 season_found['episodes'].append({
                     "name": name,
-                    "url": url,
-                    "logo": logo
+                    "url": url
                 })
 
         final_series_catalog = []
