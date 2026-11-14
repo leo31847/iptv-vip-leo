@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-14 08:46",
+  "version": "2026-11-14 16:32",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -565,7 +565,6 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a02h",
-        "http://190.61.42.218:9000/play/a0a2/index.m3u8",
         "http://38.134.250.110:8000/play/a00i/index.m3u8"
       ]
     },
@@ -4699,7 +4698,8 @@
       "l": "https://i.imgur.com/a/BRb8AVL.png",
       "r": "720p",
       "u": [
-        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8"
+        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
+        "https://acceso.mediosdecostarica.com:3873/live/bestclasicostvlive.m3u8"
       ],
       "n24": 1
     },
@@ -5312,8 +5312,7 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8",
-        "https://movil.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -8827,8 +8826,8 @@
       "l": "https://cdn.m3u.cl/logo/1649_EPA__TV.png",
       "r": "720p",
       "u": [
-        "https://live-evg10.tv360.bitel.com.pe/bitel/epatv/playlist.m3u8",
-        "https://v4.tustreaming.cl/edusauriotv/index.m3u8"
+        "https://v4.tustreaming.cl/edusauriotv/index.m3u8",
+        "https://live-evg10.tv360.bitel.com.pe/bitel/epatv/playlist.m3u8"
       ]
     },
     {
@@ -10138,7 +10137,8 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
       ]
     },
     {
@@ -11590,7 +11590,8 @@
       "l": "https://i.imgur.com/hj6EYwe.png",
       "r": "1080p",
       "u": [
-        "http://209.14.98.47:8000/play/a0uj/index.m3u8?hls"
+        "http://209.14.98.47:8000/play/a0uj/index.m3u8?hls",
+        "http://45.224.97.181:9999/EcuadorTV/index.m3u8"
       ]
     },
     {
@@ -11647,7 +11648,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png",
       "r": "1080p",
       "u": [
-        "http://181.78.211.244:8000/play/a0a2/index.m3u8"
+        "http://181.78.211.244:8000/play/a0a2/index.m3u8",
+        "http://45.224.97.181:9999/Gamavision/index.m3u8"
       ]
     },
     {
@@ -11785,7 +11787,8 @@
       "l": "https://oromartv.com/images/OTV400.png",
       "r": "1080p",
       "u": [
-        "http://190.61.42.218:9000/play/a0a4/index.m3u8"
+        "http://190.61.42.218:9000/play/a0a4/index.m3u8",
+        "http://45.224.97.181:9999/Oromar/index.m3u8"
       ]
     },
     {
@@ -11863,7 +11866,8 @@
       "l": "https://i.imgur.com/1OWvMP4.png",
       "r": "1080p",
       "u": [
-        "http://209.14.98.47:8000/play/a0uf/index.m3u8?hls"
+        "http://209.14.98.47:8000/play/a0uf/index.m3u8?hls",
+        "http://45.224.97.181:9999/RTU/index.m3u8"
       ]
     },
     {
