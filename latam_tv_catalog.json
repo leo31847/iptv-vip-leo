@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-14 16:32",
+  "version": "2026-11-14 22:08",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -5312,7 +5312,8 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8",
+        "https://movil.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -10930,7 +10931,6 @@
       "l": "https://i.imgur.com/oWJauwQ.png",
       "r": "720p",
       "u": [
-        "https://live-evg5.tv360.bitel.com.pe/bitel/qosqo/playlist.m3u8",
         "https://stmv2.srvif.com/qtelevision/qtelevision/playlist.m3u8"
       ]
     },
