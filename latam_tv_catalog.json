@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-14 00:49",
+  "version": "2026-11-14 08:46",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -565,6 +565,7 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a02h",
+        "http://190.61.42.218:9000/play/a0a2/index.m3u8",
         "http://38.134.250.110:8000/play/a00i/index.m3u8"
       ]
     },
@@ -10137,8 +10138,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -10441,7 +10441,6 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
         "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
@@ -11591,7 +11590,6 @@
       "l": "https://i.imgur.com/hj6EYwe.png",
       "r": "1080p",
       "u": [
-        "http://45.224.97.181:9999/EcuadorTV/index.m3u8",
         "http://209.14.98.47:8000/play/a0uj/index.m3u8?hls"
       ]
     },
@@ -11649,7 +11647,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png",
       "r": "1080p",
       "u": [
-        "http://45.224.97.181:9999/Gamavision/index.m3u8",
         "http://181.78.211.244:8000/play/a0a2/index.m3u8"
       ]
     },
@@ -11788,8 +11785,7 @@
       "l": "https://oromartv.com/images/OTV400.png",
       "r": "1080p",
       "u": [
-        "http://190.61.42.218:9000/play/a0a4/index.m3u8",
-        "http://45.224.97.181:9999/Oromar/index.m3u8"
+        "http://190.61.42.218:9000/play/a0a4/index.m3u8"
       ]
     },
     {
@@ -11867,7 +11863,6 @@
       "l": "https://i.imgur.com/1OWvMP4.png",
       "r": "1080p",
       "u": [
-        "http://45.224.97.181:9999/RTU/index.m3u8",
         "http://209.14.98.47:8000/play/a0uf/index.m3u8?hls"
       ]
     },
@@ -11913,7 +11908,6 @@
       "l": "https://i.imgur.com/okK02EN.png",
       "r": "1080p",
       "u": [
-        "http://45.224.97.181:9999/TC/index.m3u8",
         "http://177.234.218.66:8084/play/a089/index.m3u8"
       ]
     },
@@ -15281,7 +15275,6 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
         "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
