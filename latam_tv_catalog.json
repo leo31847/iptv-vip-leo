@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-13 19:37",
+  "version": "2026-11-14 00:49",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -565,7 +565,6 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a02h",
-        "http://190.61.42.218:9000/play/a0a2/index.m3u8",
         "http://38.134.250.110:8000/play/a00i/index.m3u8"
       ]
     },
@@ -5815,7 +5814,8 @@
       "l": "https://i.imgur.com/PAvnVN9.png",
       "r": "1080p",
       "u": [
-        "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8"
+        "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8",
+        "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8"
       ]
     },
     {
@@ -7041,7 +7041,8 @@
       "l": "https://i.imgur.com/5pAaVih.png",
       "r": "HD",
       "u": [
-        "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8"
+        "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8",
+        "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8"
       ]
     },
     {
@@ -7052,7 +7053,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png",
       "r": "1080p",
       "u": [
-        "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8"
+        "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8",
+        "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8"
       ]
     },
     {
@@ -8057,7 +8059,7 @@
       "l": "https://i.imgur.com/jars0mP.png",
       "r": "576p",
       "u": [
-        "https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8"
+        "https://w1.manasat.com/tvmana-espanol/smil:tvmana-espanol.smil/playlist.m3u8"
       ],
       "n24": 1
     },
@@ -8801,7 +8803,8 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES"
+        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES",
+        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26"
       ]
     },
     {
@@ -15211,7 +15214,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
