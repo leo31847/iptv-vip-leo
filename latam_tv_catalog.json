@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-15 13:46",
+  "version": "2026-11-15 19:40",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -411,7 +411,8 @@
       "r": "1080p",
       "u": [
         "http://190.61.42.218:9000/play/a00l/index.m3u8",
-        "http://181.205.130.194:4000/play/a06l"
+        "http://181.205.130.194:4000/play/a06l",
+        "http://200.115.120.1:8000/play/ca022/index.m3u8"
       ]
     },
     {
@@ -449,7 +450,8 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a032",
-        "http://45.186.106.207:8000/play/a00y/index.m3u8"
+        "http://45.186.106.207:8000/play/a00y/index.m3u8",
+        "http://200.115.120.1:8000/play/ca017/index.m3u8"
       ]
     },
     {
@@ -5436,7 +5438,8 @@
       "l": "https://i.imgur.com/Cw5k96N.png",
       "r": "1080p",
       "u": [
-        "https://tv.frecuenciaf.com/live/envivo_1080p4000kbs/index.m3u8"
+        "https://tv.frecuenciaf.com/live/envivo_1080p4000kbs/index.m3u8",
+        "https://tv.frecuenciaf.com/live/envivo.m3u8"
       ]
     },
     {
@@ -8416,7 +8419,8 @@
       "l": "https://i.imgur.com/LvzLg33.png",
       "r": "720p",
       "u": [
-        "https://5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8"
+        "https://5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8",
+        "https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8"
       ],
       "n24": 1
     },
@@ -8783,7 +8787,6 @@
       "l": "https://cdn.energeek.cl/logos/EG-Fan-2025_pfp.png",
       "r": "720p",
       "u": [
-        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
         "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
         "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES"
       ]
@@ -9297,7 +9300,8 @@
       "l": "https://i.imgur.com/8DXWU8z.png",
       "r": "720p",
       "u": [
-        "https://v2.tustreaming.cl/americamovil/index.m3u8"
+        "https://v2.tustreaming.cl/americamovil/index.m3u8",
+        "https://v2.tustreaming.cl/radioamericatv/index.m3u8"
       ]
     },
     {
@@ -16316,7 +16320,8 @@
       "l": "https://i.imgur.com/E1TmADM.png",
       "r": "480p",
       "u": [
-        "https://5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8"
+        "https://5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8",
+        "https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8"
       ],
       "n24": 1
     },
@@ -17107,7 +17112,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Animal_Planet_2018.svg/512px-Animal_Planet_2018.svg.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a01q/index.m3u8"
+        "http://45.186.106.207:8000/play/a01q/index.m3u8",
+        "http://200.115.120.1:8000/play/ca055/index.m3u8"
       ]
     },
     {
