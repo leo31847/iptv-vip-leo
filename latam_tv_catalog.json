@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-15 05:29",
+  "version": "2026-11-15 13:46",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -499,7 +499,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cinecanal_logo_2017.svg/512px-Cinecanal_logo_2017.svg.png",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a006"
+        "http://181.78.23.26:45000/play/a006",
+        "http://181.205.130.194:4000/play/a06e"
       ]
     },
     {
@@ -5435,8 +5436,7 @@
       "l": "https://i.imgur.com/Cw5k96N.png",
       "r": "1080p",
       "u": [
-        "https://tv.frecuenciaf.com/live/envivo_1080p4000kbs/index.m3u8",
-        "https://tv.frecuenciaf.com/live/envivo.m3u8"
+        "https://tv.frecuenciaf.com/live/envivo_1080p4000kbs/index.m3u8"
       ]
     },
     {
@@ -8292,8 +8292,7 @@
       "l": "https://cdn.m3u.cl/logo/1638_ADA_TV.png",
       "r": "720p",
       "u": [
-        "https://v4.tustreaming.cl/adatvchile/index.m3u8",
-        "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8"
+        "https://v4.tustreaming.cl/adatvchile/index.m3u8"
       ]
     },
     {
@@ -9298,8 +9297,7 @@
       "l": "https://i.imgur.com/8DXWU8z.png",
       "r": "720p",
       "u": [
-        "https://v2.tustreaming.cl/americamovil/index.m3u8",
-        "https://v2.tustreaming.cl/radioamericatv/index.m3u8"
+        "https://v2.tustreaming.cl/americamovil/index.m3u8"
       ]
     },
     {
@@ -10096,7 +10094,8 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
+        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
       ]
     },
     {
@@ -10131,7 +10130,8 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
       ]
     },
     {
@@ -10613,7 +10613,8 @@
       "r": "1080p",
       "u": [
         "https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion",
-        "http://190.128.214.97:64333/play/a03i/index.m3u8"
+        "http://190.128.214.97:64333/play/a03i/index.m3u8",
+        "http://190.93.224.42/LA-TELE/index.m3u8"
       ]
     },
     {
