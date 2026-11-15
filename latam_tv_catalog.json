@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-14 22:08",
+  "version": "2026-11-15 05:29",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -170,7 +170,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Univision_2019_logo.svg/512px-Univision_2019_logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://200.115.120.1:8000/play/ca106/index.m3u8"
+        "http://45.186.106.207:8000/play/a078/index.m3u8"
       ]
     },
     {
@@ -288,7 +288,6 @@
       "r": "1080p",
       "u": [
         "http://138.121.15.230:9002/CARTOON-NETWORK/index.m3u8",
-        "http://200.115.120.1:8000/play/ca002/index.m3u8",
         "http://87.120.179.187:8000/play/a011"
       ]
     },
@@ -412,7 +411,6 @@
       "r": "1080p",
       "u": [
         "http://190.61.42.218:9000/play/a00l/index.m3u8",
-        "http://200.115.120.1:8000/play/ca022/index.m3u8",
         "http://181.205.130.194:4000/play/a06l"
       ]
     },
@@ -451,8 +449,7 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a032",
-        "http://45.186.106.207:8000/play/a00y/index.m3u8",
-        "http://200.115.120.1:8000/play/ca017/index.m3u8"
+        "http://45.186.106.207:8000/play/a00y/index.m3u8"
       ]
     },
     {
@@ -502,8 +499,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cinecanal_logo_2017.svg/512px-Cinecanal_logo_2017.svg.png",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a006",
-        "http://200.115.120.1:8000/play/ca032/index.m3u8"
+        "http://181.78.23.26:45000/play/a006"
       ]
     },
     {
@@ -4498,7 +4494,7 @@
       "l": "https://gia.tv/streams/pptv/209163.png",
       "r": "720p",
       "u": [
-        "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8"
+        "https://183.giatvcdn.com/giatvplayout7/giatv-209163/playlist.m3u8"
       ]
     },
     {
@@ -4509,7 +4505,7 @@
       "l": "https://gia.tv/streams/pptv/208138.png",
       "r": "720p",
       "u": [
-        "https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8"
+        "https://183.giatvcdn.com/giatvplayout7/giatv-208138/playlist.m3u8"
       ]
     },
     {
@@ -4520,7 +4516,7 @@
       "l": "https://gia.tv/streams/pptv/208730.png",
       "r": "720p",
       "u": [
-        "https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8"
+        "https://183.giatvcdn.com/giatvplayout7/giatv-208730/playlist.m3u8"
       ]
     },
     {
@@ -4531,7 +4527,7 @@
       "l": "https://gia.tv/streams/pptv/208817.png",
       "r": "720p",
       "u": [
-        "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8"
+        "https://183.giatvcdn.com/giatvplayout7/giatv-208817/playlist.m3u8"
       ]
     },
     {
@@ -4542,7 +4538,7 @@
       "l": "https://gia.tv/streams/pptv/209909.png",
       "r": "720p",
       "u": [
-        "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8"
+        "https://183.giatvcdn.com/giatvplayout7/giatv-209909/playlist.m3u8"
       ]
     },
     {
@@ -5942,7 +5938,7 @@
       "l": "https://gia.tv/streams/pptv/211465.png",
       "r": "720p",
       "u": [
-        "https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8"
+        "https://183.giatvcdn.com/giatvplayout7/giatv-211465/playlist.m3u8"
       ]
     },
     {
@@ -6090,8 +6086,7 @@
       "r": "1080p",
       "u": [
         "http://138.121.15.230:9002/LAS-ESTRELLAS/index.m3u8",
-        "http://190.61.42.218:9000/play/a09t/index.m3u8",
-        "http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8"
+        "http://190.61.42.218:9000/play/a09t/index.m3u8"
       ]
     },
     {
@@ -8422,7 +8417,6 @@
       "l": "https://i.imgur.com/LvzLg33.png",
       "r": "720p",
       "u": [
-        "https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8",
         "https://5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8"
       ],
       "n24": 1
@@ -10102,8 +10096,7 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
-        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
       ]
     },
     {
@@ -10138,8 +10131,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -10621,7 +10613,6 @@
       "r": "1080p",
       "u": [
         "https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion",
-        "http://190.93.224.42/LA-TELE/index.m3u8",
         "http://190.128.214.97:64333/play/a03i/index.m3u8"
       ]
     },
@@ -12764,7 +12755,7 @@
       "l": "https://i.imgur.com/3d8cLm9.jpg",
       "r": "480p",
       "u": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/camutv/playlist.m3u8"
+        "https://183.giatvcdn.com/ssh101/ssh101/camutv/playlist.m3u8"
       ],
       "n24": 1
     },
@@ -16324,7 +16315,6 @@
       "l": "https://i.imgur.com/E1TmADM.png",
       "r": "480p",
       "u": [
-        "https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8",
         "https://5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8"
       ],
       "n24": 1
@@ -17116,8 +17106,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Animal_Planet_2018.svg/512px-Animal_Planet_2018.svg.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a01q/index.m3u8",
-        "http://200.115.120.1:8000/play/ca055/index.m3u8"
+        "http://45.186.106.207:8000/play/a01q/index.m3u8"
       ]
     },
     {
@@ -17128,8 +17117,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Golden_logo_2021.svg/512px-Golden_logo_2021.svg.png",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a04c",
-        "http://200.115.120.1:8000/play/ca024/index.m3u8"
+        "http://181.78.23.26:45000/play/a04c"
       ]
     },
     {
@@ -17141,8 +17129,7 @@
       "r": "1080p",
       "u": [
         "http://138.121.15.230:9002/GOLDEN-EDGE/index.m3u8",
-        "http://38.211.119.30:50002/play/a0fd/index.m3u8u?hls",
-        "http://200.115.120.1:8000/play/ca037/index.m3u8"
+        "http://38.211.119.30:50002/play/a0fd/index.m3u8u?hls"
       ]
     },
     {
