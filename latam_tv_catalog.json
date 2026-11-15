@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-15 19:40",
+  "version": "2026-11-15 23:54",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -411,8 +411,7 @@
       "r": "1080p",
       "u": [
         "http://190.61.42.218:9000/play/a00l/index.m3u8",
-        "http://181.205.130.194:4000/play/a06l",
-        "http://200.115.120.1:8000/play/ca022/index.m3u8"
+        "http://181.205.130.194:4000/play/a06l"
       ]
     },
     {
@@ -450,8 +449,7 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a032",
-        "http://45.186.106.207:8000/play/a00y/index.m3u8",
-        "http://200.115.120.1:8000/play/ca017/index.m3u8"
+        "http://45.186.106.207:8000/play/a00y/index.m3u8"
       ]
     },
     {
@@ -7765,8 +7763,7 @@
       "l": "https://i.imgur.com/lJCIqYn.png",
       "r": "720p",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8"
       ]
     },
     {
@@ -8788,7 +8785,8 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES"
+        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES",
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26"
       ]
     },
     {
@@ -10927,7 +10925,8 @@
       "l": "https://i.imgur.com/oWJauwQ.png",
       "r": "720p",
       "u": [
-        "https://stmv2.srvif.com/qtelevision/qtelevision/playlist.m3u8"
+        "https://stmv2.srvif.com/qtelevision/qtelevision/playlist.m3u8",
+        "https://live-evg5.tv360.bitel.com.pe/bitel/qosqo/playlist.m3u8"
       ]
     },
     {
@@ -17112,8 +17111,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Animal_Planet_2018.svg/512px-Animal_Planet_2018.svg.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a01q/index.m3u8",
-        "http://200.115.120.1:8000/play/ca055/index.m3u8"
+        "http://45.186.106.207:8000/play/a01q/index.m3u8"
       ]
     },
     {
