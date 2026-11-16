@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-15 23:54",
+  "version": "2026-11-16 05:28",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -411,7 +411,8 @@
       "r": "1080p",
       "u": [
         "http://190.61.42.218:9000/play/a00l/index.m3u8",
-        "http://181.205.130.194:4000/play/a06l"
+        "http://181.205.130.194:4000/play/a06l",
+        "http://200.115.120.1:8000/play/ca022/index.m3u8"
       ]
     },
     {
@@ -449,7 +450,8 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a032",
-        "http://45.186.106.207:8000/play/a00y/index.m3u8"
+        "http://45.186.106.207:8000/play/a00y/index.m3u8",
+        "http://200.115.120.1:8000/play/ca017/index.m3u8"
       ]
     },
     {
@@ -4743,9 +4745,7 @@
       "l": "https://platform-static.cdn.mdstrm.com/player/logo/5efe501c21d05a0722152f6d.png",
       "r": "HD",
       "u": [
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0",
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0?ref=http://www.multimedios.com"
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8"
       ]
     },
     {
@@ -5309,8 +5309,7 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8",
-        "https://movil.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -7763,7 +7762,8 @@
       "l": "https://i.imgur.com/lJCIqYn.png",
       "r": "720p",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8",
+        "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8"
       ]
     },
     {
@@ -10132,8 +10132,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -10436,7 +10435,8 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
+        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8",
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
     {
@@ -10833,7 +10833,6 @@
       "l": "https://i.imgur.com/Wkdibpv.png",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8",
         "http://vps.chasquirouter.com/salida/ozono.m3u8"
       ]
     },
@@ -15274,7 +15273,8 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
+        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8",
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
     {
@@ -17111,7 +17111,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Animal_Planet_2018.svg/512px-Animal_Planet_2018.svg.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a01q/index.m3u8"
+        "http://45.186.106.207:8000/play/a01q/index.m3u8",
+        "http://200.115.120.1:8000/play/ca055/index.m3u8"
       ]
     },
     {
