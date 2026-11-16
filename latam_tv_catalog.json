@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-16 05:28",
+  "version": "2026-11-16 15:17",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -4697,8 +4697,7 @@
       "l": "https://i.imgur.com/a/BRb8AVL.png",
       "r": "720p",
       "u": [
-        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
-        "https://acceso.mediosdecostarica.com:3873/live/bestclasicostvlive.m3u8"
+        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8"
       ],
       "n24": 1
     },
@@ -4745,7 +4744,8 @@
       "l": "https://platform-static.cdn.mdstrm.com/player/logo/5efe501c21d05a0722152f6d.png",
       "r": "HD",
       "u": [
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8"
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0"
       ]
     },
     {
@@ -10132,7 +10132,8 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
       ]
     },
     {
@@ -10833,6 +10834,7 @@
       "l": "https://i.imgur.com/Wkdibpv.png",
       "r": "720p",
       "u": [
+        "https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8",
         "http://vps.chasquirouter.com/salida/ozono.m3u8"
       ]
     },
@@ -12591,8 +12593,7 @@
       "l": "https://i.imgur.com/dyJyuXc.png",
       "r": "1080p",
       "u": [
-        "https://stream.haislin.com/ahoratv/index.m3u8",
-        "https://tv.mediacp.eu/hls/ahoratv/ahoratv.m3u8"
+        "https://stream.haislin.com/ahoratv/index.m3u8"
       ],
       "n24": 1
     },
