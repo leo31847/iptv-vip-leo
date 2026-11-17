@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17 10:24",
+  "version": "2026-11-17 20:43",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -411,7 +411,8 @@
       "r": "1080p",
       "u": [
         "http://190.61.42.218:9000/play/a00l/index.m3u8",
-        "http://181.205.130.194:4000/play/a06l"
+        "http://181.205.130.194:4000/play/a06l",
+        "http://200.115.120.1:8000/play/ca022/index.m3u8"
       ]
     },
     {
@@ -449,7 +450,8 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a032",
-        "http://45.186.106.207:8000/play/a00y/index.m3u8"
+        "http://45.186.106.207:8000/play/a00y/index.m3u8",
+        "http://200.115.120.1:8000/play/ca017/index.m3u8"
       ]
     },
     {
@@ -1050,7 +1052,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://138.94.3.106:8000/play/a02o/index.m3u8",
         "http://181.79.86.130:8000/play/a02o/index.m3u8"
       ]
     },
@@ -5308,7 +5309,8 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8",
+        "https://movil.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -10612,7 +10614,6 @@
       "r": "1080p",
       "u": [
         "https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion",
-        "http://190.128.214.97:64333/play/a03i/index.m3u8",
         "http://190.93.224.42/LA-TELE/index.m3u8"
       ]
     },
@@ -10704,7 +10705,8 @@
       "l": "https://i.imgur.com/zK1YcpJ.png",
       "r": "720p",
       "u": [
-        "https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8"
+        "https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8",
+        "https://live-evg5.tv360.bitel.com.pe/bitel/megatv/playlist.m3u8"
       ]
     },
     {
@@ -11215,7 +11217,8 @@
       "l": "https://i.imgur.com/AsdBQa3.png",
       "r": "720p",
       "u": [
-        "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8"
+        "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8",
+        "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8"
       ]
     },
     {
@@ -11903,7 +11906,7 @@
       "l": "https://i.imgur.com/okK02EN.png",
       "r": "1080p",
       "u": [
-        "http://177.234.218.66:8084/play/a089/index.m3u8"
+        "http://45.224.97.181:9999/TC/index.m3u8"
       ]
     },
     {
@@ -12249,8 +12252,7 @@
       "l": "https://i.imgur.com/Oj3hEBh.jpg",
       "r": "1080p",
       "u": [
-        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8",
-        "http://45.228.234.9:8000/play/a06u/index.m3u8"
+        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8"
       ]
     },
     {
@@ -13506,6 +13508,7 @@
       "l": "https://i.imgur.com/Zv8CxZX.png",
       "r": "720p",
       "u": [
+        "https://live.lavozdemaria.com:3436/live/lavozdemarialive.m3u8",
         "http://179.51.136.19:8000/play/a0xk/index.m3u8"
       ]
     },
@@ -17105,7 +17108,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Animal_Planet_2018.svg/512px-Animal_Planet_2018.svg.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a01q/index.m3u8"
+        "http://45.186.106.207:8000/play/a01q/index.m3u8",
+        "http://200.115.120.1:8000/play/ca055/index.m3u8"
       ]
     },
     {
