@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18 12:47",
+  "version": "2026-11-18 21:52",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -766,6 +766,7 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a033",
+        "http://190.61.42.218:9000/play/a06g/index.m3u8",
         "http://181.78.82.130:8000/play/a0rs/index.m3u8"
       ]
     },
@@ -777,6 +778,7 @@
       "l": "",
       "r": "1080p",
       "u": [
+        "http://190.61.42.218:9000/play/a01t/index.m3u8",
         "http://190.61.47.54:8000/play/a011/index.m3u8"
       ]
     },
@@ -790,6 +792,7 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a03e",
+        "http://190.61.42.218:9000/play/a01y/index.m3u8",
         "http://181.78.82.130:8000/play/a0rt/index.m3u8"
       ]
     },
@@ -3098,7 +3101,6 @@
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
         "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
-        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
         "http://90.163.85.113:8093/stream/26/index.m3u8"
       ]
     },
@@ -4403,7 +4405,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png",
       "r": "1080p",
       "u": [
-        "https://streaming.onnethn.com/HBO/playlist.m3u8"
+        "https://streaming.onnethn.com/HBO/playlist.m3u8",
+        "http://190.60.37.154:45000/play/a056/index.m3u8"
       ],
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18"
     },
@@ -9297,8 +9300,7 @@
       "l": "https://i.imgur.com/8DXWU8z.png",
       "r": "720p",
       "u": [
-        "https://v2.tustreaming.cl/americamovil/index.m3u8",
-        "https://v2.tustreaming.cl/radioamericatv/index.m3u8"
+        "https://v2.tustreaming.cl/americamovil/index.m3u8"
       ]
     },
     {
@@ -12584,7 +12586,8 @@
       "l": "https://i.imgur.com/dyJyuXc.png",
       "r": "1080p",
       "u": [
-        "https://stream.haislin.com/ahoratv/index.m3u8"
+        "https://stream.haislin.com/ahoratv/index.m3u8",
+        "https://tv.mediacp.eu/hls/ahoratv/ahoratv.m3u8"
       ],
       "n24": 1
     },
@@ -13620,8 +13623,7 @@
       "l": "https://www.vivalivetv.com/public/files/shows/0/1/2951-294x165-FFFFFF.jpg",
       "r": "720p",
       "u": [
-        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8",
-        "https://vdopanel.jlahozconsulting.com/p/3303/live/makinalive.m3u8"
+        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8"
       ],
       "n24": 1
     },
