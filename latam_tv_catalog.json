@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18 03:26",
+  "version": "2026-11-18 12:47",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -766,7 +766,6 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a033",
-        "http://190.61.42.218:9000/play/a06g/index.m3u8",
         "http://181.78.82.130:8000/play/a0rs/index.m3u8"
       ]
     },
@@ -778,7 +777,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://190.61.42.218:9000/play/a01t/index.m3u8",
         "http://190.61.47.54:8000/play/a011/index.m3u8"
       ]
     },
@@ -792,7 +790,6 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a03e",
-        "http://190.61.42.218:9000/play/a01y/index.m3u8",
         "http://181.78.82.130:8000/play/a0rt/index.m3u8"
       ]
     },
@@ -4406,8 +4403,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png",
       "r": "1080p",
       "u": [
-        "https://streaming.onnethn.com/HBO/playlist.m3u8",
-        "http://190.60.37.154:45000/play/a056/index.m3u8"
+        "https://streaming.onnethn.com/HBO/playlist.m3u8"
       ],
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18"
     },
@@ -8787,9 +8783,9 @@
       "l": "https://cdn.energeek.cl/logos/EG-Fan-2025_pfp.png",
       "r": "720p",
       "u": [
-        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES",
         "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
-        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES"
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
+        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES"
       ]
     },
     {
@@ -8801,8 +8797,8 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26",
-        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES"
+        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES",
+        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26"
       ]
     },
     {
@@ -10099,7 +10095,8 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
+        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
       ]
     },
     {
@@ -15201,8 +15198,7 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
-        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
       ]
     },
     {
