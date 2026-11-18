@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17 20:43",
+  "version": "2026-11-18 03:26",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -564,6 +564,7 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a02h",
+        "http://190.61.42.218:9000/play/a0a2/index.m3u8",
         "http://38.134.250.110:8000/play/a00i/index.m3u8"
       ]
     },
@@ -8786,9 +8787,9 @@
       "l": "https://cdn.energeek.cl/logos/EG-Fan-2025_pfp.png",
       "r": "720p",
       "u": [
-        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
         "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26"
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES"
       ]
     },
     {
@@ -8800,8 +8801,8 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26"
+        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26",
+        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES"
       ]
     },
     {
@@ -10098,8 +10099,7 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
-        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
       ]
     },
     {
@@ -11584,8 +11584,7 @@
       "l": "https://i.imgur.com/hj6EYwe.png",
       "r": "1080p",
       "u": [
-        "http://209.14.98.47:8000/play/a0uj/index.m3u8?hls",
-        "http://45.224.97.181:9999/EcuadorTV/index.m3u8"
+        "http://209.14.98.47:8000/play/a0uj/index.m3u8?hls"
       ]
     },
     {
@@ -11642,8 +11641,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png",
       "r": "1080p",
       "u": [
-        "http://181.78.211.244:8000/play/a0a2/index.m3u8",
-        "http://45.224.97.181:9999/Gamavision/index.m3u8"
+        "http://181.78.211.244:8000/play/a0a2/index.m3u8"
       ]
     },
     {
@@ -11781,8 +11779,7 @@
       "l": "https://oromartv.com/images/OTV400.png",
       "r": "1080p",
       "u": [
-        "http://190.61.42.218:9000/play/a0a4/index.m3u8",
-        "http://45.224.97.181:9999/Oromar/index.m3u8"
+        "http://190.61.42.218:9000/play/a0a4/index.m3u8"
       ]
     },
     {
@@ -11860,8 +11857,7 @@
       "l": "https://i.imgur.com/1OWvMP4.png",
       "r": "1080p",
       "u": [
-        "http://209.14.98.47:8000/play/a0uf/index.m3u8?hls",
-        "http://45.224.97.181:9999/RTU/index.m3u8"
+        "http://209.14.98.47:8000/play/a0uf/index.m3u8?hls"
       ]
     },
     {
@@ -11906,7 +11902,7 @@
       "l": "https://i.imgur.com/okK02EN.png",
       "r": "1080p",
       "u": [
-        "http://45.224.97.181:9999/TC/index.m3u8"
+        "http://177.234.218.66:8084/play/a089/index.m3u8"
       ]
     },
     {
@@ -12252,7 +12248,8 @@
       "l": "https://i.imgur.com/Oj3hEBh.jpg",
       "r": "1080p",
       "u": [
-        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8"
+        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8",
+        "http://45.228.234.9:8000/play/a06u/index.m3u8"
       ]
     },
     {
@@ -15204,7 +15201,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
@@ -16632,7 +16630,7 @@
       "l": "https://i.imgur.com/v90r5jS.png",
       "r": "1080p",
       "u": [
-        "https://tv.webmedialive.com/sulatv/live/playlist.m3u8"
+        "https://restreamer.multicable.hn/memfs/8a0f3d8a-0475-4169-89f2-f8facf11b723.m3u8"
       ]
     },
     {
