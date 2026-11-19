@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18 21:52",
+  "version": "2026-11-19 03:00",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -3101,6 +3101,7 @@
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
         "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
+        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
         "http://90.163.85.113:8093/stream/26/index.m3u8"
       ]
     },
@@ -5368,7 +5369,6 @@
       "l": "https://i.imgur.com/akGKPsk.png",
       "r": "1080p",
       "u": [
-        "https://hls-m9hrfayq-livepush.akamaized.net/live_cdn/nsxlDfnVmUyEy/eme2QCj5oX02cY/index.m3u8",
         "https://cdn1.cmbcolombia.tv/bethesda/video.m3u8"
       ]
     },
@@ -9300,7 +9300,8 @@
       "l": "https://i.imgur.com/8DXWU8z.png",
       "r": "720p",
       "u": [
-        "https://v2.tustreaming.cl/americamovil/index.m3u8"
+        "https://v2.tustreaming.cl/americamovil/index.m3u8",
+        "https://v2.tustreaming.cl/radioamericatv/index.m3u8"
       ]
     },
     {
@@ -13623,7 +13624,8 @@
       "l": "https://www.vivalivetv.com/public/files/shows/0/1/2951-294x165-FFFFFF.jpg",
       "r": "720p",
       "u": [
-        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8"
+        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8",
+        "https://vdopanel.jlahozconsulting.com/p/3303/live/makinalive.m3u8"
       ],
       "n24": 1
     },
@@ -15200,7 +15202,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
@@ -15455,7 +15458,7 @@
       "l": "",
       "r": "720p",
       "u": [
-        "https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/playlist.m3u8"
+        "http://190.181.61.93:8000/play/a004/index.m3u8"
       ]
     },
     {
@@ -15512,7 +15515,8 @@
       "r": "720p",
       "u": [
         "https://edge.enhdtv.com/8190/index.m3u8",
-        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8"
+        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
+        "http://190.181.61.93:8000/play/a00s/index.m3u8"
       ]
     },
     {
