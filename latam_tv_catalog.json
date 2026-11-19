@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-19 03:00",
+  "version": "2026-11-19 12:39",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -526,8 +526,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Studio_Universal_logo.png/512px-Studio_Universal_logo.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a02k/index.m3u8",
-        "http://45.171.64.30:2000/play/a04o/index.m3u8"
+        "http://45.186.106.207:8000/play/a02k/index.m3u8"
       ]
     },
     {
@@ -5369,6 +5368,7 @@
       "l": "https://i.imgur.com/akGKPsk.png",
       "r": "1080p",
       "u": [
+        "https://hls-m9hrfayq-livepush.akamaized.net/live_cdn/nsxlDfnVmUyEy/eme2QCj5oX02cY/index.m3u8",
         "https://cdn1.cmbcolombia.tv/bethesda/video.m3u8"
       ]
     },
@@ -9212,7 +9212,8 @@
       "l": "https://i.imgur.com/eCPzibM.png",
       "r": "720p",
       "u": [
-        "https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8"
+        "https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8",
+        "http://190.181.61.93:8000/play/a00o/index.m3u8"
       ]
     },
     {
@@ -12587,7 +12588,6 @@
       "l": "https://i.imgur.com/dyJyuXc.png",
       "r": "1080p",
       "u": [
-        "https://stream.haislin.com/ahoratv/index.m3u8",
         "https://tv.mediacp.eu/hls/ahoratv/ahoratv.m3u8"
       ],
       "n24": 1
@@ -12800,7 +12800,6 @@
       "l": "https://i.imgur.com/iKLGBbA.png",
       "r": "1080p",
       "u": [
-        "https://stream.haislin.com/14tv/index.m3u8",
         "https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8"
       ],
       "n24": 1
@@ -15202,8 +15201,7 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
-        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
       ]
     },
     {
