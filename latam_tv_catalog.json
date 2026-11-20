@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-20 03:07",
+  "version": "2026-11-20 12:39",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -3100,6 +3100,7 @@
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
         "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
+        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
         "http://90.163.85.113:8093/stream/26/index.m3u8"
       ]
     },
@@ -10436,7 +10437,6 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8",
         "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
@@ -10833,7 +10833,6 @@
       "l": "https://i.imgur.com/Wkdibpv.png",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8",
         "http://vps.chasquirouter.com/salida/ozono.m3u8"
       ]
     },
@@ -11218,7 +11217,6 @@
       "l": "https://i.imgur.com/AsdBQa3.png",
       "r": "720p",
       "u": [
-        "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8",
         "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8"
       ]
     },
@@ -15203,8 +15201,7 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
-        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
       ]
     },
     {
@@ -15270,7 +15267,6 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8",
         "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
