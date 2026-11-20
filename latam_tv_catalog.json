@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-20 12:39",
+  "version": "2026-11-20 21:49",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -10437,7 +10437,8 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
     {
@@ -10706,7 +10707,6 @@
       "l": "https://i.imgur.com/zK1YcpJ.png",
       "r": "720p",
       "u": [
-        "https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8",
         "https://live-evg5.tv360.bitel.com.pe/bitel/megatv/playlist.m3u8"
       ]
     },
@@ -10833,6 +10833,7 @@
       "l": "https://i.imgur.com/Wkdibpv.png",
       "r": "720p",
       "u": [
+        "https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8",
         "http://vps.chasquirouter.com/salida/ozono.m3u8"
       ]
     },
@@ -15267,7 +15268,8 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
     {
@@ -15964,8 +15966,7 @@
       "l": "https://i.ibb.co/tLhcNTD/amigos-tv-chiquimula.png",
       "r": "480p",
       "u": [
-        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8",
-        "http://45.166.93.156:9999/play/a0j2/index.m3u8"
+        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8"
       ]
     },
     {
