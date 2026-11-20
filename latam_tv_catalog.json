@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-19 22:06",
+  "version": "2026-11-20 03:07",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -5504,7 +5504,8 @@
       "l": "https://i.imgur.com/tCg7owd.png",
       "r": "720p",
       "u": [
-        "https://movil.ejeserver.com/live/masmusica.m3u8"
+        "https://movil.ejeserver.com/live/masmusica.m3u8",
+        "https://video.ejeserver.com/live/masmusica.m3u8"
       ]
     },
     {
@@ -8785,7 +8786,8 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26"
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
+        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES"
       ]
     },
     {
@@ -10750,7 +10752,8 @@
       "l": "https://i.imgur.com/SuVO9T7.png",
       "r": "HD",
       "u": [
-        "https://h.jcp.live.opencaster.com/play_src/index.m3u8"
+        "https://h.jcp.live.opencaster.com/play_src/index.m3u8",
+        "https://www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8"
       ]
     },
     {
@@ -15200,7 +15203,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
