@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-20 21:49",
+  "version": "2026-11-21 03:03",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -238,8 +238,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a01i",
-        "http://200.115.96.61:9090/play/a034/index.m3u8"
+        "http://181.78.23.26:45000/play/a01i"
       ]
     },
     {
@@ -7517,7 +7516,6 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
         "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
@@ -7530,7 +7528,6 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
         "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
@@ -10380,7 +10377,6 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
         "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
@@ -10707,7 +10703,8 @@
       "l": "https://i.imgur.com/zK1YcpJ.png",
       "r": "720p",
       "u": [
-        "https://live-evg5.tv360.bitel.com.pe/bitel/megatv/playlist.m3u8"
+        "https://live-evg5.tv360.bitel.com.pe/bitel/megatv/playlist.m3u8",
+        "https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8"
       ]
     },
     {
@@ -14931,7 +14928,6 @@
       "r": "720p",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
         "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
@@ -15202,7 +15198,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
@@ -15514,8 +15511,7 @@
       "r": "720p",
       "u": [
         "https://edge.enhdtv.com/8190/index.m3u8",
-        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
-        "http://190.181.61.93:8000/play/a00s/index.m3u8"
+        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8"
       ]
     },
     {
@@ -15966,7 +15962,8 @@
       "l": "https://i.ibb.co/tLhcNTD/amigos-tv-chiquimula.png",
       "r": "480p",
       "u": [
-        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8"
+        "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8",
+        "http://45.166.93.156:9999/play/a0j2/index.m3u8"
       ]
     },
     {
