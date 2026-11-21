@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-21 03:03",
+  "version": "2026-11-21 12:18",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -181,7 +181,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Win_Sports_logo_2019.png/512px-Win_Sports_logo_2019.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/WIN-SPORT/index.m3u8",
         "http://181.78.12.119:16123/play/ch18/index.m3u8"
       ]
     },
@@ -238,7 +237,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a01i"
+        "http://181.78.23.26:45000/play/a01i",
+        "http://200.115.96.61:9090/play/a034/index.m3u8"
       ]
     },
     {
@@ -286,7 +286,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/CARTOON-NETWORK/index.m3u8",
         "http://87.120.179.187:8000/play/a011"
       ]
     },
@@ -346,7 +345,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tlnovelas_logo_2019.png/512px-Tlnovelas_logo_2019.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/TELENOVELAS/index.m3u8",
         "http://190.61.42.218:9000/play/a00k/index.m3u8",
         "http://181.78.211.244:8005/play/a09n"
       ]
@@ -359,7 +357,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Distrito_Comedia_logo.png/512px-Distrito_Comedia_logo.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/DISTRITO-COMEDIA/index.m3u8",
         "http://15.204.142.109:22880/TELEVISA-PROVEEDOR-DISTRITO-COMEDIA/index.m3u8"
       ]
     },
@@ -384,7 +381,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/AMC/index.m3u8",
         "http://190.61.42.218:9000/play/a069/index.m3u8",
         "http://45.186.106.207:8000/play/a07y/index.m3u8"
       ]
@@ -435,8 +431,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/TNT/index.m3u8",
         "http://190.61.42.218:9000/play/a060/index.m3u8",
+        "http://181.78.23.26:45000/play/a00a",
         "http://181.205.130.194:4000/play/a06n"
       ]
     },
@@ -487,7 +483,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/AXN_Logo.svg/512px-AXN_Logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/AXN/index.m3u8",
         "http://45.186.106.207:8000/play/a00j/index.m3u8",
         "http://87.120.179.187:8000/play/a00o"
       ]
@@ -537,7 +532,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Universal_TV_Logo_2018.svg/512px-Universal_TV_Logo_2018.svg.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8",
         "http://38.134.250.110:8000/play/a006/index.m3u8"
       ]
     },
@@ -888,7 +882,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/CANAL-CONGRESO/index.m3u8",
         "http://181.78.82.130:8000/play/a0s1/index.m3u8"
       ]
     },
@@ -6085,7 +6078,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/4/41/Las_Estrellas.svg",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/LAS-ESTRELLAS/index.m3u8",
         "http://190.61.42.218:9000/play/a09t/index.m3u8"
       ]
     },
@@ -6790,9 +6782,7 @@
       "l": "https://i.imgur.com/mSn7ACs.png",
       "r": "HD",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0",
-        "http://www.coninfo.net:1935/tvcinco/live2/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8"
       ]
     },
     {
@@ -7516,7 +7506,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -7528,7 +7519,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -7723,8 +7715,7 @@
       "l": "https://i.imgur.com/Xtu85tb.png",
       "r": "HD",
       "u": [
-        "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
-        "https://live-evg7.tv360.bitel.com.pe/bitel/neotvSRT/playlist.m3u8"
+        "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8"
       ]
     },
     {
@@ -7760,8 +7751,7 @@
       "l": "https://i.imgur.com/lJCIqYn.png",
       "r": "720p",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8"
       ]
     },
     {
@@ -10120,7 +10110,6 @@
       "l": "https://i.imgur.com/CsW4Op8.png",
       "r": "720p",
       "u": [
-        "https://live-evg7.tv360.bitel.com.pe/bitel/andestvSRT/playlist.m3u8",
         "https://stmv2.srvif.com/tvsicuani/tvsicuani/playlist.m3u8"
       ]
     },
@@ -10377,7 +10366,8 @@
       "r": "HD",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -10433,8 +10423,7 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
     {
@@ -10773,7 +10762,6 @@
       "l": "https://i.imgur.com/ScCAgGB.png",
       "r": "720p",
       "u": [
-        "https://live-evg7.tv360.bitel.com.pe/bitel/nativachanchamayoSRT/playlist.m3u8",
         "https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8"
       ]
     },
@@ -10956,8 +10944,7 @@
       "l": "https://i.imgur.com/BYcxI03.png",
       "r": "720p",
       "u": [
-        "https://tv.sistemasandinos.org/rumbatv/video.m3u8",
-        "https://live-evg7.tv360.bitel.com.pe/bitel/rumba/playlist.m3u8"
+        "https://tv.sistemasandinos.org/rumbatv/video.m3u8"
       ]
     },
     {
@@ -11160,7 +11147,7 @@
       "l": "https://i.imgur.com/cu7hTn8.png",
       "r": "720p",
       "u": [
-        "https://live-evg7.tv360.bitel.com.pe/bitel/teleselva/playlist.m3u8"
+        "https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8"
       ]
     },
     {
@@ -14928,7 +14915,8 @@
       "r": "720p",
       "u": [
         "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -15265,8 +15253,7 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
     {
@@ -15511,7 +15498,8 @@
       "r": "720p",
       "u": [
         "https://edge.enhdtv.com/8190/index.m3u8",
-        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8"
+        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
+        "http://190.181.61.93:8000/play/a00s/index.m3u8"
       ]
     },
     {
@@ -17091,7 +17079,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/National_Geographic_logo.svg/512px-National_Geographic_logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/NAT-GEO/index.m3u8",
         "http://87.120.179.187:8000/play/a02f"
       ]
     },
@@ -17126,7 +17113,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Golden_Edge_logo_2021.svg/512px-Golden_Edge_logo_2021.svg.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/GOLDEN-EDGE/index.m3u8",
         "http://38.211.119.30:50002/play/a0fd/index.m3u8u?hls"
       ]
     },
@@ -17150,7 +17136,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sony_Movies_Latin_America_logo.png/512px-Sony_Movies_Latin_America_logo.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/SONY-MOVIES/index.m3u8",
         "http://179.51.136.19:8000/play/a1aa/index.m3u8"
       ]
     },
