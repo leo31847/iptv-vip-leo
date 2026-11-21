@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-21 12:18",
+  "version": "2026-11-21 20:31",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -181,6 +181,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Win_Sports_logo_2019.png/512px-Win_Sports_logo_2019.png",
       "r": "1080p",
       "u": [
+        "http://138.121.15.230:9002/WIN-SPORT/index.m3u8",
         "http://181.78.12.119:16123/play/ch18/index.m3u8"
       ]
     },
@@ -286,7 +287,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://87.120.179.187:8000/play/a011"
+        "http://87.120.179.187:8000/play/a011",
+        "http://200.115.120.1:8000/play/ca002/index.m3u8"
       ]
     },
     {
@@ -345,6 +347,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tlnovelas_logo_2019.png/512px-Tlnovelas_logo_2019.png",
       "r": "1080p",
       "u": [
+        "http://138.121.15.230:9002/TELENOVELAS/index.m3u8",
         "http://190.61.42.218:9000/play/a00k/index.m3u8",
         "http://181.78.211.244:8005/play/a09n"
       ]
@@ -357,6 +360,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Distrito_Comedia_logo.png/512px-Distrito_Comedia_logo.png",
       "r": "1080p",
       "u": [
+        "http://45.186.106.207:8000/play/a038/index.m3u8",
         "http://15.204.142.109:22880/TELEVISA-PROVEEDOR-DISTRITO-COMEDIA/index.m3u8"
       ]
     },
@@ -381,6 +385,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png",
       "r": "1080p",
       "u": [
+        "http://138.121.15.230:9002/AMC/index.m3u8",
         "http://190.61.42.218:9000/play/a069/index.m3u8",
         "http://45.186.106.207:8000/play/a07y/index.m3u8"
       ]
@@ -484,6 +489,7 @@
       "r": "1080p",
       "u": [
         "http://45.186.106.207:8000/play/a00j/index.m3u8",
+        "http://181.78.23.26:45000/play/a030",
         "http://87.120.179.187:8000/play/a00o"
       ]
     },
@@ -543,9 +549,9 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Caracol_Televisi%C3%B3n_logo_2019.svg/512px-Caracol_Televisi%C3%B3n_logo_2019.svg.png",
       "r": "1080p",
       "u": [
-        "http://181.79.87.131:8000/play/a0f0/index.m3u8",
         "http://181.78.12.119:16123/play/ch58/index.m3u8",
-        "http://181.78.12.119:16123/play/ch58a/index.m3u8"
+        "http://181.78.12.119:16123/play/ch58a/index.m3u8",
+        "http://200.115.120.1:8000/play/ca067/index.m3u8"
       ]
     },
     {
@@ -882,6 +888,7 @@
       "l": "",
       "r": "1080p",
       "u": [
+        "http://138.121.15.230:9002/CANAL-CONGRESO/index.m3u8",
         "http://181.78.82.130:8000/play/a0s1/index.m3u8"
       ]
     },
@@ -4688,7 +4695,8 @@
       "l": "https://i.imgur.com/a/BRb8AVL.png",
       "r": "720p",
       "u": [
-        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8"
+        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
+        "https://acceso.mediosdecostarica.com:3873/live/bestclasicostvlive.m3u8"
       ],
       "n24": 1
     },
@@ -5301,8 +5309,7 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8",
-        "https://movil.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -6782,7 +6789,8 @@
       "l": "https://i.imgur.com/mSn7ACs.png",
       "r": "HD",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
+        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0"
       ]
     },
     {
@@ -10110,7 +10118,8 @@
       "l": "https://i.imgur.com/CsW4Op8.png",
       "r": "720p",
       "u": [
-        "https://stmv2.srvif.com/tvsicuani/tvsicuani/playlist.m3u8"
+        "https://stmv2.srvif.com/tvsicuani/tvsicuani/playlist.m3u8",
+        "https://live-evg7.tv360.bitel.com.pe/bitel/andestvSRT/playlist.m3u8"
       ]
     },
     {
@@ -10423,7 +10432,8 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
     {
@@ -10669,8 +10679,7 @@
       "l": "https://i.imgur.com/K2ZimRv.png",
       "r": "720p",
       "u": [
-        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8",
-        "https://live.obslivestream.com/mastertv/index.m3u8"
+        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8"
       ]
     },
     {
@@ -10762,7 +10771,8 @@
       "l": "https://i.imgur.com/ScCAgGB.png",
       "r": "720p",
       "u": [
-        "https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8"
+        "https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8",
+        "https://live-evg7.tv360.bitel.com.pe/bitel/nativachanchamayoSRT/playlist.m3u8"
       ]
     },
     {
@@ -10944,7 +10954,8 @@
       "l": "https://i.imgur.com/BYcxI03.png",
       "r": "720p",
       "u": [
-        "https://tv.sistemasandinos.org/rumbatv/video.m3u8"
+        "https://tv.sistemasandinos.org/rumbatv/video.m3u8",
+        "https://live-evg7.tv360.bitel.com.pe/bitel/rumba/playlist.m3u8"
       ]
     },
     {
@@ -15186,8 +15197,7 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
-        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
       ]
     },
     {
@@ -15253,7 +15263,8 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
+        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
     {
@@ -17136,6 +17147,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sony_Movies_Latin_America_logo.png/512px-Sony_Movies_Latin_America_logo.png",
       "r": "1080p",
       "u": [
+        "http://45.186.106.207:8000/play/a082/index.m3u8",
         "http://179.51.136.19:8000/play/a1aa/index.m3u8"
       ]
     },
