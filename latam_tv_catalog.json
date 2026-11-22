@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-22 17:47",
+  "version": "2026-11-22 23:26",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -7514,8 +7514,6 @@
       "l": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",
       "r": "HD",
       "u": [
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
@@ -7527,8 +7525,6 @@
       "l": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",
       "r": "HD",
       "u": [
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
@@ -7750,7 +7746,7 @@
       "u": [
         "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
         "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8",
-        "http://45.134.141.161:2200/ARG/Net_TV/index.m3u8"
+        "http://45.226.205.96:48000/play/a09p/index.m3u8"
       ]
     },
     {
@@ -8798,7 +8794,8 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES"
+        "https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES",
+        "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26"
       ]
     },
     {
@@ -10375,8 +10372,6 @@
       "l": "https://pbs.twimg.com/profile_images/1904206504753811457/66CbqvH1_200x200.jpg",
       "r": "HD",
       "u": [
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
@@ -14925,8 +14920,6 @@
       "l": "https://i.imgur.com/dAMyExY.jpg",
       "r": "720p",
       "u": [
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
