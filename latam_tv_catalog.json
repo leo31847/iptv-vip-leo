@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-21 20:31",
+  "version": "2026-11-22 02:00",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -3099,7 +3099,6 @@
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
         "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
-        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
         "http://90.163.85.113:8093/stream/26/index.m3u8"
       ]
     },
@@ -5309,7 +5308,8 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8",
+        "https://movil.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -6790,7 +6790,8 @@
       "r": "HD",
       "u": [
         "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0"
+        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0",
+        "http://www.coninfo.net:1935/tvcinco/live2/playlist.m3u8"
       ]
     },
     {
@@ -7723,7 +7724,8 @@
       "l": "https://i.imgur.com/Xtu85tb.png",
       "r": "HD",
       "u": [
-        "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8"
+        "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
+        "https://live-evg7.tv360.bitel.com.pe/bitel/neotvSRT/playlist.m3u8"
       ]
     },
     {
@@ -8782,8 +8784,7 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
-        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES"
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26"
       ]
     },
     {
@@ -10095,8 +10096,7 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
-        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
       ]
     },
     {
@@ -10679,7 +10679,8 @@
       "l": "https://i.imgur.com/K2ZimRv.png",
       "r": "720p",
       "u": [
-        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8"
+        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8",
+        "https://live.obslivestream.com/mastertv/index.m3u8"
       ]
     },
     {
@@ -12033,7 +12034,7 @@
       "l": "https://blogger.googleusercontent.com/img/a/AVvXsEgao1fVZ7tV_ExJErlM5JsI8Rxv5TXJSU7ZE6p-g_qSXOiRKrAjCmX650Aw1PYv6cPqML3eKDQGZ_Z5BPYpeLwwAbZay3g4mpTVBW9Xs5D9nEVPD1i9xfOKQsRCFrOJhBgRt9L9yhfLimbu7S4Ozio2tiZ5uc45lRtyS6RjMpI-Ts1n2m_THG8K19R4STns=w800",
       "r": "720p",
       "u": [
-        "https://streaming5.globalhostla.com/rtplive/abejales/playlist.m3u8"
+        "https://streamtv.intervenhosting.net:3119/live/abejalestvlive.m3u8"
       ]
     },
     {
@@ -15197,7 +15198,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
