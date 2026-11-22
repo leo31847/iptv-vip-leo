@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-22 02:00",
+  "version": "2026-11-22 09:40",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -1620,7 +1620,8 @@
       "p": "5ea7215005d66d0007e8128a",
       "s": "La amistad, los sueños y las ganas de seguir descubriendo el mundo en Rugrats.",
       "u": [
-        "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea7215005d66d0007e8128a/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ea7215005d66d0007e8128a&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId="
+        "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea7215005d66d0007e8128a/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ea7215005d66d0007e8128a&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
+        "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/610c09219fc0430007a3fce6/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=610c09219fc0430007a3fce6&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId="
       ]
     },
     {
@@ -4694,8 +4695,7 @@
       "l": "https://i.imgur.com/a/BRb8AVL.png",
       "r": "720p",
       "u": [
-        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
-        "https://acceso.mediosdecostarica.com:3873/live/bestclasicostvlive.m3u8"
+        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8"
       ],
       "n24": 1
     },
@@ -7761,7 +7761,8 @@
       "l": "https://i.imgur.com/lJCIqYn.png",
       "r": "720p",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8",
+        "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8"
       ]
     },
     {
@@ -8784,7 +8785,8 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26"
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
+        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES"
       ]
     },
     {
@@ -15198,8 +15200,7 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
-        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
       ]
     },
     {
