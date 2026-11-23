@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-22 23:26",
+  "version": "2026-11-23 06:27",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -181,8 +181,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Win_Sports_logo_2019.png/512px-Win_Sports_logo_2019.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/WIN-SPORT/index.m3u8",
-        "http://181.78.12.119:16123/play/ch18/index.m3u8"
+        "http://138.121.15.230:9002/WIN-SPORT/index.m3u8"
       ]
     },
     {
@@ -4742,9 +4741,7 @@
       "l": "https://platform-static.cdn.mdstrm.com/player/logo/5efe501c21d05a0722152f6d.png",
       "r": "HD",
       "u": [
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0",
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0?ref=http://www.multimedios.com"
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8"
       ]
     },
     {
@@ -7514,7 +7511,8 @@
       "l": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     {
@@ -7525,7 +7523,8 @@
       "l": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     {
@@ -10094,7 +10093,8 @@
       "l": "https://i.imgur.com/22ebHAX.jpeg",
       "r": "720p",
       "u": [
-        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8"
+        "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
+        "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
       ]
     },
     {
@@ -10128,8 +10128,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -10372,7 +10371,8 @@
       "l": "https://pbs.twimg.com/profile_images/1904206504753811457/66CbqvH1_200x200.jpg",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     {
@@ -14920,7 +14920,8 @@
       "l": "https://i.imgur.com/dAMyExY.jpg",
       "r": "720p",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     {
@@ -15190,7 +15191,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
@@ -15502,8 +15504,7 @@
       "r": "720p",
       "u": [
         "https://edge.enhdtv.com/8190/index.m3u8",
-        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
-        "http://190.181.61.93:8000/play/a00s/index.m3u8"
+        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8"
       ]
     },
     {
@@ -16472,8 +16473,7 @@
       "l": "https://i.imgur.com/4EbHIvf.png",
       "r": "1080p",
       "u": [
-        "https://viewhn.com/jbn_live/enlace/playlist.m3u8",
-        "https://tv.webmedialive.com/jbn_live/enlace/playlist.m3u8"
+        "https://viewhn.com/jbn_live/enlace/playlist.m3u8"
       ]
     },
     {
