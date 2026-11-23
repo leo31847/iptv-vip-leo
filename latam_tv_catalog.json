@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-23 06:27",
+  "version": "2026-11-23 20:02",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -181,7 +181,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Win_Sports_logo_2019.png/512px-Win_Sports_logo_2019.png",
       "r": "1080p",
       "u": [
-        "http://138.121.15.230:9002/WIN-SPORT/index.m3u8"
+        "http://138.121.15.230:9002/WIN-SPORT/index.m3u8",
+        "http://181.78.12.119:16123/play/ch18/index.m3u8"
       ]
     },
     {
@@ -4741,7 +4742,8 @@
       "l": "https://platform-static.cdn.mdstrm.com/player/logo/5efe501c21d05a0722152f6d.png",
       "r": "HD",
       "u": [
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8"
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0"
       ]
     },
     {
@@ -5488,8 +5490,7 @@
       "l": "https://i.imgur.com/NmsWlj6.jpeg",
       "r": "HD",
       "u": [
-        "https://live.arnoproducciones.com/hls/norte.m3u8",
-        "https://cdn.streamhispanatv.net:3011/live/mastvgtlive.m3u8"
+        "https://live.arnoproducciones.com/hls/norte.m3u8"
       ],
       "n24": 1
     },
@@ -6637,8 +6638,7 @@
       "l": "https://i.imgur.com/sjxVdPh.png",
       "r": "1080p",
       "u": [
-        "https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u8",
-        "https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL"
+        "https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u8"
       ],
       "n24": 1
     },
@@ -7512,7 +7512,8 @@
       "r": "HD",
       "u": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -7524,7 +7525,8 @@
       "r": "HD",
       "u": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -7719,7 +7721,6 @@
       "l": "https://i.imgur.com/Xtu85tb.png",
       "r": "HD",
       "u": [
-        "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
         "https://live-evg7.tv360.bitel.com.pe/bitel/neotvSRT/playlist.m3u8"
       ]
     },
@@ -10128,7 +10129,8 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
       ]
     },
     {
@@ -10372,7 +10374,8 @@
       "r": "HD",
       "u": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -10428,8 +10431,7 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
     {
@@ -10675,8 +10677,7 @@
       "l": "https://i.imgur.com/K2ZimRv.png",
       "r": "720p",
       "u": [
-        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8",
-        "https://live.obslivestream.com/mastertv/index.m3u8"
+        "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8"
       ]
     },
     {
@@ -11208,7 +11209,8 @@
       "l": "https://i.imgur.com/AsdBQa3.png",
       "r": "720p",
       "u": [
-        "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8"
+        "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8",
+        "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8"
       ]
     },
     {
@@ -12238,8 +12240,7 @@
       "l": "https://i.imgur.com/Oj3hEBh.jpg",
       "r": "1080p",
       "u": [
-        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8",
-        "http://45.228.234.9:8000/play/a06u/index.m3u8"
+        "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8"
       ]
     },
     {
@@ -14921,7 +14922,8 @@
       "r": "720p",
       "u": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -15258,8 +15260,7 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
+        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
     {
@@ -15504,7 +15505,8 @@
       "r": "720p",
       "u": [
         "https://edge.enhdtv.com/8190/index.m3u8",
-        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8"
+        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
+        "http://190.181.61.93:8000/play/a00s/index.m3u8"
       ]
     },
     {
@@ -15538,7 +15540,7 @@
       "l": "https://tvadmin.upea.bo/storage/imagenes_institucion/imagen_institucion_66cd025754fcb.png",
       "r": "720p",
       "u": [
-        "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8"
+        "http://190.181.61.93:8000/play/a00h/index.m3u8"
       ],
       "ref": "https://tv.upea.bo/live"
     },
@@ -16080,8 +16082,7 @@
       "l": "https://i.imgur.com/3XuwlkQ.jpg",
       "r": "HD",
       "u": [
-        "https://live.arnoproducciones.com/hls/norte.m3u8",
-        "https://cdn.streamhispanatv.net:3011/live/mastvgtlive.m3u8"
+        "https://live.arnoproducciones.com/hls/norte.m3u8"
       ]
     },
     {
@@ -16473,7 +16474,8 @@
       "l": "https://i.imgur.com/4EbHIvf.png",
       "r": "1080p",
       "u": [
-        "https://viewhn.com/jbn_live/enlace/playlist.m3u8"
+        "https://viewhn.com/jbn_live/enlace/playlist.m3u8",
+        "https://tv.webmedialive.com/jbn_live/enlace/playlist.m3u8"
       ]
     },
     {
