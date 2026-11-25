@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-24 17:16",
+  "version": "2026-11-25 02:04",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -262,8 +262,7 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a01b",
-        "http://45.185.163.75:8000/play/a02j/index.m3u8",
-        "http://87.120.179.187:8000/play/a010"
+        "http://45.185.163.75:8000/play/a02j/index.m3u8"
       ]
     },
     {
@@ -287,8 +286,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://87.120.179.187:8000/play/a011",
-        "http://200.115.120.1:8000/play/ca002/index.m3u8"
+        "http://200.115.120.1:8000/play/ca002/index.m3u8",
+        "http://87.120.179.187:8000/play/a011"
       ]
     },
     {
@@ -423,6 +422,7 @@
       "r": "1080p",
       "u": [
         "http://45.186.106.207:8000/play/a00c/index.m3u8",
+        "http://45.186.106.207:8000/play/a074/index.m3u8",
         "http://179.51.136.19:8000/play/a1a3/index.m3u8"
       ]
     },
@@ -474,7 +474,8 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a02z",
-        "http://45.186.106.207:8000/play/a01k/index.m3u8"
+        "http://45.186.106.207:8000/play/a01k/index.m3u8",
+        "http://45.186.106.207:8000/play/a01z/index.m3u8"
       ]
     },
     {
@@ -523,7 +524,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Studio_Universal_logo.png/512px-Studio_Universal_logo.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a02k/index.m3u8"
+        "http://45.186.106.207:8000/play/a02k/index.m3u8",
+        "http://45.186.106.207:8000/play/a07t/index.m3u8"
       ]
     },
     {
@@ -760,6 +762,7 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a033",
+        "http://190.61.42.218:9000/play/a06g/index.m3u8",
         "http://181.78.82.130:8000/play/a0rs/index.m3u8"
       ]
     },
@@ -771,6 +774,7 @@
       "l": "",
       "r": "1080p",
       "u": [
+        "http://190.61.42.218:9000/play/a01t/index.m3u8",
         "http://190.61.47.54:8000/play/a011/index.m3u8"
       ]
     },
@@ -784,6 +788,7 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a03e",
+        "http://190.61.42.218:9000/play/a01y/index.m3u8",
         "http://181.78.82.130:8000/play/a0rt/index.m3u8"
       ]
     },
@@ -4396,7 +4401,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png",
       "r": "1080p",
       "u": [
-        "https://streaming.onnethn.com/HBO/playlist.m3u8"
+        "https://streaming.onnethn.com/HBO/playlist.m3u8",
+        "http://190.60.37.154:45000/play/a056/index.m3u8"
       ],
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18"
     },
@@ -4733,7 +4739,8 @@
       "l": "https://platform-static.cdn.mdstrm.com/player/logo/5efe501c21d05a0722152f6d.png",
       "r": "HD",
       "u": [
-        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8"
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
+        "http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0"
       ]
     },
     {
@@ -5480,7 +5487,6 @@
       "l": "https://i.imgur.com/NmsWlj6.jpeg",
       "r": "HD",
       "u": [
-        "https://live.arnoproducciones.com/hls/norte.m3u8",
         "https://cdn.streamhispanatv.net:3011/live/mastvgtlive.m3u8"
       ],
       "n24": 1
@@ -8809,7 +8815,8 @@
       "l": "https://cdn.m3u.cl/logo/1649_EPA__TV.png",
       "r": "720p",
       "u": [
-        "https://v4.tustreaming.cl/edusauriotv/index.m3u8"
+        "https://v4.tustreaming.cl/edusauriotv/index.m3u8",
+        "https://live-evg10.tv360.bitel.com.pe/bitel/epatv/playlist.m3u8"
       ]
     },
     {
@@ -8942,7 +8949,6 @@
       "l": "https://i.imgur.com/U62q2eM.png",
       "r": "720p",
       "u": [
-        "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
         "http://45.70.201.81:8000/play/a019/index.m3u8"
       ]
     },
@@ -10422,7 +10428,6 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
         "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
@@ -10909,7 +10914,7 @@
       "l": "https://i.imgur.com/oWJauwQ.png",
       "r": "720p",
       "u": [
-        "https://stmv2.srvif.com/qtelevision/qtelevision/playlist.m3u8"
+        "https://live-evg5.tv360.bitel.com.pe/bitel/qosqo/playlist.m3u8"
       ]
     },
     {
@@ -15184,7 +15189,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
@@ -15250,7 +15256,6 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8",
         "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
       ]
     },
@@ -16073,7 +16078,6 @@
       "l": "https://i.imgur.com/3XuwlkQ.jpg",
       "r": "HD",
       "u": [
-        "https://live.arnoproducciones.com/hls/norte.m3u8",
         "https://cdn.streamhispanatv.net:3011/live/mastvgtlive.m3u8"
       ]
     },
@@ -17077,6 +17081,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/National_Geographic_logo.svg/512px-National_Geographic_logo.svg.png",
       "r": "1080p",
       "u": [
+        "http://138.121.15.230:9002/NAT-GEO/index.m3u8",
         "http://87.120.179.187:8000/play/a02f"
       ]
     },
