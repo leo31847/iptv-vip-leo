@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-25 21:24",
+  "version": "2026-11-26 04:03",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -418,7 +418,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/TNT_Series_logo.png/512px-TNT_Series_logo.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a00c/index.m3u8"
+        "http://45.186.106.207:8000/play/a00c/index.m3u8",
+        "http://45.186.106.207:8000/play/a074/index.m3u8"
       ]
     },
     {
@@ -468,7 +469,8 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a02z",
-        "http://45.186.106.207:8000/play/a01k/index.m3u8"
+        "http://45.186.106.207:8000/play/a01k/index.m3u8",
+        "http://45.186.106.207:8000/play/a01z/index.m3u8"
       ]
     },
     {
@@ -515,7 +517,8 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Studio_Universal_logo.png/512px-Studio_Universal_logo.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a02k/index.m3u8"
+        "http://45.186.106.207:8000/play/a02k/index.m3u8",
+        "http://45.186.106.207:8000/play/a07t/index.m3u8"
       ]
     },
     {
@@ -5351,7 +5354,8 @@
       "l": "https://i.imgur.com/akGKPsk.png",
       "r": "1080p",
       "u": [
-        "https://hls-m9hrfayq-livepush.akamaized.net/live_cdn/nsxlDfnVmUyEy/eme2QCj5oX02cY/index.m3u8"
+        "https://hls-m9hrfayq-livepush.akamaized.net/live_cdn/nsxlDfnVmUyEy/eme2QCj5oX02cY/index.m3u8",
+        "https://cdn1.cmbcolombia.tv/bethesda/video.m3u8"
       ]
     },
     {
@@ -8925,7 +8929,8 @@
       "l": "https://rhk91h.infiniteuploads.cloud/2025/08/Logo-ITV-Patagonia.jpg",
       "r": "720p",
       "u": [
-        "https://redirector.dps.live/hls/itv/playlist.m3u8"
+        "https://redirector.dps.live/hls/itv/playlist.m3u8",
+        "https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8"
       ]
     },
     {
@@ -9191,8 +9196,7 @@
       "l": "https://i.imgur.com/eCPzibM.png",
       "r": "720p",
       "u": [
-        "https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8",
-        "http://190.181.61.93:8000/play/a00o/index.m3u8"
+        "https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8"
       ]
     },
     {
@@ -10112,8 +10116,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -15432,7 +15435,7 @@
       "l": "",
       "r": "720p",
       "u": [
-        "http://190.181.61.93:8000/play/a004/index.m3u8"
+        "https://edge.enhdtv.com/teleestrella/index.m3u8"
       ]
     },
     {
@@ -15489,8 +15492,7 @@
       "r": "720p",
       "u": [
         "https://edge.enhdtv.com/8190/index.m3u8",
-        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
-        "http://190.181.61.93:8000/play/a00s/index.m3u8"
+        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8"
       ]
     },
     {
