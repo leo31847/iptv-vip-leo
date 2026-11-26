@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-26 13:49",
+  "version": "2026-11-26 22:58",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -261,8 +261,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Disney_Channel_logo.svg/512px-Disney_Channel_logo.svg.png",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a01b",
-        "http://45.185.163.75:8000/play/a02j/index.m3u8"
+        "http://181.78.23.26:45000/play/a01b"
       ]
     },
     {
@@ -610,7 +609,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://190.61.47.54:8000/play/a00x/index.m3u8",
         "http://181.78.82.130:8000/play/a0s0/index.m3u8"
       ]
     },
@@ -767,8 +765,7 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://190.61.42.218:9000/play/a01t/index.m3u8",
-        "http://190.61.47.54:8000/play/a011/index.m3u8"
+        "http://190.61.42.218:9000/play/a01t/index.m3u8"
       ]
     },
     {
@@ -830,8 +827,7 @@
       "r": "1080p",
       "ref": "https://player.instantvideocloud.net/",
       "u": [
-        "http://181.78.82.130:8000/play/a0rv/index.m3u8",
-        "http://190.61.47.54:8000/play/a012/index.m3u8"
+        "http://181.78.82.130:8000/play/a0rv/index.m3u8"
       ]
     },
     {
@@ -937,8 +933,7 @@
       "r": "1080p",
       "u": [
         "http://181.78.23.26:45000/play/a051",
-        "http://181.78.82.130:8000/play/a0ry/index.m3u8",
-        "http://190.61.47.54:8000/play/a01k/index.m3u8"
+        "http://181.78.82.130:8000/play/a0ry/index.m3u8"
       ]
     },
     {
@@ -971,8 +966,7 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a050",
-        "http://190.61.47.54:8000/play/a01n/index.m3u8"
+        "http://181.78.23.26:45000/play/a050"
       ]
     },
     {
@@ -983,7 +977,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://190.61.47.54:8000/play/a01l/index.m3u8",
         "http://190.124.20.69/RumbaTV/index.m3u8"
       ]
     },
@@ -3089,7 +3082,8 @@
       "p": "67a3b45a21af380008133aa4",
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
-        "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId="
+        "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
+        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
       ]
     },
     {
@@ -5294,7 +5288,8 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8",
+        "https://movil.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -6774,9 +6769,7 @@
       "l": "https://i.imgur.com/mSn7ACs.png",
       "r": "HD",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0",
-        "http://www.coninfo.net:1935/tvcinco/live2/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8"
       ]
     },
     {
@@ -7499,7 +7492,8 @@
       "l": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     {
@@ -7510,7 +7504,8 @@
       "l": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     {
@@ -10355,7 +10350,8 @@
       "l": "https://pbs.twimg.com/profile_images/1904206504753811457/66CbqvH1_200x200.jpg",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     {
@@ -10411,7 +10407,6 @@
       "l": "https://i.imgur.com/crttwAR.png",
       "r": "HD",
       "u": [
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8",
         "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
@@ -12011,8 +12006,7 @@
       "l": "https://blogger.googleusercontent.com/img/a/AVvXsEgao1fVZ7tV_ExJErlM5JsI8Rxv5TXJSU7ZE6p-g_qSXOiRKrAjCmX650Aw1PYv6cPqML3eKDQGZ_Z5BPYpeLwwAbZay3g4mpTVBW9Xs5D9nEVPD1i9xfOKQsRCFrOJhBgRt9L9yhfLimbu7S4Ozio2tiZ5uc45lRtyS6RjMpI-Ts1n2m_THG8K19R4STns=w800",
       "r": "720p",
       "u": [
-        "https://183.giatvcdn.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8",
-        "https://streamtv.intervenhosting.net:3228/live/abejalestvlive.m3u8"
+        "https://183.giatvcdn.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8"
       ]
     },
     {
@@ -14902,7 +14896,8 @@
       "l": "https://i.imgur.com/dAMyExY.jpg",
       "r": "720p",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     {
@@ -15238,7 +15233,6 @@
       "l": "https://i.imgur.com/FcciYMD.png",
       "r": "HD",
       "u": [
-        "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8",
         "https://st.deltaboliviainstitucion.org:3778/hybrid/play.m3u8"
       ]
     },
