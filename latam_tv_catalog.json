@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-26 04:03",
+  "version": "2026-11-26 13:49",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -3089,8 +3089,7 @@
       "p": "67a3b45a21af380008133aa4",
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
-        "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
-        "http://90.163.85.113:8093/stream/26/index.m3u8"
+        "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId="
       ]
     },
     {
@@ -5295,8 +5294,7 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8",
-        "https://movil.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -7501,9 +7499,7 @@
       "l": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -7514,9 +7510,7 @@
       "l": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -8941,6 +8935,7 @@
       "l": "https://i.imgur.com/U62q2eM.png",
       "r": "720p",
       "u": [
+        "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
         "http://45.70.201.81:8000/play/a019/index.m3u8"
       ]
     },
@@ -10116,7 +10111,8 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
       ]
     },
     {
@@ -10359,9 +10355,7 @@
       "l": "https://pbs.twimg.com/profile_images/1904206504753811457/66CbqvH1_200x200.jpg",
       "r": "HD",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -14908,9 +14902,7 @@
       "l": "https://i.imgur.com/dAMyExY.jpg",
       "r": "720p",
       "u": [
-        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
       ]
     },
     {
@@ -15492,7 +15484,8 @@
       "r": "720p",
       "u": [
         "https://edge.enhdtv.com/8190/index.m3u8",
-        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8"
+        "https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8",
+        "http://190.181.61.93:8000/play/a00s/index.m3u8"
       ]
     },
     {
