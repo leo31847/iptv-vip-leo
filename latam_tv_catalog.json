@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-26 22:58",
+  "version": "2026-11-27 07:26",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -966,7 +966,8 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a050"
+        "http://181.78.23.26:45000/play/a050",
+        "http://181.78.211.244:8005/play/a06w/index.m3u8"
       ]
     },
     {
@@ -3083,7 +3084,8 @@
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
         "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
-        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
+        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
+        "http://90.163.85.113:8093/stream/26/index.m3u8"
       ]
     },
     {
@@ -6769,7 +6771,8 @@
       "l": "https://i.imgur.com/mSn7ACs.png",
       "r": "HD",
       "u": [
-        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8"
+        "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
+        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0"
       ]
     },
     {
@@ -7493,7 +7496,8 @@
       "r": "HD",
       "u": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -7505,7 +7509,8 @@
       "r": "HD",
       "u": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -10106,8 +10111,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -10233,8 +10237,7 @@
       "l": "https://i.imgur.com/stvzqzd.png",
       "r": "720p",
       "u": [
-        "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8",
-        "https://live-evg10.tv360.bitel.com.pe/bitel/cadenatv/playlist.m3u8"
+        "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8"
       ],
       "n24": 1
     },
@@ -10246,8 +10249,7 @@
       "l": "https://i.imgur.com/stvzqzd.png",
       "r": "HD",
       "u": [
-        "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8",
-        "https://live-evg10.tv360.bitel.com.pe/bitel/cadenatv/playlist.m3u8"
+        "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8"
       ]
     },
     {
@@ -10351,7 +10353,8 @@
       "r": "HD",
       "u": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {
@@ -14897,7 +14900,8 @@
       "r": "720p",
       "u": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     {

@@ -421,7 +421,6 @@
   "http://45.224.97.181:9999/TVC/index.m3u8": 1,
   "http://190.61.42.218:9000/play/a074/index.m3u8": 1,
   "http://178.124.179.122:8080/Setanta1/index.m3u8": 1,
-  "https://daiconnect.com/live/hls/tvup/rt-cv/.m3u8": 2,
   "https://vodzong.mjunoon.tv:8087/streamtest/Channel5-159-4/playlist.m3u8": 1,
   "https://cdn4.mjunoon.tv:8087/streamtest/82M/chunks.m3u8": 1,
   "https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8": 1,
@@ -499,7 +498,6 @@
   "https://4b95c0f7aa2b4cae80f6515600154151.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6105/master.m3u8": 1,
   "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8": 1,
   "https://5f71743aa95e4.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8": 1,
-  "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8": 2,
   "http://85.14.32.26:8800/udp/239.100.10.17:5000": 1,
   "https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8": 1,
   "http://85.14.32.26:8800/udp/239.100.10.67:5000": 1,
@@ -555,7 +553,6 @@
   "http://158.172.155.130:8000/play/a09x/index.m3u8": 1,
   "http://69.30.245.50/live/cctv6.m3u8": 1,
   "http://158.172.155.130:8000/play/a00a/index.m3u8": 1,
-  "https://v4.tustreaming.cl:2020/hls/ondatv/ondatv.m3u8": 1,
   "http://158.172.155.130:8000/play/a0dp/index.m3u8": 1,
   "https://videohls2.cosmovision.tv/hls/sd.m3u8": 1,
   "https://4a7284f0c8334835adb8f223c36fbc37.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6232/master.m3u8": 1,
@@ -593,13 +590,10 @@
   "http://45.186.106.207:8000/play/a013/index.m3u8": 1,
   "http://45.186.106.207:8000/play/a078/index.m3u8": 1,
   "https://cdn78-at.azotosolutions.com/cdnedge39/Canale3/master.m3u8": 1,
-  "https://imagenuniversaltv.net:3026/live/juanpabloduartetvlive.m3u8": 1,
   "https://edge.essastream.com/noticias16/playlist.m3u8": 1,
   "http://5940924978228.streamlock.net:1935/8009/8009/playlist.m3u8": 1,
-  "https://video.hostingcaaguazu.com:19360/rbtv/rbtv.m3u8": 2,
   "https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8": 1,
   "https://cdn78-at.azotosolutions.com/cdnedge39/Canale1/master.m3u8": 1,
-  "https://live-evg11.tv360.bitel.com.pe/bitel/uraniotv/playlist.m3u8": 1,
   "http://87.120.179.187:8000/play/a010": 1,
   "https://live.amelbatv.co:81/telemocoalive/index.m3u8": 2,
   "http://87.120.179.187:8000/play/a00l": 1,
@@ -622,8 +616,6 @@
   "https://livecdnusa.enlace.plus/ejtv/smil:ejtv-hd.smil/playlist.m3u8": 1,
   "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8": 1,
   "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8": 2,
-  "https://rtvelivestream.rtve.es/rtvesec/cat/la2_cat_main_dvr.m3u8": 2,
-  "https://ztnr.rtve.es/ztnr/3987218.m3u8": 2,
   "https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8?PlaylistM3UCL": 1,
   "http://45.170.130.224:8000/play/a032/index.m3u8?hls": 1,
   "https://stmv2.srvif.com/qtelevision/qtelevision/playlist.m3u8": 1,
@@ -665,8 +657,6 @@
   "http://179.51.136.19:8000/play/a18q/index.m3u8": 1,
   "https://stream.arcast.net:4443/correadigital/canal12/playlist.m3u8": 1,
   "http://179.51.136.19:8000/play/a0wu/index.m3u8": 1,
-  "https://183.giatvcdn.com/ssh101/ssh101/radiotvmega26/playlist.m3u8": 2,
-  "https://live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8": 2,
   "http://87.120.179.187:8000/play/a00v": 1,
   "http://179.51.136.19:8000/play/a0yz/index.m3u8": 1,
   "http://179.51.136.19:8000/play/a0u1/index.m3u8": 1,
@@ -682,7 +672,6 @@
   "http://179.51.136.19:8000/play/a188/index.m3u8": 1,
   "http://179.51.136.19:8000/play/a0w6/index.m3u8": 1,
   "http://179.51.136.19:8000/play/a0w4/index.m3u8": 1,
-  "https://stream.ontvmx.com/ontv/CNMLXR0Z6FPtGdjcI4/playlist.m3u8": 2,
   "http://179.51.136.19:8000/play/a18e/index.m3u8": 1,
   "http://179.51.136.19:8000/play/a0xb/index.m3u8": 1,
   "http://179.51.136.19:8000/play/a0wf/index.m3u8": 1,
@@ -712,8 +701,6 @@
   "http://179.51.136.19:8000/play/a0uu/index.m3u8": 1,
   "http://179.51.136.19:8000/play/a0zb/index.m3u8": 1,
   "http://179.51.136.19:8000/play/a0za/index.m3u8": 1,
-  "https://video01.brascast.com/juan6318/juan6318/playlist.m3u8": 2,
-  "https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8": 2,
   "http://87.120.179.187:8000/play/a001": 1,
   "http://179.51.136.19:8000/play/a0ud/index.m3u8": 1,
   "http://181.114.57.246:4000/play/9w2G3HTtuTmrtgPZ/index.m3u8": 1,
@@ -725,10 +712,8 @@
   "http://212.5.144.156/tnt/index.m3u8": 1,
   "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8": 1,
   "http://138.59.227.20:8000/play/a085/index.m3u8": 1,
-  "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8": 1,
   "http://45.5.118.152:8000/play/a08n/index.m3u8": 1,
   "http://88.212.15.50/live/test_dom_kino/playlist.m3u8": 1,
-  "https://streamunoapp.com:3057/live/clarovisiontvlive.m3u8": 2,
   "http://138.59.227.20:8000/play/a05s/index.m3u8": 1,
   "http://212.5.144.156:8080/cartoon/index.m3u8": 1,
   "http://138.59.227.20:8000/play/a06w/index.m3u8": 1,
@@ -736,88 +721,51 @@
   "http://138.59.227.20:8000/play/a05t/index.m3u8": 1,
   "http://88.212.15.50/live/test_muzyka_pervogo/playlist.m3u8": 1,
   "http://138.59.227.20:8000/play/a05u/index.m3u8": 1,
-  "https://canalda.rgradio.net:3084/live/canaldalive.m3u8": 1,
-  "https://streamunoapp.com:3960/live/claroteledomlive.m3u8": 1,
   "https://lilac19.pontiscloud.com/live/gt/FOX/index.m3u8": 1,
-  "https://streamunoapp.com:3739/live/hatodelyaquetvlive.m3u8": 1,
-  "https://stream.berosat.live/hls/monde24h-tv-index/monde24h-tv-index.m3u8": 2,
   "https://amg00718-outdoorchannela-outdoortvnz-samsungnz-lylq4.amagi.tv/playlist/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8": 1,
   "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8": 1,
-  "https://video.hostingcaaguazu.com:19360/reddigitalsanpedro/reddigitalsanpedro.m3u8": 1,
   "http://45.70.201.81:8000/play/a018/index.m3u8": 1,
-  "https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8": 2,
   "http://190.181.61.93:8000/play/a004/index.m3u8": 1,
-  "https://movil.ejeserver.com/live/nets.m3u8": 1,
   "https://live.amelbatv.co:81/womtvlive/index.m3u8": 1,
   "http://46.53.200.153:7777/play/a01l/index.m3u8": 1,
   "http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8": 1,
-  "https://183.giatvcdn.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8": 1,
+  "https://183.giatvcdn.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8": 2,
   "https://streamtv.intervenhosting.net:3228/live/abejalestvlive.m3u8": 1,
   "http://46.53.200.153:7777/play/a01j/index.m3u8": 1,
   "https://stream.ishtartv.com/live/iShtarHD/playlist.m3u8": 1,
   "http://46.53.200.153:7777/play/Shanson_TV/index.m3u8": 1,
-  "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8": 1,
   "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0": 1,
   "http://www.coninfo.net:1935/tvcinco/live2/playlist.m3u8": 1,
-  "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8": 1,
   "https://live-evg8.tv360.bitel.com.pe/bitel/cajamarcatvSRT/playlist.m3u8": 1,
-  "http://www.coninfo.net:1935/tvcinco/live1/chunklist_w1546509083.m3u8?null=0": 1,
-  "https://5790d294af2dc.streamlock.net/markatv/markatv/playlist.m3u8": 1,
-  "https://maximatv.net/hls/stream.m3u8": 1,
+  "https://maximatv.net/hls/stream.m3u8": 2,
   "https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8": 2,
   "https://daiconnect.com/live/hls/tvup/rk-mypadeltv/.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_did=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_opt_out_flag=1&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_rtv_content_id=4399&ads_rtv_content_language=spa&ads_streaming_id=0c819437-7b48-400d-9783-a604517507ff&ads_tcs_channel_id=929&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor": 2,
-  "https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8": 1,
   "http://190.181.61.93:8000/play/a00o/index.m3u8": 1,
   "https://live-evg8.tv360.bitel.com.pe/bitel/planeatvSRT/playlist.m3u8": 1,
   "https://183.giatvcdn.com/ssh101/ssh101/ratvbol/playlist.m3u8": 1,
   "http://190.181.61.93:8000/play/a002/index.m3u8": 1,
-  "https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8": 1,
-  "https://video.telemotril.com/telemotril-channel-1/index.m3u8": 1,
+  "https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8": 2,
+  "https://video.telemotril.com/telemotril-channel-1/index.m3u8": 2,
   "https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8": 1,
-  "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8?null=0": 1,
   "http://90.163.85.113:8093/stream/26/index.m3u8": 1,
-  "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8": 2,
   "https://video.hostingcaaguazu.com:19360/altmedia/altmedia.m3u8": 1,
   "https://v1.tustreaming.cl/melinkana/index.m3u8": 1,
-  "https://edge.essastream.com/telemax/tracks-v1a1/mono.m3u8": 1,
-  "https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8": 1,
-  "https://v2.tustreaming.cl/clicktv/playlist.m3u8": 1,
-  "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8": 1,
+  "https://v2.tustreaming.cl/clicktv/playlist.m3u8": 2,
   "https://canaletaplus.com:3922/live/cosmoslive.m3u8": 1,
-  "https://video0.rogohosting.com:19360/8006/8006.m3u8": 1,
-  "http://90.163.85.113:8093/stream/51/index.m3u8": 1,
-  "https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8": 1,
-  "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8": 1,
   "https://cloudvideo.servers10.com:8081/8028/index.m3u8": 1,
-  "https://streamunoapp.com:3809/live/siembratvlive.m3u8": 1,
   "https://ztnr.rtve.es/ztnr/6712431.m3u8": 1,
-  "https://ztnr.rtve.es/ztnr/4952053.m3u8": 1,
-  "https://ztnr.rtve.es/ztnr/5473142.m3u8": 1,
-  "https://627bb251f23c7.streamlock.net:444/Alientoenvivo/Alientoenvivo/playlist.m3u8": 1,
   "https://s5.mexside.net:1936/lsac/lsac/playlist.m3u8": 1,
-  "https://s5.mexside.net:1936/envio2/envio2/playlist.m3u8": 1,
-  "https://live-evg8.tv360.bitel.com.pe/bitel/bnbSRT/playlist.m3u8": 1,
+  "https://s5.mexside.net:1936/envio2/envio2/playlist.m3u8": 2,
   "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8": 1,
   "https://live-evg10.tv360.bitel.com.pe/bitel/cadenatv/playlist.m3u8": 1,
-  "https://v1.tustreaming.cl/canal30loncomilla/index.m3u8": 1,
-  "https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8": 1,
-  "https://video2.getstreamhosting.com:19360/8216/8216.m3u8": 2,
-  "https://627bb251f23c7.streamlock.net:444/CDMInternacional/CDMInternacional/playlist.m3u8": 1,
-  "https://v2.tustreaming.cl/clicktv/index.m3u8?PlaylistM3UCL": 1,
-  "https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8": 1,
-  "https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8?PlaylistM3UCL": 1,
-  "https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8": 1,
-  "https://sc3.wasidata.com/Genios2_1902/video.m3u8": 1,
-  "https://scl.edge.grupoz.cl/isatv/live/playlist.m3u8": 1,
+  "https://v2.tustreaming.cl/clicktv/index.m3u8?PlaylistM3UCL": 2,
+  "https://sc3.wasidata.com/Genios2_1902/video.m3u8": 2,
   "https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL": 1,
   "https://server2grupocam.com/megavision/MV/playlist.m3u8": 1,
   "http://server3.prostudionetwork.com:1943/megavision/MV/playlist.m3u8": 1,
-  "https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8": 1,
-  "https://627bb251f23c7.streamlock.net:444/TopRadioTV/TopRadioTV/playlist.m3u8": 1,
+  "https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8": 2,
   "http://server2grupocam.com:1945/teleunion/TU/playlist.m3u8": 1,
-  "https://59d39900ebfb8.streamlock.net/tv10sanjuan/tv10sanjuan/playlist.m3u8": 1,
-  "https://unlimited1-us.dps.live/uct/uct.smil/playlist.m3u8": 1,
-  "https://unlimited2-cl-isp.dps.live/uct/uct.smil/playlist.m3u8?PlaylistM3UCL": 1,
+  "https://59d39900ebfb8.streamlock.net/tv10sanjuan/tv10sanjuan/playlist.m3u8": 2,
   "http://45.185.163.75:8000/play/a02j/index.m3u8": 1,
   "https://www.tl.com.gt/live.php?file=0.m3u8": 1,
   "http://190.61.47.54:8000/play/a00x/index.m3u8": 1,
@@ -831,24 +779,22 @@
   "http://190.61.47.54:8000/play/a012/index.m3u8": 1,
   "http://190.61.47.54:8000/play/a011/index.m3u8": 1,
   "http://190.61.47.54:8000/play/a01k/index.m3u8": 1,
-  "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/51.m3u8": 1,
   "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8": 1,
   "https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8": 1,
   "http://45.185.163.75:8000/play/a016/index.m3u8": 1,
   "https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8": 1,
   "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8": 1,
   "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8": 1,
-  "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/83.m3u8": 1,
   "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8": 1,
   "http://ch14.tv/live/ch4teenlive1/playlist.m3u8": 1,
-  "http://ch14.tv/live/ch4teenquran/playlist.m3u8": 1,
+  "http://ch14.tv/live/ch4teenquran/playlist.m3u8": 2,
   "https://vdo.tecnoservix.stream:3007/live/canal15zamoranolive.m3u8": 1,
   "https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision31/iptv.m3u8": 1,
   "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8": 1,
   "https://edge.essastream.com/enntivision/playlist.m3u8": 1,
   "https://584097344c1f0.streamlock.net/29/stream/playlist.m3u8": 1,
   "https://secure3.todostreaming.es/live/imastv-livestream.m3u8": 1,
-  "https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8": 1,
+  "https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8": 2,
   "https://cnn.hostlagarto.com/ondatv/index.m3u8": 1,
   "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8?PlaylistM3UCL": 1,
   "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8?null=0": 1,
@@ -857,9 +803,91 @@
   "https://v4.tustreaming.cl/sannicolastv/index.m3u8": 1,
   "http://181.78.8.199:8000/play/a09j/index.m3u8": 1,
   "https://5790d294af2dc.streamlock.net/yosoyturismotv/live/playlist.m3u8": 1,
-  "http://tv.istbolivia.com:1935/tvshow/tvshow/playlist.m3u8": 1
+  "http://tv.istbolivia.com:1935/tvshow/tvshow/playlist.m3u8": 1,
+  "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/82.m3u8": 1,
+  "https://wapa.hostless.app/WAPA-TV-4-2.m3u8": 1,
+  "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8": 1,
+  "https://v1.tustreaming.cl/emociontv/index.m3u8": 1,
+  "https://latamvdo.com:3626/hybrid/play.m3u8": 1,
+  "https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8": 1,
+  "https://tele-stream.telecasa.net/live/st1/yunavision-hd/index.m3u8": 1,
+  "https://www.opencaster.com/resources/hls_stream/cultura24.m3u8": 1,
+  "https://www.opencaster.com/resources/hls_stream/cultura24.m3u8?PlaylistM3UCL": 1,
+  "http://176.65.153.40:6002/play/a013/index.m3u8": 1,
+  "https://video.wilohosting.com:19360/alcancefmtv/alcancefmtv.m3u8": 1,
+  "https://live-evg8.tv360.bitel.com.pe/bitel/atlantisSRT/playlist.m3u8": 1,
+  "https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8": 1,
+  "https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8": 1,
+  "https://tele-stream.telecasa.net/live/st3/maimontv-hd/index.m3u8": 1,
+  "https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8": 1,
+  "https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8": 1,
+  "https://tv.telselec.cl:3376/live/nublefmlive.m3u8": 1,
+  "https://live-evg7.tv360.bitel.com.pe/bitel/radiounotv/playlist.m3u8": 1,
+  "https://cloud37.ecuatel.com/vostv/live/manifest.m3u8": 1,
+  "https://origin.dpsgo.com/ssai/event/cKWySXKgSK-SzlJmESkOWw/master.m3u8": 1,
+  "https://rds3.desdeparaguay.net/4dmasnoticiastv/4dmasnoticiastv/playlist.m3u8": 2,
+  "https://live-evg8.tv360.bitel.com.pe/bitel/abctelevisionSRT/playlist.m3u8": 1,
+  "https://tele-stream.telecasa.net/live/st2/bonaotv-hd/index.m3u8": 1,
+  "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8": 1,
+  "http://190.181.61.93:8000/play/a00k/index.m3u8": 1,
+  "https://5ca3e84a76d30.streamlock.net/tves/videotves/playlist.m3u8": 1,
+  "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8": 1,
+  "https://tv.streamcasthd.com:3637/live/canal10goyalive.m3u8": 1,
+  "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8": 1,
+  "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8?PlaylistM3UCL": 1,
+  "https://live-evg10.tv360.bitel.com.pe/bitel/canal25ayacucho/playlist.m3u8": 1,
+  "https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8": 1,
+  "https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8?PlaylistM3UCL": 1,
+  "https://mdstrm.com/live-stream-playlist/6287fda8ea3b8b397d1ca2ed.m3u8": 1,
+  "https://secure5.todostreaming.es/live/division-alm.m3u8": 1,
+  "https://live-evg11.tv360.bitel.com.pe/bitel/mastvSRT/playlist.m3u8": 1,
+  "https://live-evg7.tv360.bitel.com.pe/bitel/casmatvSRT-TRA/playlist.m3u8": 1,
+  "https://eu1.servers10.com:8081/ceacom/index.m3u8": 1,
+  "https://freya.mivideo.pro/centraltv/video.m3u8": 1,
+  "https://live-evg10.tv360.bitel.com.pe/bitel/charapatvSRT/playlist.m3u8": 1,
+  "https://v2.tustreaming.cl/chiloered/index.m3u8": 1,
+  "https://live-evg7.tv360.bitel.com.pe/bitel/sabormixtvSRT/playlist.m3u8": 1,
+  "https://5d32e2b9b7eed.streamlock.net:4443/ectv/ectv/playlist.m3u8": 1,
+  "https://v1.tustreaming.cl/emociontv/index.m3u8?PlaylistM3UCL": 1,
+  "https://59d39900ebfb8.streamlock.net/globo-720p/globo-720p/playlist.m3u8": 1,
+  "http://streamingcontrol.com:1935/ectv/ectv/playlist.m3u8": 1,
+  "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8": 1,
+  "https://2nbyj587d53k-hls-live.5centscdn.com/09/25b94ec89b2aa708c3c4ad0014b09845.sdp/playlist.m3u8": 1,
+  "https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8": 1,
+  "https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8": 1,
+  "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8": 1,
+  "https://live-evg5.tv360.bitel.com.pe/bitel/mediatv/playlist.m3u8": 1,
+  "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8": 1,
+  "https://stream.digitalgt.com:3136/live/multivisionlive.m3u8": 1,
+  "https://ss2.tvrdomi.com:1936/notisur/notisur/playlist.m3u8": 1,
+  "https://ss2.tvrdomi.com:1936/peraviavision/peraviavision/playlist.m3u8": 1,
+  "https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8": 1,
+  "https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8": 1,
+  "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8": 1,
+  "https://live-evg7.tv360.bitel.com.pe/bitel/rtp/playlist.m3u8": 1,
+  "https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8": 2,
+  "https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8?PlaylistM3UCL": 1,
+  "https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8": 1,
+  "https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8?PlaylistM3UCL": 1,
+  "https://183.giatvcdn.com/giatv/giatv-1762252013SPC/1762252013SPC/playlist.m3u8": 1,
+  "https://183.giatvcdn.com/ssh101/ssh101/ok2026/playlist.m3u8": 1,
+  "https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8": 1,
+  "https://cdn.streamingcpanel.com:3327/live/teleazullive.m3u8": 1,
+  "https://cloud.livescast.com:19360/telecolor/telecolor.m3u8": 1,
+  "https://edge.essastream.com/tenarensestvrd/playlist.m3u8": 1,
+  "https://mdstrm.com/live-stream-playlist/6287fdc9303e3008289ab711.m3u8": 1,
+  "https://s4.tvdatta.com:3450/live/tvenlinealive.m3u8?PlaylistM3UCL": 1,
+  "https://59d39900ebfb8.streamlock.net/tvfamilia_270p/tvfamilia_270p/playlist.m3u8": 1,
+  "https://live-evg11.tv360.bitel.com.pe/bitel/tvmarSRT/playlist.m3u8": 1,
+  "https://srt.tvdatta.com/tvenlinea/index.m3u8": 1,
+  "https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8": 1,
+  "https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8": 1,
+  "https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8?PlaylistM3UCL": 1,
+  "https://59d39900ebfb8.streamlock.net/untv-720/untv-720/playlist.m3u8": 1,
+  "https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8": 1,
+  "https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8": 1
  },
- "ultima_ejecucion": "2026-11-26 22:58:19",
+ "ultima_ejecucion": "2026-11-27 07:26:13",
  "radar_resurreccion": {
   "cinemaxasia": {
    "name": "Cinemax Asia",
@@ -2796,11 +2824,6 @@
    "logo": "",
    "group": "Television Hispana"
   },
-  "garabitotv": {
-   "name": "Garabito TV",
-   "logo": "https://i.imgur.com/sAYNKJ8.png",
-   "group": "Television Hispana"
-  },
   "deportv": {
    "name": "DeporTV",
    "logo": "https://i.imgur.com/THk9ARS.png",
@@ -2918,11 +2941,6 @@
   },
   "farraplaypy": {
    "name": "Farra Play | PY",
-   "logo": "",
-   "group": "Television Hispana"
-  },
-  "oficiosperdidos": {
-   "name": "Oficios Perdidos",
    "logo": "",
    "group": "Television Hispana"
   },
@@ -3080,11 +3098,6 @@
    "name": "La 2 Canarias",
    "logo": "https://i.imgur.com/iwDi3ND.png",
    "group": "Documentales y Ciencia"
-  },
-  "correaradiovision": {
-   "name": "Correa Radiovision",
-   "logo": "https://i.imgur.com/bNCGzjf.jpeg",
-   "group": "Musica y Conciertos"
   },
   "action": {
    "name": "Action",
@@ -3281,11 +3294,6 @@
    "logo": "",
    "group": "Television Hispana"
   },
-  "tntunitedstates": {
-   "name": "TNT (United States)",
-   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png",
-   "group": "Canales Premium VIP"
-  },
   "aliraqiasport": {
    "name": "Al Iraqia Sport",
    "logo": "https://i.imgur.com/DrrlxTO.png",
@@ -3300,11 +3308,6 @@
    "name": "Encuentro",
    "logo": "https://i.imgur.com/uBBZR1X.png",
    "group": "Documentales y Ciencia"
-  },
-  "cartoonnetworkunitedstateswest": {
-   "name": "Cartoon Network (United States) West",
-   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
-   "group": "Infantil y Familiar"
   },
   "ointernational": {
    "name": "O! International",
@@ -3406,24 +3409,9 @@
    "logo": "https://i.imgur.com/3Y6Lp5l.png",
    "group": "Television Hispana"
   },
-  "telemocoacanal10": {
-   "name": "Tele Mocoa Canal 10",
-   "logo": "https://i.imgur.com/XHtpEfu.png",
-   "group": "Colombia"
-  },
-  "axnspain": {
-   "name": "AXN (Spain)",
-   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
-   "group": "Canales Premium VIP"
-  },
   "altmediatv": {
    "name": "Alt Media TV",
    "logo": "https://i.imgur.com/YkOgWMc.png",
-   "group": "Series y Entretenimiento"
-  },
-  "lamelinkanatv": {
-   "name": "La Melinkana TV",
-   "logo": "https://i.imgur.com/I0nzI1y.png",
    "group": "Series y Entretenimiento"
   },
   "radiotelevisiónmogán": {
@@ -3444,16 +3432,6 @@
   "b15fresnillo": {
    "name": "B15 Fresnillo",
    "logo": "https://i.imgur.com/kaUhEQy.png",
-   "group": "Television Hispana"
-  },
-  "cadenatv": {
-   "name": "Cadena TV",
-   "logo": "https://i.imgur.com/stvzqzd.png",
-   "group": "Television Hispana"
-  },
-  "lamelinkanatvcl": {
-   "name": "La Melinkana TV | CL",
-   "logo": "",
    "group": "Television Hispana"
   },
   "lemondeen24h": {
@@ -3491,16 +3469,6 @@
    "logo": "",
    "group": "Colombia"
   },
-  "origenchannel": {
-   "name": "Origen Channel",
-   "logo": "https://i.imgur.com/QI3b4HI.png",
-   "group": "Colombia"
-  },
-  "ovaciontv": {
-   "name": "Ovacion TV",
-   "logo": "https://i.imgur.com/7Xndgxk.png",
-   "group": "Deportes en Vivo"
-  },
   "gotv": {
    "name": "Go TV",
    "logo": "https://i.imgur.com/qPugeWX.png",
@@ -3509,11 +3477,6 @@
   "fabulosaestereo1005fm": {
    "name": "Fabulosa Estereo 100.5 FM",
    "logo": "https://i.imgur.com/YFmzkOp.png",
-   "group": "Musica y Conciertos"
-  },
-  "kandelatv": {
-   "name": "KandelaTV",
-   "logo": "https://i.imgur.com/cCFxyIp.jpg",
    "group": "Musica y Conciertos"
   },
   "anzoateguitv": {
@@ -3531,16 +3494,6 @@
    "logo": "https://i.imgur.com/op13ujg.png",
    "group": "Television Hispana"
   },
-  "catv": {
-   "name": "CAtv",
-   "logo": "https://caribbeanadvantage.com/images/CAtv-logo-512.png",
-   "group": "Television Hispana"
-  },
-  "cristovisioncanal31": {
-   "name": "Cristo Vision Canal 31",
-   "logo": "https://i.imgur.com/CFXZ8j0.png",
-   "group": "Television Hispana"
-  },
   "despiertatv": {
    "name": "Despierta TV",
    "logo": "https://i.imgur.com/hywjKNo.jpg",
@@ -3551,29 +3504,9 @@
    "logo": "https://i.imgur.com/nePOFZW.png",
    "group": "Television Hispana"
   },
-  "familiavision": {
-   "name": "Familia Vision HD",
-   "logo": "https://i.imgur.com/uqTH7m5.jpg",
-   "group": "Television Hispana"
-  },
-  "imastv": {
-   "name": "Imas TV",
-   "logo": "https://i.imgur.com/a9hgTmM.png",
-   "group": "Television Hispana"
-  },
   "mercurionoticias": {
    "name": "Mercurio Noticias",
    "logo": "https://i.imgur.com/sfd87LX.png",
-   "group": "Television Hispana"
-  },
-  "ovacion": {
-   "name": "Ovacion",
-   "logo": "",
-   "group": "Television Hispana"
-  },
-  "ovacionpe": {
-   "name": "Ovacion | PE",
-   "logo": "https://cdn.m3u.cl/logo/699_Ovacion.png",
    "group": "Television Hispana"
   },
   "portaldigitaltv": {
@@ -3586,24 +3519,444 @@
    "logo": "",
    "group": "Television Hispana"
   },
-  "sannicolastv": {
-   "name": "San Nicolas TV",
-   "logo": "https://i.imgur.com/z94YCpH.png",
-   "group": "Television Hispana"
-  },
-  "televen": {
-   "name": "Televen",
-   "logo": "https://i.imgur.com/cxvkUvK.png",
-   "group": "Television Hispana"
-  },
   "turismordtv": {
    "name": "Turismo RDTV",
    "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3800-294x165-FFFFFF.jpg",
    "group": "Television Hispana"
   },
-  "tvshoworuro": {
-   "name": "TV Show Oruro",
-   "logo": "https://i.ibb.co/nnsYJCq/IMG-20210731-094609.png",
+  "wapatv42": {
+   "name": "WAPA-TV 4.2",
+   "logo": "https://i.imgur.com/5WNBFmp.png",
+   "group": "Deportes en Vivo"
+  },
+  "abejalestv": {
+   "name": "AbejalesTV",
+   "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgao1fVZ7tV_ExJErlM5JsI8Rxv5TXJSU7ZE6p-g_qSXOiRKrAjCmX650Aw1PYv6cPqML3eKDQGZ_Z5BPYpeLwwAbZay3g4mpTVBW9Xs5D9nEVPD1i9xfOKQsRCFrOJhBgRt9L9yhfLimbu7S4Ozio2tiZ5uc45lRtyS6RjMpI-Ts1n2m_THG8K19R4STns=w800",
+   "group": "Series y Entretenimiento"
+  },
+  "emociontv": {
+   "name": "Emocion TV",
+   "logo": "https://i.imgur.com/OJ3omla.jpeg",
+   "group": "Series y Entretenimiento"
+  },
+  "lapotenteradiotv": {
+   "name": "La Potente Radio TV",
+   "logo": "https://i.imgur.com/ti5Fg5D.png",
+   "group": "Series y Entretenimiento"
+  },
+  "oasistvparaguay": {
+   "name": "Oasis TV (Paraguay)",
+   "logo": "https://i.imgur.com/u9umNKp.jpeg",
+   "group": "Series y Entretenimiento"
+  },
+  "yunavision": {
+   "name": "Yunavision",
+   "logo": "https://i.imgur.com/YjceEv5.png",
+   "group": "Series y Entretenimiento"
+  },
+  "cultura24": {
+   "name": "Cultura 24",
+   "logo": "https://i.imgur.com/h0LxXsx.png",
+   "group": "Documentales y Ciencia"
+  },
+  "cultura24tvpe": {
+   "name": "Cultura 24 TV | PE",
+   "logo": "https://cdn.m3u.cl/logo/696_Cultura_24_TV.png",
+   "group": "Documentales y Ciencia"
+  },
+  "cartoonnetworkturkiye": {
+   "name": "Cartoon Network (Turkiye)",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+   "group": "Infantil y Familiar"
+  },
+  "alcancefmplaytv": {
+   "name": "Alcance FM PLAY TV",
+   "logo": "https://i.imgur.com/ymcWecA.png",
+   "group": "Musica y Conciertos"
+  },
+  "atlantisradiotv": {
+   "name": "Atlantis Radio TV",
+   "logo": "https://i.imgur.com/1eB9roP.png",
+   "group": "Musica y Conciertos"
+  },
+  "maimontvcanal3": {
+   "name": "Maimon TV Canal 3",
+   "logo": "https://i.imgur.com/twldaaC.png",
+   "group": "Musica y Conciertos"
+  },
+  "millenium109fm": {
+   "name": "Millenium 109 FM",
+   "logo": "https://i.imgur.com/sfNL6Bv.png",
+   "group": "Musica y Conciertos"
+  },
+  "radiomegatvamazonia": {
+   "name": "Radio Mega TV Amazonia",
+   "logo": "https://i.imgur.com/yzSNWZ3.png",
+   "group": "Musica y Conciertos"
+  },
+  "radionuble": {
+   "name": "Radio Nuble",
+   "logo": "https://cdn.m3u.cl/logo/870_Radio_Nuble.png",
+   "group": "Musica y Conciertos"
+  },
+  "radiotvmega": {
+   "name": "Radio TV Mega",
+   "logo": "https://i.imgur.com/pwRhOHB.png",
+   "group": "Musica y Conciertos"
+  },
+  "radiounotacna": {
+   "name": "Radio Uno Tacna",
+   "logo": "https://i.imgur.com/PswowQP.png",
+   "group": "Musica y Conciertos"
+  },
+  "vosytv": {
+   "name": "Vos y TV",
+   "logo": "https://i.imgur.com/294FDCB.png",
+   "group": "Musica y Conciertos"
+  },
+  "13humor": {
+   "name": "13 Humor",
+   "logo": "https://i.imgur.com/KvMuTzN.png",
+   "group": "Television Hispana"
+  },
+  "4dmasnoticiastv": {
+   "name": "4Dmas Noticias TV",
+   "logo": "https://i.ibb.co/1fb5BtN/unnamed.png",
+   "group": "Television Hispana"
+  },
+  "4dmásnoticiastv": {
+   "name": "4DmásNoticias TV",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "abcteleshow": {
+   "name": "ABC Teleshow",
+   "logo": "https://i.imgur.com/cF7gJ2Q.jpeg",
+   "group": "Television Hispana"
+  },
+  "abtelevision": {
+   "name": "ABTelevision",
+   "logo": "https://i.imgur.com/tqMDscD.png",
+   "group": "Television Hispana"
+  },
+  "arch4teenquran": {
+   "name": "AR: Ch4teen Quran HD",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "b15zacatecas": {
+   "name": "B15 Zacatecas",
+   "logo": "https://i.imgur.com/kaUhEQy.png",
+   "group": "Television Hispana"
+  },
+  "bonaotv": {
+   "name": "Bonao TV",
+   "logo": "https://i.imgur.com/en1vCZB.png",
+   "group": "Television Hispana"
+  },
+  "cadenaa": {
+   "name": "Cadena A",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "canal10": {
+   "name": "Canal 10",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "canal10durango": {
+   "name": "Canal 10 Durango",
+   "logo": "https://i.imgur.com/H34quHQ.png",
+   "group": "Television Hispana"
+  },
+  "canal10goya": {
+   "name": "Canal 10 Goya",
+   "logo": "https://i.ibb.co/cySdXxP/unnamed-5.png",
+   "group": "Television Hispana"
+  },
+  "canal21tv": {
+   "name": "Canal 21 TV",
+   "logo": "https://i.imgur.com/Am7yMXg.png",
+   "group": "Television Hispana"
+  },
+  "canal21tvar": {
+   "name": "Canal 21 TV | AR",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "canal25ayacucho": {
+   "name": "Canal 25 Ayacucho",
+   "logo": "https://i.imgur.com/lU02cWc.png",
+   "group": "Television Hispana"
+  },
+  "canal4sanjuan": {
+   "name": "Canal 4 San Juan",
+   "logo": "https://i.imgur.com/MsCnwRA.png",
+   "group": "Television Hispana"
+  },
+  "canal4sanjuanar": {
+   "name": "Canal 4 San Juan | AR",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "canal5ellíder": {
+   "name": "Canal 5 El Líder",
+   "logo": "https://i.imgur.com/4hEYFa9.png",
+   "group": "Television Hispana"
+  },
+  "canaldonana": {
+   "name": "Canal Donana",
+   "logo": "https://i.imgur.com/0WrKIxm.png",
+   "group": "Television Hispana"
+  },
+  "canalmastv": {
+   "name": "Canal Mas TV",
+   "logo": "https://i.imgur.com/rdHygJ1.png",
+   "group": "Television Hispana"
+  },
+  "canaltrv": {
+   "name": "Canal TRV",
+   "logo": "https://i.imgur.com/g5QKQ2E.png",
+   "group": "Television Hispana"
+  },
+  "caribbeanadvantagtv": {
+   "name": "Caribbean AdvantagTV",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "casmatv": {
+   "name": "Casma TV",
+   "logo": "https://i.imgur.com/42aE0nm.jpeg",
+   "group": "Television Hispana"
+  },
+  "ceacomtv": {
+   "name": "CEACOM TV",
+   "logo": "https://i.imgur.com/hutdRfk.png",
+   "group": "Television Hispana"
+  },
+  "centraltv": {
+   "name": "Central TV",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "charapatv": {
+   "name": "Charapa TV",
+   "logo": "https://i.imgur.com/tFRmMkf.png",
+   "group": "Television Hispana"
+  },
+  "chiloered25": {
+   "name": "Chiloe Red 25",
+   "logo": "https://i.imgur.com/3tqrImm.png",
+   "group": "Television Hispana"
+  },
+  "dtv": {
+   "name": "DTV",
+   "logo": "https://i.imgur.com/UpsLEAV.png",
+   "group": "Television Hispana"
+  },
+  "elcaminotv": {
+   "name": "El Camino TV",
+   "logo": "https://i.imgur.com/ZSktjGB.png",
+   "group": "Television Hispana"
+  },
+  "emociontvcl": {
+   "name": "Emocion TV | CL",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "galacticatv": {
+   "name": "Galactica TV",
+   "logo": "https://i.imgur.com/byL1zCV.jpeg",
+   "group": "Television Hispana"
+  },
+  "globovisiónvenezuela": {
+   "name": "Globovisión Venezuela",
+   "logo": "https://graph.facebook.com/globovision/picture?width=200&height=200",
+   "group": "Television Hispana"
+  },
+  "iglesiadelcamino": {
+   "name": "Iglesia Del Camino",
+   "logo": "https://i.imgur.com/vHfb3Z4.png",
+   "group": "Television Hispana"
+  },
+  "imperialtv": {
+   "name": "Imperial TV",
+   "logo": "https://i.ibb.co/8XHSVWY/IMG-20210613-153444.png",
+   "group": "Television Hispana"
+  },
+  "jfvtv": {
+   "name": "JFV TV",
+   "logo": "https://i.imgur.com/SrmI6nU.jpeg",
+   "group": "Television Hispana"
+  },
+  "koratv": {
+   "name": "Kora TV",
+   "logo": "https://i.imgur.com/ahBYv4x.png",
+   "group": "Television Hispana"
+  },
+  "latinatv": {
+   "name": "Latina TV",
+   "logo": "https://intervenhosting.net/imagenes/latinatv.jpg",
+   "group": "Television Hispana"
+  },
+  "maximatv": {
+   "name": "Maxima TV",
+   "logo": "https://i.imgur.com/HMZRVL5.jpeg",
+   "group": "Television Hispana"
+  },
+  "mediatv": {
+   "name": "Media TV",
+   "logo": "https://i.imgur.com/BAaR5T5.png",
+   "group": "Television Hispana"
+  },
+  "metropolitanadelcuzco": {
+   "name": "Metropolitana del Cuzco",
+   "logo": "https://i.imgur.com/0B04qgM.png",
+   "group": "Television Hispana"
+  },
+  "multivisioncanal3": {
+   "name": "Multivision Canal 3",
+   "logo": "https://i.imgur.com/6bdj2BV.jpg",
+   "group": "Television Hispana"
+  },
+  "notisurtv": {
+   "name": "Notisur TV",
+   "logo": "https://rdomint.com/images/station/300.jpg",
+   "group": "Television Hispana"
+  },
+  "oviedotv": {
+   "name": "Oviedo TV",
+   "logo": "https://i.imgur.com/6OlfgSQ.png",
+   "group": "Television Hispana"
+  },
+  "peraviavision": {
+   "name": "Peravia Vision",
+   "logo": "https://i.imgur.com/k1Wj5ka.png",
+   "group": "Television Hispana"
+  },
+  "reddecomunicaciónregionalrcr": {
+   "name": "Red de Comunicación Regional (RCR)",
+   "logo": "https://i.imgur.com/A8TRPrF.png",
+   "group": "Television Hispana"
+  },
+  "rtpperu": {
+   "name": "RTP (Peru)",
+   "logo": "https://i.imgur.com/nHMqAHn.jpeg",
+   "group": "Television Hispana"
+  },
+  "rtqqueretaro": {
+   "name": "RTQ Queretaro",
+   "logo": "https://i.imgur.com/RRckCvf.png",
+   "group": "Television Hispana"
+  },
+  "rtqqueretaromx": {
+   "name": "RTQ Queretaro | MX",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "sabcovision": {
+   "name": "SABCO Vision",
+   "logo": "https://i.imgur.com/1psliIs.jpeg",
+   "group": "Television Hispana"
+  },
+  "somostv": {
+   "name": "Somos TV",
+   "logo": "https://i.imgur.com/jOroeJZ.png",
+   "group": "Television Hispana"
+  },
+  "somostvve": {
+   "name": "Somos TV | VE",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "spccanal15": {
+   "name": "SPC Canal 15",
+   "logo": "https://i.imgur.com/8GzjELt.jpeg",
+   "group": "Television Hispana"
+  },
+  "sucremantatv": {
+   "name": "Sucremanta TV",
+   "logo": "https://i.imgur.com/noN0Yhe.png",
+   "group": "Television Hispana"
+  },
+  "tamtv": {
+   "name": "TAM TV",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/5/56/Logo_TAM.png",
+   "group": "Television Hispana"
+  },
+  "tdtmultimedia": {
+   "name": "TDT Multimedia",
+   "logo": "https://i.imgur.com/JkCywl5.png",
+   "group": "Television Hispana"
+  },
+  "teleazul": {
+   "name": "Tele Azul",
+   "logo": "https://imgur.com/a/cU7MHiu.jpg",
+   "group": "Television Hispana"
+  },
+  "teleposadas": {
+   "name": "Tele Posadas",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "teleuv": {
+   "name": "Tele UV",
+   "logo": "https://i.imgur.com/8MdUH69.jpeg",
+   "group": "Television Hispana"
+  },
+  "telecolor": {
+   "name": "Telecolor",
+   "logo": "https://i.imgur.com/YvdzJHj.png",
+   "group": "Television Hispana"
+  },
+  "telemotril": {
+   "name": "Telemotril",
+   "logo": "https://i.imgur.com/4nspLHb.png",
+   "group": "Television Hispana"
+  },
+  "tenarensestv": {
+   "name": "Tenarenses TV",
+   "logo": "https://i.imgur.com/cPIgs0v.png",
+   "group": "Television Hispana"
+  },
+  "tv10sanjuan": {
+   "name": "TV 10 San Juan",
+   "logo": "https://i.imgur.com/e2BXUdH.png",
+   "group": "Television Hispana"
+  },
+  "tvenlineacuscope": {
+   "name": "TV en linea Cusco | PE",
+   "logo": "https://cdn.m3u.cl/logo/1590_TV_en_linea_Cusco.png",
+   "group": "Television Hispana"
+  },
+  "tvmar": {
+   "name": "TV MAR",
+   "logo": "https://i.imgur.com/VXvbNjT.png",
+   "group": "Television Hispana"
+  },
+  "tvenlinea": {
+   "name": "TVenLinea",
+   "logo": "https://i.imgur.com/txV8lw0.png",
+   "group": "Television Hispana"
+  },
+  "tvmparati": {
+   "name": "TVM para ti",
+   "logo": "https://intervenhosting.net/imagenes/tvmparati.jpg",
+   "group": "Television Hispana"
+  },
+  "tvs": {
+   "name": "TVS",
+   "logo": "https://i.imgur.com/a2YX1oj.jpg",
+   "group": "Television Hispana"
+  },
+  "tvsmaracayve": {
+   "name": "TVS Maracay | VE",
+   "logo": "",
+   "group": "Television Hispana"
+  },
+  "unitelsantacruz": {
+   "name": "Unitel Santa Cruz",
+   "logo": "",
    "group": "Television Hispana"
   }
  }
