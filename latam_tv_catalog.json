@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-27 07:26",
+  "version": "2026-11-27 17:58",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -3084,7 +3084,6 @@
       "s": "¡Realmadrid TV trae la emocionante acción del principal club de fútbol español a Pluto TV! Desde el centro ...",
       "u": [
         "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/67a3b45a21af380008133aa4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=67a3b45a21af380008133aa4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
-        "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
         "http://90.163.85.113:8093/stream/26/index.m3u8"
       ]
     },
@@ -6772,7 +6771,8 @@
       "r": "HD",
       "u": [
         "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
-        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0"
+        "http://www.coninfo.net:1935/tvcinco/live1/chunklist_dl.m3u8?null=0",
+        "http://www.coninfo.net:1935/tvcinco/live2/playlist.m3u8"
       ]
     },
     {
@@ -10111,7 +10111,8 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
       ]
     },
     {
@@ -10237,7 +10238,8 @@
       "l": "https://i.imgur.com/stvzqzd.png",
       "r": "720p",
       "u": [
-        "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8"
+        "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8",
+        "https://live-evg10.tv360.bitel.com.pe/bitel/cadenatv/playlist.m3u8"
       ],
       "n24": 1
     },
@@ -10249,7 +10251,8 @@
       "l": "https://i.imgur.com/stvzqzd.png",
       "r": "HD",
       "u": [
-        "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8"
+        "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8",
+        "https://live-evg10.tv360.bitel.com.pe/bitel/cadenatv/playlist.m3u8"
       ]
     },
     {
@@ -15171,7 +15174,8 @@
       "l": "https://i.imgur.com/XwmUbfp.png",
       "r": "1080p",
       "u": [
-        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8"
+        "https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8",
+        "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8"
       ]
     },
     {
