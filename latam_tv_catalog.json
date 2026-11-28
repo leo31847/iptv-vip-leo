@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-28 01:21",
+  "version": "2026-11-28 09:58",
   "totalChannels": 1452,
   "totalSignals": 1519,
   "plutoCount": 277,
@@ -344,7 +344,7 @@
       "u": [
         "http://138.121.15.230:9002/TELENOVELAS/index.m3u8",
         "http://190.61.42.218:9000/play/a00k/index.m3u8",
-        "http://181.78.211.244:8005/play/a09n"
+        "http://167.249.23.102:8000/play/a0g8/index.m3u8"
       ]
     },
     {
@@ -355,7 +355,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Distrito_Comedia_logo.png/512px-Distrito_Comedia_logo.png",
       "r": "1080p",
       "u": [
-        "http://45.186.106.207:8000/play/a038/index.m3u8",
         "http://15.204.142.109:22880/TELEVISA-PROVEEDOR-DISTRITO-COMEDIA/index.m3u8"
       ]
     },
@@ -739,7 +738,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://181.78.211.244:8005/play/a09u/index.m3u8",
         "http://181.78.82.130:8000/play/a0rz/index.m3u8"
       ]
     },
@@ -753,7 +751,6 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a033",
-        "http://190.61.42.218:9000/play/a06g/index.m3u8",
         "http://181.78.82.130:8000/play/a0rs/index.m3u8"
       ]
     },
@@ -765,7 +762,7 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://190.61.42.218:9000/play/a01t/index.m3u8"
+        "https://live-edge-par-1.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/live-telepacifico/index.m3u8"
       ]
     },
     {
@@ -778,7 +775,6 @@
       "ref": "https://player.instantvideocloud.net/",
       "u": [
         "http://181.78.23.26:45000/play/a03e",
-        "http://190.61.42.218:9000/play/a01y/index.m3u8",
         "http://181.78.82.130:8000/play/a0rt/index.m3u8"
       ]
     },
@@ -932,7 +928,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a051",
         "http://181.78.82.130:8000/play/a0ry/index.m3u8"
       ]
     },
@@ -966,7 +961,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a050",
         "http://181.78.211.244:8005/play/a06w/index.m3u8"
       ]
     },
@@ -989,7 +983,6 @@
       "l": "",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a04s",
         "http://190.124.20.69/TeleNostalgia/index.m3u8",
         "http://38.134.250.110:8000/play/a01q/index.m3u8"
       ]
@@ -4386,8 +4379,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png",
       "r": "1080p",
       "u": [
-        "https://streaming.onnethn.com/HBO/playlist.m3u8",
-        "http://190.60.37.154:45000/play/a056/index.m3u8"
+        "https://streaming.onnethn.com/HBO/playlist.m3u8"
       ],
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18"
     },
@@ -5289,7 +5281,8 @@
       "l": "https://i.imgur.com/edaAexc.png",
       "r": "720p",
       "u": [
-        "https://video.ejeserver.com/live/nets.m3u8"
+        "https://video.ejeserver.com/live/nets.m3u8",
+        "https://movil.ejeserver.com/live/nets.m3u8"
       ],
       "n24": 1
     },
@@ -8764,7 +8757,8 @@
       "r": "720p",
       "u": [
         "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES",
-        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES"
+        "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES",
+        "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26"
       ]
     },
     {
@@ -9722,7 +9716,6 @@
       "l": "https://i.imgur.com/bmNA8hq.png",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a04x",
         "https://cnn.hostlagarto.com/televida/playlist.m3u8",
         "https://tls-cl.cdnz.cl/televida/live/playlist.m3u8"
       ]
@@ -10108,8 +10101,7 @@
       "l": "https://i.imgur.com/4aHrD2l.jpeg",
       "r": "720p",
       "u": [
-        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
-        "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+        "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
       ]
     },
     {
@@ -12009,7 +12001,8 @@
       "l": "https://blogger.googleusercontent.com/img/a/AVvXsEgao1fVZ7tV_ExJErlM5JsI8Rxv5TXJSU7ZE6p-g_qSXOiRKrAjCmX650Aw1PYv6cPqML3eKDQGZ_Z5BPYpeLwwAbZay3g4mpTVBW9Xs5D9nEVPD1i9xfOKQsRCFrOJhBgRt9L9yhfLimbu7S4Ozio2tiZ5uc45lRtyS6RjMpI-Ts1n2m_THG8K19R4STns=w800",
       "r": "720p",
       "u": [
-        "https://183.giatvcdn.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8"
+        "https://183.giatvcdn.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8",
+        "https://streamtv.intervenhosting.net:3228/live/abejalestvlive.m3u8"
       ]
     },
     {
@@ -12265,7 +12258,6 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png",
       "r": "576p",
       "u": [
-        "https://vcp.myplaytv.com/promar/promar/playlist.m3u8",
         "http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8"
       ]
     },
@@ -17088,7 +17080,7 @@
       "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Golden_logo_2021.svg/512px-Golden_logo_2021.svg.png",
       "r": "1080p",
       "u": [
-        "http://181.78.23.26:45000/play/a04c"
+        "http://200.115.120.1:8000/play/ca024/index.m3u8"
       ]
     },
     {
